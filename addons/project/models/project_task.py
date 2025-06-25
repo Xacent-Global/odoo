@@ -1984,7 +1984,7 @@ class Task(models.Model):
         menu_id = self.env.ref('project.menu_project_management_all_tasks').id
         return {
             'type': 'ir.actions.act_url',
-            'url': f"/odoo/1/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
+            'url': f"/app/1/action-project.act_project_project_2_project_task_all/{self.id}?menu_id={menu_id}",
             'target': 'new',
         }
 

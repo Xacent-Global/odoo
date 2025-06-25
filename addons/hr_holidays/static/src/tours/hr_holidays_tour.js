@@ -10,7 +10,7 @@ const leaveDateTo = "01/17/2022";
 const description = "Days off";
 
 registry.category("web_tour.tours").add("hr_holidays_tour", {
-    url: "/odoo",
+    url: "/app",
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {

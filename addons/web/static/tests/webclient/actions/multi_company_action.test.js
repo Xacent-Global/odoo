@@ -62,11 +62,11 @@ test("open record withtout the correct company (load state)", async () => {
         });
     });
 
-    redirect("/odoo/res.partner/1");
+    redirect("/app/res.partner/1");
     await mountWebClient();
     expect(cookie.get("cids")).toBe("1-2");
     expect.verifySteps(["reload"]);
-    expect(browser.location.href).toBe("http://example.com/odoo/res.partner/1", {
+    expect(browser.location.href).toBe("http://example.com/app/res.partner/1", {
         message: "url did not change",
     });
 });
@@ -91,7 +91,7 @@ test("open record withtout the correct company (doAction)", async () => {
     await animationFrame();
     expect(cookie.get("cids")).toBe("1-2");
     expect.verifySteps(["reload"]);
-    expect(browser.location.href).toBe("http://example.com/odoo/res.partner/1", {
+    expect(browser.location.href).toBe("http://example.com/app/res.partner/1", {
         message: "url should contain the information of the doAction",
     });
 });

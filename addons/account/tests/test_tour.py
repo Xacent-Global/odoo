@@ -61,7 +61,7 @@ class TestUi(AccountTestInvoicingHttpCommon):
             ('state', '=', 'draft'),
         ]).unlink()
 
-        self.start_tour("/odoo", 'account_tour', login="admin")
+        self.start_tour("/app", 'account_tour', login="admin")
 
     def test_01_account_tax_groups_tour(self):
         self.env.ref('base.user_admin').write({
@@ -86,4 +86,4 @@ class TestUi(AccountTestInvoicingHttpCommon):
         })
         product.supplier_taxes_id = new_tax
 
-        self.start_tour("/odoo", 'account_tax_group', login="admin")
+        self.start_tour("/app", 'account_tax_group', login="admin")

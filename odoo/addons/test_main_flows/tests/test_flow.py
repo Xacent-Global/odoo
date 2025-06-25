@@ -88,7 +88,7 @@ class BaseTestUi(AccountTestMockOnlineSyncCommon):
             'default_account_id': bnk.id,
         })
 
-        self.start_tour("/odoo", 'main_flow_tour', login="admin", timeout=180)
+        self.start_tour("/app", 'main_flow_tour', login="admin", timeout=180)
 
 @odoo.tests.tagged('post_install', '-at_install')
 class TestUi(BaseTestUi):
@@ -124,7 +124,7 @@ class TestUi(BaseTestUi):
         })
 
         with mute_logger("odoo.http"):
-            self.start_tour(f"/odoo/action-{act_window.id}", "test_company_switch_access_error", login="admin", cookies={"cids": f"{company1.id}-{company2.id}"})
+            self.start_tour(f"/app/action-{act_window.id}", "test_company_switch_access_error", login="admin", cookies={"cids": f"{company1.id}-{company2.id}"})
 
     def test_company_access_error_redirect(self):
         company1 = self.env.company
@@ -154,7 +154,7 @@ class TestUi(BaseTestUi):
         })
 
         with mute_logger("odoo.http"):
-            self.start_tour(f"/odoo/action-{act_window.id}/{record_p2.id}", "test_company_access_error_redirect", login="admin", cookies={"cids": f"{company1.id}"})
+            self.start_tour(f"/app/action-{act_window.id}/{record_p2.id}", "test_company_access_error_redirect", login="admin", cookies={"cids": f"{company1.id}"})
 
     def test_company_switch_access_error_debug(self):
         # This test is identical to test_company_switch_access_error, but with debug mode enabled
@@ -186,7 +186,7 @@ class TestUi(BaseTestUi):
 
         current_companies = "%s-%s" % (company1.id, company2.id)
         with mute_logger("odoo.http"):
-            self.start_tour(f"/odoo/action-{act_window.id}?debug=assets&cids={current_companies}", "test_company_switch_access_error", login="admin")
+            self.start_tour(f"/app/action-{act_window.id}?debug=assets&cids={current_companies}", "test_company_switch_access_error", login="admin")
 
 
 @odoo.tests.tagged('post_install', '-at_install')

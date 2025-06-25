@@ -940,7 +940,7 @@ options.registry.WebsiteFormEditor = FormEditor.extend({
      * @param {string} action
      */
     _redirectToAction: function (action) {
-        redirect(`/odoo/action-${encodeURIComponent(action)}`);
+        redirect(`/app/action-${encodeURIComponent(action)}`);
     },
 
     //--------------------------------------------------------------------------

@@ -213,7 +213,7 @@ class Orderpoint(models.Model):
                     'message': '%s',
                     'links': [{
                         'label': order.display_name,
-                        'url': f'/odoo/action-purchase.action_rfq_form/{order.id}',
+                        'url': f'/app/action-purchase.action_rfq_form/{order.id}',
                     }],
                     'sticky': False,
                     'next': {'type': 'ir.actions.act_window_close'},

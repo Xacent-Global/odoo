@@ -452,7 +452,7 @@ export class ApplyConfiguratorScreen extends Component {
             // Here the website service goToWebsite method is not used because
             // the web client needs to be reloaded after the new modules have
             // been installed.
-            redirect(`/odoo/action-website.website_preview?website_id=${encodeURIComponent(resp.website_id)}`);
+            redirect(`/app/action-website.website_preview?website_id=${encodeURIComponent(resp.website_id)}`);
         }
     }
 }

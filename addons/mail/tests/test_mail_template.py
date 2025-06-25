@@ -419,7 +419,7 @@ class TestMailTemplateReset(MailCommon):
 class TestMailTemplateUI(HttpCase):
 
     def test_mail_template_dynamic_placeholder_tour(self):
-        self.start_tour("/odoo", 'mail_template_dynamic_placeholder_tour', login="admin")
+        self.start_tour("/app", 'mail_template_dynamic_placeholder_tour', login="admin")
 
 
 @tagged("mail_template", "-at_install", "post_install")

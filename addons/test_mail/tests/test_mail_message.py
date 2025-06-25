@@ -367,7 +367,7 @@ class TestMessageLinks(MailCommon, HttpCase):
         deleted_message = record.message_post(body='', message_type='comment')
         self.authenticate(self.user_employee.login, self.user_employee.login)
         with self.subTest(thread_message=thread_message):
-            expected_url = self.base_url() + f'/odoo/{thread_message.model}/{thread_message.res_id}?highlight_message_id={thread_message.id}'
+            expected_url = self.base_url() + f'/app/{thread_message.model}/{thread_message.res_id}?highlight_message_id={thread_message.id}'
             res = self.url_open(f'/mail/message/{thread_message.id}')
             self.assertEqual(res.url, expected_url)
             self.assertEqual(res.url, expected_url)

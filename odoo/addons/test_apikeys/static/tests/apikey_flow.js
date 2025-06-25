@@ -19,7 +19,7 @@ const openUserPreferenceSecurity = () => [{
 }]
 
 registry.category("web_tour.tours").add('apikeys_tour_setup', {
-    url: '/odoo?debug=1', // Needed as API key part is now only displayed in debug mode
+    url: '/app?debug=1', // Needed as API key part is now only displayed in debug mode
     steps: () => [
     ...openUserPreferenceSecurity(), {
     content: "Open API keys wizard",
@@ -71,7 +71,7 @@ registry.category("web_tour.tours").add('apikeys_tour_setup', {
 
 // deletes the previously created key
 registry.category("web_tour.tours").add('apikeys_tour_teardown', {
-    url: '/odoo?debug=1', // Needed as API key part is now only displayed in debug mode
+    url: '/app?debug=1', // Needed as API key part is now only displayed in debug mode
     steps: () => [{
     content: 'Open preferences',
     trigger: '.o_user_menu .dropdown-toggle',

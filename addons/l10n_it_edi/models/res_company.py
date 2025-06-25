@@ -148,7 +148,7 @@ class ResCompany(models.Model):
                     'name': _("Settings"),
                     'type': 'ir.actions.act_url',
                     'target': 'self',
-                    'url': '/odoo/settings#italian_edi',
+                    'url': '/app/settings#italian_edi',
                 },
             }
         return errors

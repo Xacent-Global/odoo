@@ -575,7 +575,7 @@ class Module(models.Model):
         return {
             'type': 'ir.actions.act_url',
             'target': 'self',
-            'url': '/odoo',
+            'url': '/app',
         }
 
     def _button_immediate_function(self, function):

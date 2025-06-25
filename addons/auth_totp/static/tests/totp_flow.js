@@ -11,7 +11,7 @@ function openRoot() {
         trigger: 'body',
         run() {
             document.querySelector("body").classList.add("wait");
-            window.location = '/odoo';
+            window.location = '/app';
         }
     }, {
         content: "wait for client reload",
@@ -75,7 +75,7 @@ function closeProfileDialog({content, totp_state}) {
 }
 
 registry.category("web_tour.tours").add('totp_tour_setup', {
-    url: '/odoo',
+    url: '/app',
     steps: () => [...openUserProfileAtSecurityTab(), {
     content: "Open totp wizard",
     //TODO: remove when PIPU macro PR is merged: https://github.com/odoo/odoo/pull/194508
@@ -307,7 +307,7 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 
 const columns = {};
 registry.category("web_tour.tours").add('totp_admin_disables', {
-    url: '/odoo',
+    url: '/app',
     steps: () => [stepUtils.showAppsMenuItem(), {
     content: 'Go to settings',
     trigger: '[data-menu-xmlid="base.menu_administration"]',

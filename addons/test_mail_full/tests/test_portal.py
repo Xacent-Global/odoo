@@ -49,7 +49,7 @@ class TestPortalControllers(TestPortal):
 
         self.assertEqual(response.request._cookies.get('cids'), '%s' % self.user_admin.company_id.id)
         path = url_parse(response.url).path
-        self.assertEqual(path, f'/odoo/mail.test.portal/{self.record_portal.id}')
+        self.assertEqual(path, f'/app/mail.test.portal/{self.record_portal.id}')
 
     def test_redirect_to_records_norecord(self):
         """ Check specific use case of missing model, should directly redirect
@@ -320,7 +320,7 @@ class TestPortalFlow(MailCommon, HttpCase):
         self.authenticate(self.env.user.login, self.env.user.login)
         res = self.url_open(self.record_access_url)
         self.assertEqual(res.status_code, 200)
-        self.assert_URL(res.url, f'/odoo/mail.test.portal/{self.record_portal.id}')
+        self.assert_URL(res.url, f'/app/mail.test.portal/{self.record_portal.id}')
 
     @users('employee')
     def test_employee_access_wrong_token(self):
@@ -328,7 +328,7 @@ class TestPortalFlow(MailCommon, HttpCase):
         self.authenticate(self.env.user.login, self.env.user.login)
         res = self.url_open(self.record_access_url_wrong_token)
         self.assertEqual(res.status_code, 200)
-        self.assert_URL(res.url, f'/odoo/mail.test.portal/{self.record_portal.id}')
+        self.assert_URL(res.url, f'/app/mail.test.portal/{self.record_portal.id}')
 
     @users('employee')
     def test_send_message_to_customer(self):

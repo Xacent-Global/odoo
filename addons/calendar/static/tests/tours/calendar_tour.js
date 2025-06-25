@@ -14,7 +14,7 @@ const todayDate = function () {
 };
 
 registry.category("web_tour.tours").add("calendar_appointments_hour_tour", {
-    url: "/odoo",
+    url: "/app",
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {

@@ -665,13 +665,13 @@ describe("link preview", () => {
                 link_preview_name: "Task name | Project name",
             };
         });
-        onRpc("/odoo/project/1/tasks/8", () => new Response("", { status: 200 }));
+        onRpc("/app/project/1/tasks/8", () => new Response("", { status: 200 }));
         const { editor, el } = await setupEditor(`<p>[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill(
-            window.location.origin + "/odoo/project/1/tasks/8"
+            window.location.origin + "/app/project/1/tasks/8"
         );
         await animationFrame();
         expect(".o_we_replace_title_btn").toHaveCount(1);
@@ -717,13 +717,13 @@ describe("link preview", () => {
                 link_preview_name: "Task name | Project name",
             };
         });
-        onRpc("/odoo/cachetest/8", () => new Response("", { status: 200 }));
+        onRpc("/app/cachetest/8", () => new Response("", { status: 200 }));
         const { editor } = await setupEditor(`<p>abc[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill(
-            window.location.origin + "/odoo/cachetest/8"
+            window.location.origin + "/app/cachetest/8"
         );
         await animationFrame();
         expect.verifySteps(["/html_editor/link_preview_internal"]);
@@ -758,7 +758,7 @@ describe("link preview", () => {
         });
 
         const currentProtocol = window.location.protocol;
-        onRpc("/odoo/cachetest/8", (mockRequest) => {
+        onRpc("/app/cachetest/8", (mockRequest) => {
             const urlProtocol = new URL(mockRequest.url).protocol;
             expect(urlProtocol).toBe(currentProtocol);
             return new Response("", { status: 200 });
@@ -770,7 +770,7 @@ describe("link preview", () => {
         await click(".o-we-command-name:first");
 
         const wrongProtocol = currentProtocol === "https:" ? "http:" : "https:";
-        const testUrl = `${wrongProtocol}//${window.location.host}/odoo/cachetest/8`;
+        const testUrl = `${wrongProtocol}//${window.location.host}/app/cachetest/8`;
 
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill(testUrl);
         await animationFrame();

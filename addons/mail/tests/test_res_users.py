@@ -153,7 +153,7 @@ class TestUserTours(HttpCaseWithUserDemo):
         # avoid 'reload_context' action in the middle of the tour to ease steps and form save checks
         with patch.object(Users, 'preference_save', lambda self: True):
             self.start_tour(
-                "/odoo",
+                "/app",
                 "mail/static/tests/tours/user_modify_own_profile_tour.js",
                 login="demo",
             )

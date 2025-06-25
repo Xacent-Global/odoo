@@ -24,7 +24,7 @@ class OnboardingController(http.Controller):
         request.env['onboarding.onboarding.step'].with_company(
             stripe_provider.company_id
         ).action_validate_step_payment_provider()
-        url = f"/odoo/action-payment_stripe.action_payment_provider_onboarding/{provider_id}?menu_id={menu_id}"
+        url = f"/app/action-payment_stripe.action_payment_provider_onboarding/{provider_id}?menu_id={menu_id}"
         return request.redirect(url)
 
     @http.route(_onboarding_refresh_url, type='http', methods=['GET'], auth='user')

@@ -42,7 +42,7 @@ export class WebsiteSwitcherSystray extends Component {
                         && !wUtils.isHTTPSorNakedDomainRedirection(website.domain, window.location.origin)) {
                     const { location: { pathname, search, hash } } = this.websiteService.contentWindow;
                     const path = pathname + search + hash;
-                    window.location.href = `${encodeURI(website.domain)}/odoo/action-website.website_preview?path=${encodeURIComponent(path)}&website_id=${encodeURIComponent(website.id)}`;
+                    window.location.href = `${encodeURI(website.domain)}/app/action-website.website_preview?path=${encodeURIComponent(path)}&website_id=${encodeURIComponent(website.id)}`;
                 } else {
                     this.websiteService.goToWebsite({ websiteId: website.id, path: "", lang: "default" });
                     if (!website.domain) {

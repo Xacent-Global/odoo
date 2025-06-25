@@ -4,7 +4,7 @@ import { queryAll } from "@odoo/hoot-dom";
 import { registry } from "@web/core/registry";
 
 registry.category("web_tour.tours").add('mailing_activities_split', {
-    url: '/odoo',
+    url: '/app',
     steps: () => [
         {
             content: 'Open Activity Systray',

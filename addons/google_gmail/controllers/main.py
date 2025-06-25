@@ -65,5 +65,5 @@ class GoogleGmailController(http.Controller):
             'google_gmail_refresh_token': refresh_token,
         })
 
-        url = f'/odoo/{model_name}/{rec_id}'
+        url = f'/app/{model_name}/{rec_id}'
         return request.redirect(url)

@@ -926,7 +926,7 @@ class TestQWebBasic(TransactionCase):
                 <a href="/link/odoo/sub">link</a>
                 <a href="/link/odoo/">link2</a>
             """
-        values = {'url': 'odoo', 'other': True}
+        values = {'url': 'app', 'other': True}
         rendered = self.env['ir.qweb']._render(t.id, values)
         self.assertEqual(rendered.strip(), result.strip())
 

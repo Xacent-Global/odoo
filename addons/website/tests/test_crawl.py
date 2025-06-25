@@ -98,7 +98,7 @@ class Crawler(HttpCaseWithUserDemo):
                 # FIXME: handle relative link (not parts.path.startswith /)
                 if parts.netloc or \
                     not parts.path.startswith('/') or \
-                    parts.path == '/odoo' or\
+                    parts.path == '/app' or\
                     parts.path.startswith('/web/') or \
                     parts.path.startswith('/en/') or \
                    (parts.scheme and parts.scheme not in ('http', 'https')):

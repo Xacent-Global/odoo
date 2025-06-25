@@ -430,7 +430,7 @@ class Applicant(models.Model):
             'para_1': match[1],
             'para_2': match[2],
             'para_3': match[3],
-            'link': f'/odoo/recruitment/{hr_job.id}',
+            'link': f'/app/recruitment/{hr_job.id}',
         }
 
         if hr_job.alias_email:

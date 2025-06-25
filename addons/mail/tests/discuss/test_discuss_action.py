@@ -6,7 +6,7 @@ from odoo.tests import HttpCase, tagged
 class TestDiscussAction(HttpCase):
     def test_go_back_to_thread_from_breadcrumbs(self):
         self.start_tour(
-            "/odoo/discuss?active_id=mail.box_inbox",
+            "/app/discuss?active_id=mail.box_inbox",
             "discuss_go_back_to_thread_from_breadcrumbs.js",
             login="admin",
         )

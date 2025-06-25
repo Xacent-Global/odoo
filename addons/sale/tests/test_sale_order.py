@@ -1070,7 +1070,7 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
         })
 
     def test_mail_attachment_removal_tour(self):
-        url = f"/odoo/sales/{self.quotation.id}"
+        url = f"/app/sales/{self.quotation.id}"
         with self.mock_mail_app():
             self.start_tour(
                 url,

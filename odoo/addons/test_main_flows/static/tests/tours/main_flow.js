@@ -8,7 +8,7 @@ import { markup } from "@odoo/owl";
 import { queryFirst } from "@odoo/hoot-dom";
 
 registry.category("web_tour.tours").add('main_flow_tour', {
-    url: "/odoo",
+    url: "/app",
     steps: () => [
 ...stepUtils.toggleHomeMenu().map(step => {
     step.isActive = ["community", "mobile"];

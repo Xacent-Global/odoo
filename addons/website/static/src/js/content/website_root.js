@@ -120,7 +120,7 @@ export const WebsiteRoot = publicRootData.PublicRoot.extend({
                         this.notification.add(
                             markup(`<div>
                                 <span>${message}</span><br/>
-                                <a href="/odoo/action-website.action_website_configuration">${urlTitle}</a>
+                                <a href="/app/action-website.action_website_configuration">${urlTitle}</a>
                             </div>`),
                             { type: 'warning', sticky: true }
                         );

@@ -21,7 +21,7 @@ class MailController(http.Controller):
 
     @classmethod
     def _redirect_to_messaging(cls):
-        url = '/odoo/action-mail.action_discuss'
+        url = '/app/action-mail.action_discuss'
         return request.redirect(url)
 
     @classmethod
@@ -139,7 +139,7 @@ class MailController(http.Controller):
         # @see router.js: heuristics to discrimate a model name from an action path
         # is the presence of dots, or the prefix m- for models
         model_in_url = model if "." in model else "m-" + model
-        url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params)}'
+        url = f'/app/{model_in_url}/{res_id}?{url_encode(url_params)}'
         return request.redirect(url)
 
     @http.route('/mail/view', type='http', auth='public')
@@ -221,11 +221,11 @@ class MailController(http.Controller):
                 raise Unauthorized()
 
         if message.model == 'discuss.channel':
-            url = f'/odoo/action-mail.action_discuss?active_id={message.res_id}&highlight_message_id={message_id}'
+            url = f'/app/action-mail.action_discuss?active_id={message.res_id}&highlight_message_id={message_id}'
         else:
             # @see commit c63d14a0485a553b74a8457aee158384e9ae6d3f
             # @see router.js: heuristics to discrimate a model name from an action path
             # is the presence of dots, or the prefix m- for models
             model_in_url = model if "." in (model := message.model) else "m-" + model
-            url = f'/odoo/{model_in_url}/{message.res_id}?highlight_message_id={message_id}'
+            url = f'/app/{model_in_url}/{message.res_id}?highlight_message_id={message_id}'
         return request.redirect(url)

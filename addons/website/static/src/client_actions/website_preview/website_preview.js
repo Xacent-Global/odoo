@@ -111,7 +111,7 @@ export class WebsitePreview extends Component {
                     showSecondaryButton: false,
                 }, {
                     onClose: () => {
-                        window.location.href = `${encodeURI(this.websiteDomain)}/odoo/action-website.website_preview?path=${encodedPath}&website_id=${encodeURIComponent(this.websiteId)}`;
+                        window.location.href = `${encodeURI(this.websiteDomain)}/app/action-website.website_preview?path=${encodedPath}&website_id=${encodeURIComponent(this.websiteId)}`;
                     }
                 });
             } else {
@@ -318,12 +318,12 @@ export class WebsitePreview extends Component {
      * @private
      */
     _isTopWindowURL({ host, pathname }) {
-        const backendRoutes = ['/web', '/web/session/logout', '/odoo'];
+        const backendRoutes = ['/web', '/web/session/logout', '/app'];
         return host !== window.location.host
             || (pathname
                 && (backendRoutes.includes(pathname)
                     || pathname.startsWith('/@/')
-                    || pathname.startsWith('/odoo/')
+                    || pathname.startsWith('/app/')
                     || pathname.startsWith('/web/content/')
                     // This is defined here to avoid creating a
                     // website_documents module for just one patch.
@@ -331,7 +331,7 @@ export class WebsitePreview extends Component {
     }
 
     /**
-     * This replaces the browser url (/odoo/action-website...) with
+     * This replaces the browser url (/app/action-website...) with
      * the iframe's url (it is clearer for the user).
      */
     _replaceBrowserUrl() {
@@ -341,7 +341,7 @@ export class WebsitePreview extends Component {
             // loads "about:blank"), do not push that into the history
             // state as that could prevent the user from going back and could
             // trigger a traceback.
-            history.replaceState(history.state, document.title, '/odoo');
+            history.replaceState(history.state, document.title, '/app');
             return;
         }
         const currentTitle = this.iframe.el.contentDocument.title;
@@ -556,7 +556,7 @@ export class WebsitePreview extends Component {
         ev.preventDefault();
         const path = this.websiteService.contentWindow.location;
         const debugMode = this.env.debug ? `&debug=${this.env.debug}` : "";
-        redirect(`/odoo/action-website.website_preview?path=${encodeURIComponent(path)}${debugMode}`);
+        redirect(`/app/action-website.website_preview?path=${encodeURIComponent(path)}${debugMode}`);
     }
 }
 

@@ -434,5 +434,5 @@ class PasskeyTest(HttpCaseWithUserDemo):
                 'password': '',
             })
 
-            # Login successful, redirected to /odoo
-            self.assertTrue(response.url.endswith('/odoo'))
+            # Login successful, redirected to /app
+            self.assertTrue(response.url.endswith('/app'))

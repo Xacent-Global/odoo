@@ -1250,7 +1250,7 @@ export class WysiwygAdapterComponent extends Wysiwyg {
         } else if (event.data.reloadWebClient) {
             const currentPath = encodeURIComponent(window.location.pathname);
             const websiteId = this.websiteService.currentWebsite.id;
-            callback = () => redirect(`/odoo/action-website.website_preview?website_id=${encodeURIComponent(websiteId)}&path=${currentPath}&enable_editor=1`);
+            callback = () => redirect(`/app/action-website.website_preview?website_id=${encodeURIComponent(websiteId)}&path=${currentPath}&enable_editor=1`);
         } else if (event.data.action) {
             callback = () => {
                 this.leaveEditMode({

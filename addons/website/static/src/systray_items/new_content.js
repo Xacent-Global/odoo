@@ -208,7 +208,7 @@ export class NewContentModal extends Component {
             // A reload is needed after installing a new module, to instantiate
             // a NewContentModal with patches from the installed module.
             this.website.prepareOutLoader();
-            redirect(`/odoo/action-website.website_preview?website_id=${id}&path=${encodeURIComponent(url.toString())}&display_new_content=true`);
+            redirect(`/app/action-website.website_preview?website_id=${id}&path=${encodeURIComponent(url.toString())}&display_new_content=true`);
         }
     }
 

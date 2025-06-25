@@ -26,7 +26,7 @@ options.registry.mailing_list_subscribe = options.Class.extend({
                         reload: false,
                         onSuccess: () => {
                             window.location.href =
-                                "/odoo/action-mass_mailing.action_view_mass_mailing_lists";
+                                "/app/action-mass_mailing.action_view_mass_mailing_lists";
                         },
                     });
                 },
