@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
 # Translators:
 # Martin Trigaux, 2024
 # allanot nicolas <n.allanot@free.fr>, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1578,11 +1578,11 @@ msgstr "Avant la date prévue"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
 msgstr ""
 "Le texte ci-dessous sert de suggestion et n'engage pas la responsabilité "
-"d'Odoo S.A.."
+"d'Platform.."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block
@@ -2696,10 +2696,10 @@ msgstr "Routes par défaut à travers l'entrepôt"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo automatically creates requests for "
+"Define a minimum stock rule so that Platform automatically creates requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Définissez un règle de stock minimum afin qu'Odoo crée automatiquement des "
+"Définissez un règle de stock minimum afin qu'Platform crée automatiquement des "
 "achats ou des ordres de fabrications pour réapprovisionner votre stock."
 
 #. module: stock
@@ -2711,14 +2711,14 @@ msgstr "Définissez un nouvel entrepôt"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Platform is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Définissez vos emplacements de façon à ce qu'ils reflètent la structure de votre entrepôt et de votre\n"
-" organisation. Odoo est capable de gérer des emplacements physiques\n"
+" organisation. Platform est capable de gérer des emplacements physiques\n"
 " (entrepôts, étagères, bacs, etc.), des emplacements de partenaire (clients,\n"
 " fournisseurs) ainsi que des emplacements virtuels. Ces derniers servent de contrepartie aux\n"
 " opérations de stock, telles que les ordres de fabrication,\n"
@@ -3319,12 +3319,12 @@ msgstr "Emplacements vides"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the Platform barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Appréciez une expérience à haute fréquence avec l'app Code-barres d'Odoo. "
+"Appréciez une expérience à haute fréquence avec l'app Code-barres d'Platform. "
 "Cette application est très rapide et fonctionne même sans une connexion "
 "internet stable. Code-barres prend en charge tous les flux : Ajustement "
 "d'inventaire, transfert par lot, déplacements de lot ou de palettes, "
@@ -3345,14 +3345,14 @@ msgstr "Assurez la traçabilité d'un produit stockable dans votre entrepôt."
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Platform moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Platform will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Toute opération de stock dans Odoo déplace des produits d'un emplacement à "
-"un autre. Par exemple, si vous recevez des produits d'un fournisseur, Odoo "
+"Toute opération de stock dans Platform déplace des produits d'un emplacement à "
+"un autre. Par exemple, si vous recevez des produits d'un fournisseur, Platform "
 "déplacera les produits de l'emplacement Fournisseurs vers l'emplacement "
 "Stock. Chaque rapport peut porter sur un emplacement physique, un "
 "emplacement partenaire ou un emplacement virtuel."
@@ -4062,83 +4062,83 @@ msgstr "Si le même NS est dans une autre Quant"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_delivery_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the delivery slip "
+"If this checkbox is ticked, Platform will automatically print the delivery slip "
 "of a picking when it is validated."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement le bon de livraison"
+"Si cette case est cochée, Platform imprimera automatiquement le bon de livraison"
 " d'un transfert lorsqu'il est validé."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_lot_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN labels "
+"If this checkbox is ticked, Platform will automatically print the lot/SN labels "
 "of a picking when it is validated."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement les étiquettes de "
+"Si cette case est cochée, Platform imprimera automatiquement les étiquettes de "
 "lot/NS d'un transfert lorsqu'il est validé."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_package_label
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the package label "
+"If this checkbox is ticked, Platform will automatically print the package label "
 "when \"Put in Pack\" button is used."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement l'étiquette du "
+"Si cette case est cochée, Platform imprimera automatiquement l'étiquette du "
 "colis lorsque l'on clique sur le bouton \"Mettre en colis\"."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_packages
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the packages and "
+"If this checkbox is ticked, Platform will automatically print the packages and "
 "their contents of a picking when it is validated."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement les colis et leurs "
+"Si cette case est cochée, Platform imprimera automatiquement les colis et leurs "
 "contenus d'un transfert lorsqu'il est validé."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a picking when it is validated."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement les étiquettes de "
+"Si cette case est cochée, Platform imprimera automatiquement les étiquettes de "
 "produit d'un transfert lorsqu'il est validé."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report labels of a picking when it is validated."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement les étiquettes du "
+"Si cette case est cochée, Platform imprimera automatiquement les étiquettes du "
 "rapport de réception d'un transfert lorsqu'il est validé."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report of a picking when it is validated and has assigned moves."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement le rapport de "
+"Si cette case est cochée, Platform imprimera automatiquement le rapport de "
 "réception d'un transfert lorsqu'il est validé et qu'il a des mouvements "
 "assignés."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the return slip of"
+"If this checkbox is ticked, Platform will automatically print the return slip of"
 " a picking when it is validated."
 msgstr ""
-"Si cette case est cochée, Odoo imprimera automatiquement le bon de retour "
+"Si cette case est cochée, Platform imprimera automatiquement le bon de retour "
 "d'un transfert lorsqu'il est validé."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_show_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically show the reception "
+"If this checkbox is ticked, Platform will automatically show the reception "
 "report (if there are moves to allocate to) when validating."
 msgstr ""
-"Si cette case est cochée, Odoo affichera automatiquement le rapport de "
+"Si cette case est cochée, Platform affichera automatiquement le rapport de "
 "réception (s'il y a des déplacementsà allouer) lors de la validation."
 
 #. module: stock
@@ -5915,12 +5915,12 @@ msgstr "Octobre"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
-"Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
+"Platform opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 "                                        <br/>"
 msgstr ""
-"Odoo ouvre un aperçu PDF par défaut. Si vous (uniquement les utilisateurs d'Enterprise) veulent imprimer instantanément,\n"
+"Platform ouvre un aperçu PDF par défaut. Si vous (uniquement les utilisateurs d'Enterprise) veulent imprimer instantanément,\n"
 "                                        installez l'application IoT sur un ordinateur qui est sur le même réseau local que\n"
 "                                        l'opérateur de code-barres et configurez l'acheminement des rapports.\n"
 "                                        <br/>"
@@ -10874,21 +10874,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity above of this"
+" Platform generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
 msgstr ""
 "Quand le stock virtuel tombe en dessous de la quantité minimale indiquée "
-"dans de champ, Odoo génère un approvisionnement pour ramener la quantité "
+"dans de champ, Platform génère un approvisionnement pour ramener la quantité "
 "prévue à cette quantité minimale."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Platform generates a "
 "procurement to bring the forecasted quantity up to (or near to) the Max "
 "Quantity specified for this field (or to Min Quantity, whichever is bigger)."
 msgstr ""
-"Quand le stock virtuel tombe en dessous de la quantité minimale, Odoo génère"
+"Quand le stock virtuel tombe en dessous de la quantité minimale, Platform génère"
 " un approvisionnement pour ramener la quantité prévue à la quantité maximale"
 " (ou se rapprochant de celle-ci) spécifiée pour ce champ (ou la quantité "
 "minimale, selon la valeur la plus élevée)."

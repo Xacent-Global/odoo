@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_links
 # 
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -240,10 +240,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
 "Those trackers can be used in Google Analytics to track clicks and visitors,"
-" or in Odoo reports to track opportunities and related revenues."
+" or in Platform reports to track opportunities and related revenues."
 msgstr ""
 "Šis sekimas gali būti panaudojamas \"Google Analytics\", taip sekant "
-"paspaudimus ir lankytojus, arba \"Odoo\" ataskaitose, taip sekant galimybes "
+"paspaudimus ir lankytojus, arba \"Platform\" ataskaitose, taip sekant galimybes "
 "ir susijusias pajamas."
 
 #. module: website_links

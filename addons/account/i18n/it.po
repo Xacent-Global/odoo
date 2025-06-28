@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -6,13 +6,13 @@
 # Alessandro Forte <a.forte1010@gmail.com>, 2024
 # Martin Trigaux, 2024
 # pezzin <christian.pezzin@gmail.com>, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # Marianna Ciofani, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -352,10 +352,10 @@ msgstr ". Assicurati che questo comportamento sia voluto."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
-". The journal entries need to be computed by Odoo before being posted in "
+". The journal entries need to be computed by Platform before being posted in "
 "your company's currency."
 msgstr ""
-". Le voci del giornale devono essere calcolate da Odoo prima di essere "
+". Le voci del giornale devono essere calcolate da Platform prima di essere "
 "pubblicate nella valuta della vostra azienda."
 
 #. module: account
@@ -2608,12 +2608,12 @@ msgstr "Dopo"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
-"After importing three bills for a vendor without making changes, Odoo will "
+"After importing three bills for a vendor without making changes, Platform will "
 "suggest automatically validating future bills. You can toggle this feature "
 "at any time in the vendor's profile."
 msgstr ""
 "Dopo aver importato tre fatture per un fornitore senza apportare modifiche, "
-"Odoo suggerisce di convalidare automaticamente le fatture future. È "
+"Platform suggerisce di convalidare automaticamente le fatture future. È "
 "possibile disattivare questa funzione in qualsiasi momento nel profilo del "
 "fornitore."
 
@@ -3706,7 +3706,7 @@ msgstr "Banca e cassa"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank of odoo"
-msgstr "Banca di Odoo"
+msgstr "Banca di Platform"
 
 #. module: account
 #: model:ir.model,name:account.model_account_setup_bank_manual_config
@@ -3836,11 +3836,11 @@ msgstr "Appartiene alla stessa azienda di %s."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
 msgstr ""
 "Il testo qui sotto serve come suggerimento e non impegna la responsabilità "
-"di Odoo S.A."
+"di Platform."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
@@ -5869,10 +5869,10 @@ msgstr "Esempio data"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Platform. It is the date of the "
 "opening entry."
 msgstr ""
-"Data di inizio gestione della contabilità con Odoo. Corrisponde alla "
+"Data di inizio gestione della contabilità con Platform. Corrisponde alla "
 "registrazione di apertura."
 
 #. module: account
@@ -10298,12 +10298,12 @@ msgstr "Registrazione manuale"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
-"Manual: Get paid by any method outside of Odoo.\n"
+"Manual: Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manuale: ricevi i pagamenti con qualsiasi metodo al di fuori di Odoo.\n"
+"Manuale: ricevi i pagamenti con qualsiasi metodo al di fuori di Platform.\n"
 "Fornitori di servizi di pagamento: ogni fornitore di pagamento ha il proprio metodo. Richiedi una transazione su/per una carta grazie ad un token di pagamento salvato dal partner durante un acquisto o un abbonamento effettuato online.\n"
 "Deposito in gruppo: raccogli gli assegni dei clienti in una volta creando e inoltrando un deposito in gruppo alla tua banca. È necessario il modulo account_batch_payment.\n"
 "Addebito diretto SEPA: ricevi pagamenti dall'area SEPA grazie ad un mandato conferito dal tuo partner. È necessario il modulo account_sepa.\n"
@@ -10311,28 +10311,28 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
-"Manual: Pay by any method outside of Odoo.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Manual: Pay by any method outside of Platform.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
-"Manuale: paga con ogni metodo al di fuori di Odoo.\n"
-"Assegno: paga le fatture tramite asegno e stampale da Odoo.\n"
+"Manuale: paga con ogni metodo al di fuori di Platform.\n"
+"Assegno: paga le fatture tramite asegno e stampale da Platform.\n"
 "Bonifico SEPA: paga nell'area SEPA inviando un file per il bonifico SEPA alla tua banca. È necessario il modulo account_sepa.\n"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_line_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manuale: paga oppure ricevi pagamenti al di fuori di Odoo, con qualsiasi metodo.\n"
+"Manuale: paga oppure ricevi pagamenti al di fuori di Platform, con qualsiasi metodo.\n"
 "Fornitori di pagamento: ogni fornitore ha il proprio metodo. Richiedi una transazione su o verso una carta grazie ad un token di pagamento salvato dal partner quando compri o effettui un abbonamento online.\n"
-"Assegno: paga le fatture con gli assegni e stampali da Odoo.\n"
+"Assegno: paga le fatture con gli assegni e stampali da Platform.\n"
 "Versamento in lotto: colleziona vari assegni dei clienti generando e inviando un versamento complessivo alla tua banca. È necessario il modulo account_batch_payment.\n"
 "Bonifico SEPA: paga nella zona SEPA inviando un bonifico SEPA alla tua banca. È necessario il modulo account_sepa.\n"
 "Addebito diretto SEPA: ricevi pagamenti nella zona SEPA grazie ad un mandato che il partner deve garantirti. È necessario il modulo account_sepa.\n"
@@ -11270,36 +11270,36 @@ msgstr "Ottobre"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__domain
-msgid "Odoo Domain"
-msgstr "Dominio Odoo"
+msgid "Platform Domain"
+msgstr "Dominio Platform"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Platform allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odoo consente di riconciliare direttamente una riga di estratto\n"
+"Platform consente di riconciliare direttamente una riga di estratto\n"
 "                conto con le relative fatture di vendita o acquisto."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Platform helps you easily track all activities related to a customer."
 msgstr ""
-"Odoo aiuta a tenere traccia facilmente di tutte le attività relative a un "
+"Platform aiuta a tenere traccia facilmente di tutte le attività relative a un "
 "cliente."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Platform helps you easily track all activities related to a supplier."
 msgstr ""
-"Odoo aiuta a tenere traccia facilmente di tutte le attività relative a un "
+"Platform aiuta a tenere traccia facilmente di tutte le attività relative a un "
 "fornitore."
 
 #. module: account
@@ -13977,13 +13977,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by Platform"
 msgstr ""
 "Invia una e-mail separata per ciascuna fattura.\n"
 "\n"
 "È accettata qualsiasi estensione dei file.\n"
 "\n"
-"Odoo interpreta solo file PDF e XML"
+"Platform interpreta solo file PDF e XML"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -17610,10 +17610,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
-"Odoo will automatically create one invoice line with default values to match it."
+"Platform will automatically create one invoice line with default values to match it."
 msgstr ""
 "Utilizza questo campo per inserire l'importo totale della fattura.\n"
-"Odoo creerà automaticamente una riga di fattura con valori predefiniti per la corrispondenza."
+"Platform creerà automaticamente una riga di fattura con valori predefiniti per la corrispondenza."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__used
@@ -17895,12 +17895,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                orders or receipts. This allows you to control bills\n"
 "                you receive from your vendor according to the draft\n"
-"                document in Odoo."
+"                document in Platform."
 msgstr ""
 "Le fatture fornitore possono essere pregenerate in base agli\n"
 "                ordini di acquisto o alle ricezioni. Ciò consente di tenere\n"
 "                sotto controllo le fatture ricevute dal fornitore in conformità\n"
-"                con il documento in bozza di Odoo."
+"                con il documento in bozza di Platform."
 
 #. module: account
 #. odoo-javascript
@@ -18171,10 +18171,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Platform reference."
 msgstr ""
 "È possibile scegliere modelli diversi per ciascun tipo di riferimento. Il "
-"predefinito è il riferimento Odoo."
+"predefinito è il riferimento Platform."
 
 #. module: account
 #. odoo-python

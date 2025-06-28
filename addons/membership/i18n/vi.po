@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* membership
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Platform Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -532,10 +532,10 @@ msgstr "Chưa phải thành viên"
 #. module: membership
 #: model_terms:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
-"Odoo helps you easily track all activities related to a member: \n"
+"Platform helps you easily track all activities related to a member: \n"
 "                  Current Membership Status, Discussions and History of Membership, etc."
 msgstr ""
-"Odoo giúp bạn dễ dàng truy xuất và theo dõi tất cả các hoạt động liên quan đến quản lý thành viên như:\n"
+"Platform giúp bạn dễ dàng truy xuất và theo dõi tất cả các hoạt động liên quan đến quản lý thành viên như:\n"
 "               Tình trạng thành viên hiện tại, thảo luận và lịch sử quản lý thành viên, .v.v.."
 
 #. module: membership

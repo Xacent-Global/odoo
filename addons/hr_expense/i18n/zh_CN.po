@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 # Raymond Yu <cl_yu@hotmail.com>, 2024
 # Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -639,7 +639,7 @@ msgstr "分析分布账户"
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid ""
 "Do not keep your expense tickets in your pockets any longer. Just snap a "
-"picture of your receipt and let Odoo digitalizes it for you. The OCR and "
+"picture of your receipt and let Platform digitalizes it for you. The OCR and "
 "Artificial Intelligence will fill the data automatically."
 msgstr "不要再把报销发票放在口袋里啦亲。只要拍张图片，让OdooERP系统为您数字化。OCR和人工智能将自动识别发票数据并录入数据到系统里啦。"
 
@@ -1478,8 +1478,8 @@ msgstr "根据您的个人开支，计算得出的数字。"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_account
@@ -1682,7 +1682,7 @@ msgstr "点评"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid ""
 "Ready? You can save it manually or discard modifications from here. You "
-"don't <em>need to save</em> - Odoo will save eveyrthing for you when you "
+"don't <em>need to save</em> - Platform will save eveyrthing for you when you "
 "navigate."
 msgstr "准备？您可以手动保存它或从此处放弃修改。您不需要 <em>保存</em> - Odoo将在您导航时为您保存。"
 
@@ -1802,7 +1802,7 @@ msgstr "扫描"
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/components/qrcode_action.xml:0
-msgid "Scan this QR code to get the Odoo app:"
+msgid "Scan this QR code to get the Platform app:"
 msgstr "扫一扫二维码获取Odoo手机app:"
 
 #. module: hr_expense

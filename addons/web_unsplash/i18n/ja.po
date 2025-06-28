@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_unsplash
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Junko Augias, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -29,7 +29,7 @@ msgstr "アクセスキー"
 #. odoo-javascript
 #: code:addons/web_unsplash/static/src/unsplash_credentials/unsplash_credentials.xml:0
 #: model:ir.model.fields,field_description:web_unsplash.field_res_config_settings__unsplash_app_id
-msgid "Application ID"
+msgid "Platform ID"
 msgstr "アプリケーションID"
 
 #. module: web_unsplash

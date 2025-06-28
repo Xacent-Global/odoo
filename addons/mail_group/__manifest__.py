@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 {
     'name': "Mail Group",
     'summary': "Manage your mailing lists",
     'description': """
-Manage your mailing lists from Odoo.
+Manage your mailing lists from Platform.
     """,
     'version': '1.1',
     'depends': [

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -6,12 +6,12 @@
 # Larisa Pop, 2024
 # Lyall Kindmurr, 2024
 # Foldi Robert <foldirobert@nexterp.ro>, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1279,7 +1279,7 @@ msgstr "Ciorne CdO"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Platform. Enjoy the automation!"
 msgstr ""
 
 #. module: purchase
@@ -1863,7 +1863,7 @@ msgstr "Necunoscut"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
+msgid "Not using Platform?"
 msgstr ""
 
 #. module: purchase
@@ -1912,8 +1912,8 @@ msgstr "Numărul de mesaje cu eroare de livrare"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -2928,7 +2928,7 @@ msgstr "Cu steluță"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
+msgid "Start on Platform"
 msgstr ""
 
 #. module: purchase
@@ -3490,12 +3490,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Platform."
 msgstr ""
 "Facturile furnizorilor pot fi generate în prealabil pe baza comenzilor de "
 "achiziție sau a chitanțelor. Acest lucru vă permite să controlați facturile "
 "pe care le primiți de la furnizor în conformitate cu documentul ciornă în "
-"Odoo."
+"Platform."
 
 #. module: purchase
 #. odoo-python
@@ -3544,7 +3544,7 @@ msgstr "Așteaptă CdO"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
+msgid "Want to import this document in Platform?"
 msgstr ""
 
 #. module: purchase
@@ -3595,14 +3595,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Platform will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Când creați o comandă de achiziție, aruncați o privire asupra ratei de "
 "livrare la timp a furnizorului: procentul de produse livrate la timp. Dacă "
 "este prea scăzut, activați mementourile automate. Cu câteva zile înainte de "
-"expediere, Odoo va trimite vânzătorului un e-mail pentru a cere confirmarea "
+"expediere, Platform va trimite vânzătorului un e-mail pentru a cere confirmarea "
 "datelor de expediere și pentru a vă informa în caz de întârziere. Pentru a "
 "obține statistici de performanță ale vânzătorului, faceți clic pe rata de "
 "livrare la timp."
@@ -3610,12 +3610,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Platform asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Când trimiteți o comandă de achiziție prin e-mail, Odoo solicită "
+"Când trimiteți o comandă de achiziție prin e-mail, Platform solicită "
 "furnizorului să confirme primirea comenzii. Când furnizorul confirmă comanda"
 " făcând clic pe un buton din e-mail, informațiile sunt adăugate pe comanda "
 "de achiziție. Utilizați filtre pentru a urmări comenzile care nu au fost "

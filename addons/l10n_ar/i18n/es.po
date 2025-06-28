@@ -642,10 +642,10 @@ msgstr "Cuentas bancarias"
 #: model_terms:res.company,invoice_terms_html:l10n_ar.company_mono
 #: model_terms:res.company,invoice_terms_html:l10n_ar.company_ri
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
-"El siguiente texto sirve como sugerencia y no responsabiliza a Odoo S.A."
+"El siguiente texto sirve como sugerencia y no responsabiliza a Application."
 
 #. module: l10n_ar
 #: model:account.group,name:l10n_ar.3_account_group_bienes_de_cambio

@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Rasareeyar Lappiam, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -140,8 +140,8 @@ msgstr "สร้างเมื่อ"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_odoo
-msgid "Delete from Odoo"
-msgstr "ลบจาก Odoo "
+msgid "Delete from Platform"
+msgstr "ลบจาก Platform "
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_both
@@ -179,10 +179,10 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 "Due to an Outlook Calendar limitation, recurrence updates must be done directly in Outlook Calendar.\n"
-"If this recurrence is not shown in Outlook Calendar, you must delete it in Odoo Calendar and recreate it in Outlook Calendar."
+"If this recurrence is not shown in Outlook Calendar, you must delete it in Platform Calendar and recreate it in Outlook Calendar."
 msgstr ""
 "เนื่องจากข้อจำกัดของปฏิทิน Outlook การอัปเดตการเกิดซ้ำจะต้องดำเนินการโดยตรงในปฏิทิน Outlook\n"
-"หากการเกิดซ้ำนี้ไม่แสดงในปฏิทิน Outlook คุณต้องลบออกในปฏิทิน Odoo และสร้างใหม่ในปฏิทิน Outlook"
+"หากการเกิดซ้ำนี้ไม่แสดงในปฏิทิน Outlook คุณต้องลบออกในปฏิทิน Platform และสร้างใหม่ในปฏิทิน Outlook"
 
 #. module: microsoft_calendar
 #. odoo-python
@@ -203,11 +203,11 @@ msgstr "กฎการเกิดซ้ำของอีเวนต์"
 #. odoo-python
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
-"For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
+"For a correct synchronization between Platform and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %(details)s:\n"
 "%(invalid_events)s"
 msgstr ""
-"สำหรับการซิงโครไนซ์ที่ถูกต้องระหว่าง Odoo และปฏิทิน Outlook ผู้เข้าร่วมทุกคนต้องมีที่อยู่อีเมล อย่างไรก็ตาม บางกิจกรรมไม่เป็นไปตามเงื่อนไขนี้ ตราบใดที่กิจกรรมไม่ถูกต้อง ปฏิทินจะไม่ซิงโครไนซ์\n"
+"สำหรับการซิงโครไนซ์ที่ถูกต้องระหว่าง Platform และปฏิทิน Outlook ผู้เข้าร่วมทุกคนต้องมีที่อยู่อีเมล อย่างไรก็ตาม บางกิจกรรมไม่เป็นไปตามเงื่อนไขนี้ ตราบใดที่กิจกรรมไม่ถูกต้อง ปฏิทินจะไม่ซิงโครไนซ์\n"
 "อัปเดตกิจกรรม/ผู้เข้าร่วม หรือเก็บถาวรกิจกรรมเหล่านี้ %(details)s:\n"
 "%(invalid_events)s"
 
@@ -216,10 +216,10 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 "For having a different organizer in your event, it is necessary that the "
-"organizer have its Odoo Calendar synced with Outlook Calendar."
+"organizer have its Platform Calendar synced with Outlook Calendar."
 msgstr ""
 "หากต้องการให้มีผู้จัดงานรายอื่นในกิจกรรมของคุณ ผู้จัดงานจะต้องซิงค์ปฏิทิน "
-"Odoo ของพวกเขาเข้ากับปฏิทิน Outlook"
+"Platform ของพวกเขาเข้ากับปฏิทิน Outlook"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_account_reset__id

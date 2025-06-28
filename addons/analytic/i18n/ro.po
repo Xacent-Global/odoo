@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
 # Translators:
 # Lyall Kindmurr, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -556,11 +556,11 @@ msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Platform, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"În Odoo, comenzile de vânzare și proiectele sunt implementate utilizând\n"
+"În Platform, comenzile de vânzare și proiectele sunt implementate utilizând\n"
 "               conturi analitice. Puteți urmări costurile și veniturile pentru a vă analiza\n"
 "                cu ușurință marjele."
 

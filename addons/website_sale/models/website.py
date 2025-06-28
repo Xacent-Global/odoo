@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo import SUPERUSER_ID, api, fields, models, tools
 from odoo.http import request

@@ -3533,7 +3533,7 @@ msgstr ""
 " para la versión 17.0.**\n"
 "Se puede proporcionar una versión ofuscada y certificada de pos_blackbox_be previa \n"
 "solicitud para instalaciones en local.\n"
-"Odoo S.A. no certificará ni dará soporte a una versión modificada.\n"
+"Application. no certificará ni dará soporte a una versión modificada.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_helpdesk_sale_timesheet
@@ -19344,11 +19344,11 @@ msgstr "Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
 "El texto a continuación sirve como sugerencia y no compromete la "
-"responsabilidad de Odoo S.A. de C.V."
+"responsabilidad de Application. de C.V."
 
 #. module: base
 #: model:res.country,name:base.bj

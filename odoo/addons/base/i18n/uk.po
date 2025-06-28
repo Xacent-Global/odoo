@@ -18461,10 +18461,10 @@ msgstr "Беліз"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
-"Нижче наведений текст є пропозицією і Odoo S.A не несе відповідальності."
+"Нижче наведений текст є пропозицією і Application не несе відповідальності."
 
 #. module: base
 #: model:res.country,name:base.bj

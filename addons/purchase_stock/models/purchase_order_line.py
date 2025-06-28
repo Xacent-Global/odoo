@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo import SUPERUSER_ID, api, Command, fields, models, _
 from odoo.tools.float_utils import float_compare, float_is_zero, float_round

@@ -14691,10 +14691,10 @@ msgstr "Белиз"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
-"Доорх бичвэр нь ердөө санал болгож буй бичвэр бөгөөд Odoo S.A. хариуцлага "
+"Доорх бичвэр нь ердөө санал болгож буй бичвэр бөгөөд Application. хариуцлага "
 "хүлээхгүй."
 
 #. module: base

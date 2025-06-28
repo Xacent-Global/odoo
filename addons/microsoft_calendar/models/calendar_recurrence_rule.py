@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, fields, models
 from odoo.osv import expression
@@ -24,7 +24,7 @@ class RecurrenceRule(models.Model):
     def _inverse_rrule(self):
         # Note: 'need_sync_m' is set to False to avoid syncing the updated recurrence with
         # Outlook, as this update mainly comes from Outlook (the 'rrule' field is not directly
-        # modified in Odoo but computed from other fields).
+        # modified in Platform but computed from other fields).
         for recurrence in self.filtered('rrule'):
             values = self._rrule_parse(recurrence.rrule, recurrence.dtstart)
             recurrence.with_context(dont_notify=True).write(dict(values, need_sync_m=False))
@@ -96,7 +96,7 @@ class RecurrenceRule(models.Model):
 
     def _write_from_microsoft(self, microsoft_event, vals):
         current_rrule = self.rrule
-        # event_tz is written on event in Microsoft but on recurrence in Odoo
+        # event_tz is written on event in Microsoft but on recurrence in Platform
         vals['event_tz'] = microsoft_event.start.get('timeZone')
         super()._write_from_microsoft(microsoft_event, vals)
         new_event_values = self.env["calendar.event"]._microsoft_to_odoo_values(microsoft_event)
@@ -136,7 +136,7 @@ class RecurrenceRule(models.Model):
             detached_events.unlink()
 
     def _get_microsoft_sync_domain(self):
-        # Do not sync Odoo recurrences with Outlook Calendar anymore.
+        # Do not sync Platform recurrences with Outlook Calendar anymore.
         domain = expression.FALSE_DOMAIN
         return self._extend_microsoft_domain(domain)
 

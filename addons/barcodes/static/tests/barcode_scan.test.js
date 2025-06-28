@@ -26,6 +26,6 @@ test("Display notification for media device permission on barcode scanning", asy
     await contains("a.o_mobile_barcode").click();
     await waitFor(".modal-body:contains(camera)");
     expect(".modal-body").toHaveText(
-        "Unable to access camera\nCould not start scanning. Odoo needs your authorization first."
+        "Unable to access camera\nCould not start scanning. Platform needs your authorization first."
     );
 });

@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
 # Translators:
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3302,14 +3302,14 @@ msgstr "Tần suất"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
-msgstr "Chứng nhận Odoo"
+msgid "Platform Certification"
+msgstr "Chứng nhận Platform"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -5359,10 +5359,10 @@ msgstr "Lịch sử trao đổi qua trang web"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
 msgstr ""
-"Chào mừng bạn đến với chứng nhận Odoo này! Bạn sẽ có 2 câu hỏi ngẫu nhiên "
+"Chào mừng bạn đến với chứng nhận Platform này! Bạn sẽ có 2 câu hỏi ngẫu nhiên "
 "trong tổng số 3 câu hỏi."
 
 #. module: survey
@@ -5407,8 +5407,8 @@ msgstr "\"ODOO\" có nghĩa là gì?"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "Người tham gia cần gì để vượt qua một bản Khảo sát Odoo?"
+msgid "What does one need to get to pass an Platform Survey?"
+msgstr "Người tham gia cần gì để vượt qua một bản Khảo sát Platform?"
 
 #. module: survey
 #. odoo-python
@@ -5470,8 +5470,8 @@ msgstr "Ngày sinh của bạn là ngày nào?"
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "Sau khi bạn chọn một câu trả lời, Odoo sẽ lưu lại cho bạn."
+msgid "Whenever you pick an answer, Platform saves it for you."
+msgstr "Sau khi bạn chọn một câu trả lời, Platform sẽ lưu lại cho bạn."
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q3

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
@@ -28,12 +28,12 @@
 # marcescu, 2024
 # Óscar Fonseca <tecnico@pyming.com>, 2024
 # Josep Anton Belchi, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Noemi Pla, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3285,14 +3285,14 @@ msgstr "Ocurrència"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
-msgstr "Certificació Odoo"
+msgid "Platform Certification"
+msgstr "Certificació Platform"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -5330,10 +5330,10 @@ msgstr "Historial de comunicacions del lloc web"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
 msgstr ""
-"Benvingut a aquesta certificació Odoo. Rebreu 2 preguntes aleatòries d'un "
+"Benvingut a aquesta certificació Platform. Rebreu 2 preguntes aleatòries d'un "
 "grup de 3."
 
 #. module: survey
@@ -5378,8 +5378,8 @@ msgstr "Què significa \"ODOO\"?"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "Què es necessita per a superar una enquesta d'Odoo?"
+msgid "What does one need to get to pass an Platform Survey?"
+msgstr "Què es necessita per a superar una enquesta d'Platform?"
 
 #. module: survey
 #. odoo-python
@@ -5441,8 +5441,8 @@ msgstr ""
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "Quan escull una resposta, l'Odoo la guarda."
+msgid "Whenever you pick an answer, Platform saves it for you."
+msgstr "Quan escull una resposta, l'Platform la guarda."
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q3

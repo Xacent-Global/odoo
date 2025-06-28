@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.stock_account.tests.test_stockvaluation import _create_accounting_data
 from odoo.addons.stock_account.tests.test_stockvaluationlayer import TestStockValuationCommon

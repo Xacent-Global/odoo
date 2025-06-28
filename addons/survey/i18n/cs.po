@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
 # Translators:
 # Aleš Fiala <f.ales1@seznam.cz>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Vojtěch Olšan, 2025
 # Marta Wacławek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3226,14 +3226,14 @@ msgstr "Výskyt"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
-msgstr "Certifikace Odoo"
+msgid "Platform Certification"
+msgstr "Certifikace Platform"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -5257,10 +5257,10 @@ msgstr "Webová historie komunikace"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
 msgstr ""
-"Vítejte v této certifikaci Odoo. Dostanete 2 náhodné otázky ze skupiny 3."
+"Vítejte v této certifikaci Platform. Dostanete 2 náhodné otázky ze skupiny 3."
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_5
@@ -5304,8 +5304,8 @@ msgstr "Co znamená „ODOO“?"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "Co člověk potřebuje, aby mohl projít průzkumem Odoo?"
+msgid "What does one need to get to pass an Platform Survey?"
+msgstr "Co člověk potřebuje, aby mohl projít průzkumem Platform?"
 
 #. module: survey
 #. odoo-python
@@ -5367,8 +5367,8 @@ msgstr ""
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "Kdykoli vyberete odpověď, Odoo ji pro vás uloží."
+msgid "Whenever you pick an answer, Platform saves it for you."
+msgstr "Kdykoli vyberete odpověď, Platform ji pro vás uloží."
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q3

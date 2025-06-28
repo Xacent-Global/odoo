@@ -19081,9 +19081,9 @@ msgstr "ベリーズ"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
-msgstr "以下の文章は提案であり、Odoo S.A.ではその責任を負いかねます。"
+msgstr "以下の文章は提案であり、Application.ではその責任を負いかねます。"
 
 #. module: base
 #: model:res.country,name:base.bj

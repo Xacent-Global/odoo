@@ -288,7 +288,7 @@ test("default currency format", async () => {
                     data: {},
                     revisions: [],
                     default_currency: {
-                        code: "Odoo",
+                        code: "Platform",
                         symbol: "θ",
                         position: "after",
                         decimalPlaces: 2,

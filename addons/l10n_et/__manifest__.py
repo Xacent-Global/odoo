@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Ethiopia - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -9,7 +9,7 @@
 Base Module for Ethiopian Localization
 ======================================
 
-This is the latest Ethiopian Odoo localization and consists of:
+This is the latest Ethiopian Platform localization and consists of:
     - Chart of Accounts
     - VAT tax structure
     - Withholding tax structure

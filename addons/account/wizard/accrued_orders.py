@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from dateutil.relativedelta import relativedelta
 import json
 from odoo import models, fields, api, _, Command

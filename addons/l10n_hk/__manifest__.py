@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Hong Kong - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/hong_kong.html',

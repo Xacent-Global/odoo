@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -38,7 +38,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -4019,7 +4019,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
 msgstr ""
 
@@ -4501,12 +4501,12 @@ msgstr "מספר עסקאות:"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
-msgstr "שגיאת שרת של Odoo"
+msgid "Platform Server Error"
+msgstr "שגיאת שרת של Platform"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
+msgid "Platform Sneakers"
 msgstr ""
 
 #. module: point_of_sale
@@ -5213,7 +5213,7 @@ msgstr "אנא בדוק אם קופסת IoT עדיין מחוברת."
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 
 #. module: point_of_sale
@@ -5662,8 +5662,8 @@ msgstr "מופעל ע\"י"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
-msgstr "מופעל ע\"י Odoo"
+msgid "Powered by Platform"
+msgstr "מופעל ע\"י Platform"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5830,7 +5830,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
+"invoice anytime, from Platform's portal."
 msgstr ""
 
 #. module: point_of_sale
@@ -8022,20 +8022,20 @@ msgstr "מוצר זה משמש כמזהה בקבלות לקוח."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"רצף זה נוצר אוטומטית על ידי Odoo אך אתה יכול לשנות אותו כדי להתאים אישית את "
+"רצף זה נוצר אוטומטית על ידי Platform אך אתה יכול לשנות אותו כדי להתאים אישית את "
 "מספרי המזהים של שורות ההזמנות שלך."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"רצף זה נוצר אוטומטית על ידי Odoo אך אתה יכול לשנות אותו כדי להתאים אישית את "
+"רצף זה נוצר אוטומטית על ידי Platform אך אתה יכול לשנות אותו כדי להתאים אישית את "
 "מספרי המזהים של ההזמנות שלך."
 
 #. module: point_of_sale
@@ -8428,7 +8428,7 @@ msgstr "הזמנה לא מסונכרנת"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr ""
 

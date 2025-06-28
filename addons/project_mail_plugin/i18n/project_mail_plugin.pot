@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Application Server.
 # This file contains the translation of the following modules:
 # 	* project_mail_plugin
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Application Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 08:39+0000\n"

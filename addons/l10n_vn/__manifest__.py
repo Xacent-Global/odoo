@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Vietnam - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -8,7 +8,7 @@
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/vietnam.html',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart, bank information for Vietnam in Odoo.
+This is the module to manage the accounting chart, bank information for Vietnam in Platform.
 ========================================================================================
 
 - This module applies to companies based in Vietnamese Accounting Standard (VAS)

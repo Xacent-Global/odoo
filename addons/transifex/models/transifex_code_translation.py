@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import psycopg2
 
@@ -17,7 +17,7 @@ class TransifexCodeTranslation(models.Model):
     module = fields.Char(help="Module this term belongs to")
     lang = fields.Selection(selection='_get_languages', string='Language', validate=False)
     transifex_url = fields.Char("Transifex URL", compute='_compute_transifex_url',
-                                help="Propose a modification in the official version of Odoo")
+                                help="Propose a modification in the official version of Platform")
 
     def _get_languages(self):
         return self.env['res.lang'].get_installed()

@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Maitê Dietze, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -123,7 +123,7 @@ msgid ""
 "\n"
 "If you are not sure how to fix this, please contact our support."
 msgstr ""
-"Assinatura inválida para a solicitação. Isso pode ocorrer devido a outra conexão com o servidor de ponto de acesso do Odoo. Também pode ocorrer se você tiver duplicado sua base de dados. \n"
+"Assinatura inválida para a solicitação. Isso pode ocorrer devido a outra conexão com o servidor de ponto de acesso do Platform. Também pode ocorrer se você tiver duplicado sua base de dados. \n"
 "\n"
 "Se não tiver certeza de como corrigir isso, entre em contato com nosso suporte."
 

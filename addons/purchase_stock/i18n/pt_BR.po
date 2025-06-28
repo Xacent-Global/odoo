@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* purchase_stock
 # 
 # Translators:
 # Maitê Dietze, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -407,10 +407,10 @@ msgstr "Não recebido"
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_move.py:0
 msgid ""
-"Odoo is not able to generate the anglo saxon entries. The total valuation of"
+"Platform is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
 msgstr ""
-"O Odoo não pode gerar as entradas anglo-saxônicas. A valoração total de %s é"
+"O Platform não pode gerar as entradas anglo-saxônicas. A valoração total de %s é"
 " zero."
 
 #. module: purchase_stock

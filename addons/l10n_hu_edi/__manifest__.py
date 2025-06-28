@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Hungary - E-invoicing',
     'version': '1.0.0',
     'category': 'Accounting/Localizations/EDI',
-    'author': 'DO Tech (OdooTech Zrt.), BDSC Business Consulting Kft. & Odoo S.A.',
+    'author': 'DO Tech (OdooTech Zrt.), BDSC Business Consulting Kft. & Platform.',
     'description': """
 * Electronically report invoices to the NAV (Hungarian Tax Agency) when issuing physical (paper) invoices.
 * Perform the Tax Audit Export (Adóhatósági Ellenőrzési Adatszolgáltatás) in NAV 3.0 format.

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -138,8 +138,8 @@ msgstr "Oprettet den"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_odoo
-msgid "Delete from Odoo"
-msgstr "Slet fra Odoo"
+msgid "Delete from Platform"
+msgstr "Slet fra Platform"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_both
@@ -175,7 +175,7 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 "Due to an Outlook Calendar limitation, recurrence updates must be done directly in Outlook Calendar.\n"
-"If this recurrence is not shown in Outlook Calendar, you must delete it in Odoo Calendar and recreate it in Outlook Calendar."
+"If this recurrence is not shown in Outlook Calendar, you must delete it in Platform Calendar and recreate it in Outlook Calendar."
 msgstr ""
 
 #. module: microsoft_calendar
@@ -195,11 +195,11 @@ msgstr "Begivenhed Gentagelses Regel"
 #. odoo-python
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
-"For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
+"For a correct synchronization between Platform and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %(details)s:\n"
 "%(invalid_events)s"
 msgstr ""
-"For korrekt synkronisering mellem Odoo og Outlook Kalenderen, skal alle deltagere have en email adresse. Dog adlyder visse arrangementer ikke denne betingelse. Så længe arrangementerne ikke er korrekte, vil kalenderne ikke blive synkroniseret.\n"
+"For korrekt synkronisering mellem Platform og Outlook Kalenderen, skal alle deltagere have en email adresse. Dog adlyder visse arrangementer ikke denne betingelse. Så længe arrangementerne ikke er korrekte, vil kalenderne ikke blive synkroniseret.\n"
 "Enten opdater arrangementerne/deltagerne, eller arkiver disse arrangementer %(details)s:\n"
 "%(invalid_events)s"
 
@@ -208,7 +208,7 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 "For having a different organizer in your event, it is necessary that the "
-"organizer have its Odoo Calendar synced with Outlook Calendar."
+"organizer have its Platform Calendar synced with Outlook Calendar."
 msgstr ""
 
 #. module: microsoft_calendar

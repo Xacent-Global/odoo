@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_links
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -234,7 +234,7 @@ msgstr "Mã này đã được sử dụng"
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
 "Those trackers can be used in Google Analytics to track clicks and visitors,"
-" or in Odoo reports to track opportunities and related revenues."
+" or in Platform reports to track opportunities and related revenues."
 msgstr ""
 "Những trình theo dõi đó có thể được sử dụng trong Google Analytics để theo "
 "dõi số nhấp chuột và khách truy cập hoặc trong báo cáo của Hệ thống để theo "

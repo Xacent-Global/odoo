@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Dominican Republic - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -67,12 +67,12 @@ Estructura de Codificación del Catálogo de Cuentas:
 210101 - Proveedores locales
 
 **Ocho dígitos** son para las cuentas de tercer orden (las visualizadas
-en Odoo):
+en Platform):
 1101- Efectivo y Equivalentes
 110101- Caja
 11010101 Caja General
     """,
-    'author': 'Gustavo Valverde - iterativo | Consultores de Odoo (http://iterativo.do)',
+    'author': 'Gustavo Valverde - iterativo | Consultores de Platform (http://iterativo.do)',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',

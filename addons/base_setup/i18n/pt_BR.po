@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Maitê Dietze, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -119,10 +119,10 @@ msgstr "Chaves de API"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"API Keys allow your users to access Odoo with external tools when multi-"
+"API Keys allow your users to access Platform with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"As chaves de API permitem que seus usuários acessem o Odoo com ferramentas "
+"As chaves de API permitem que seus usuários acessem o Platform com ferramentas "
 "externas quando a autenticação multifator estiver ativada."
 
 #. module: base_setup
@@ -436,8 +436,8 @@ msgstr "Autenticação OAuth"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -521,10 +521,10 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"This name will be used for the application when Odoo is installed through "
+"This name will be used for the application when Platform is installed through "
 "the browser."
 msgstr ""
-"Este nome será usado para o aplicativo quando o Odoo for instalado pelo "
+"Este nome será usado para o aplicativo quando o Platform for instalado pelo "
 "navegador."
 
 #. module: base_setup
@@ -576,11 +576,11 @@ msgstr "VoIP"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Platform provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Ao preencher seu catálogo de endereços, o Odoo fornece uma lista de empresas"
+"Ao preencher seu catálogo de endereços, o Platform fornece uma lista de empresas"
 " correspondentes. Ao selecionar um item, os dados e o logotipo da empresa "
 "são preenchidos automaticamente."
 

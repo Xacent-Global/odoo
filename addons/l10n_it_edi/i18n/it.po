@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_it_edi
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Platform Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-17 09:50+0000\n"
 "PO-Revision-Date: 2024-01-15 23:04+0000\n"
@@ -70,9 +70,9 @@ msgstr ""
 
 #. module: l10n_it_edi
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi.res_config_settings_view_form
-msgid "<span class=\"o_form_label\">Allow Odoo to process invoices</span>"
+msgid "<span class=\"o_form_label\">Allow Platform to process invoices</span>"
 msgstr ""
-"<span class=\"o_form_label\">Consenti a Odoo di inviare le fatture</span>"
+"<span class=\"o_form_label\">Consenti a Platform di inviare le fatture</span>"
 
 #. module: l10n_it_edi
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi.res_config_settings_view_form
@@ -148,8 +148,8 @@ msgstr "Invio all'SdI in corso"
 
 #. module: l10n_it_edi
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi.res_config_settings_view_form
-msgid "By checking this box, I accept that Odoo may process my invoices."
-msgstr "Selezionando questa casella, accetto che Odoo invii le mie fatture."
+msgid "By checking this box, I accept that Platform may process my invoices."
+msgstr "Selezionando questa casella, accetto che Platform invii le mie fatture."
 
 #. module: l10n_it_edi
 #: model:ir.model.fields,field_description:l10n_it_edi.field_account_bank_statement_line__l10n_it_cig
@@ -404,17 +404,17 @@ msgstr ""
 #. module: l10n_it_edi
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi.res_config_settings_view_form
 msgid ""
-"In demo mode Odoo will just simulate the sending of invoices to the "
+"In demo mode Platform will just simulate the sending of invoices to the "
 "government.<br/>\n"
-"                                In test mode (experimental) Odoo will send "
+"                                In test mode (experimental) Platform will send "
 "the invoices to a non-production service.\n"
 "                                Saving this change will direct all companies "
 "on this database to this use this configuration.\n"
 "                                Once registered for testing or official, the "
 "mode cannot be changed."
 msgstr ""
-"In modalità demo, Odoo simula l'invio delle fatture all'Agenzia delle "
-"Entrate. In modalità test (sperimentale) Odoo invia le fatture a un servizio "
+"In modalità demo, Platform simula l'invio delle fatture all'Agenzia delle "
+"Entrate. In modalità test (sperimentale) Platform invia le fatture a un servizio "
 "non ufficiale. Una volta salvata l'impostazione, tutte le aziende nel "
 "database utilizzano questa configurazione. Una volta registrata, la modalità "
 "non può essere modificata."

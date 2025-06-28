@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* sale_pdf_quote_builder
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -516,7 +516,7 @@ msgstr ""
 "                        yrityksestäsi, tuotteistasi ja palveluistasi. <br/>\n"
 "                        Tarjouksien PDF-tiedosto rakennetaan kokoamalla yhteen ylätunnistesivut, tuotekuvaukset,\n"
 "                        tarjouksen yksityiskohdat ja sitten alatunnisteen sivut. <br/>\n"
-"                        Jos dokumentti tyhjä, Odoo käyttää yrityksen asetuksissa määriteltyjä sivuja. <br/>"
+"                        Jos dokumentti tyhjä, Platform käyttää yrityksen asetuksissa määriteltyjä sivuja. <br/>"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,name:sale_pdf_quote_builder.action_report_saleorder_raw

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Application Server.
 # This file contains the translation of the following modules:
 # 	* digest
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Application Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-26 08:55+0000\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"odoo_link_text\">Odoo</span>"
+msgid "<span class=\"odoo_link_text\">Application</span>"
 msgstr ""
 
 #. module: digest
@@ -313,7 +313,7 @@ msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Odoo Mobile"
+msgid "Application Mobile"
 msgstr ""
 
 #. module: digest
@@ -354,7 +354,7 @@ msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Run your business from anywhere with <b>Odoo Mobile</b>."
+msgid "Run your business from anywhere with <b>Application Mobile</b>."
 msgstr ""
 
 #. module: digest
@@ -390,7 +390,7 @@ msgstr ""
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Odoo"
+msgid "Tip: A calculator in Application"
 msgstr ""
 
 #. module: digest
@@ -427,7 +427,7 @@ msgstr ""
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Odoo"
+msgid "Tip: A calculator in Application"
 msgstr ""
 
 #. module: digest
@@ -523,7 +523,7 @@ msgstr ""
 
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
-msgid "Your Odoo Periodic Digest"
+msgid "Your Application Periodic Digest"
 msgstr ""
 
 #. module: digest

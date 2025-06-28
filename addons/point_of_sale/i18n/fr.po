@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -7,12 +7,12 @@
 # Jolien De Paepe, 2024
 # Tiffany Chang, 2024
 # Adrien Dieudonné <adr@odoo.com>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -4136,11 +4136,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
 msgstr ""
 "Assurez-vous qu'un abonnement IoT Box est associé à votre base de données "
-"Odoo, puis redémarrez l'IoT Box."
+"Platform, puis redémarrez l'IoT Box."
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -4633,13 +4633,13 @@ msgstr "Nombre de transactions :"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
-msgstr "Erreur de serveur Odoo"
+msgid "Platform Server Error"
+msgstr "Erreur de serveur Platform"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
-msgstr "Baskets Odoo"
+msgid "Platform Sneakers"
+msgstr "Baskets Platform"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5358,10 +5358,10 @@ msgstr "Veuillez vérifier si l'IoT Box est toujours connectée."
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "Veuillez vérifier si l'imprimante est toujours connectée.\n"
-"Certains navigateurs n'autorisent pas les appels HTTP depuis des sites web vers des appareils du réseau (pour des raisons de sécurité). Si c'est le cas, vous devrez suivre la documentation d'Odoo relative au 'Certificat auto-signé pour les imprimantes ePOS' et à la 'Connexion sécurisée (HTTPS)' pour résoudre le problème."
+"Certains navigateurs n'autorisent pas les appels HTTP depuis des sites web vers des appareils du réseau (pour des raisons de sécurité). Si c'est le cas, vous devrez suivre la documentation d'Platform relative au 'Certificat auto-signé pour les imprimantes ePOS' et à la 'Connexion sécurisée (HTTPS)' pour résoudre le problème."
 
 #. module: point_of_sale
 #. odoo-python
@@ -5823,8 +5823,8 @@ msgstr "Généré par"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
-msgstr "Généré par Odoo"
+msgid "Powered by Platform"
+msgstr "Généré par Platform"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5992,10 +5992,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
+"invoice anytime, from Platform's portal."
 msgstr ""
 "Imprimez les informations sur le reçu pour permettre au client d’accéder "
-"facilement à la facture à tout moment, depuis le portail Odoo."
+"facilement à la facture à tout moment, depuis le portail Platform."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -8298,10 +8298,10 @@ msgstr "Ce produit est utilisé comme référence sur les tickets des clients."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Cette séquence est créée automatiquement par Odoo, mais vous pouvez la "
+"Cette séquence est créée automatiquement par Platform, mais vous pouvez la "
 "modifier pour personnaliser les numéros de référence de vos lignes de "
 "commande."
 
@@ -8309,10 +8309,10 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Cette séquence est créée automatiquement par Odoo, mais vous pouvez la "
+"Cette séquence est créée automatiquement par Platform, mais vous pouvez la "
 "modifier pour personnaliser les numéros de référence de vos commandes."
 
 #. module: point_of_sale
@@ -8719,10 +8719,10 @@ msgstr "Commande non synchronisée"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr ""
-"Jusqu'à ce que la connexion soit rétablie, Odoo Point de Vente fonctionnera "
+"Jusqu'à ce que la connexion soit rétablie, Platform Point de Vente fonctionnera "
 "avec des fonctionnalités limitées."
 
 #. module: point_of_sale

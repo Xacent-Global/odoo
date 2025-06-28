@@ -23,7 +23,7 @@ test("A link in a dashboard should be clickable", async () => {
     const data = {
         sheets: [
             {
-                cells: { A1: { content: "[Odoo](https://odoo.com)" } },
+                cells: { A1: { content: "[Platform](https://odoo.com)" } },
             },
         ],
     };

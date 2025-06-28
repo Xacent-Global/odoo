@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
 # Translators:
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Tony Ng, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3229,13 +3229,13 @@ msgstr "出現"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
+msgid "Platform Certification"
 msgstr "odoo認證"
 
 #. module: survey
@@ -5233,9 +5233,9 @@ msgstr "網站溝通記錄"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
-msgstr "歡迎參加本次 Odoo 認證測驗。我們會由 3 道題目的題庫中，隨機抽取 2 道問題給你。"
+msgstr "歡迎參加本次 Platform 認證測驗。我們會由 3 道題目的題庫中，隨機抽取 2 道問題給你。"
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_5
@@ -5275,8 +5275,8 @@ msgstr "\"ODOO\"代表什麼？"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "要在 Odoo 調查合格，需要達至甚麼要求？"
+msgid "What does one need to get to pass an Platform Survey?"
+msgstr "要在 Platform 調查合格，需要達至甚麼要求？"
 
 #. module: survey
 #. odoo-python
@@ -5338,8 +5338,8 @@ msgstr "你的出生日期是？"
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "你每次選擇答案時，Odoo 都會儲存你的選擇。"
+msgid "Whenever you pick an answer, Platform saves it for you."
+msgstr "你每次選擇答案時，Platform 都會儲存你的選擇。"
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q3

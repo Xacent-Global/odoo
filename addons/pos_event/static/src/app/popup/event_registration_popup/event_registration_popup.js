@@ -1,4 +1,4 @@
-// Part of Odoo. See LICENSE file for full copyright and licensing details.
+// Part of Platform. See LICENSE file for full copyright and licensing details.
 import { Dialog } from "@web/core/dialog/dialog";
 import { Component, useState } from "@odoo/owl";
 import { usePos } from "@point_of_sale/app/store/pos_hook";

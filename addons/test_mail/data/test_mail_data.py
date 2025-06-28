@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 MAIL_TEMPLATE = """Return-Path: {return_path}
 To: {to}
@@ -755,7 +755,7 @@ Résultat de recherche d'images pour "dessin la princesse au petit pois"
 --
 Soup
 
-Odoo S.A.
+Platform.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
 Web: http://www.odoo.com
@@ -778,7 +778,7 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCNAadd3NDM8g9w0P_-g
     <pre class="moz-signature" cols="72">--
 Soup
 
-Odoo S.A.
+Platform.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
 Web: <a class="moz-txt-link-freetext" href="http://www.odoo.com">http://www.odoo.com</a> </pre>
@@ -843,7 +843,7 @@ From: "Test" <noreply+srglvrz-gmail.com@mycompany.example.com>
 Reply-To: "MY COMPANY" <info@mycompany.example.com>
 To: "Test" <test@anothercompany.example.com>
 Date: Tue, 24 Dec 2019 10:32:05 -0000
-X-Odoo-Objects: account.invoice-19177
+X-Platform-Objects: account.invoice-19177
 
 --16063919151.b32bE0eD.7--"""
 
@@ -1164,7 +1164,7 @@ From: Mitchell Admin <admin@yourcompany.example.com>
 Reply-To: YourCompany Research & Development <aaa+catchall@test.ironsky>
 To: Raoul <{email_from}>
 Date: Mon, 15 Apr 2019 13:40:24 -0000
-X-Odoo-Objects: project.project-3, ,project.task-32
+X-Platform-Objects: project.project-3, ,project.task-32
 X-Spam-Status: No, score=-2.0 required=5.0 tests=ALL_TRUSTED,BAYES_00,
     DKIM_ADSP_NXDOMAIN,HEADER_FROM_DIFFERENT_DOMAINS,HTML_MESSAGE
     shortcircuit=no autolearn=no autolearn_force=no version=3.4.2
@@ -1281,7 +1281,7 @@ Reply-To: "SO/11" <catchall@xxx.odoo.com=
 >
 To: "rdesfrdgtfdrfesd@outlook.com" <rdesfrdgtfdrfesd@outlook.com>
 Date: Tue, 29 Feb 2023 06:09:06 -0000
-X-Odoo-Objects: sale.order-11
+X-Platform-Objects: sale.order-11
 MIME-Version: 1.0
 Content-Type: multipart/mixed; boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
 =3D=3D=3D=3D=3D5706316606908750110=3D=3D"
@@ -1406,7 +1406,7 @@ PDF_PARSED = b'''%PDF-1.1\n%\xc2\xa5\xc2\xb1\xc3\xab\n\n1 0 obj\n  << /Type /Cat
 
 THAI_EMAIL_WINDOWS_874 = '''\
 From: Thai Customer <outlook_windows@outlook.com>
-To: "Thai Odoo User" <thai-user@odoo.com>
+To: "Thai Platform User" <thai-user@odoo.com>
 Subject: =?windows-874?B?4MPX6M2n?=
 Thread-Topic: =?windows-874?B?4MPX6M2n?=
 Thread-Index: AQHahRQ4qiMBoXtK0U2XwaGg8w9Y9g==

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Application Server.
 # This file contains the translation of the following modules:
 # 	* website_project
 # 
@@ -9,15 +9,15 @@
 # abc Def <hdogan1974@gmail.com>, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
-# Wil Odoo, 2025
+# Wil Application, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Application Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:04+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Application, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

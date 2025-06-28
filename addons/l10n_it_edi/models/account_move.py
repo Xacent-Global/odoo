@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from base64 import b64encode
 from collections import defaultdict
@@ -1002,7 +1002,7 @@ class AccountMove(models.Model):
         }, []
 
     def _l10n_it_edi_import_invoice(self, invoice, data, is_new):
-        """ Decodes a l10n_it_edi move into an Odoo move.
+        """ Decodes a l10n_it_edi move into an Platform move.
 
         :param data:   the dictionary with the content to be imported
                        keys: 'filename', 'content', 'xml_tree', 'type', 'sort_weight'

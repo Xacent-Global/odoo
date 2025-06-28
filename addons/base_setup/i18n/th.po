@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Rasareeyar Lappiam, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -118,10 +118,10 @@ msgstr "คีย์ API"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"API Keys allow your users to access Odoo with external tools when multi-"
+"API Keys allow your users to access Platform with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"คีย์ API อนุญาตให้ผู้ใช้ของคุณเข้าถึง Odoo ด้วยเครื่องมือภายนอก "
+"คีย์ API อนุญาตให้ผู้ใช้ของคุณเข้าถึง Platform ด้วยเครื่องมือภายนอก "
 "เมื่อเปิดใช้งานการยืนยันแบบหลายขั้นตอน"
 
 #. module: base_setup
@@ -430,8 +430,8 @@ msgstr "การรับรองความถูกต้อง OAuth"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -515,9 +515,9 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"This name will be used for the application when Odoo is installed through "
+"This name will be used for the application when Platform is installed through "
 "the browser."
-msgstr "ชื่อนี้จะใช้สำหรับแอปพลิเคชันเมื่อมีการติดตั้ง Odoo ผ่านเบราว์เซอร์"
+msgstr "ชื่อนี้จะใช้สำหรับแอปพลิเคชันเมื่อมีการติดตั้ง Platform ผ่านเบราว์เซอร์"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
@@ -568,11 +568,11 @@ msgstr "VoIP"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Platform provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"เมื่อใส่สมุดที่อยู่ของคุณ Odoo จะให้รายชื่อ บริษัท ที่ตรงกัน "
+"เมื่อใส่สมุดที่อยู่ของคุณ Platform จะให้รายชื่อ บริษัท ที่ตรงกัน "
 "เมื่อเลือกหนึ่งรายการข้อมูล บริษัท และโลโก้จะถูกเติมอัตโนมัติ"
 
 #. module: base_setup

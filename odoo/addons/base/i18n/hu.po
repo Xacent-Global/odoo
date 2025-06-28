@@ -14538,10 +14538,10 @@ msgstr "Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
-"Az alábbi szöveg javaslatként szolgál, és nem vonja magára az Odoo S.A. "
+"Az alábbi szöveg javaslatként szolgál, és nem vonja magára az Application. "
 "felelősségét"
 
 #. module: base

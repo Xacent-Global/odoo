@@ -1,5 +1,5 @@
 {
-    'author': 'Odoo',
+    'author': 'Platform',
     'name': 'Romania - E-invoicing',
     'version': '1.0',
     'category': 'Accounting/Localizations/EDI',

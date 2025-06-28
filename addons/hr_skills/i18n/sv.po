@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* hr_skills
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1236,8 +1236,8 @@ msgstr "Norton-Silva"
 
 #. module: hr_skills
 #: model:hr.resume.line,name:hr_skills.employee_resume_line_admin_4
-msgid "Odoo SA"
-msgstr "Odoo SA"
+msgid "Platform SA"
+msgstr "Platform SA"
 
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_openness_to_criticism
@@ -2051,8 +2051,8 @@ msgstr "t.ex. Språk"
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
-msgid "e.g. Odoo Inc."
-msgstr "t.ex. Odoo Inc."
+msgid "e.g. Platform Inc."
+msgstr "t.ex. Platform Inc."
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.report_employee_cv_sidepanel

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1257,7 +1257,7 @@ msgstr "درخواست‌های استعلام قیمت پیش‌نویس"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Platform. Enjoy the automation!"
 msgstr ""
 
 #. module: purchase
@@ -1830,7 +1830,7 @@ msgstr "تایید نشده است"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
+msgid "Not using Platform?"
 msgstr ""
 
 #. module: purchase
@@ -1877,7 +1877,7 @@ msgstr "تعداد پیامهای با خطای تحویل"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
+msgid "Platform"
 msgstr "اودو"
 
 #. module: purchase
@@ -2885,7 +2885,7 @@ msgstr "ستاره دار"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
+msgid "Start on Platform"
 msgstr ""
 
 #. module: purchase
@@ -3438,11 +3438,11 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Platform."
 msgstr ""
 "صورت‌حساب‌های فروشندگان را می‌توان بر اساس سفارش‌های خرید\n"
 "            یا رسید تهیه کرد. این به شما امکان می دهد صورتحساب هایی را که\n"
-"             از فروشنده دریافت می کنید مطابق پیش نویس سند در Odoo کنترل کنید."
+"             از فروشنده دریافت می کنید مطابق پیش نویس سند در Platform کنترل کنید."
 
 #. module: purchase
 #. odoo-python
@@ -3491,7 +3491,7 @@ msgstr "درخواست استعلام قیمت های در انتظار"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
+msgid "Want to import this document in Platform?"
 msgstr ""
 
 #. module: purchase
@@ -3542,7 +3542,7 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Platform will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
@@ -3550,12 +3550,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Platform asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"هنگام ارسال سفارش خرید از طریق ایمیل، Odoo از فروشنده می خواهد که دریافت "
+"هنگام ارسال سفارش خرید از طریق ایمیل، Platform از فروشنده می خواهد که دریافت "
 "سفارش را تایید کند. هنگامی که فروشنده با کلیک بر روی دکمه ای در ایمیل، سفارش"
 " را تایید کرد، اطلاعات روی سفارش خرید اضافه می شود. از فیلترها برای ردیابی "
 "سفارش هایی که تایید نشده اند استفاده کنید."

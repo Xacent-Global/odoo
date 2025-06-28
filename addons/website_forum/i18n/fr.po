@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3382,10 +3382,10 @@ msgstr "La réponse acceptée est supprimée"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to Platform."
 msgstr ""
 "Le but de ce site est de créer une base de connaissances pertinente qui "
-"répond aux questions liées à Odoo."
+"répond aux questions liées à Platform."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -4073,9 +4073,9 @@ msgstr "ici"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize Platform to specific business needs,"
 msgstr ""
-"comment configurer ou personnaliser Odoo aux besoins spécifiques de "
+"comment configurer ou personnaliser Platform aux besoins spécifiques de "
 "l'entreprise,"
 
 #. module: website_forum
@@ -4087,8 +4087,8 @@ msgstr "comment développer des modules pour vos propres besoins,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "Comment installer Odoo pour une infrastructure spécifique,"
+msgid "how to install Platform on a specific infrastructure,"
+msgstr "Comment installer Platform pour une infrastructure spécifique,"
 
 #. module: website_forum
 #. odoo-javascript
@@ -4193,8 +4193,8 @@ msgstr "post"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "questions spécifiques sur les services, offres,... d'Odoo."
+msgid "specific questions about Platform service offers, etc."
+msgstr "questions spécifiques sur les services, offres,... d'Platform."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4245,9 +4245,9 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Platform for a specific business need,"
 msgstr ""
-"quelle est la meilleure manière d'utiliser Odoo pour un besoin spécifique de"
+"quelle est la meilleure manière d'utiliser Platform pour un besoin spécifique de"
 " l'entreprise,"
 
 #. module: website_forum

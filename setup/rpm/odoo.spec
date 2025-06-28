@@ -3,7 +3,7 @@
 %global unmangled_version %{version}
 %global __requires_exclude ^.*odoo/addons/mail/static/scripts/odoo-mailgate.py$
 
-Summary: Odoo Server
+Summary: Platform Server
 Name: %{name}
 Version: %{version}
 Release: %{release}
@@ -13,14 +13,14 @@ Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
-Vendor: Odoo S.A. <info@odoo.com>
+Vendor: Platform. <info@odoo.com>
 Requires: sassc
 BuildRequires: python3-devel
 BuildRequires: pyproject-rpm-macros
 Url: https://www.odoo.com
 
 %description
-Odoo is a complete ERP and CRM. The main features are accounting (analytic
+Platform is a complete ERP and CRM. The main features are accounting (analytic
 and financial), stock management, sales and purchases management, tasks
 automation, marketing campaigns, help desk, POS, etc. Technical features include
 a distributed server, an object database, a dynamic GUI,
@@ -88,7 +88,7 @@ touch $INIT_FILE
 chmod 0700 $INIT_FILE
 cat << EOF > $INIT_FILE
 [Unit]
-Description=Odoo Open Source ERP and CRM
+Description=Platform Open Source ERP and CRM
 After=network.target
 
 [Service]

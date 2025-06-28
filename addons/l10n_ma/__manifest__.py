@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Morocco - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ma'],
-    'author': 'Odoo SA',
+    'author': 'Platform SA',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Morocco.

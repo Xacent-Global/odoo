@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Marta Wacławek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -115,10 +115,10 @@ msgstr "Klucze API"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"API Keys allow your users to access Odoo with external tools when multi-"
+"API Keys allow your users to access Platform with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"Klucze API umożliwiają użytkownikom dostęp do Odoo za pomocą zewnętrznych "
+"Klucze API umożliwiają użytkownikom dostęp do Platform za pomocą zewnętrznych "
 "narzędzi, gdy włączone jest uwierzytelnianie wieloskładnikowe."
 
 #. module: base_setup
@@ -423,8 +423,8 @@ msgstr "Uwierzytelnianie OAuth"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -508,7 +508,7 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"This name will be used for the application when Odoo is installed through "
+"This name will be used for the application when Platform is installed through "
 "the browser."
 msgstr ""
 
@@ -561,11 +561,11 @@ msgstr "VoIP"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Platform provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Podczas wypełniania książki adresowej, Odoo zapewnia listę sugerowanych "
+"Podczas wypełniania książki adresowej, Platform zapewnia listę sugerowanych "
 "firm. Przy wyborze odpowiedniego pola, informacje o firmie oraz logo będą "
 "automatycznie uzupełnione. "
 

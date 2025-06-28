@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
 # Translators:
 # pezzin <christian.pezzin@gmail.com>, 2024
 # Marianna Ciofani, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3315,14 +3315,14 @@ msgstr "Occorrenza"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
-msgstr "Certificazione Odoo"
+msgid "Platform Certification"
+msgstr "Certificazione Platform"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -5382,10 +5382,10 @@ msgstr "Cronologia comunicazioni sito web"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
 msgstr ""
-"Benvenuto in questa certificazione Odoo. Riceverai 2 domande casuali da un "
+"Benvenuto in questa certificazione Platform. Riceverai 2 domande casuali da un "
 "gruppo di 3."
 
 #. module: survey
@@ -5430,8 +5430,8 @@ msgstr "Qual è il significato dell'acronimo \"ODOO\"?"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "Qual è il punteggio da ottenere per superare un sondaggio Odoo?"
+msgid "What does one need to get to pass an Platform Survey?"
+msgstr "Qual è il punteggio da ottenere per superare un sondaggio Platform?"
 
 #. module: survey
 #. odoo-python
@@ -5493,8 +5493,8 @@ msgstr "Qual è la tua data di nascita?"
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "Ogni volta che scegli una risposta, Odoo la salva per te."
+msgid "Whenever you pick an answer, Platform saves it for you."
+msgstr "Ogni volta che scegli una risposta, Platform la salva per te."
 
 #. module: survey
 #: model:survey.question,title:survey.survey_demo_quiz_p1_q3

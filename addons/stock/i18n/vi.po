@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # Duy BQ <duybq86@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1570,11 +1570,11 @@ msgstr "Trước ngày đã lên lịch"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
 msgstr ""
 "Văn bản dưới đây được xem như một gợi ý và không liên quan đến trách nhiệm "
-"của Odoo S.A."
+"của Platform."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block
@@ -2678,10 +2678,10 @@ msgstr "Tuyến mặc định của kho hàng"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo automatically creates requests for "
+"Define a minimum stock rule so that Platform automatically creates requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Xác định quy tắc tồn kho tối thiểu để Odoo tự động tạo yêu cầu báo giá hoặc "
+"Xác định quy tắc tồn kho tối thiểu để Platform tự động tạo yêu cầu báo giá hoặc "
 "lệnh sản xuất đã xác nhận để tái cung ứng hàng tồn kho cho bạn."
 
 #. module: stock
@@ -2693,14 +2693,14 @@ msgstr "Xác định kho hàng mới"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Platform is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Xác định các vị trí của bạn để nắm bắt cấu trúc và tổ chức\n"
-"            kho hàng. Odoo có thể quản lý các vị trí thực\n"
+"            kho hàng. Platform có thể quản lý các vị trí thực\n"
 "            (kho hàng, kệ, thùng,...), các vị trí đối tác (khách hàng,\n"
 "            nhà cung cấp) và các vị trí ảo là đối ứng của\n"
 "            hoạt động tồn kho như lệnh sản xuất, tiêu thụ,\n"
@@ -3298,7 +3298,7 @@ msgstr "Vị trí trống"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the Platform barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
@@ -3324,15 +3324,15 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Platform moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Platform will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Trong Odoo, mọi hoạt động tồn kho điều chuyển hàng hoá từ vị trí này\n"
+"Trong Platform, mọi hoạt động tồn kho điều chuyển hàng hoá từ vị trí này\n"
 "            sang vị trí khác. Ví dụ, nếu bạn nhận hàng từ một nhà cung cấp,\n"
-"            Odoo sẽ điều chuyển hàng hoá từ Vị trí nhà cung cấp sang Vị trí\n"
+"            Platform sẽ điều chuyển hàng hoá từ Vị trí nhà cung cấp sang Vị trí\n"
 "            tồn kho của bạn. Mỗi báo cáo có thể được lập cho từng vị trí thực,\n"
 "            vị trí đối tác hay vị trí ảo."
 
@@ -4038,82 +4038,82 @@ msgstr "Nếu cùng một số sê-ri nằm trong Quant khác nhau"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_delivery_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the delivery slip "
+"If this checkbox is ticked, Platform will automatically print the delivery slip "
 "of a picking when it is validated."
 msgstr ""
-"Nếu đánh dấu ô này, Odoo sẽ tự động in phiếu giao hàng của phiếu xuất kho "
+"Nếu đánh dấu ô này, Platform sẽ tự động in phiếu giao hàng của phiếu xuất kho "
 "khi nó được xác thực."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_lot_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN labels "
+"If this checkbox is ticked, Platform will automatically print the lot/SN labels "
 "of a picking when it is validated."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in nhãn số lô/sê-ri của phiếu "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in nhãn số lô/sê-ri của phiếu "
 "xuất kho khi nó được xác thực."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_package_label
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the package label "
+"If this checkbox is ticked, Platform will automatically print the package label "
 "when \"Put in Pack\" button is used."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in nhãn kiện hàng khi nút \"Đóng "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in nhãn kiện hàng khi nút \"Đóng "
 "hàng thành kiện\" được sử dụng."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_packages
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the packages and "
+"If this checkbox is ticked, Platform will automatically print the packages and "
 "their contents of a picking when it is validated."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in các kiện hàng và thành phần "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in các kiện hàng và thành phần "
 "của chúng trong phiếu xuất kho khi nó được xác thực."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a picking when it is validated."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in nhãn sản phẩm của phiếu xuất "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in nhãn sản phẩm của phiếu xuất "
 "kho khi nó được xác thực."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report labels of a picking when it is validated."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in nhãn báo cáo nhập kho của "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in nhãn báo cáo nhập kho của "
 "phiếu xuất kho khi nó được xác thực."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report of a picking when it is validated and has assigned moves."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in báo cáo nhập kho của phiếu "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in báo cáo nhập kho của phiếu "
 "xuất kho khi nó được xác thực và có điều chuyển đã chỉ định."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the return slip of"
+"If this checkbox is ticked, Platform will automatically print the return slip of"
 " a picking when it is validated."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động in phiếu trả hàng của phiếu xuất "
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động in phiếu trả hàng của phiếu xuất "
 "kho khi nó được xác thực."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_show_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically show the reception "
+"If this checkbox is ticked, Platform will automatically show the reception "
 "report (if there are moves to allocate to) when validating."
 msgstr ""
-"Nếu đánh dấu hộp kiểm này, Odoo sẽ tự động hiển thị báo cáo nhập kho (nếu có"
+"Nếu đánh dấu hộp kiểm này, Platform sẽ tự động hiển thị báo cáo nhập kho (nếu có"
 " các điều chuyển cần phân bổ) khi xác nhận."
 
 #. module: stock
@@ -4137,7 +4137,7 @@ msgid ""
 "If this is checked only, it will suppose you want to create new Lots/Serial "
 "Numbers, so you can provide them in a text field. "
 msgstr ""
-"Nếu chỉ chọn ở đây, Odoo sẽ tin rằng bạn muốn tạo số lô/sê-ri mới, để bạn có"
+"Nếu chỉ chọn ở đây, Platform sẽ tin rằng bạn muốn tạo số lô/sê-ri mới, để bạn có"
 " thể điền chúng trong một trường văn bản."
 
 #. module: stock
@@ -5875,12 +5875,12 @@ msgstr "Tháng 10"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
-"Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
+"Platform opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 "                                        <br/>"
 msgstr ""
-"Odoo mở bản xem trước PDF theo mặc định. Nếu bạn (chỉ dành cho người dùng Enterprise) muốn in ngay lập tức,\n"
+"Platform mở bản xem trước PDF theo mặc định. Nếu bạn (chỉ dành cho người dùng Enterprise) muốn in ngay lập tức,\n"
 "                                         hãy cài đặt Ứng dụng IoT trên một máy tính nằm trong cùng mạng cục bộ với\n"
 "                                         thiết bị mã vạch, và cấu hình định tuyến báo cáo.\n"
 "                                         <br/>"
@@ -10787,21 +10787,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity above of this"
+" Platform generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
 msgstr ""
 "Khi tồn kho ảo xuống dưới số lượng tối thiểu được chỉ định cho trường này, "
-"Odoo sẽ tạo một phiếu mua sắm để đưa số lượng dự báo lên cao hơn Số lượng "
+"Platform sẽ tạo một phiếu mua sắm để đưa số lượng dự báo lên cao hơn Số lượng "
 "tối thiểu này."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Platform generates a "
 "procurement to bring the forecasted quantity up to (or near to) the Max "
 "Quantity specified for this field (or to Min Quantity, whichever is bigger)."
 msgstr ""
-"Khi tồn kho ảo xuống dưới số lượng tối thiểu, Odoo sẽ tạo một phiếu mua sắm "
+"Khi tồn kho ảo xuống dưới số lượng tối thiểu, Platform sẽ tạo một phiếu mua sắm "
 "để đưa số lượng dự báo lên đến (hoặc gần đến) Số lượng tối đa được chỉ định "
 "cho trường này (hoặc đến Số lượng tối thiểu, tùy theo giá trị nào lớn hơn)."
 

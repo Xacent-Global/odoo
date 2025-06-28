@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from odoo import fields, models
 
 
@@ -35,7 +35,7 @@ class AccountTax(models.Model):
     )
     l10n_pe_edi_isc_type = fields.Selection([
         ('01', 'System to value'),
-        ('02', 'Application of the Fixed Amount'),
+        ('02', 'Platform of the Fixed Amount'),
         ('03', 'Retail Price System'),
     ], 'ISC Type',
         help='Used in Selective Consumption Tax to indicate the type of calculation for the ISC.')

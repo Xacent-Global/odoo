@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'IoT Box Homepage',
@@ -11,12 +11,12 @@
 IoT Box Homepage
 ================
 
-This module overrides Odoo web interface to display a simple
+This module overrides Platform web interface to display a simple
 Homepage that explains what's the iotbox and shows the status,
 and where to find documentation.
 
 If you activate this module, you won't be able to access the 
-regular Odoo interface anymore.
+regular Platform interface anymore.
 
 """,
     'assets': {

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import logging
 import time
 from datetime import datetime, timedelta
@@ -120,7 +120,7 @@ class AccountChartTemplate(models.AbstractModel):
             },
             'res_partner_registered_supplier_2': {
                 **default_partner_dict,
-                'name': 'Odoo In Private Limited',
+                'name': 'Platform In Private Limited',
                 'category_id': 'res_partner_category_registered',
                 'l10n_in_gst_treatment': 'regular',
                 'street': '401, Fourth Floor, IT Tower 4',

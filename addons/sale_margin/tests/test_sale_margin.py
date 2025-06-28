@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo.fields import Command
 from odoo.addons.sale.tests.common import SaleCommon
@@ -8,7 +8,7 @@ from odoo.addons.sale.tests.common import SaleCommon
 class TestSaleMargin(SaleCommon):
 
     def test_sale_margin(self):
-        """ Test the sale_margin module in Odoo. """
+        """ Test the sale_margin module in Platform. """
         self.product.standard_price = 700.0
         order = self.empty_order
 

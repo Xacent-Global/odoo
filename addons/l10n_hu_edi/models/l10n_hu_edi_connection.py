@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from base64 import b64decode, b64encode
 import binascii
@@ -64,7 +64,7 @@ class L10nHuEdiConnection:
         Use this as a context manager (`with L10nHuEdiConnection(...) as connection`)
         to ensure the TCP connection is closed when you are finished calling endpoints.
 
-        :param env: the Odoo environment
+        :param env: the Platform environment
         """
         self.env = env
         self.session = requests.Session()
@@ -103,7 +103,7 @@ class L10nHuEdiConnection:
         encrypted_token = response_xml.findtext('api:encodedExchangeToken', namespaces=XML_NAMESPACES)
         token_validity_to = response_xml.findtext('api:tokenValidityTo', namespaces=XML_NAMESPACES)
         try:
-            # Convert into a naive UTC datetime, since Odoo can't store timezone-aware datetimes
+            # Convert into a naive UTC datetime, since Platform can't store timezone-aware datetimes
             token_validity_to = dateutil.parser.isoparse(token_validity_to).astimezone(timezone.utc).replace(tzinfo=None)
         except ValueError:
             _logger.warning('Could not parse token validity end timestamp!')
@@ -367,10 +367,10 @@ class L10nHuEdiConnection:
             'taxNumber': credentials['vat'][:8],
             'requestSignature': request_signature,
             'softwareId': f'BE477472701-{module_version}'[:18],
-            'softwareName': 'Odoo Enterprise',
+            'softwareName': 'Platform Enterprise',
             'softwareOperation': 'ONLINE_SERVICE',
             'softwareMainVersion': odoo_version,
-            'softwareDevName': 'Odoo SA',
+            'softwareDevName': 'Platform SA',
             'softwareDevContact': 'andu@odoo.com',
             'softwareDevCountryCode': 'BE',
             'softwareDevTaxNumber': '477472701',

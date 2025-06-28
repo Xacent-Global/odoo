@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 {
     "name": "Zambia - Accounting",
@@ -7,7 +7,7 @@
     "category": "Accounting/Localizations/Account Charts",
     "license": "LGPL-3",
     "description": """
-This is the basic Zambian localization necessary to run Odoo in ZM:
+This is the basic Zambian localization necessary to run Platform in ZM:
 ================================================================================
     - Chart of Accounts
     - Taxes

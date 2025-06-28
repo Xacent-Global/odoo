@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment_razorpay
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -171,10 +171,10 @@ msgstr "De transactie is niet gekoppeld aan een token."
 #. module: payment_razorpay
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
-msgid "Transactions processed by Razorpay can't be manually voided from Odoo."
+msgid "Transactions processed by Razorpay can't be manually voided from Platform."
 msgstr ""
 "De door Razorpay behandelde transacties kunnen niet handmatig ongedaan "
-"worden gemaakt vanuit Odoo."
+"worden gemaakt vanuit Platform."
 
 #. module: payment_razorpay
 #: model_terms:ir.ui.view,arch_db:payment_razorpay.payment_provider_form_razorpay

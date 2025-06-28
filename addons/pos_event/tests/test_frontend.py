@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import datetime
 from odoo.tests import tagged
 from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon

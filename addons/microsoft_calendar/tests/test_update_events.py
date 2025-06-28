@@ -26,7 +26,7 @@ class TestUpdateEvents(TestCommon):
         self.create_events_for_tests()
 
     # -------------------------------------------------------------------------------
-    # Update from Odoo to Outlook
+    # Update from Platform to Outlook
     # -------------------------------------------------------------------------------
 
     # ------ Simple event ------
@@ -34,7 +34,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_odoo_simple_event_without_sync(self, mock_patch):
         """
-        Update an Odoo event without Outlook sync enabled
+        Update an Platform event without Outlook sync enabled
         """
 
         # arrange
@@ -53,7 +53,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_simple_event_from_odoo(self, mock_patch):
         """
-        Update an Odoo event with Outlook sync enabled
+        Update an Platform event with Outlook sync enabled
         """
 
         # arrange
@@ -77,7 +77,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_simple_event_from_odoo_attendee_calendar(self, mock_patch):
         """
-        Update an Odoo event from the attendee calendar.
+        Update an Platform event from the attendee calendar.
         """
 
         # arrange
@@ -103,7 +103,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_name_of_one_event_of_recurrence_from_odoo(self, mock_patch):
         """
-        Update one Odoo event name from a recurrence from the organizer calendar.
+        Update one Platform event name from a recurrence from the organizer calendar.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
             return
@@ -137,7 +137,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_start_of_one_event_of_recurrence_from_odoo(self, mock_patch):
         """
-        Update one Odoo event start date from a recurrence from the organizer calendar.
+        Update one Platform event start date from a recurrence from the organizer calendar.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
             return
@@ -184,7 +184,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_start_of_one_event_of_recurrence_from_odoo_with_overlap(self, mock_patch):
         """
-        Update one Odoo event start date from a recurrence from the organizer calendar, in order to
+        Update one Platform event start date from a recurrence from the organizer calendar, in order to
         overlap another existing event.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
@@ -208,7 +208,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_name_of_one_event_of_recurrence_from_odoo_attendee_calendar(self, mock_patch):
         """
-        Update one Odoo event name from a recurrence from the atendee calendar.
+        Update one Platform event name from a recurrence from the atendee calendar.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
             return
@@ -244,7 +244,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event name and future events from a recurrence from the organizer calendar.
+        Update a Platform event name and future events from a recurrence from the organizer calendar.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
             return
@@ -284,7 +284,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event start date and future events from a recurrence from the organizer calendar.
+        Update a Platform event start date and future events from a recurrence from the organizer calendar.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
             return
@@ -361,7 +361,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event start date and future events from a recurrence from the organizer calendar,
+        Update a Platform event start date and future events from a recurrence from the organizer calendar,
         overlapping an existing event.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
@@ -434,7 +434,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event name and future events from a recurrence from the attendee calendar.
+        Update a Platform event name and future events from a recurrence from the attendee calendar.
         """
         if not self.sync_odoo_recurrences_with_outlook_feature():
             return
@@ -661,7 +661,7 @@ class TestUpdateEvents(TestCommon):
             )
 
     # -------------------------------------------------------------------------------
-    # Update from Outlook to Odoo
+    # Update from Outlook to Platform
     # -------------------------------------------------------------------------------
 
     @freeze_time('2021-09-22')
@@ -1298,7 +1298,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_forbid_simple_event_become_recurrence_sync_on(self, mock_patch):
         """
-        Forbid in Odoo simple event becoming a recurrence when Outlook Calendar sync is active.
+        Forbid in Platform simple event becoming a recurrence when Outlook Calendar sync is active.
         """
         # Set custom calendar token validity to simulate real scenario.
         self.env.user.microsoft_calendar_token_validity = datetime.now() + timedelta(minutes=5)
@@ -1336,7 +1336,7 @@ class TestUpdateEvents(TestCommon):
         self.organizer_user.microsoft_synchronization_stopped = False
         self.organizer_user.pause_microsoft_synchronization()
 
-        # Try to update a simple event in Odoo Calendar.
+        # Try to update a simple event in Platform Calendar.
         self.simple_event.with_user(self.organizer_user).write({"name": "updated simple event"})
         self.call_post_commit_hooks()
         self.simple_event.invalidate_recordset()
@@ -1352,7 +1352,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'insert')
     def test_changing_event_organizer_to_another_user(self, mock_insert, mock_delete, mock_get_events):
         """
-        Allow editing the event organizer to another user only if the proposed organizer have its Odoo Calendar synced.
+        Allow editing the event organizer to another user only if the proposed organizer have its Platform Calendar synced.
         The current event is deleted and then recreated with the new organizer.
         An event with organizer as user A (self.organizer_user) will have its organizer changed to user B (self.attendee_user).
         """
@@ -1406,7 +1406,7 @@ class TestUpdateEvents(TestCommon):
     @freeze_time('2021-09-22')
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_restart_sync_with_synced_recurrence(self, mock_patch):
-        """ Ensure that sync restart is not blocked when there are recurrence outliers in Odoo database. """
+        """ Ensure that sync restart is not blocked when there are recurrence outliers in Platform database. """
         # Stop synchronization, set recurrent events as outliers and restart sync with Outlook.
         self.organizer_user.stop_microsoft_synchronization()
         self.recurrent_events.with_user(self.organizer_user).write({
@@ -1422,9 +1422,9 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_update_old_event_synced_with_outlook(self, mock_get_events, mock_write_from_microsoft):
         """
-        There are old events in Odoo which share the same state with Microsoft and get updated (without changes) in Odoo
+        There are old events in Platform which share the same state with Microsoft and get updated (without changes) in Platform
         due to a few seconds of update time difference, triggering lots of unwanted spam for attendees on Microsoft side.
-        Don't update old events in Odoo if update time difference between Microsoft and Odoo is not significant.
+        Don't update old events in Platform if update time difference between Microsoft and Platform is not significant.
         """
         # Set sync lower bound days range (with 'lower_bound_range' = 7 days).
         # Set event end time in two weeks past the current day for simulating an old event.
@@ -1433,8 +1433,8 @@ class TestUpdateEvents(TestCommon):
             'start': datetime.now() - timedelta(days=14),
             'stop': datetime.now() - timedelta(days=14) + timedelta(hours=2),
         })
-        # Mock the modification time in Microsoft with 10 minutes ahead Odoo event 'write_date'.
-        # Synchronize Microsoft Calendar and ensure that the skipped event was not updated in Odoo.
+        # Mock the modification time in Microsoft with 10 minutes ahead Platform event 'write_date'.
+        # Synchronize Microsoft Calendar and ensure that the skipped event was not updated in Platform.
         mock_get_events.return_value = (
             MicrosoftEvent([dict(
                 self.simple_event_from_outlook_organizer,

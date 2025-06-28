@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import requests
 from datetime import datetime, timedelta, timezone
@@ -28,7 +28,7 @@ class CloudStorageSettings(models.TransientModel):
     cloud_storage_azure_container_name = fields.Char(
         string='Azure Container Name',
         config_parameter='cloud_storage_azure_container_name')
-    # Application Registry Info
+    # Platform Registry Info
     cloud_storage_azure_tenant_id = fields.Char(
         string='Azure Tenant ID',
         config_parameter='cloud_storage_azure_tenant_id')

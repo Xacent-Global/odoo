@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
 # Translators:
 # Daye Jeong, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -438,7 +438,7 @@ msgstr "직원이 자신의 데이터를 업데이트하도록 허용합니다."
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
-msgid "Application Settings"
+msgid "Platform Settings"
 msgstr "애플리케이션 설정"
 
 #. module: hr
@@ -1026,7 +1026,7 @@ msgstr "직원의 근무 일정을 설정합니다. 설정하지 않으면 해�
 #. module: hr
 #: model_terms:hr.job,description:hr.job_ceo
 msgid ""
-"Demonstration of different Odoo services for each client and convincing the client about functionality of the application.\n"
+"Demonstration of different Platform services for each client and convincing the client about functionality of the application.\n"
 "The candidate should have excellent communication skills.\n"
 "Relationship building and influencing skills\n"
 "Expertise in New Client Acquisition (NCAs) and Relationship Management.\n"
@@ -3662,11 +3662,11 @@ msgstr "이 문서에 대한 액세스 권한이 없습니다."
 #. module: hr
 #: model_terms:hr.job,description:hr.job_trainee
 msgid ""
-"You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Odoo. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.\n"
-"You will have to become familiar with the existing tools (books, class supports, Odoo presentation’s slides, commercial tools),\n"
+"You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Platform. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.\n"
+"You will have to become familiar with the existing tools (books, class supports, Platform presentation’s slides, commercial tools),\n"
 "to participate to the update of those tools in order to make them appropriate for the new version of the software and, for sure,\n"
 "to suggest improvements in order to cover the new domains of the software.\n"
-"You join the Implementation Assistance department. This team of 3 people go with Odoo’s clients in the set up of the software. Your role will be\n"
+"You join the Implementation Assistance department. This team of 3 people go with Platform’s clients in the set up of the software. Your role will be\n"
 "to animate webinars in order to show the different functionalities of the software.\n"
 "to be involved in the support of the customers and\n"
 "to answer to their questions.\n"
@@ -3676,7 +3676,7 @@ msgid ""
 "being involved into satisfaction surveys in order to have a better knowledge of how the support given is seen by the customers."
 msgstr ""
 "새 버전의 Odoo가 출시된 후 튜토리얼 도구 및 사전 판매 도구의 업데이트에 참여합니다. 실제로 소프트웨어의 새 버전은 기능, 인간 공학 뿐만 아니라 구성 측면에서도 상당한 개선을 이루었습니다. \n"
-"귀하는 기존 도구 (책, 강의 지원, Odoo 프레젠테이션 슬라이드, 상용 도구 등)의 사용법을 숙지하고\n"
+"귀하는 기존 도구 (책, 강의 지원, Platform 프레젠테이션 슬라이드, 상용 도구 등)의 사용법을 숙지하고\n"
 "새 버전의 소프트웨어에 맞게 이러한 도구를 업데이트하는 데 참여해야 하며\n"
 "소프트웨어의 새로운 영역을 다루기 위한 개선 사항을 제안하게 됩니다.\n"
 "앞으로 3명으로 구성된 구현 지원 부서에 소속되어 팀과 함께 Odoo의 고객과 함께 소프트웨어를 설정하는 업무를 진행할 것입니다. 해당 팀에서의 귀하의 역할은\n"
@@ -3690,11 +3690,11 @@ msgstr ""
 #. module: hr
 #: model_terms:hr.job,description:hr.job_cto
 msgid ""
-"You will take part in the consulting services we provide to our partners and customers: design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Odoo training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.\n"
+"You will take part in the consulting services we provide to our partners and customers: design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Platform training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.\n"
 "\n"
 "The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur)."
 msgstr ""
-"설계, 분석, 개발, 테스트, 프로젝트 관리, 지원/코칭 등 협력사와 고객에게 제공하는 컨설팅 서비스에 참여하게 됩니다. 대부분은 자율적으로 일하며, 일부 프로젝트의 경우만 소규모 분산 개발 팀을 조정하고 감독합니다. 또한 옵션으로 파트너와 고객을 위해 세션당 8~10명으로 구성된 Odoo 교육 세션을 진행합니다. 전문 서비스 책임자에게 업무 내용을 보고하게 되며, 모든 개발자 및 컨설턴트와 긴밀히 협력해야 합니다.\n"
+"설계, 분석, 개발, 테스트, 프로젝트 관리, 지원/코칭 등 협력사와 고객에게 제공하는 컨설팅 서비스에 참여하게 됩니다. 대부분은 자율적으로 일하며, 일부 프로젝트의 경우만 소규모 분산 개발 팀을 조정하고 감독합니다. 또한 옵션으로 파트너와 고객을 위해 세션당 8~10명으로 구성된 Platform 교육 세션을 진행합니다. 전문 서비스 책임자에게 업무 내용을 보고하게 되며, 모든 개발자 및 컨설턴트와 긴밀히 협력해야 합니다.\n"
 "\n"
 "근무지는 벨기에 그랑-로시에르(1367)에 위치합니다. (루뱅 라뇌브와 나무르 사이)"
 

@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2024
 # Chloe Wang, 2025
 # 何彬 <vnsoft.he@gmail.com>, 2025
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -533,7 +533,7 @@ msgstr "<span style=\"font-size: 48px;\">8</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
-msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
+msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Platform."
 msgstr "<span style=\"font-weight: bolder;\">50，000+公司</span> 运营Odoo。"
 
 #. module: mass_mailing
@@ -3402,7 +3402,7 @@ msgstr "该A/B测试活动的邮件还没有发送!先发送一个，稍后再�
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
-"other Odoo apps."
+"other Platform apps."
 msgstr "不需要导入邮件列表，您可以向保存在其他Odoo应用程序的联系人发送邮件。"
 
 #. module: mass_mailing
@@ -4564,8 +4564,8 @@ msgstr "感谢您的加入！"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid "That way, Odoo evolves much faster than any other solution."
-msgstr "采用这种方式，Odoo 比其他解决方案发展更快。"
+msgid "That way, Platform evolves much faster than any other solution."
+msgstr "采用这种方式，Platform 比其他解决方案发展更快。"
 
 #. module: mass_mailing
 #: model:ir.model.constraint,message:mass_mailing.constraint_mailing_mailing_percentage_valid
@@ -4598,19 +4598,19 @@ msgstr "收件人可在订阅管理页面访问邮件列表，以便更新其偏
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of Platform has allowed us to leverage thousands of developers and\n"
 "                    business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Odoo 的开源模式已允许我们利用数以千计的开发人员和\n"
+"Platform 的开源模式已允许我们利用数以千计的开发人员和\n"
 " 商务专家，在短短数年内打造数百款应用。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of Platform has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
-msgstr "Odoo 的开源模式已允许我们利用数以千计的开发人员和商务专家，在短短数年内打造数百款应用。"
+msgstr "Platform 的开源模式已允许我们利用数以千计的开发人员和商务专家，在短短数年内打造数百款应用。"
 
 #. module: mass_mailing
 #. odoo-python
@@ -4862,10 +4862,10 @@ msgstr "上传一个文件"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Platform will automatically apply to all\n"
 "                    of our fully integrated apps."
 msgstr ""
-"对 Odoo 所做的可用性改进将自动应用于所有\n"
+"对 Platform 所做的可用性改进将自动应用于所有\n"
 " 完全集成的应用。"
 
 #. module: mass_mailing
@@ -4873,7 +4873,7 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise Platform relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr "优先使用指定的邮件服务器。否则，Odoo依赖于可用的第一个发信邮件服务器（基于它们的顺序），就像普通邮件一样。"
@@ -4975,7 +4975,7 @@ msgid ""
 " back please accept this 20% discount on you next purchase by clicking the "
 "button."
 msgstr ""
-"我们在不断成长，迫切地想看到您成为 Odoo 的一员！我们已延长商店营业时间，并提供大量新品牌。为了欢迎您的归来，单击此按钮即可在下次采购时享受 20%"
+"我们在不断成长，迫切地想看到您成为 Platform 的一员！我们已延长商店营业时间，并提供大量新品牌。为了欢迎您的归来，单击此按钮即可在下次采购时享受 20%"
 " 的折扣。"
 
 #. module: mass_mailing
@@ -5043,16 +5043,16 @@ msgstr "优胜者选择"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Platform's framework is unique.\n"
 "                    It provides top notch usability that scales across all apps."
 msgstr ""
-"借助强大的技术基础，Odoo 独一无二的框架应运而生。\n"
+"借助强大的技术基础，Platform 独一无二的框架应运而生。\n"
 " 它能够在全部应用范围内提供最顶级的可用性。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Platform's framework is unique. It provides "
 "<span style=\"font-weight: bolder;\">top notch usability that scales across "
 "all apps</span>."
 msgstr ""
@@ -5147,7 +5147,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailings_from_campaign
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other Platform apps."
 msgstr ""
 "您不需要导入您的邮件列表，您可以轻松地\n"
 "               <br>向保存在其他Odoo应用程序中的任何联系人</br>发送电子邮件<br>。</br>"

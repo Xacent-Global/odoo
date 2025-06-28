@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Daye Jeong, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3304,7 +3304,7 @@ msgstr "채택된 답변 삭제됨"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to Platform."
 msgstr "이 사이트의 목표는 Odoo와 관련된 질문에 답변 할 수 있는 관련 기술 자료를 만드는 것입니다."
 
 #. module: website_forum
@@ -3976,7 +3976,7 @@ msgstr "여기"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize Platform to specific business needs,"
 msgstr "특정 비즈니스 요구에 맞게 Odoo를 구성하거나 사용자 정의하는 방법"
 
 #. module: website_forum
@@ -3988,7 +3988,7 @@ msgstr "자신의 필요에 맞는 모듈을 개발하는 방법"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
+msgid "how to install Platform on a specific infrastructure,"
 msgstr "특정 인프라에 Odoo를 설치하는 방법"
 
 #. module: website_forum
@@ -4094,8 +4094,8 @@ msgstr "게시물"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "Odoo 서비스 제공 등에 대한 특정 질문 등."
+msgid "specific questions about Platform service offers, etc."
+msgstr "Platform 서비스 제공 등에 대한 특정 질문 등."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4142,7 +4142,7 @@ msgstr "우리는 개방형의 가상의 질문을 받습니다 : “______가 �
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Platform for a specific business need,"
 msgstr "특정 비즈니스 요구에 Odoo를 사용하는 가장 좋은 방법은 무엇입니까?"
 
 #. module: website_forum

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_sale
 # 
@@ -6,13 +6,13 @@
 # Cécile Collart <cco@odoo.com>, 2024
 # Chill Liao <chill421@qq.com>, 2024
 # Raymond Yu <cl_yu@hotmail.com>, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Chloe Wang, 2025
 # 何彬 <vnsoft.he@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -2979,8 +2979,8 @@ msgstr "商城列表中的产品数量"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
-msgid "Odoo Menu"
-msgstr "Odoo 菜单"
+msgid "Platform Menu"
+msgstr "Platform 菜单"
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_desks_office

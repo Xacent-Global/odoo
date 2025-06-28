@@ -39,18 +39,18 @@ echo  "alias odoo_stop='sudo systemctl stop odoo'" >> /home/pi/.bashrc
 echo  "alias odoo_restart='sudo systemctl restart odoo'" >> /home/pi/.bashrc
 echo "
 odoo_help() {
-  echo 'Welcome to Odoo IoTBox tools'
-  echo 'odoo                Starts/Restarts Odoo server manually (not through odoo.service)'
-  echo 'odoo_logs           Displays Odoo server logs in real time'
-  echo 'odoo_conf           Displays Odoo configuration file content'
+  echo 'Welcome to Platform IoTBox tools'
+  echo 'odoo                Starts/Restarts Platform server manually (not through odoo.service)'
+  echo 'odoo_logs           Displays Platform server logs in real time'
+  echo 'odoo_conf           Displays Platform configuration file content'
   echo 'write_mode          Enables system write mode'
   echo 'read_mode           Switches system to read-only mode'
   echo 'install             Bypasses ramdisks to allow package installation'
   echo 'blackbox            Lists all serial connected devices'
-  echo 'odoo_start          Starts Odoo service'
-  echo 'odoo_stop           Stops Odoo service'
-  echo 'odoo_restart        Restarts Odoo service'
-  echo 'odoo_dev <branch>   Resets Odoo on the specified branch from odoo-dev repository'
+  echo 'odoo_start          Starts Platform service'
+  echo 'odoo_stop           Stops Platform service'
+  echo 'odoo_restart        Restarts Platform service'
+  echo 'odoo_dev <branch>   Resets Platform on the specified branch from odoo-dev repository'
 }
 
 odoo_dev() {
@@ -90,7 +90,7 @@ chown pi:pi "/home/pi/odoo.conf"
 apt-get update
 
 # At the first start it is necessary to configure a password
-# This will be modified by a unique password on the first start of Odoo
+# This will be modified by a unique password on the first start of Platform
 password="$(openssl rand -base64 12)"
 echo "pi:${password}" | chpasswd
 

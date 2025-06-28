@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment_adyen
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -214,7 +214,7 @@ msgstr "Viitteellä %s olevan tapahtuman lukeminen epäonnistui."
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_capture_wizard_view_form
 msgid ""
 "The capture or void of the transaction might take a few minutes to be\n"
-"                    processed by Adyen and reflected in Odoo."
+"                    processed by Adyen and reflected in Platform."
 msgstr ""
 "Tapahtuman lukeminen tai mitätöinti saattaa kestää muutaman hetken\n"
 "                    ennen kuin Adyen on käsitellyt sen. Tämän jälkeen tapahtuma näkyy Odoossa."

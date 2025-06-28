@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1283,7 +1283,7 @@ msgstr "Чернетка ЗНКП"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Platform. Enjoy the automation!"
 msgstr ""
 
 #. module: purchase
@@ -1868,7 +1868,7 @@ msgstr "Не визнається"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
+msgid "Not using Platform?"
 msgstr ""
 
 #. module: purchase
@@ -1917,8 +1917,8 @@ msgstr "Кількість повідомлень з помилковою дст
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -2928,7 +2928,7 @@ msgstr "Позначено зірочкою"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
+msgid "Start on Platform"
 msgstr ""
 
 #. module: purchase
@@ -3490,11 +3490,11 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Platform."
 msgstr ""
 "Рахунки від постачальника можуть бути згенеровані на основі замовлень на "
 "купівлю або очікуваних надходжень. Це дозволяє контролювати рахунки від "
-"постачальників відповідно до чорнових документів в Odoo."
+"постачальників відповідно до чорнових документів в Platform."
 
 #. module: purchase
 #. odoo-python
@@ -3543,7 +3543,7 @@ msgstr "Очікує ЗНКП"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
+msgid "Want to import this document in Platform?"
 msgstr ""
 
 #. module: purchase
@@ -3594,14 +3594,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Platform will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Створюючи замовлення на покупку, подивіться на оцінювання <i>Вчасної "
 "доставки</i> постачальника: відсоток доставлених вчасно товарів. Якщо вона "
 "занадто низька, активуйте <i>автоматичні нагадування</i>. За кілька днів до "
-"належного відправлення Odoo надішле постачальнику електронного листа з "
+"належного відправлення Platform надішле постачальнику електронного листа з "
 "проханням підтвердити дати відвантаження та інформувати вас у разі будь "
 "-яких затримок. Щоб отримати статистику ефективності постачальника, "
 "натисніть на ставку OTD."
@@ -3609,12 +3609,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Platform asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Надсилаючи замовлення на закупівлю електронною поштою, Odoo просить "
+"Надсилаючи замовлення на закупівлю електронною поштою, Platform просить "
 "постачальника підтвердити отримання замовлення. Коли постачальник "
 "підтверджує замовлення, натискаючи кнопку в електронному листі, інформація "
 "додається до замовлення на купівлю. Використовуйте фільтри для відстеження "

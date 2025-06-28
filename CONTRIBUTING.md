@@ -1,4 +1,4 @@
-Contributing to Odoo
+Contributing to Platform 
 ====================
 
 [Full contribution guidelines](https://github.com/odoo/odoo/wiki/Contributing)

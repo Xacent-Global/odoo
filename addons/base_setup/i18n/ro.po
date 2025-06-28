@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
 # Translators:
 # Lyall Kindmurr, 2024
 # Alin Miclea, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,10 +121,10 @@ msgstr "Chei API"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"API Keys allow your users to access Odoo with external tools when multi-"
+"API Keys allow your users to access Platform with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"Cheile API permit utilizatorilor dvs. să acceseze Odoo cu instrumente "
+"Cheile API permit utilizatorilor dvs. să acceseze Platform cu instrumente "
 "externe atunci când autentificarea multi-factor este activată."
 
 #. module: base_setup
@@ -432,8 +432,8 @@ msgstr "Autentificare OAuth"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -517,10 +517,10 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"This name will be used for the application when Odoo is installed through "
+"This name will be used for the application when Platform is installed through "
 "the browser."
 msgstr ""
-"Acest nume va fi utilizat pentru aplicație atunci când Odoo este instalat "
+"Acest nume va fi utilizat pentru aplicație atunci când Platform este instalat "
 "prin browser."
 
 #. module: base_setup
@@ -572,11 +572,11 @@ msgstr "VoIP"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Platform provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Când completați agenda dvs. de adrese, Odoo oferă o listă a companiilor "
+"Când completați agenda dvs. de adrese, Platform oferă o listă a companiilor "
 "potrivite. La selectarea unui articol, datele companiei și sigla sunt "
 "completate automat."
 

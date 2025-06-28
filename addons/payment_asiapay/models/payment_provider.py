@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from hashlib import new as hashnew
 
@@ -67,7 +67,7 @@ class PaymentProvider(models.Model):
 
         :param dict data: The data to sign.
         :param bool incoming: Whether the signature must be generated for an incoming (AsiaPay to
-                              Odoo) or outgoing (Odoo to AsiaPay) communication.
+                              Platform) or outgoing (Platform to AsiaPay) communication.
         :return: The calculated signature.
         :rtype: str
         """

@@ -215,7 +215,7 @@
                                             <button name="%(hr_employee_print_badge)d" string="Print Badge" class="btn btn-link" type="action" invisible="not barcode"/>
                                         </div>
                                     </group>
-                                    <group name="application_group" string="Application Settings" invisible="1"/>
+                                    <group name="application_group" string="Platform Settings" invisible="1"/>
                                 </group>
                             </page>
                         </notebook>

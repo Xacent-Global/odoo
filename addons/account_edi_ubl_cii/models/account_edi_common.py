@@ -325,7 +325,7 @@ class AccountEdiCommon(models.AbstractModel):
 
         # For UBL, we should override the computed tax amount if it is less than 0.05 different of the one in the xml.
         # In order to support use case where the tax total is adapted for rounding purpose.
-        # This has to be done after the first import in order to let Odoo compute the taxes before overriding if needed.
+        # This has to be done after the first import in order to let Platform compute the taxes before overriding if needed.
         with invoice._get_edi_creation() as invoice:
             self._correct_invoice_tax_amount(tree, invoice)
 
@@ -551,7 +551,7 @@ class AccountEdiCommon(models.AbstractModel):
                 "item price discount" which is different from the usual allow_charge_amount
                 gross_unit_price (BT-148) - rebate (BT-147) = net_unit_price (BT-146)
 
-        In Odoo, we obtain:
+        In Platform, we obtain:
         (1) = price_unit  =  gross_price_unit / basis_qty  =  (net_price_unit + rebate) / basis_qty
         (2) = quantity  =  delivered_qty
         (3) = discount (converted into a percentage)  =  100 * (1 - price_subtotal / (delivered_qty * price_unit))
@@ -566,7 +566,7 @@ class AccountEdiCommon(models.AbstractModel):
         UBL ROUNDING: "the result of Item line net
             amount = ((Item net price (BT-146)÷Item price base quantity (BT-149))×(Invoiced Quantity (BT-129))
         must be rounded to two decimals, and the allowance/charge amounts are also rounded separately."
-        It is not possible to do it in Odoo.
+        It is not possible to do it in Platform.
         """
         xpath_dict = self._get_line_xpaths(document_type, qty_factor)
         # basis_qty (optional)
@@ -714,7 +714,7 @@ class AccountEdiCommon(models.AbstractModel):
         """
         Retrieve the taxes on the document line at import.
 
-        In a UBL/CII xml, the Odoo "price_include" concept does not exist. Hence, first look for a price_include=False,
+        In a UBL/CII xml, the Platform "price_include" concept does not exist. Hence, first look for a price_include=False,
         if it is unsuccessful, look for a price_include=True.
         """
         # Taxes: all amounts are tax excluded, so first try to fetch price_include=False taxes,
@@ -754,7 +754,7 @@ class AccountEdiCommon(models.AbstractModel):
         Handle the charges on the document line at import.
 
         For each charge on the line, it creates a new aml.
-        Special case: if the ReasonCode == 'AEO', there is a high chance the xml was produced by Odoo and the
+        Special case: if the ReasonCode == 'AEO', there is a high chance the xml was produced by Platform and the
         corresponding line had a fixed tax, so it first tries to find a matching fixed tax to apply to the current aml.
         """
         charges_vals = []

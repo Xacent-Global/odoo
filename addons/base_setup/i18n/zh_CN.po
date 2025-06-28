@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Chloe Wang, 2024
 # Odoo哥 <vnsoft.he@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -113,7 +113,7 @@ msgstr "API密钥"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"API Keys allow your users to access Odoo with external tools when multi-"
+"API Keys allow your users to access Platform with external tools when multi-"
 "factor authentication is enabled."
 msgstr "通过API密钥，您的用户在启用多因素身份验证时可以使用外部工具访问Odoo。"
 
@@ -416,8 +416,8 @@ msgstr "OAuth认证"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -501,7 +501,7 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"This name will be used for the application when Odoo is installed through "
+"This name will be used for the application when Platform is installed through "
 "the browser."
 msgstr "如果Odoo通过浏览器安装了PWA，则将以此名称命名。"
 
@@ -554,7 +554,7 @@ msgstr "网络电话"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Platform provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr "当公布您的地址簿时，系统为您提供一个匹配公司列表。当选择其中一个，公司数据和logo会自动填充。"

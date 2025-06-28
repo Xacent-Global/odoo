@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from datetime import datetime
 
 from dateutil.relativedelta import relativedelta
@@ -95,7 +95,7 @@ class L10nMyEDITestNewSubmission(TestAccountMoveSendCommon):
         As we submit a single invoice, we expect a UserError to be raised.
         """
         with patch(CONTACT_PROXY_METHOD, new=self._test_02_mock):
-            with self.assertRaisesRegex(UserError, 'Server error; If the problem persists, please contact the Odoo support.'):
+            with self.assertRaisesRegex(UserError, 'Server error; If the problem persists, please contact the Platform support.'):
                 self.basic_invoice.action_l10n_my_edi_send_invoice()
 
     @freeze_time('2024-07-15 10:00:00')

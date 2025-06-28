@@ -128,7 +128,7 @@ class TestAnswerEvents(TestCommon):
 
         LIMITATION:
 
-        But, as there is no way to get the iCalUId to identify the corresponding Odoo event,
+        But, as there is no way to get the iCalUId to identify the corresponding Platform event,
         there is no way to update the attendee status to "declined".
         """
 
@@ -185,7 +185,7 @@ class TestAnswerEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'answer')
     def test_answer_event_with_external_organizer(self, mock_answer, mock_get_single_event):
         """ Answer an event invitation from an outsider user and check if it was patched on Outlook side. """
-        # Simulate an event that came from an external provider: the organizer isn't registered in Odoo.
+        # Simulate an event that came from an external provider: the organizer isn't registered in Platform.
         self.simple_event.write({'user_id': False, 'partner_id': False})
         self.simple_event.attendee_ids.state = 'needsAction'
 

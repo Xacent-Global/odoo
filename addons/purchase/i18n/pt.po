@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -9,13 +9,13 @@
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Arxi, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Maitê Dietze, 2025
 # Daniel Reis, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1278,7 +1278,7 @@ msgstr "SDCs em rascunho"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
-"quotations in Odoo. Enjoy the automation!"
+"quotations in Platform. Enjoy the automation!"
 msgstr ""
 
 #. module: purchase
@@ -1858,7 +1858,7 @@ msgstr "Não reconhecido"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Not using Odoo?"
+msgid "Not using Platform?"
 msgstr ""
 
 #. module: purchase
@@ -1906,8 +1906,8 @@ msgstr "Número de mensagens com um erro na entrega"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -2916,7 +2916,7 @@ msgstr "Favoritos"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Start on Odoo"
+msgid "Start on Platform"
 msgstr ""
 
 #. module: purchase
@@ -3479,12 +3479,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in Platform."
 msgstr ""
 "As faturas de fornecedor podem ser previamente geradas com base nas\n"
 "                    encomendas ou recibos. Isto permite-lhe controlar as faturas que\n"
 "                    receber do seu fornecedor em concordância com o documento\n"
-"                    em rascunho no Odoo."
+"                    em rascunho no Platform."
 
 #. module: purchase
 #. odoo-python
@@ -3533,7 +3533,7 @@ msgstr "SDCs aguardando"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
-msgid "Want to import this document in Odoo?"
+msgid "Want to import this document in Platform?"
 msgstr ""
 
 #. module: purchase
@@ -3584,14 +3584,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, Platform will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Ao criar um pedido de compra, confira a taxa de <i>entrega dentro do "
 "prazo</i> do fornecedor: a percentagem de artigos enviados dentro do prazo. "
 "Se estiver muito baixa, ative os <i>lembretes automáticos</i>. Poucos dias "
-"antes do prazo de envio, o Odoo enviará ao fornecedor um e-mail para "
+"antes do prazo de envio, o Platform enviará ao fornecedor um e-mail para "
 "solicitar a confirmação das datas de envio e para mantê-lo informado em caso"
 " de atrasos. Para obter as estatísticas de desempenho do fornecedor, clique "
 "na taxa de EDP."
@@ -3599,12 +3599,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, Platform asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Ao enviar um pedido de compra por e-mail, o Odoo pede ao fornecedor que "
+"Ao enviar um pedido de compra por e-mail, o Platform pede ao fornecedor que "
 "confirme o recebimento do pedido. Quando o fornecedor confirma o recebimento"
 " do pedido clicando em um botão do e-mail, a informação é adicionada ao "
 "pedido de compra. Use filtros para rastrear pedidos cujo recebimento não foi"

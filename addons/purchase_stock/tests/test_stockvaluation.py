@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import time
 from datetime import datetime, timedelta
@@ -3650,7 +3650,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
         po = po_form.save()
         po.button_confirm()
         delivery = po.picking_ids
-        # it is negative qty transfer so Odoo will create delivery instead of receipt.
+        # it is negative qty transfer so Platform will create delivery instead of receipt.
         delivery.partner_id = shipping_partner
         move_line_vals = delivery.move_ids._prepare_move_line_vals()
         move_line = self.env['stock.move.line'].create(move_line_vals)

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Camille Dantinne <cmd@odoo.com>, 2024
 # Marianna Ciofani, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1750,10 +1750,10 @@ msgstr "Stato valutazioni cliente"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
+"Customers propose feedbacks by email; Platform creates tasks automatically, and you can\n"
 "      communicate on the task directly."
 msgstr ""
-"I clienti forniscono riscontri via e-mail. Odoo crea lavori automaticamente ed è possibile\n"
+"I clienti forniscono riscontri via e-mail. Platform crea lavori automaticamente ed è possibile\n"
 "      comunicare direttamente sul lavoro."
 
 #. module: project
@@ -4903,11 +4903,11 @@ msgstr "L'intervallo deve essere maggiore di 0"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Platform Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le "
+"Il modello (tipo di documento Platform) a cui corrisponde questo alias. Le "
 "e-mail in arrivo che non rispondono a un record esistente attivano la "
 "creazione di un nuovo record per questo modello (es. lavoro di un progetto)"
 
@@ -5786,11 +5786,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid ""
-"You have unsaved changes - no worries! Odoo will automatically save it as "
+"You have unsaved changes - no worries! Platform will automatically save it as "
 "you navigate.<br/> You can discard these changes from here or manually save "
 "your task.<br/>Let's save it manually."
 msgstr ""
-"Sono presenti modifiche non salvate ma non preoccuparti! Odoo le salverà "
+"Sono presenti modifiche non salvate ma non preoccuparti! Platform le salverà "
 "automaticamente durante la navigazione.<br/> Puoi rifiutare le modifiche o "
 "salvare manualmente la tua attività.<br/> Salviamola manualmente."
 

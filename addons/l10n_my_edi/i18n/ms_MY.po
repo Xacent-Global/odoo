@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_my_edi
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Platform Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 08:20+0000\n"
 "PO-Revision-Date: 2025-05-23 08:20+0000\n"
@@ -276,7 +276,7 @@ msgstr ""
 #. module: l10n_my_edi
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.res_config_settings_view_form
 msgid ""
-"<span invisible=\"l10n_my_edi_mode != 'test'\">• In Pre-Production mode Odoo"
+"<span invisible=\"l10n_my_edi_mode != 'test'\">• In Pre-Production mode Platform"
 " will send the invoices to a non-production service.</span>"
 msgstr ""
 
@@ -465,7 +465,7 @@ msgstr ""
 
 #. module: l10n_my_edi
 #: model_terms:ir.ui.view,arch_db:l10n_my_edi.res_config_settings_view_form
-msgid "I accept that Odoo will process my e-invoices."
+msgid "I accept that Platform will process my e-invoices."
 msgstr ""
 
 #. module: l10n_my_edi
@@ -711,7 +711,7 @@ msgstr ""
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
 msgid ""
-"Permission to do this action has not been granted. Please ensure that Odoo "
+"Permission to do this action has not been granted. Please ensure that Platform "
 "has sufficient permissions on the MyInvois platform."
 msgstr ""
 
@@ -729,7 +729,7 @@ msgstr ""
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
 msgid ""
-"Please make sure that your company TIN is correct, and that you gave Odoo "
+"Please make sure that your company TIN is correct, and that you gave Platform "
 "sufficient permissions on the MyInvois platform."
 msgstr ""
 
@@ -826,7 +826,7 @@ msgstr ""
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
 msgid ""
-"Server error; If the problem persists, please contact the Odoo support."
+"Server error; If the problem persists, please contact the Platform support."
 msgstr ""
 
 #. module: l10n_my_edi
@@ -1035,7 +1035,7 @@ msgstr ""
 #: code:addons/l10n_my_edi/models/account_move.py:0
 #, python-format
 msgid ""
-"The invoice has been canceled on MyInvois, But the cancellation in Odoo failed with error: %(error)s\n"
+"The invoice has been canceled on MyInvois, But the cancellation in Platform failed with error: %(error)s\n"
 "Please resolve the problem manually, and then cancel the invoice."
 msgstr ""
 

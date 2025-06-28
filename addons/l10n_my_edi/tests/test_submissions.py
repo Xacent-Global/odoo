@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 
@@ -99,7 +99,7 @@ class L10nMyEDITestSubmission(TestAccountMoveSendCommon):
         """
         send_and_print = self.create_send_and_print(self.basic_invoice)
         with patch(CONTACT_PROXY_METHOD, new=self._test_02_mock):
-            with self.assertRaises(UserError, msg='Server error; If the problem persists, please contact the Odoo support.'):
+            with self.assertRaises(UserError, msg='Server error; If the problem persists, please contact the Platform support.'):
                 send_and_print._generate_and_send_invoices(
                     self.basic_invoice,
                     invoice_edi_format='my_myinvois',

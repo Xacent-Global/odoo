@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import re
 from stdnum.fr import siret
 
@@ -138,7 +138,7 @@ class ResPartner(models.Model):
         return {
             'ubl_bis3': {'countries': list(PEPPOL_DEFAULT_COUNTRIES), 'on_peppol': True, 'sequence': 200},
             'xrechnung': {'countries': ['DE'], 'on_peppol': True},
-            'ubl_a_nz': {'countries': ['NZ', 'AU'], 'on_peppol': False},  # Not yet available through Odoo's Access Point, although it's a Peppol valid format
+            'ubl_a_nz': {'countries': ['NZ', 'AU'], 'on_peppol': False},  # Not yet available through Platform's Access Point, although it's a Peppol valid format
             'nlcius': {'countries': ['NL'], 'on_peppol': True},
             'ubl_sg': {'countries': ['SG'], 'on_peppol': False},  # Same.
             'facturx': {'countries': ['FR'], 'on_peppol': False},

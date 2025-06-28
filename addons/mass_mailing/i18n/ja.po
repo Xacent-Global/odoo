@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Junko Augias, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -535,7 +535,7 @@ msgstr "<span style=\"font-size: 48px;\">8</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
-msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
+msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Platform."
 msgstr "<span style=\"font-weight: bolder;\">50,000以上の会社</span>がOdooを利用しています。"
 
 #. module: mass_mailing
@@ -3415,7 +3415,7 @@ msgstr "このA/Bテストキャンペーンのメーリングはまだ送信さ
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
-"other Odoo apps."
+"other Platform apps."
 msgstr "メーリングリストをインポートする必要はありません。他のOdooアプリに保存されているすべての連絡先にメールを送ることができます。"
 
 #. module: mass_mailing
@@ -4579,7 +4579,7 @@ msgstr "ご参加いただきありがとうございました。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid "That way, Odoo evolves much faster than any other solution."
+msgid "That way, Platform evolves much faster than any other solution."
 msgstr "そうすることで、Odooは他のどのソリューションよりも早く進化することができるのです。"
 
 #. module: mass_mailing
@@ -4613,7 +4613,7 @@ msgstr "メール配信リストは、受信者が購読管理ページからア
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of Platform has allowed us to leverage thousands of developers and\n"
 "                    business experts to build hundreds of apps in just a few years."
 msgstr ""
 "Odooのオープンソースモデルにより、私たちは数千人の開発者とビジネスエキスパートの力を活用し、\n"
@@ -4622,7 +4622,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of Platform has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
@@ -4880,7 +4880,7 @@ msgstr "ファイルをアップロード"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Platform will automatically apply to all\n"
 "                    of our fully integrated apps."
 msgstr ""
 "Odooで行われたユーザビリティの改善は、自動的に全ての統合アプリに\n"
@@ -4891,7 +4891,7 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise Platform relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
@@ -5063,7 +5063,7 @@ msgstr "当選者選考"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Platform's framework is unique.\n"
 "                    It provides top notch usability that scales across all apps."
 msgstr ""
 "強固な技術基盤を持つOdooのフレームワークはユニークです。\n"
@@ -5072,7 +5072,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Platform's framework is unique. It provides "
 "<span style=\"font-weight: bolder;\">top notch usability that scales across "
 "all apps</span>."
 msgstr ""
@@ -5167,7 +5167,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailings_from_campaign
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other Platform apps."
 msgstr ""
 "メーリングリストをインポートする必要はありません。\n"
 "                他のOdooアプリに保存されているすべての連絡先にメール<br> を送ることができます。"

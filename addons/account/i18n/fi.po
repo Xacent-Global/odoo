@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -45,14 +45,14 @@
 # Joakim Weckman, 2025
 # Konsta Aavaranta, 2025
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Thomas Becquevort, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 # Jessica Jakara, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -389,7 +389,7 @@ msgstr ". Varmista, että tämä on haluttu toiminta."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
-". The journal entries need to be computed by Odoo before being posted in "
+". The journal entries need to be computed by Platform before being posted in "
 "your company's currency."
 msgstr ""
 ". Odoon on laskettava päiväkirjaviennit ennen kuin ne kirjataan yrityksesi "
@@ -2639,11 +2639,11 @@ msgstr "Jälkeen"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
-"After importing three bills for a vendor without making changes, Odoo will "
+"After importing three bills for a vendor without making changes, Platform will "
 "suggest automatically validating future bills. You can toggle this feature "
 "at any time in the vendor's profile."
 msgstr ""
-"Kun olet tuonut kolme laskua myyjälle tekemättä muutoksia, Odoo ehdottaa "
+"Kun olet tuonut kolme laskua myyjälle tekemättä muutoksia, Platform ehdottaa "
 "tulevien laskujen automaattista vahvistusta. Voit kytkeä tämän ominaisuuden "
 "pois päältä milloin tahansa myyjän profiilissa."
 
@@ -3727,7 +3727,7 @@ msgstr "Käteisvarat (pankki, käteinen)"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank of odoo"
-msgstr "Odoo-pankki"
+msgstr "Platform-pankki"
 
 #. module: account
 #: model:ir.model,name:account.model_account_setup_bank_manual_config
@@ -3856,9 +3856,9 @@ msgstr "Kuuluu samaan yritykseen kuin %s."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
-msgstr "Alla oleva teksti on ehdotus, eikä se ole Odoo S.A.:n vastuulla."
+msgstr "Alla oleva teksti on ehdotus, eikä se ole Platform.:n vastuulla."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
@@ -5871,7 +5871,7 @@ msgstr "Esimerkki päivämäärästä"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Platform. It is the date of the "
 "opening entry."
 msgstr ""
 "Päivämäärä, josta alkaen kirjanpitoa hallinnoidaan Odoossa. Se on "
@@ -10277,7 +10277,7 @@ msgstr "Manuaalinen kirjaus"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
-"Manual: Get paid by any method outside of Odoo.\n"
+"Manual: Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -10290,8 +10290,8 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
-"Manual: Pay by any method outside of Odoo.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Manual: Pay by any method outside of Platform.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
 "Käsikirja: Maksa millä tahansa Odoon ulkopuolisella menetelmällä.\n"
@@ -10302,9 +10302,9 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_line_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -11243,35 +11243,35 @@ msgstr "Lokakuu"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__domain
-msgid "Odoo Domain"
-msgstr "Odoo-verkkotunnus"
+msgid "Platform Domain"
+msgstr "Platform-verkkotunnus"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Platform allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odoo antaa sinun täsmäyttää tilioteriviin suoraan\n"
+"Platform antaa sinun täsmäyttää tilioteriviin suoraan\n"
 "                liittyvät myynti- tai ostolaskut."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Platform helps you easily track all activities related to a customer."
 msgstr ""
-"Odoo auttaa sinua helposti seuraamaan kaikkia asiakkaaseen liittyviä toimia."
+"Platform auttaa sinua helposti seuraamaan kaikkia asiakkaaseen liittyviä toimia."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Platform helps you easily track all activities related to a supplier."
 msgstr ""
-"Odoo auttaa sinua helposti seuraamaan kaikkia toimittajaan liittyviä "
+"Platform auttaa sinua helposti seuraamaan kaikkia toimittajaan liittyviä "
 "toimintoja."
 
 #. module: account
@@ -13932,13 +13932,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by Platform"
 msgstr ""
 "Lähetä yksi erillinen sähköpostiviesti jokaiselle laskulle.\n"
 "\n"
 "Kaikki tiedostopäätteet hyväksytään.\n"
 "\n"
-"Odoo tulkitsee vain PDF- ja XML-tiedostoja"
+"Platform tulkitsee vain PDF- ja XML-tiedostoja"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -17499,10 +17499,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
-"Odoo will automatically create one invoice line with default values to match it."
+"Platform will automatically create one invoice line with default values to match it."
 msgstr ""
 "Käytä tätä kenttää laskun kokonaissumman koodaamiseen.\n"
-"Odoo luo automaattisesti yhden laskurivin, jonka oletusarvot vastaavat sitä."
+"Platform luo automaattisesti yhden laskurivin, jonka oletusarvot vastaavat sitä."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__used
@@ -17785,7 +17785,7 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                orders or receipts. This allows you to control bills\n"
 "                you receive from your vendor according to the draft\n"
-"                document in Odoo."
+"                document in Platform."
 msgstr ""
 "Myyjien laskut voidaan luoda etukäteen oston perusteella\n"
 "                tilausten tai kuittien perusteella. Näin voit valvoa laskuja\n"
@@ -18058,9 +18058,9 @@ msgstr "Yrität täsmäyttää yhteen jo täsmäytetyt merkinnät."
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Platform reference."
 msgstr ""
-"Voit valita eri malleja kullekin viitetyypille. Oletusarvoisesti se on Odoo-"
+"Voit valita eri malleja kullekin viitetyypille. Oletusarvoisesti se on Platform-"
 "viite."
 
 #. module: account

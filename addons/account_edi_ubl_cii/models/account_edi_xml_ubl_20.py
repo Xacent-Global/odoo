@@ -219,7 +219,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
     def _get_invoice_payment_terms_vals_list(self, invoice):
         payment_term = invoice.invoice_payment_term_id
         if payment_term:
-            # The payment term's note is automatically embedded in a <p> tag in Odoo
+            # The payment term's note is automatically embedded in a <p> tag in Platform
             return [{'note_vals': [{'note': html2plaintext(payment_term.note)}]}]
         else:
             return []
@@ -371,7 +371,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 
         Allowances are distinguished from charges using the ChargeIndicator node with 'false' as value.
 
-        Note that allowance charges do not exist for credit notes in UBL 2.0, so if we apply discount in Odoo
+        Note that allowance charges do not exist for credit notes in UBL 2.0, so if we apply discount in Platform
         the net price will not be consistent with the unit price, but we cannot do anything about it
 
         :param line:    An invoice line.
@@ -408,7 +408,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             # Must be 'false' since this method is for allowances.
             'charge_indicator': 'false',
 
-            # A reason should be provided. In Odoo, we only manage discounts.
+            # A reason should be provided. In Platform, we only manage discounts.
             # Full code list is available here:
             # https://docs.peppol.eu/poacc/billing/3.0/codelist/UNCL5189/
             'allowance_charge_reason_code': 95,
@@ -561,7 +561,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         )
 
         # Fixed Taxes: filter them on the document level, and adapt the totals
-        # Fixed taxes are not supposed to be taxes in real live. However, this is the way in Odoo to manage recupel
+        # Fixed taxes are not supposed to be taxes in real live. However, this is the way in Platform to manage recupel
         # taxes in Belgium. Since only one tax is allowed, the fixed tax is removed from totals of lines but added
         # as an extra charge/allowance.
         if self._context.get('convert_fixed_taxes'):

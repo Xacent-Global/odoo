@@ -14,10 +14,10 @@
     </ns2:result>
     <software>
         <softwareId>BE477472701-170100</softwareId>
-        <softwareName>Odoo Enterprise</softwareName>
+        <softwareName>Platform Enterprise</softwareName>
         <softwareOperation>ONLINE_SERVICE</softwareOperation>
         <softwareMainVersion>17.0+e</softwareMainVersion>
-        <softwareDevName>Odoo SA</softwareDevName>
+        <softwareDevName>Platform SA</softwareDevName>
         <softwareDevContact>andu@odoo.com</softwareDevContact>
         <softwareDevCountryCode>BE</softwareDevCountryCode>
         <softwareDevTaxNumber>477472701</softwareDevTaxNumber>

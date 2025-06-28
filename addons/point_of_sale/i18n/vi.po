@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -6,12 +6,12 @@
 # Nancy Momoland <thanh.np2502@gmail.com>, 2024
 # Vo Thanh Thuy, 2024
 # Tiffany Chang, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -4090,10 +4090,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
 msgstr ""
-"Đảm bảo có đăng ký Hộp IoT được liên kết với cơ sở dữ liệu Odoo của bạn, sau"
+"Đảm bảo có đăng ký Hộp IoT được liên kết với cơ sở dữ liệu Platform của bạn, sau"
 " đó khởi động lại Hộp IoT."
 
 #. module: point_of_sale
@@ -4581,13 +4581,13 @@ msgstr "Số lượng giao dịch:"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
-msgstr "Lỗi máy chủ Odoo"
+msgid "Platform Server Error"
+msgstr "Lỗi máy chủ Platform"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
-msgstr "Odoo Sneaker"
+msgid "Platform Sneakers"
+msgstr "Platform Sneaker"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5303,10 +5303,10 @@ msgstr "Vui lòng kiểm tra xem Hộp IoT của bạn có còn kết nối khô
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "Vui lòng kiểm tra xem máy in còn được kết nối hay không.\n"
-"Một số trình duyệt không cho phép gọi HTTP từ trang web đến thiết bị trong mạng (vì lý do bảo mật). Nếu đúng như vậy, bạn cần làm theo tài liệu của Odoo về 'Chứng chỉ tự ký cho máy in ePOS' và 'Kết nối an toàn (HTTPS)' để giải quyết vấn đề."
+"Một số trình duyệt không cho phép gọi HTTP từ trang web đến thiết bị trong mạng (vì lý do bảo mật). Nếu đúng như vậy, bạn cần làm theo tài liệu của Platform về 'Chứng chỉ tự ký cho máy in ePOS' và 'Kết nối an toàn (HTTPS)' để giải quyết vấn đề."
 
 #. module: point_of_sale
 #. odoo-python
@@ -5767,8 +5767,8 @@ msgstr "Cung cấp bởi"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
-msgstr "Cung cấp bởi Odoo"
+msgid "Powered by Platform"
+msgstr "Cung cấp bởi Platform"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5935,10 +5935,10 @@ msgstr "In biên lai cơ bản không có giá. Có thể áp dụng cho quà t�
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
+"invoice anytime, from Platform's portal."
 msgstr ""
 "In thông tin trên biên lai để khách hàng có thể dễ dàng truy cập hóa đơn bất"
-" cứ lúc nào, từ cổng thông tin Odoo"
+" cứ lúc nào, từ cổng thông tin Platform"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -8206,20 +8206,20 @@ msgstr "Sản phẩm này được dùng làm tham chiếu cho biên lai khách 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Trình tự này được tạo tự động bởi Odoo nhưng bạn có thể thay đổi để tùy "
+"Trình tự này được tạo tự động bởi Platform nhưng bạn có thể thay đổi để tùy "
 "chỉnh số tham chiếu cho chi tiết đơn hàng của bạn. "
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Trình tự này được tạo tự động bởi Odoo nhưng bạn có thể thay đổi để tùy "
+"Trình tự này được tạo tự động bởi Platform nhưng bạn có thể thay đổi để tùy "
 "chỉnh số tham chiếu cho đơn hàng của bạn. "
 
 #. module: point_of_sale
@@ -8624,10 +8624,10 @@ msgstr "Đơn hàng chưa được đồng bộ"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr ""
-"Cho đến khi kết nối được thiết lập lại, Odoo Điểm bán hàng sẽ hoạt động dù "
+"Cho đến khi kết nối được thiết lập lại, Platform Điểm bán hàng sẽ hoạt động dù "
 "chỉ một số chức năng khả dụng"
 
 #. module: point_of_sale

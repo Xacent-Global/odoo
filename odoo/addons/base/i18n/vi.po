@@ -19248,11 +19248,11 @@ msgstr "Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
 "Văn bản dưới đây được xem như một gợi ý và không liên quan đến trách nhiệm "
-"của Odoo S.A."
+"của Application."
 
 #. module: base
 #: model:res.country,name:base.bj

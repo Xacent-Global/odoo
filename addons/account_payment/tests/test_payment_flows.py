@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 from unittest.mock import patch
@@ -149,7 +149,7 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
         partner = self.env['res.partner'].create({'name': 'Alsh'})
         account_user = self.env['res.users'].create({
             'login': 'TestUser',
-            'password': 'Odoo@123',
+            'password': 'Platform@123',
             'groups_id': [Command.set(self.env.ref('account.group_account_manager').ids)],
             'partner_id': partner.id
         })
@@ -164,7 +164,7 @@ class TestFlows(AccountPaymentCommon, PaymentHttpCommon):
         self.assertEqual(invoice.payment_state, 'not_paid')
 
         # Must be authenticated before making an http resqest
-        self.authenticate('TestUser', 'Odoo@123')
+        self.authenticate('TestUser', 'Platform@123')
         overdue_url = self._build_url('/my/invoices/overdue')
         resp = self._make_http_get_request(overdue_url, {})
 

@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment_nuvei
 # 
 # Translators:
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:38+0000\n"
 "PO-Revision-Date: 2025-03-19 09:42+0000\n"

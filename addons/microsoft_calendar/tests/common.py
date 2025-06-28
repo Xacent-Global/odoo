@@ -64,7 +64,7 @@ class TestCommon(HttpCase):
             user.microsoft_calendar_token_validity = fields.Datetime.now() + timedelta(hours=1)
 
         # -----------------------------------------------------------------------------------------
-        # To create Odoo events
+        # To create Platform events
         # -----------------------------------------------------------------------------------------
         self.start_date = datetime(2021, 9, 22, 10, 0, 0, 0)
         self.end_date = datetime(2021, 9, 22, 11, 0, 0, 0)
@@ -74,7 +74,7 @@ class TestCommon(HttpCase):
             days=self.recurrent_event_interval * self.recurrent_events_count
         )
 
-        # simple event values to create a Odoo event
+        # simple event values to create a Platform event
         self.simple_event_values = {
             "name": "simple_event",
             "description": "my simple event",
@@ -105,7 +105,7 @@ class TestCommon(HttpCase):
         }
 
         # -----------------------------------------------------------------------------------------
-        # Expected values for Odoo events converted to Outlook events (to be posted through API)
+        # Expected values for Platform events converted to Outlook events (to be posted through API)
         # -----------------------------------------------------------------------------------------
 
         # simple event values converted in the Outlook format to be posted through the API
@@ -239,7 +239,7 @@ class TestCommon(HttpCase):
         self.simple_event_from_outlook_attendee.update(isOrganizer=False)
 
         # -----------------------------------------------------------------------------------------
-        # Expected values for Outlook events converted to Odoo events
+        # Expected values for Outlook events converted to Platform events
         # -----------------------------------------------------------------------------------------
 
         self.expected_odoo_event_from_outlook = {
@@ -474,7 +474,7 @@ class TestCommon(HttpCase):
         )
         already_created = self.recurrent_base_event
 
-        # Currently, it is forbidden to create recurrences in Odoo. A trick for deactivating the checking
+        # Currently, it is forbidden to create recurrences in Platform. A trick for deactivating the checking
         # is needed below in this test setup: deactivating the synchronization during recurrences creation.
         sync_previous_state = self.env.user.microsoft_synchronization_stopped
         self.env.user.microsoft_synchronization_stopped = False
@@ -508,7 +508,7 @@ class TestCommon(HttpCase):
 
     def assert_odoo_event(self, odoo_event, expected_values):
         """
-        Assert that an Odoo event has the same values than in the expected_values dictionary,
+        Assert that an Platform event has the same values than in the expected_values dictionary,
         for the keys present in expected_values.
         """
         self.assertTrue(expected_values)
@@ -525,7 +525,7 @@ class TestCommon(HttpCase):
 
     def assert_odoo_recurrence(self, odoo_recurrence, expected_values):
         """
-        Assert that an Odoo recurrence has the same values than in the expected_values dictionary,
+        Assert that an Platform recurrence has the same values than in the expected_values dictionary,
         for the keys present in expected_values.
         """
         odoo_recurrence_values = odoo_recurrence.read(list(expected_values.keys()))[0]

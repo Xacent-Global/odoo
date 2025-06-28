@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Application Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Application Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2025-05-14 20:48+0000\n"
@@ -1987,7 +1987,7 @@ msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
+msgid "Application Editor Tests"
 msgstr ""
 
 #. module: web_editor
@@ -2854,7 +2854,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Application."
 msgstr ""
 
 #. module: web_editor

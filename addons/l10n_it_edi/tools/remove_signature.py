@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 """
     Italian E-invoice signed files content extraction.
@@ -361,7 +361,7 @@ class Reader:
 
         node_classes = {
             (0, 0): 'Universal',
-            (0, 1): 'Application',
+            (0, 1): 'Platform',
             (1, 0): 'Context-specific',
             (1, 1): 'Private'
         }

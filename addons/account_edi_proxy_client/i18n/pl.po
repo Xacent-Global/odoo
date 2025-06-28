@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Marta Wacławek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -123,7 +123,7 @@ msgid ""
 "\n"
 "If you are not sure how to fix this, please contact our support."
 msgstr ""
-"Nieprawidłowy podpis dla żądania. Może to być spowodowane innym połączeniem z serwerem punktu dostępu Odoo. Może się to zdarzyć, jeśli skopiowałeś swoją bazę danych.\n"
+"Nieprawidłowy podpis dla żądania. Może to być spowodowane innym połączeniem z serwerem punktu dostępu Platform. Może się to zdarzyć, jeśli skopiowałeś swoją bazę danych.\n"
 "\n"
 "Jeśli nie wiesz, jak to naprawić, skontaktuj się z naszym zespołem wsparcia."
 

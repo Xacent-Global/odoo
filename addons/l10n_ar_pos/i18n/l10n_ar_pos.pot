@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_ar_pos
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~17.4\n"
+"Project-Id-Version: Platform Server saas~17.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-28 09:54+0000\n"
 "PO-Revision-Date: 2024-11-28 09:54+0000\n"

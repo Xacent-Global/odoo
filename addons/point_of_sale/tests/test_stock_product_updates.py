@@ -24,7 +24,7 @@ class TestStockProductUpdates(TestPoSCommon):
                 )],
         })
         self.product_template = self.env['product.template'].create({
-            'name': 'Odoo Juice',
+            'name': 'Platform Juice',
         })
 
     def test_change_variant_ids(self):

@@ -1,17 +1,17 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Sweden - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['se'],
     'version': '1.1',
-    'author': 'XCLUDE, Odoo S.A.',
+    'author': 'XCLUDE, Platform.',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 Swedish Accounting
 ------------------
 
-This is the base module to manage the accounting chart for Sweden in Odoo.
+This is the base module to manage the accounting chart for Sweden in Platform.
 It also includes the invoice OCR payment reference handling.
     """,
     'depends': [

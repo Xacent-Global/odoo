@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Junko Augias, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1711,7 +1711,7 @@ msgstr "顧客評価ステータス"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
+"Customers propose feedbacks by email; Platform creates tasks automatically, and you can\n"
 "      communicate on the task directly."
 msgstr ""
 "Eメールでのフィードバックを提案する顧客:Odooは自動的にタスクを作成し、\n"
@@ -4772,7 +4772,7 @@ msgstr "間隔は0より大きくする必要があります。"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Platform Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -5586,7 +5586,7 @@ msgstr "いつでもポータルへのアクセスを取り消すことができ
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid ""
-"You have unsaved changes - no worries! Odoo will automatically save it as "
+"You have unsaved changes - no worries! Platform will automatically save it as "
 "you navigate.<br/> You can discard these changes from here or manually save "
 "your task.<br/>Let's save it manually."
 msgstr ""

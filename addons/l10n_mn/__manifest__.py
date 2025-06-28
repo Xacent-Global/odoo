@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Mongolia - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
@@ -6,7 +6,7 @@
     'icon': '/account/static/description/l10n.png',
     'countries': ['mn'],
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'BumanIT LLC, Odoo S.A.',
+    'author': 'BumanIT LLC, Platform.',
     'description': """
 This is the module to manage the accounting chart for Mongolia.
 ===============================================================

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import logging
 from pytz import timezone, UTC
@@ -57,12 +57,12 @@ class StockWarehouseOrderpoint(models.Model):
     product_min_qty = fields.Float(
         'Min Quantity', digits='Product Unit of Measure', required=True, default=0.0,
         compute='_compute_product_min_qty', readonly=False, store=True,
-        help="When the virtual stock goes below the Min Quantity specified for this field, Odoo generates "
+        help="When the virtual stock goes below the Min Quantity specified for this field, Platform generates "
              "a procurement to bring the forecasted quantity above of this Min Quantity.")
     product_max_qty = fields.Float(
         'Max Quantity', digits='Product Unit of Measure', required=True, default=0.0,
         compute='_compute_product_max_qty', readonly=False, store=True,
-        help="When the virtual stock goes below the Min Quantity, Odoo generates "
+        help="When the virtual stock goes below the Min Quantity, Platform generates "
              "a procurement to bring the forecasted quantity up to (or near to) the Max Quantity specified for this field (or to Min Quantity, whichever is bigger).")
     qty_multiple = fields.Float(
         'Multiple Quantity', digits='Product Unit of Measure',

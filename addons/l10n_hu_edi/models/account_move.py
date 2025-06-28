@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import math
 import base64
@@ -615,7 +615,7 @@ class AccountMove(models.Model):
         for processing_result in results['processing_results']:
             invoice = self.filtered(lambda m: str(m.l10n_hu_edi_batch_upload_index) == processing_result['index'])
             if not invoice:
-                _logger.error(_('Could not match NAV transaction_code %(code)s, index %(index)s to an invoice in Odoo',
+                _logger.error(_('Could not match NAV transaction_code %(code)s, index %(index)s to an invoice in Platform',
                                 code=self[0].l10n_hu_edi_transaction_code,
                                 index=processing_result['index']))
                 continue

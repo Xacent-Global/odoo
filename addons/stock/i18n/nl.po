@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
 # Translators:
 # Martin Trigaux, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1577,10 +1577,10 @@ msgstr "Voor geplande datum"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
 msgstr ""
-"Onderstaande tekst dient als suggestie en houdt Odoo S.A. niet "
+"Onderstaande tekst dient als suggestie en houdt Platform. niet "
 "aansprakelijk."
 
 #. module: stock
@@ -2692,10 +2692,10 @@ msgstr "Standaard routes door het magazijn"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo automatically creates requests for "
+"Define a minimum stock rule so that Platform automatically creates requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Definieer een minimumvoorraadregel zodat Odoo automatisch offerteaanvragen "
+"Definieer een minimumvoorraadregel zodat Platform automatisch offerteaanvragen "
 "of bevestigde productieorders aanmakt om je voorraad te herbevoorraden."
 
 #. module: stock
@@ -2707,14 +2707,14 @@ msgstr "Definieer een nieuw magazijn"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Platform is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definieer je locaties om je magazijnstructuur en organisatie\n"
-"te reflecteren. Odoo kan fysieke locaties beheren\n"
+"te reflecteren. Platform kan fysieke locaties beheren\n"
 "(magazijnen, planken, bakken, enz), partnerlocaties (klanten,\n"
 "leveranciers) en virtuele locaties die de tegenhanger zijn van de\n"
 "voorraadbewerkingen zoals productieorders\n"
@@ -3314,12 +3314,12 @@ msgstr "Lege locaties"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the Platform barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Geniet van een snelle ervaring met de Odoo barcode-app. Het is razendsnel en"
+"Geniet van een snelle ervaring met de Platform barcode-app. Het is razendsnel en"
 " werkt zelfs zonder een stabiele internetverbinding. Het ondersteunt alle "
 "stromen: voorraadaanpassingen, batches, verplaatsen van partijen of pallets,"
 " lage voorraadcontroles, enz. Ga naar het menu \"Apps\" om de barcode-"
@@ -3341,14 +3341,14 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Platform moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Platform will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Elke voorraadbewerking in Odoo verplaatst het product van een locatie naar een \n"
-"andere. Bijvoorbeeld, als je producten ontvangt van een leverancier, zal Odoo de \n"
+"Elke voorraadbewerking in Platform verplaatst het product van een locatie naar een \n"
+"andere. Bijvoorbeeld, als je producten ontvangt van een leverancier, zal Platform de \n"
 "producten verplaatsen van de leverancierslocatie naar de voorraadlocatie. Elk rapport\n"
 "kan toegepast worden op fysieke, partner of virtuele locaties."
 
@@ -4061,85 +4061,85 @@ msgstr "Als dezelfde SN in een andere hvh staat"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_delivery_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the delivery slip "
+"If this checkbox is ticked, Platform will automatically print the delivery slip "
 "of a picking when it is validated."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch de leveringsbon "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch de leveringsbon "
 "van een picking afdrukken wanneer deze wordt gevalideerd."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_lot_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN labels "
+"If this checkbox is ticked, Platform will automatically print the lot/SN labels "
 "of a picking when it is validated."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch de "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch de "
 "serie-/partijnummer-labels van een pick-up afdrukken wanneer deze wordt "
 "gevalideerd."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_package_label
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the package label "
+"If this checkbox is ticked, Platform will automatically print the package label "
 "when \"Put in Pack\" button is used."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch het "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch het "
 "verpakkingslabel afdrukken wanneer de knop \"Inpakken\" wordt gebruikt."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_packages
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the packages and "
+"If this checkbox is ticked, Platform will automatically print the packages and "
 "their contents of a picking when it is validated."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch de verpakkingen en"
+"Als dit selectievakje is aangevinkt, zal Platform automatisch de verpakkingen en"
 " de inhoud van een picking afdrukken wanneer deze gevalideerd is."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a picking when it is validated."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch de productlabels "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch de productlabels "
 "van een picking afdrukken wanneer deze wordt gevalideerd."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report labels of a picking when it is validated."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch de "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch de "
 "ontvangstrapportlabels van een orderafhandeling afdrukken wanneer deze wordt"
 " gevalideerd."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report of a picking when it is validated and has assigned moves."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch het "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch het "
 "ontvangstrapport van een picking afdrukken wanneer deze gevalideerd is en "
 "verplaatsingen toegewezen heeft."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the return slip of"
+"If this checkbox is ticked, Platform will automatically print the return slip of"
 " a picking when it is validated."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch de retourbon van "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch de retourbon van "
 "een pick-up afdrukken wanneer deze wordt gevalideerd."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_show_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically show the reception "
+"If this checkbox is ticked, Platform will automatically show the reception "
 "report (if there are moves to allocate to) when validating."
 msgstr ""
-"Als dit selectievakje is aangevinkt, zal Odoo automatisch het "
+"Als dit selectievakje is aangevinkt, zal Platform automatisch het "
 "ontvangstrapport tonen (als er verplaatsingen zijn om aan toe te wijzen) bij"
 " het bevestigen."
 
@@ -5919,12 +5919,12 @@ msgstr "Oktober"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
-"Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
+"Platform opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 "                                        <br/>"
 msgstr ""
-"Odoo opent standaard een pdf-voorbeeld. Als je (alleen voor Enterprise-gebruikers) direct wilt afdrukken:\n"
+"Platform opent standaard een pdf-voorbeeld. Als je (alleen voor Enterprise-gebruikers) direct wilt afdrukken:\n"
 "                                        installeer de IoT-app op een computer die zich op hetzelfde lokale netwerk bevindt als de\n"
 "                                        barcodeoperator en configureer de routering van de rapporten.\n"
 "                                        <br/>"
@@ -10855,21 +10855,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity above of this"
+" Platform generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
 msgstr ""
 "Zodra de virtuele voorraad onder het minimale aantal ligt die voor dit veld "
-"is opgegeven, genereert Odoo een aanbesteding om het verwachte aantal boven "
+"is opgegeven, genereert Platform een aanbesteding om het verwachte aantal boven "
 "dit minimale aantal te brengen."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Platform generates a "
 "procurement to bring the forecasted quantity up to (or near to) the Max "
 "Quantity specified for this field (or to Min Quantity, whichever is bigger)."
 msgstr ""
-"Zodra de virtuele voorraad onder het minimale aantal ligt, genereert Odoo "
+"Zodra de virtuele voorraad onder het minimale aantal ligt, genereert Platform "
 "een aanbesteding om het te verwachte aantal te verhogen tot (of dicht bij) "
 "het maximale aantal dat is opgegeven voor dit veld (of tot het minimale "
 "aantal, afhankelijk van welke waarde groter is)."

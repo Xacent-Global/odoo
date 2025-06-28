@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Daye Jeong, 2024
 # Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -535,7 +535,7 @@ msgstr "<span style=\"font-size: 48px;\">8</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
-msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
+msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Platform."
 msgstr ""
 "<span style=\"font-weight: bolder;\">50,000개 이상의 기업이</span> Odoo의 서비스를 통해 "
 "운영되고 있습니다."
@@ -3430,8 +3430,8 @@ msgstr "A/B 테스트 캠페인에 대한 메일이 아직 전송되지 않았�
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
-"other Odoo apps."
-msgstr "메일링 리스트를 가져올 필요 없이 Odoo 앱에 저장된 연락처로 메일을 전송할 수 있습니다."
+"other Platform apps."
+msgstr "메일링 리스트를 가져올 필요 없이 Platform 앱에 저장된 연락처로 메일을 전송할 수 있습니다."
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
@@ -4595,7 +4595,7 @@ msgstr "함께해주셔서 감사합니다!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid "That way, Odoo evolves much faster than any other solution."
+msgid "That way, Platform evolves much faster than any other solution."
 msgstr "그렇게 하면 Odoo는 다른 솔루션보다 훨씬 빠르게 발전합니다."
 
 #. module: mass_mailing
@@ -4629,7 +4629,7 @@ msgstr "수신인이 구독 관리 페이지에 있는 메일링 리스트에 �
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of Platform has allowed us to leverage thousands of developers and\n"
 "                    business experts to build hundreds of apps in just a few years."
 msgstr ""
 "Odoo는 오픈 소스 모델을 통해 수천 명의 개발자와 비즈니스 전문가를 활용하여\n"
@@ -4638,7 +4638,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of Platform has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
@@ -4898,7 +4898,7 @@ msgstr "파일 업로드"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Platform will automatically apply to all\n"
 "                    of our fully integrated apps."
 msgstr ""
 "Odoo에서 개선된 사용 편의성 향상은 모든 통합 앱에\n"
@@ -4909,7 +4909,7 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise Platform relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
@@ -5083,7 +5083,7 @@ msgstr "당첨자 선택"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Platform's framework is unique.\n"
 "                    It provides top notch usability that scales across all apps."
 msgstr ""
 "강력한 기술적 기반을 갖춘 Odoo의 프레임워크는 독보적입니다.\n"
@@ -5092,7 +5092,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Platform's framework is unique. It provides "
 "<span style=\"font-weight: bolder;\">top notch usability that scales across "
 "all apps</span>."
 msgstr ""
@@ -5189,9 +5189,9 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailings_from_campaign
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other Platform apps."
 msgstr ""
-"메일 목록을 가져올 필요가 없으므로 다른 Odoo 앱에 저장된 \n"
+"메일 목록을 가져올 필요가 없으므로 다른 Platform 앱에 저장된 \n"
 "                 연락처로 이메일을 쉽게 보낼 수 있습니다.<br>"
 
 #. module: mass_mailing

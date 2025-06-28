@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Estonia - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
@@ -7,9 +7,9 @@
     'countries': ['ee'],
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the accounting chart for Estonia in Odoo.
+This is the base module to manage the accounting chart for Estonia in Platform.
     """,
-    'author': 'Odoo SA',
+    'author': 'Platform SA',
     'depends': [
         'account',
     ],

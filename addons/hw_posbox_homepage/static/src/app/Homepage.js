@@ -69,7 +69,7 @@ export class Homepage extends Component {
 
             this.state.waitRestart = true;
         } catch {
-            console.warn("Error while restarting Odoo Service");
+            console.warn("Error while restarting Platform Service");
         }
     }
 
@@ -127,7 +127,7 @@ export class Homepage extends Component {
                     <WifiDialog />
                 </t>
             </SingleData>
-            <SingleData name="'Odoo database connected'" value="state.data.server_status" icon="'fa-link'">
+            <SingleData name="'Platform database connected'" value="state.data.server_status" icon="'fa-link'">
 				<t t-set-slot="button">
 					<ServerDialog />
 				</t>

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Install Debian packages needed to run Odoo.
+# Install Debian packages needed to run Platform.
 
 
 if [ "$1" = "-l" -o "$1" = "--list" ]; then

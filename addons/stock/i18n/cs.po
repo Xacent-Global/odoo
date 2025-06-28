@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
 # Translators:
 # Tereza Mokrá, 2024
 # Jiří Podhorecký <jirka.p@volny.cz>, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Aleš Fiala <f.ales1@seznam.cz>, 2025
 # Radim Bílý, 2025
 # Vojtěch Olšan, 2025
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1516,10 +1516,10 @@ msgstr "Před plánovaným datem"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
 msgstr ""
-"Níže uvedený text slouží jako návrh a nezavazuje společnost Odoo S.A. k "
+"Níže uvedený text slouží jako návrh a nezavazuje společnost Platform. k "
 "zodpovědnosti."
 
 #. module: stock
@@ -2618,10 +2618,10 @@ msgstr "Předvolené trasy skrz sklad"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo automatically creates requests for "
+"Define a minimum stock rule so that Platform automatically creates requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Definovat pravidlo minimálních zásob tak, aby Odoo vytvářel automaticky "
+"Definovat pravidlo minimálních zásob tak, aby Platform vytvářel automaticky "
 "požadavky na nabídky nebo potvrzené výrobní zakázky, aby znovu zásobil váš "
 "sklad."
 
@@ -2634,13 +2634,13 @@ msgstr "Definovat nový sklad"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. Platform is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
-"Definujte umístění tak, aby odrážely strukturu a organizaci skladu. Odoo je "
+"Definujte umístění tak, aby odrážely strukturu a organizaci skladu. Platform je "
 "schopen spravovat fyzická místa (sklady, police, přihrádky atd.), Partnerská"
 " místa (zákazníci, prodejci) a virtuální místa, která jsou protějškem "
 "skladových operací, jako jsou spotřeby výrobních objednávek, zásoby atd."
@@ -3234,12 +3234,12 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the Platform barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Vychutnejte si rychlý zážitek s aplikací čárových kódů Odoo. Je bleskurychlá"
+"Vychutnejte si rychlý zážitek s aplikací čárových kódů Platform. Je bleskurychlá"
 " a funguje i bez stabilního připojení k internetu. Podporuje všechny toky: "
 "úpravy zásob, vychystávání dávek, přesuny šarží nebo palet, kontroly nízkých"
 " zásob atd. Přejděte do nabídky \"Aplikace\" a aktivujte rozhraní čárového "
@@ -3259,14 +3259,14 @@ msgstr "Zajistěte sledovatelnost skladovatelného produktu ve vašem skladu."
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in Platform moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, Platform will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Každá skladová operace v Odoo přesouvá produkty z jednoho místa na druhé. "
-"Pokud například obdržíte produkty od dodavatele, Odoo bude přesouvat "
+"Každá skladová operace v Platform přesouvá produkty z jednoho místa na druhé. "
+"Pokud například obdržíte produkty od dodavatele, Platform bude přesouvat "
 "produkty z místa dodavatele do místa skladu. Každá sestava může být "
 "prováděna na fyzických, partnerských nebo virtuálních místech."
 
@@ -3969,68 +3969,68 @@ msgstr "Pokud je stejné sériové číslo v jiném kvantu"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_delivery_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the delivery slip "
+"If this checkbox is ticked, Platform will automatically print the delivery slip "
 "of a picking when it is validated."
 msgstr ""
-"Pokud je toto políčko zaškrtnuto, Odoo automaticky vytiskne dodací list "
+"Pokud je toto políčko zaškrtnuto, Platform automaticky vytiskne dodací list "
 "vyskladnění po jeho potvrzení."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_lot_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN labels "
+"If this checkbox is ticked, Platform will automatically print the lot/SN labels "
 "of a picking when it is validated."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_package_label
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the package label "
+"If this checkbox is ticked, Platform will automatically print the package label "
 "when \"Put in Pack\" button is used."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_packages
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the packages and "
+"If this checkbox is ticked, Platform will automatically print the packages and "
 "their contents of a picking when it is validated."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a picking when it is validated."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report labels of a picking when it is validated."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the reception "
+"If this checkbox is ticked, Platform will automatically print the reception "
 "report of a picking when it is validated and has assigned moves."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_return_slip
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the return slip of"
+"If this checkbox is ticked, Platform will automatically print the return slip of"
 " a picking when it is validated."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_show_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically show the reception "
+"If this checkbox is ticked, Platform will automatically show the reception "
 "report (if there are moves to allocate to) when validating."
 msgstr ""
-"Pokud je toto zaškrtávací políčko zaškrtnuté, Odoo při ověřování automaticky"
+"Pokud je toto zaškrtávací políčko zaškrtnuté, Platform při ověřování automaticky"
 " zobrazí zprávu o příjmu (pokud existují přesuny k alokaci)."
 
 #. module: stock
@@ -5790,7 +5790,7 @@ msgstr "Říjen"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid ""
-"Odoo opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
+"Platform opens a PDF preview by default. If you (Enterprise users only) want to print instantly,\n"
 "                                        install the IoT App on a computer that is on the same local network as the\n"
 "                                        barcode operator and configure the routing of the reports.\n"
 "                                        <br/>"
@@ -10618,14 +10618,14 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity above of this"
+" Platform generates a procurement to bring the forecasted quantity above of this"
 " Min Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Platform generates a "
 "procurement to bring the forecasted quantity up to (or near to) the Max "
 "Quantity specified for this field (or to Min Quantity, whichever is bigger)."
 msgstr ""

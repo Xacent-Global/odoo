@@ -1,11 +1,11 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Peru - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['pe'],
     'version': '3.0',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Vauxoo, Odoo S.A.',
+    'author': 'Vauxoo, Platform.',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/peru.html',
     'license': 'LGPL-3',
     'depends': [

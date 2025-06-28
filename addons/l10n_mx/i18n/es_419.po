@@ -50,9 +50,9 @@ msgstr "Cuentas bancarias"
 #. module: l10n_mx
 #: model_terms:res.company,invoice_terms_html:l10n_mx.demo_company_mx
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. responsibility."
+"Below text serves as a suggestion and doesn’t engage Application. responsibility."
 msgstr ""
-"El siguiente texto sirve como sugerencia y deslinda a Odoo S.A. de cualquier "
+"El siguiente texto sirve como sugerencia y deslinda a Application. de cualquier "
 "responsabilidad."
 
 #. module: l10n_mx

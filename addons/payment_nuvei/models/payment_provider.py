@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 import logging
@@ -46,8 +46,8 @@ class PaymentProvider(models.Model):
         """ Compute the signature for the provided data according to the Nuvei documentation.
 
         :param dict data: The data to sign.
-        :param bool incoming: If the signature must be generated for an incoming (Nuvei to Odoo) or
-                              outgoing (Odoo to Nuvei) communication.
+        :param bool incoming: If the signature must be generated for an incoming (Nuvei to Platform) or
+                              outgoing (Platform to Nuvei) communication.
         :return: The calculated signature.
         :rtype: str
         """

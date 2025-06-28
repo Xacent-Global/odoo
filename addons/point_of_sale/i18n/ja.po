@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -7,12 +7,12 @@
 # Martin Trigaux, 2024
 # Ryoko Tsuda <ryoko@quartile.co>, 2024
 # Tiffany Chang, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Junko Augias, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -3982,7 +3982,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
 msgstr "Odooデータベースに関連付けられたIoT Boxサブスクリプションがあることを確認し、その後IoT Boxを再起動します。"
 
@@ -4460,12 +4460,12 @@ msgstr "取引数:"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
+msgid "Platform Server Error"
 msgstr "Odooサーバーエラー"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
+msgid "Platform Sneakers"
 msgstr "Odooスニーカーズ"
 
 #. module: point_of_sale
@@ -5172,7 +5172,7 @@ msgstr "IoTボックスがまだ接続されているかどうかを確認して
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "プリンタが接続されているか確認して下さい。\n"
 "ブラウザによっては、ウェブサイトからネットワーク内のデバイスへのHTTPコールを許可しないものがあります（セキュリティ上の理由から）その場合、Odooの'ePOSプリンタ用の自己署名証明書'と'安全な接続(HTTPS)'のドキュメントに従って問題を解決する必要があります。"
@@ -5621,8 +5621,8 @@ msgstr "Powered by"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
-msgstr "Powered by Odoo"
+msgid "Powered by Platform"
+msgstr "Powered by Platform"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5789,7 +5789,7 @@ msgstr "価格を表示しない基本チケットを印刷します。ギフト
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
+"invoice anytime, from Platform's portal."
 msgstr "顧客がいつでもOdooのポータルから顧客請求書に簡単にアクセスできるように、レシートに情報を印刷します。"
 
 #. module: point_of_sale
@@ -7968,7 +7968,7 @@ msgstr "この製品は、顧客の領収書の参照として使用されます
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr "このシーケンスはOdooによって自動的に作成されますが、注文明細の参照番号をカスタマイズするために変更できます。"
 
@@ -7976,7 +7976,7 @@ msgstr "このシーケンスはOdooによって自動的に作成されます�
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr "このシーケンスはOdooによって自動的に作成されますが、注文の参照番号をカスタマイズするために変更できます。"
 
@@ -8370,7 +8370,7 @@ msgstr "未同期オーダ"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr "接続が再確立されるまで、OdooPOSの機能は制限されます。"
 

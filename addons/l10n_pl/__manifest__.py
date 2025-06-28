@@ -1,14 +1,14 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Poland - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['pl'],
     'version': '2.0',
-    'author': 'Odoo S.A., Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
+    'author': 'Platform., Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart and taxes for Poland in Odoo.
+This is the module to manage the accounting chart and taxes for Poland in Platform.
 ==================================================================================
 
 To jest moduł do tworzenia wzorcowego planu kont, podatków, obszarów podatkowych i

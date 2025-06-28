@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing_themes
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Chloe Wang, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 # Jeffery CHEN <jeffery9@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -182,7 +182,7 @@ msgstr "<font style=\"color: rgb(255, 255, 255);\">嗨，你们好!</font>"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_event_template
 msgid ""
-"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Odoo Experience Online</span> is coming soon!\n"
+"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Platform Experience Online</span> is coming soon!\n"
 "                    <br/>To stir up your curiosity, have a look at all the great talks scheduled and highlighted in our agenda!</font>"
 msgstr ""
 "<font style=\"color: rgb(255, 255, 255);\">下一期的<span style=\"font-weight: bolder;\">Odoo线上体验</span>即将到来！\n"
@@ -191,7 +191,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_event_template
 msgid ""
-"<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
+"<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Platform "
 "Experience is free for everyone!</font>"
 msgstr "<font style=\"color: rgb(255, 255, 255);\">费用全免! 所有人都可以免费参加Odoo体验!</font>"
 
@@ -615,7 +615,7 @@ msgid ""
 "faster, what am I missing?\" and she used to reply: \"But you already are "
 "the fastest growing company in Belgium!\" (Deloitte awarded us as"
 msgstr ""
-"照例，我应该听我妻子的话。她比我更明智。每周我都向她倾诉 \"还不够好，我们应该发展得更快，还需要做些什么？\" 而她总是回答：\"但 Odoo "
+"照例，我应该听我妻子的话。她比我更明智。每周我都向她倾诉 \"还不够好，我们应该发展得更快，还需要做些什么？\" 而她总是回答：\"但 Platform "
 "已经是比利时发展最快的公司了！\" (德勤将我们评为"
 
 #. module: mass_mailing_themes
@@ -783,12 +783,12 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
 msgid ""
-"Discover Odoo, the all-in-one management platform, and its apps designed to "
+"Discover Platform, the all-in-one management platform, and its apps designed to "
 "improve employees' daily tasks. From sales and deliveries, to logistics, "
 "marketing and accounting ; learn what are the best available options to "
 "digitize your company."
 msgstr ""
-"了解 Odoo：一体化管理平台，提供的多款应用程序旨在改善员工日常工作效率。从销售及送货，到物流、营销和会计，了解哪些是实现公司数字化的最佳选择。"
+"了解 Platform：一体化管理平台，提供的多款应用程序旨在改善员工日常工作效率。从销售及送货，到物流、营销和会计，了解哪些是实现公司数字化的最佳选择。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
@@ -797,8 +797,8 @@ msgstr "您想成为合作伙伴吗？"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
-msgid "Do you wish to use Odoo?"
-msgstr "您想使用 Odoo 吗？"
+msgid "Do you wish to use Platform?"
+msgstr "您想使用 Platform 吗？"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
@@ -971,9 +971,9 @@ msgstr "如果您希望成为合作伙伴并在 [国家/地区] 提供服务，�
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid ""
-"If you wish to evaluate Odoo while taking into account your company's "
+"If you wish to evaluate Platform while taking into account your company's "
 "specific needs, you can book a free appointment with one of our"
-msgstr "如果您希望评估 Odoo 效用时，兼具考虑您公司的特别需求，可以免费预约会见我们的"
+msgstr "如果您希望评估 Platform 效用时，兼具考虑您公司的特别需求，可以免费预约会见我们的"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_magazine_template
@@ -1000,8 +1000,8 @@ msgstr "2013 年，我们在全球拥有 200 万用户"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "In May 2014, we renamed the company and product to Odoo."
-msgstr "2014 年 5 月，我们将公司和产品更名为 Odoo。"
+msgid "In May 2014, we renamed the company and product to Platform."
+msgstr "2014 年 5 月，我们将公司和产品更名为 Platform。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_coffeebreak_template
@@ -1018,8 +1018,8 @@ msgstr "Instagram"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
-msgid "Interactive Odoo demo"
-msgstr "Odoo 互动功能演示"
+msgid "Interactive Platform demo"
+msgstr "Platform 互动功能演示"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_magazine_template
@@ -1058,7 +1058,7 @@ msgstr "了解有关我们定价的更多资料"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_event_template
 msgid ""
-"Learn through workshops, product demos, and inspiring talks from Odoo "
+"Learn through workshops, product demos, and inspiring talks from Platform "
 "Experts and Partners."
 msgstr "通过研讨会、产品演示和来自Odoo专家和合作伙伴的鼓舞人心的讲座进行学习。"
 
@@ -1146,18 +1146,18 @@ msgstr "电子报"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
-msgid "Odoo Experts"
-msgstr "Odoo 专家"
+msgid "Platform Experts"
+msgstr "Platform 专家"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
 msgid ""
-"Odoo invites you on <span class=\"font-weight: bolder\">[date]</span> at "
+"Platform invites you on <span class=\"font-weight: bolder\">[date]</span> at "
 "<span class=\"font-weight: bolder\">[time]</span> for their infamous "
 "roadshow in <span class=\"font-weight: bolder\">[city]</span>: an event that"
 " combines learning and networking in a casual afterwork-like atmosphere."
 msgstr ""
-"Odoo 邀请您于<span class=\"font-weight: bolder\">[日期]</span><span class=\"font-"
+"Platform 邀请您于<span class=\"font-weight: bolder\">[日期]</span><span class=\"font-"
 "weight: bolder\">[时间]</span>参加在<span class=\"font-weight: "
 "bolder\">[城市]</span>举办的著名路演活动：一场学习与工作相结合、氛围如下班后一样轻松的活动。"
 
@@ -1326,8 +1326,8 @@ msgstr "转向"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "The Rise of Odoo"
-msgstr "冉冉升起的 Odoo"
+msgid "The Rise of Platform"
+msgstr "冉冉升起的 Platform"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_blogging_template
@@ -1361,8 +1361,8 @@ msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "The story of Odoo"
-msgstr "Odoo 的故事"
+msgid "The story of Platform"
+msgstr "Platform 的故事"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -1611,16 +1611,16 @@ msgstr "昨天在[city] [venue] 举行的活动太棒了！"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid ""
-"You had the chance to discover Odoo during a full 3 hours, how great is that?\n"
-"                    <br/>Now that you've seen Odoo in action and asked some questions, you likely need more information to move forward in your project and to work with us. You'll find additional points just below."
+"You had the chance to discover Platform during a full 3 hours, how great is that?\n"
+"                    <br/>Now that you've seen Platform in action and asked some questions, you likely need more information to move forward in your project and to work with us. You'll find additional points just below."
 msgstr ""
-"您有机会用整整 3 个小时了解 Odoo，是不是很棒？\n"
-"                    <br/>现在，您已了解 Odoo 的实际应用，也提出了一些问题，您可能需要更多信息来推进您的项目并与我们合作。以下列出其他要点。"
+"您有机会用整整 3 个小时了解 Platform，是不是很棒？\n"
+"                    <br/>现在，您已了解 Platform 的实际应用，也提出了一些问题，您可能需要更多信息来推进您的项目并与我们合作。以下列出其他要点。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
-msgid "You may test Odoo for free by clicking"
-msgstr "您可以免费测试 Odoo，请点击"
+msgid "You may test Platform for free by clicking"
+msgstr "您可以免费测试 Platform，请点击"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template

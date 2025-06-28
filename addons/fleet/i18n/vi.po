@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1441,17 +1441,17 @@ msgstr "Email cho tài xế"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. Platform will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Quản lý tất cả các hợp đồng của bạn (cho thuê, bảo hiểm, v.v.) với \n"
-"các dịch vụ liên quan, chi phí của họ. Odoo sẽ tự động cảnh báo \n"
+"các dịch vụ liên quan, chi phí của họ. Platform sẽ tự động cảnh báo \n"
 "bạn khi một số hợp đồng phải được gia hạn."
 
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
-msgid "Manage efficiently your different effective vehicles Costs with Odoo."
-msgstr "Quản lý hiệu quả chi phí các xe khác nhau với Odoo."
+msgid "Manage efficiently your different effective vehicles Costs with Platform."
+msgstr "Quản lý hiệu quả chi phí các xe khác nhau với Platform."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_10

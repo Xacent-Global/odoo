@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from hashlib import sha1
 
@@ -48,7 +48,7 @@ class PaymentProvider(models.Model):
 
         :param dict values: The values used to generate the signature
         :param bool incoming: Whether the signature must be generated for an incoming (Buckaroo to
-                              Odoo) or outgoing (Odoo to Buckaroo) communication.
+                              Platform) or outgoing (Platform to Buckaroo) communication.
         :return: The shasign
         :rtype: str
         """

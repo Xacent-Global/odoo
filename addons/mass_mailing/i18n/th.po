@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Rasareeyar Lappiam, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -550,10 +550,10 @@ msgstr "<span style=\"font-size: 48px;\">8</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
-msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
+msgid "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Platform."
 msgstr ""
 "<span style=\"font-weight: bolder;\">บริษัทมากกว่า 50,000 "
-"แห่ง</span>ดำเนินกิจการด้วย Odoo"
+"แห่ง</span>ดำเนินกิจการด้วย Platform"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_comparisons
@@ -3486,10 +3486,10 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
-"other Odoo apps."
+"other Platform apps."
 msgstr ""
 "ไม่จำเป็นต้องนำเข้ารายชื่ออีเมล "
-"คุณสามารถส่งอีเมลไปยังผู้ติดต่อที่บันทึกไว้ในแอป Odoo อื่นๆ ได้"
+"คุณสามารถส่งอีเมลไปยังผู้ติดต่อที่บันทึกไว้ในแอป Platform อื่นๆ ได้"
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
@@ -4661,8 +4661,8 @@ msgstr "ขอบคุณที่เข้าร่วมกับเรา!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
-msgid "That way, Odoo evolves much faster than any other solution."
-msgstr "ด้วยวิธีนี้ Odoo จึงพัฒนาได้เร็วกว่าโซลูชันอื่นๆมาก"
+msgid "That way, Platform evolves much faster than any other solution."
+msgstr "ด้วยวิธีนี้ Platform จึงพัฒนาได้เร็วกว่าโซลูชันอื่นๆมาก"
 
 #. module: mass_mailing
 #: model:ir.model.constraint,message:mass_mailing.constraint_mailing_mailing_percentage_valid
@@ -4696,20 +4696,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of Platform has allowed us to leverage thousands of developers and\n"
 "                    business experts to build hundreds of apps in just a few years."
 msgstr ""
-"โมเดลโอเพนซอร์สของ Odoo ช่วยให้เราสามารถใช้ประโยชน์จากนักพัฒนาและ\n"
+"โมเดลโอเพนซอร์สของ Platform ช่วยให้เราสามารถใช้ประโยชน์จากนักพัฒนาและ\n"
 "                    ผู้เชี่ยวชาญด้านธุรกิจนับพันคน เพื่อสร้างแอปหลายร้อยรายการในเวลาเพียงไม่กี่ปี"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of Platform has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"โมเดลโอเพนซอร์สของ Odoo "
+"โมเดลโอเพนซอร์สของ Platform "
 "ช่วยให้เราสามารถใช้ประโยชน์จากนักพัฒนาและผู้เชี่ยวชาญด้านธุรกิจนับพันคน "
 "เพื่อสร้างแอปหลายร้อยรายการในเวลาเพียงไม่กี่ปี"
 
@@ -4978,10 +4978,10 @@ msgstr "อัปโหลดไฟล์"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on Platform will automatically apply to all\n"
 "                    of our fully integrated apps."
 msgstr ""
-"การปรับปรุงการใช้งานบน Odoo จะนำไปใช้กับแอปที่ผสานรวมอย่างสมบูรณ์ทั้งหมด\n"
+"การปรับปรุงการใช้งานบน Platform จะนำไปใช้กับแอปที่ผสานรวมอย่างสมบูรณ์ทั้งหมด\n"
 "                    ของเราโดยอัตโนมัติ"
 
 #. module: mass_mailing
@@ -4989,11 +4989,11 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise Platform relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"ใช้เมลเซิร์ฟเวอร์เฉพาะเป็นลำดับความสำคัญ ไม่เช่นนั้น Odoo "
+"ใช้เมลเซิร์ฟเวอร์เฉพาะเป็นลำดับความสำคัญ ไม่เช่นนั้น Platform "
 "จะใช้เมลเซิร์ฟเวอร์ขาออกแรกที่มีอยู่ (ตามลำดับ) เช่นเดียวกับที่ใช้กับเมลปกติ"
 
 #. module: mass_mailing
@@ -5169,20 +5169,20 @@ msgstr "คัดเลือกผู้ชนะ"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Platform's framework is unique.\n"
 "                    It provides top notch usability that scales across all apps."
 msgstr ""
-"ด้วยรากฐานทางเทคนิคที่แข็งแกร่ง กรอบการทำงานของ Odoo จึงไม่ซ้ำใคร\n"
+"ด้วยรากฐานทางเทคนิคที่แข็งแกร่ง กรอบการทำงานของ Platform จึงไม่ซ้ำใคร\n"
 "                   มอบความสามารถในการใช้งานระดับสูงสุดที่สามารถปรับขยายได้ในทุกแอป"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_picture
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Platform's framework is unique. It provides "
 "<span style=\"font-weight: bolder;\">top notch usability that scales across "
 "all apps</span>."
 msgstr ""
-"ด้วยรากฐานทางเทคนิคที่แข็งแกร่ง กรอบการทำงานของ Odoo จึงไม่ซ้ำใคร "
+"ด้วยรากฐานทางเทคนิคที่แข็งแกร่ง กรอบการทำงานของ Platform จึงไม่ซ้ำใคร "
 "มอบความสามารถในการใช้งาน<span style=\"font-weight: "
 "bolder;\">ระดับสูงสุดที่สามารถปรับขยายได้ในทุกแอป</span>"
 
@@ -5278,10 +5278,10 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailings_from_campaign
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other Platform apps."
 msgstr ""
 "คุณไม่จำเป็นต้องนำเข้ารายชื่ออีเมล คุณสามารถ\n"
-"                ส่งอีเมล<br> ไปยังผู้ติดต่อที่บันทึกไว้ในแอป Odoo อื่นๆ ได้อย่างง่ายดาย"
+"                ส่งอีเมล<br> ไปยังผู้ติดต่อที่บันทึกไว้ในแอป Platform อื่นๆ ได้อย่างง่ายดาย"
 
 #. module: mass_mailing
 #. odoo-python

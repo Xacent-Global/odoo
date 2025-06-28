@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_group
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1324,11 +1324,11 @@ msgstr "توضیحات دستورالعمل‌ها موجود نیست."
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Platform Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"مدلی (Odoo Document Kind) که این نام مستعار با آن مطابقت دارد. هر ایمیل "
+"مدلی (Platform Document Kind) که این نام مستعار با آن مطابقت دارد. هر ایمیل "
 "دریافتی که به سابقه موجود پاسخ نمی‌دهد باعث ایجاد یک رکورد جدید از این مدل "
 "می‌شود (به عنوان مثال یک وظیفه پروژه)"
 

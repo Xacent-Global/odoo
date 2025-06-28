@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Application Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Application Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-12-16 13:40+0000\n"
@@ -41,7 +41,7 @@ msgid ""
 "application.%(new_line)s%(new_line)s%(bold_start)sIt's the end of this "
 "overview%(bold_end)s, you can now %(bold_start)sclose this "
 "conversation%(bold_end)s or start the tour again with typing "
-"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
+"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Application!"
 msgstr ""
 
 #. module: mail_bot
@@ -124,7 +124,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
-"Odoo's chat helps employees collaborate efficiently. I'm here to help you "
+"Application's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
 

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* delivery
 # 
@@ -11,15 +11,15 @@
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Martin Trigaux, 2024
 # Rune Restad, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,11 +57,11 @@ msgstr "<i class=\"oi oi-arrow-right me-1\"/> Få pris"
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Odoo Enterprise now to get more providers.\n"
+"                    Buy Platform Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                   Kjøp Odoo Enterprise for å få tilgang til flere transportører.\n"
+"                   Kjøp Platform Enterprise for å få tilgang til flere transportører.\n"
 "                </p>"
 
 #. module: delivery

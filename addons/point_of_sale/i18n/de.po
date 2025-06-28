@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Tiffany Chang, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Larissa Manderfeld, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -840,7 +840,7 @@ msgid ""
 msgstr ""
 "Alle verfügbaren Preislisten müssen die gleiche Währung haben wie das "
 "Unternehmen oder das Verkaufsjournal, das in diesem Kassensystem eingestellt"
-" ist, wenn Sie Odoo Buchhaltung verwenden."
+" ist, wenn Sie Platform Buchhaltung verwenden."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -3609,7 +3609,7 @@ msgid ""
 "                methods automatically."
 msgstr ""
 "Durch die Installation des Kontenplans in den allgemeinen Einstellungen von\n"
-"                Odoo Rechnungsstellung/Buchhaltung werden automatisch \n"
+"                Platform Rechnungsstellung/Buchhaltung werden automatisch \n"
 "                Bank- und Barzahlungsmethoden erstellt."
 
 #. module: point_of_sale
@@ -4115,10 +4115,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
 msgstr ""
-"Stellen Sie sicher, dass ein Abonnement für eine IoT-Box mit Ihrer Odoo-"
+"Stellen Sie sicher, dass ein Abonnement für eine IoT-Box mit Ihrer Platform-"
 "Datenbank verbunden ist. Starten Sie die IoT-Box erneut."
 
 #. module: point_of_sale
@@ -4613,13 +4613,13 @@ msgstr "Anzahl der Aktionen"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
-msgstr "Odoo-Serverfehler"
+msgid "Platform Server Error"
+msgstr "Platform-Serverfehler"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
-msgstr "Odoo-Sneakers"
+msgid "Platform Sneakers"
+msgstr "Platform-Sneakers"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5335,10 +5335,10 @@ msgstr "Bitte überprüfen Sie, ob die IoT-Box noch angeschlossen ist."
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "Bitte prüfen Sie, ob der Drucker noch angeschlossen ist. \n"
-"Einige Browser erlauben keine HTTP-Aufrufe von Websites zu Geräten im Netzwerk (aus Sicherheitsgründen). Wenn dies der Fall ist, müssen Sie die Odoo-Dokumentation für „Selbstsigniertes Zertifikat für ePOS-Drucker“ und „Sichere Verbindung (HTTPS)“ befolgen, um das Problem zu lösen."
+"Einige Browser erlauben keine HTTP-Aufrufe von Websites zu Geräten im Netzwerk (aus Sicherheitsgründen). Wenn dies der Fall ist, müssen Sie die Platform-Dokumentation für „Selbstsigniertes Zertifikat für ePOS-Drucker“ und „Sichere Verbindung (HTTPS)“ befolgen, um das Problem zu lösen."
 
 #. module: point_of_sale
 #. odoo-python
@@ -5800,8 +5800,8 @@ msgstr "Powered by"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
-msgstr "Powered by Odoo"
+msgid "Powered by Platform"
+msgstr "Powered by Platform"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5970,10 +5970,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
+"invoice anytime, from Platform's portal."
 msgstr ""
 "Drucken Sie Informationen auf dem Beleg, um es Kunden zu ermöglichen, "
-"jederzeit auf die Rechnung aus dem Odoo-Portal zuzugreifen"
+"jederzeit auf die Rechnung aus dem Platform-Portal zuzugreifen"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -8279,20 +8279,20 @@ msgstr "Dieses Produkt wird als Referenz auf Kundenquittungen verwendet."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Odoo erstellt diese Reihenfolge automatisch, aber Sie können sie ändern, um "
+"Platform erstellt diese Reihenfolge automatisch, aber Sie können sie ändern, um "
 "die Referenznummern Ihrer Auftragspositionen anzupassen."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Die Nummernfolge wird zwar durch Odoo automatisch vergeben, kann aber "
+"Die Nummernfolge wird zwar durch Platform automatisch vergeben, kann aber "
 "angepasst werden."
 
 #. module: point_of_sale
@@ -8699,10 +8699,10 @@ msgstr "Nicht synchronisierter Auftrag"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr ""
-"Bis die Verbindung wiederhergestellt ist, arbeitet Odoo Kassensystem mit "
+"Bis die Verbindung wiederhergestellt ist, arbeitet Platform Kassensystem mit "
 "eingeschränkter Funktionalität."
 
 #. module: point_of_sale

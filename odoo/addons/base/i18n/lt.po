@@ -14366,10 +14366,10 @@ msgstr "Belizas"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
-"Toliau pateiktas tekstas yra pasiūlymas ir Odoo S.A. neprisiima atsakomybės."
+"Toliau pateiktas tekstas yra pasiūlymas ir Application. neprisiima atsakomybės."
 
 #. module: base
 #: model:res.country,name:base.bj

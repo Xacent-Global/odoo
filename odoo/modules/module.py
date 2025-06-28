@@ -44,7 +44,7 @@ _DEFAULT_MANIFEST = {
     'application': False,
     'bootstrap': False,  # web
     'assets': {},
-    'author': 'Odoo S.A.',
+    'author': 'Application.',
     'auto_install': False,
     'category': 'Uncategorized',
     'cloc_exclude': [],

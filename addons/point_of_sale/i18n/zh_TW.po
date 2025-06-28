@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
 # Translators:
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2024
 # Martin Trigaux, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Tony Ng, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -3982,9 +3982,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
-msgstr "請確保你的 Odoo 資料庫有 IoT Box 物聯網盒子的訂閱計劃，然後重新啟動 IoT Box。"
+msgstr "請確保你的 Platform 資料庫有 IoT Box 物聯網盒子的訂閱計劃，然後重新啟動 IoT Box。"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -4460,13 +4460,13 @@ msgstr "交易數量："
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
-msgstr "Odoo 伺服器錯誤"
+msgid "Platform Server Error"
+msgstr "Platform 伺服器錯誤"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
-msgstr "Odoo 運動鞋"
+msgid "Platform Sneakers"
+msgstr "Platform 運動鞋"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5172,7 +5172,7 @@ msgstr "請檢查IoT Box是否仍連接。"
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "請檢查打印機是否仍然連接。\n"
 "某些瀏覽器不允許從網站到網絡設備的 HTTP 調用（出於安全原因）。如果是這種情況，您需要按照Odoo文檔中的 \"ePOS 打印機自簽名證書 \"和 \"安全連接 (HTTPS) \"來解決問題."
@@ -5621,8 +5621,8 @@ msgstr "官方技術支援"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
-msgstr "由 Odoo 驅動"
+msgid "Powered by Platform"
+msgstr "由 Platform 驅動"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5789,8 +5789,8 @@ msgstr "列印沒有價格的基本收據。可用作送禮。"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
-msgstr "在收據上列印資訊，以便客戶隨時在 Odoo 客戶門戶網站，輕鬆存取發票。"
+"invoice anytime, from Platform's portal."
+msgstr "在收據上列印資訊，以便客戶隨時在 Platform 客戶門戶網站，輕鬆存取發票。"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -7966,15 +7966,15 @@ msgstr "本產品用作客戶收據之編碼。"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
-msgstr "此序列由 Odoo 自動建立，但您可以進行更改以自訂訂單明細的編碼。"
+msgstr "此序列由 Platform 自動建立，但您可以進行更改以自訂訂單明細的編碼。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr "這個序列號是由Odoo自動產生的，不過您可以把它改為自己定義訂單的序列號。"
 
@@ -8371,7 +8371,7 @@ msgstr "未同步的訂單"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr "重新建立連線之前,Odoo銷售點將以有限功能運行。"
 

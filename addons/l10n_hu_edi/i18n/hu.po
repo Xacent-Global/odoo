@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_hu_edi
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Platform Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-03 08:13+0000\n"
 "PO-Revision-Date: 2024-05-03 12:35+0000\n"
@@ -320,10 +320,10 @@ msgstr ""
 #: code:addons/l10n_hu_edi/models/account_move.py:0
 #, python-format
 msgid ""
-"Could not match NAV transaction_code %s, index %s to an invoice in Odoo"
+"Could not match NAV transaction_code %s, index %s to an invoice in Platform"
 msgstr ""
 "Nem sikerült megfeleltetni a NAV transaction_code %s, sorszám %s adatot egy "
-"számlának az Odoo-ban"
+"számlának az Platform-ban"
 
 #. module: l10n_hu_edi
 #. odoo-python

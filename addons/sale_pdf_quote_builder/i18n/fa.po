@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* sale_pdf_quote_builder
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -234,7 +234,7 @@ msgid "File Content (raw)"
 msgstr ""
 "I'm sorry, I need the actual content of the text that you want me to "
 "translate into Persian. Please provide the specific text from the file "
-"content related to Odoo modules, and I'll translate it for you while "
+"content related to Platform modules, and I'll translate it for you while "
 "preserving HTML tags and formatting."
 
 #. module: sale_pdf_quote_builder

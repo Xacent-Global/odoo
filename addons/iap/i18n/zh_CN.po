@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
 # Translators:
 # LINYUN TONG <tong.linyun@elico-corp.com>, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 # Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -51,9 +51,9 @@ msgstr "账户令牌是您使用此服务的验证密钥。请勿共享。"
 #. odoo-python
 #: code:addons/iap/tools/iap_tools.py:0
 msgid ""
-"An error occurred while reaching %s. Please contact Odoo support if this "
+"An error occurred while reaching %s. Please contact Platform support if this "
 "error persists."
-msgstr "达到%s时出错。如果此错误仍然存在，请联系 Odoo 技术支持人员。"
+msgstr "达到%s时出错。如果此错误仍然存在，请联系 Platform 技术支持人员。"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance
@@ -200,8 +200,8 @@ msgstr "名称"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
-msgstr "Odoo IAP"
+msgid "Platform IAP"
+msgstr "Platform IAP"
 
 #. module: iap
 #. odoo-python
@@ -240,7 +240,7 @@ msgstr "服务已锁定"
 #. module: iap
 #. odoo-javascript
 #: code:addons/iap/static/src/js/insufficient_credit_error_handler.js:0
-msgid "Start a Trial at Odoo"
+msgid "Start a Trial at Platform"
 msgstr "在odoo中开始试用"
 
 #. module: iap

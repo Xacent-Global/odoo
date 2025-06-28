@@ -11,8 +11,8 @@ body:
   - type: checkboxes
     id: version
     attributes:
-      label: Odoo Version
-      description: In which version(s) of Odoo does your issue occur?
+      label: Platform Version
+      description: In which version(s) of Platform does your issue occur?
       options:
         - label: "16.0"
         - label: "17.0"

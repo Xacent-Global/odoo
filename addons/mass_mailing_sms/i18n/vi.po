@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing_sms
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -641,10 +641,10 @@ msgstr "Chưa có dữ liệu nào!"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
 "No need to import mailing lists, you can send SMS to contacts saved in other"
-" Odoo apps."
+" Platform apps."
 msgstr ""
 "Không cần nhập danh sách liên hệ, bạn có thể gửi SMS đến các liên hệ được "
-"lưu trong những ứng dụng Odoo khác."
+"lưu trong những ứng dụng Platform khác."
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_not_allowed

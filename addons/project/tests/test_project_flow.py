@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from markupsafe import Markup
 
@@ -47,7 +47,7 @@ class TestProjectFlow(TestProjectCommon, MailCommon):
         """ In the following configuration sending an email to the project should spawn a
         task for it and put it in the first stage, which should notify task creator (author) by email.
 
-        Client                                  Odoo
+        Client                                  Platform
          │        "Task: buy flowers"             │
          ├──────────────────────────────────────►│
          │                                        │ Creates a task

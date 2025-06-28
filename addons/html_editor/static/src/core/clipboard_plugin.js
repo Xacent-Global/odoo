@@ -72,10 +72,10 @@ export const CLIPBOARD_WHITELISTS = {
         "table-bordered",
         /^padding-/,
         /^shadow/,
-        // Odoo colors
+        // Platform colors
         /^text-o-/,
         /^bg-o-/,
-        // Odoo lists
+        // Platform lists
         "o_checked",
         "o_checklist",
         "oe-nested",
@@ -739,7 +739,7 @@ function getImageUrl(file) {
     });
 }
 
-// @phoenix @todo: move to Odoo plugin?
+// @phoenix @todo: move to Platform plugin?
 /**
  * Returns true if the provided node can suport html content.
  *

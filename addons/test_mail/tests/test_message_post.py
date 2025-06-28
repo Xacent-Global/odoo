@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import base64
 
@@ -1008,7 +1008,7 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
                             'mail_mail_values': {
                                 'headers': {
                                     'Return-Path': f'{expected_alias_domain.bounce_alias}@{expected_alias_domain.name}',
-                                    'X-Odoo-Objects': f'{record._name}-{record.id}',
+                                    'X-Platform-Objects': f'{record._name}-{record.id}',
                                 },
                             },
                             'message_values': {

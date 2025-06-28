@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* html_editor
 # 
@@ -18,15 +18,15 @@
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Martin Trigaux, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1729,10 +1729,10 @@ msgstr "Denna bild är en extern bild"
 #: code:addons/html_editor/static/src/main/media/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "Denna typ av bild stöds inte för beskärning.<br/>Om du vill beskära den, "
-"ladda först ner den från originalkällan och ladda upp den i Odoo."
+"ladda först ner den från originalkällan och ladda upp den i Platform."
 
 #. module: html_editor
 #. odoo-javascript

@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Daye Jeong, 2025
 # Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -122,7 +122,7 @@ msgid ""
 "\n"
 "If you are not sure how to fix this, please contact our support."
 msgstr ""
-"요청에 대한 서명이 잘못되었습니다. Odoo 액세스 포인트 서버에 다른 연결이 되었기 때문입니다. 데이터베이스를 복제하는 경우 발생할 수 있습니다.\n"
+"요청에 대한 서명이 잘못되었습니다. Platform 액세스 포인트 서버에 다른 연결이 되었기 때문입니다. 데이터베이스를 복제하는 경우 발생할 수 있습니다.\n"
 "\n"
 "이 문제를 해결하는 방법을 잘 모르는 경우에는 지원팀에 문의하세요."
 

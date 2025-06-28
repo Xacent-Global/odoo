@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing_themes
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -187,20 +187,20 @@ msgstr "<font style=\"color: rgb(255, 255, 255);\">¡Hola a tots!</font>"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_event_template
 msgid ""
-"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Odoo Experience Online</span> is coming soon!\n"
+"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Platform Experience Online</span> is coming soon!\n"
 "                    <br/>To stir up your curiosity, have a look at all the great talks scheduled and highlighted in our agenda!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">La següent edició de <span style=\"font-weight: bolder;\">Odoo Experience Online</span> vindrà aviat!\n"
+"<font style=\"color: rgb(255, 255, 255);\">La següent edició de <span style=\"font-weight: bolder;\">Platform Experience Online</span> vindrà aviat!\n"
 "                    <br/>Per despertar la vostra curiositat, doneu un cop d'ull a totes les grans converses programades i destacades en la nostra agenda!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_event_template
 msgid ""
-"<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
+"<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Platform "
 "Experience is free for everyone!</font>"
 msgstr ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! L'experiència "
-"d'Odoo és gratuïta per a tothom!</font>"
+"d'Platform és gratuïta per a tothom!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_training_template
@@ -756,12 +756,12 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
 msgid ""
-"Discover Odoo, the all-in-one management platform, and its apps designed to "
+"Discover Platform, the all-in-one management platform, and its apps designed to "
 "improve employees' daily tasks. From sales and deliveries, to logistics, "
 "marketing and accounting ; learn what are the best available options to "
 "digitize your company."
 msgstr ""
-"Descobriu Odoo, la plataforma de gestió empresarial tot en u. Les seves "
+"Descobriu Platform, la plataforma de gestió empresarial tot en u. Les seves "
 "aplicacions han estat disenyades per a millorar el rendiment dels "
 "treballadors en les seves tasques diàries. Des de vendes i enviaments, fins "
 "a logística i comptabilitat; apreneu quines són les millors opcions "
@@ -774,7 +774,7 @@ msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
-msgid "Do you wish to use Odoo?"
+msgid "Do you wish to use Platform?"
 msgstr ""
 
 #. module: mass_mailing_themes
@@ -940,7 +940,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid ""
-"If you wish to evaluate Odoo while taking into account your company's "
+"If you wish to evaluate Platform while taking into account your company's "
 "specific needs, you can book a free appointment with one of our"
 msgstr ""
 
@@ -969,7 +969,7 @@ msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "In May 2014, we renamed the company and product to Odoo."
+msgid "In May 2014, we renamed the company and product to Platform."
 msgstr ""
 
 #. module: mass_mailing_themes
@@ -987,7 +987,7 @@ msgstr "Instagram"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
-msgid "Interactive Odoo demo"
+msgid "Interactive Platform demo"
 msgstr ""
 
 #. module: mass_mailing_themes
@@ -1029,11 +1029,11 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_event_template
 msgid ""
-"Learn through workshops, product demos, and inspiring talks from Odoo "
+"Learn through workshops, product demos, and inspiring talks from Platform "
 "Experts and Partners."
 msgstr ""
 "Aprenen a través de tallers, demos de productes i xerrades inspiradores "
-"d'experts i contactes d'Odoo."
+"d'experts i contactes d'Platform."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
@@ -1121,13 +1121,13 @@ msgstr "Butlletí de notícies"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
-msgid "Odoo Experts"
+msgid "Platform Experts"
 msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
 msgid ""
-"Odoo invites you on <span class=\"font-weight: bolder\">[date]</span> at "
+"Platform invites you on <span class=\"font-weight: bolder\">[date]</span> at "
 "<span class=\"font-weight: bolder\">[time]</span> for their infamous "
 "roadshow in <span class=\"font-weight: bolder\">[city]</span>: an event that"
 " combines learning and networking in a casual afterwork-like atmosphere."
@@ -1300,7 +1300,7 @@ msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "The Rise of Odoo"
+msgid "The Rise of Platform"
 msgstr ""
 
 #. module: mass_mailing_themes
@@ -1332,7 +1332,7 @@ msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "The story of Odoo"
+msgid "The story of Platform"
 msgstr ""
 
 #. module: mass_mailing_themes
@@ -1570,13 +1570,13 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid ""
-"You had the chance to discover Odoo during a full 3 hours, how great is that?\n"
-"                    <br/>Now that you've seen Odoo in action and asked some questions, you likely need more information to move forward in your project and to work with us. You'll find additional points just below."
+"You had the chance to discover Platform during a full 3 hours, how great is that?\n"
+"                    <br/>Now that you've seen Platform in action and asked some questions, you likely need more information to move forward in your project and to work with us. You'll find additional points just below."
 msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
-msgid "You may test Odoo for free by clicking"
+msgid "You may test Platform for free by clicking"
 msgstr ""
 
 #. module: mass_mailing_themes

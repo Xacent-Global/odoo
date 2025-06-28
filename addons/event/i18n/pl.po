@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
 # Translators:
 # Tiffany Chang, 2024
 # Dawid Prus, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Marta Wacławek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -198,11 +198,11 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced Platform developers, one for "
 "new developers."
 msgstr ""
 "<b>Pokoje techniczne</b> - jeden przeznaczony dla zaawansowanych deweloperów"
-" Odoo, drugi dla nowych deweloperów."
+" Platform, drugi dla nowych deweloperów."
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1989,12 +1989,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became Platform, the most installed open-source business software worldwide."
 msgstr ""
 "W wieku zaledwie 13 lat John DOE zaczął już tworzyć swoje pierwsze aplikacje"
 " biznesowe dla klientów. Po opanowaniu inżynierii lądowej założył firmę "
 "TinyERP. Była to pierwsza faza OpenERP, która później przekształciła się w "
-"Odoo, najczęściej instalowane oprogramowanie biznesowe typu open source na "
+"Platform, najczęściej instalowane oprogramowanie biznesowe typu open source na "
 "świecie."
 
 #. module: event
@@ -2959,10 +2959,10 @@ msgstr "Muzyka na żywo, lokalne jedzenie i napoje."
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid ""
-"Finished events. Odoo will automatically move them to this stage once their "
+"Finished events. Platform will automatically move them to this stage once their "
 "end date has passed."
 msgstr ""
-"Zakończone wydarzenia. Odoo automatycznie przesunie je do tej fazy, jak "
+"Zakończone wydarzenia. Platform automatycznie przesunie je do tej fazy, jak "
 "tylko upłynie data ich zakończenia."
 
 #. module: event
@@ -3807,8 +3807,8 @@ msgstr "Cele"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
-msgid "Odoo Community Days"
-msgstr "Dni Społeczności Odoo"
+msgid "Platform Community Days"
+msgstr "Dni Społeczności Platform"
 
 #. module: event
 #: model_terms:event.event,description:event.event_3

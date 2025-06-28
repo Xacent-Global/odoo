@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Jakub Smolka, 2025
 # Vojtěch Olšan, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -120,16 +120,16 @@ msgstr "Klíče API"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"API Keys allow your users to access Odoo with external tools when multi-"
+"API Keys allow your users to access Platform with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"API klíče umožňují vaším uživatelům přistupovat do Odoo z externích nástrojů"
+"API klíče umožňují vaším uživatelům přistupovat do Platform z externích nástrojů"
 " v případě, kdy je povolena více-faktorová autentikace."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "About"
-msgstr "O Odoo"
+msgstr "O Platform"
 
 #. module: base_setup
 #. odoo-python
@@ -433,8 +433,8 @@ msgstr "OAuth Ověřování"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -518,10 +518,10 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"This name will be used for the application when Odoo is installed through "
+"This name will be used for the application when Platform is installed through "
 "the browser."
 msgstr ""
-"Tento název se použije pro aplikaci, je-li Odoo instalováno přes prohlížeč."
+"Tento název se použije pro aplikaci, je-li Platform instalováno přes prohlížeč."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
@@ -572,11 +572,11 @@ msgstr "VoIP"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, Platform provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Při vyplňování adresáře nabízí Odoo seznam odpovídajících firem. Při výběru "
+"Při vyplňování adresáře nabízí Platform seznam odpovídajících firem. Při výběru "
 "jedné položky jsou údaje o firmě a logo automaticky vyplněny."
 
 #. module: base_setup

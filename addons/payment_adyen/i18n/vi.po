@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment_adyen
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -213,10 +213,10 @@ msgstr "Việc thực hiện giao dịch có tham chiếu %s không thành công
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_capture_wizard_view_form
 msgid ""
 "The capture or void of the transaction might take a few minutes to be\n"
-"                    processed by Adyen and reflected in Odoo."
+"                    processed by Adyen and reflected in Platform."
 msgstr ""
 "Việc thu hồi hoặc vô hiệu giao dịch có thể mất vài phút để được\n"
-"                    xử lý qua Adyen và phản ánh trong Odoo."
+"                    xử lý qua Adyen và phản ánh trong Platform."
 
 #. module: payment_adyen
 #. odoo-python

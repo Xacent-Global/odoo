@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -6,12 +6,12 @@
 # Nadia Martynova, 2024
 # Vasiliy Korobatov <korobatov@gmail.com>, 2024
 # Martin Trigaux, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Ilya Rozhkov, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -447,7 +447,7 @@ msgstr "Позволить сотрудникам обновлять свои д
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
-msgid "Application Settings"
+msgid "Platform Settings"
 msgstr "Настройки приложения"
 
 #. module: hr
@@ -1037,7 +1037,7 @@ msgstr ""
 #. module: hr
 #: model_terms:hr.job,description:hr.job_ceo
 msgid ""
-"Demonstration of different Odoo services for each client and convincing the client about functionality of the application.\n"
+"Demonstration of different Platform services for each client and convincing the client about functionality of the application.\n"
 "The candidate should have excellent communication skills.\n"
 "Relationship building and influencing skills\n"
 "Expertise in New Client Acquisition (NCAs) and Relationship Management.\n"
@@ -1047,7 +1047,7 @@ msgid ""
 "Building strong relationships with clients / customers for business growth profitability.\n"
 "Keep regular interaction with key clients for better extraction and expansion."
 msgstr ""
-"Демонстрация различных сервисов Odoo для каждого клиента и убеждение клиента в функциональности приложения.\n"
+"Демонстрация различных сервисов Platform для каждого клиента и убеждение клиента в функциональности приложения.\n"
 "Кандидат должен обладать отличными коммуникативными навыками.\n"
 "Навыки построения отношений и влияния\n"
 "Опыт в привлечении новых клиентов (NCA) и управлении взаимоотношениями.\n"
@@ -3700,11 +3700,11 @@ msgstr "У вас нет доступа к этому документу."
 #. module: hr
 #: model_terms:hr.job,description:hr.job_trainee
 msgid ""
-"You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Odoo. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.\n"
-"You will have to become familiar with the existing tools (books, class supports, Odoo presentation’s slides, commercial tools),\n"
+"You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Platform. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.\n"
+"You will have to become familiar with the existing tools (books, class supports, Platform presentation’s slides, commercial tools),\n"
 "to participate to the update of those tools in order to make them appropriate for the new version of the software and, for sure,\n"
 "to suggest improvements in order to cover the new domains of the software.\n"
-"You join the Implementation Assistance department. This team of 3 people go with Odoo’s clients in the set up of the software. Your role will be\n"
+"You join the Implementation Assistance department. This team of 3 people go with Platform’s clients in the set up of the software. Your role will be\n"
 "to animate webinars in order to show the different functionalities of the software.\n"
 "to be involved in the support of the customers and\n"
 "to answer to their questions.\n"
@@ -3713,11 +3713,11 @@ msgid ""
 "contributing to the set up of a new politic,\n"
 "being involved into satisfaction surveys in order to have a better knowledge of how the support given is seen by the customers."
 msgstr ""
-"Вы принимаете участие в обновлении наших обучающих инструментов и инструментов предпродажной подготовки после запуска новой версии Odoo. Ведь любая новая версия программного обеспечения приносит значительные улучшения в плане функциональности, эргономики и конфигурации.\n"
-"Вам придется ознакомиться с существующими инструментами (книги, учебные пособия, слайды презентации Odoo, коммерческие инструменты),\n"
+"Вы принимаете участие в обновлении наших обучающих инструментов и инструментов предпродажной подготовки после запуска новой версии Platform. Ведь любая новая версия программного обеспечения приносит значительные улучшения в плане функциональности, эргономики и конфигурации.\n"
+"Вам придется ознакомиться с существующими инструментами (книги, учебные пособия, слайды презентации Platform, коммерческие инструменты),\n"
 "принять участие в обновлении этих инструментов, чтобы сделать их подходящими для новой версии программы, и, конечно же,\n"
 "предлагать улучшения, чтобы охватить новые области программного обеспечения.\n"
-"Вы присоединяетесь к отделу помощи по внедрению. Эта команда из 3 человек помогает клиентам Odoo в установке программного обеспечения. Ваша роль будет заключаться в следующем\n"
+"Вы присоединяетесь к отделу помощи по внедрению. Эта команда из 3 человек помогает клиентам Platform в установке программного обеспечения. Ваша роль будет заключаться в следующем\n"
 "анимация вебинаров для демонстрации различных функциональных возможностей программного обеспечения.\n"
 "участвовать в поддержке клиентов и\n"
 "отвечать на их вопросы.\n"
@@ -3729,11 +3729,11 @@ msgstr ""
 #. module: hr
 #: model_terms:hr.job,description:hr.job_cto
 msgid ""
-"You will take part in the consulting services we provide to our partners and customers: design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Odoo training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.\n"
+"You will take part in the consulting services we provide to our partners and customers: design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Platform training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.\n"
 "\n"
 "The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur)."
 msgstr ""
-"Вы будете принимать участие в консалтинговых услугах, которые мы предоставляем нашим партнерам и клиентам: проектирование, анализ, разработка, тестирование, управление проектами, поддержка/коучинг. Вы будете работать автономно, а также координировать и контролировать небольшие распределенные команды разработчиков в некоторых проектах. По желанию вы будете проводить тренинги по Odoo для партнеров и клиентов (8-10 человек/сеанс). Вы будете подчиняться руководителю отдела профессиональных услуг и тесно сотрудничать со всеми разработчиками и консультантами.\n"
+"Вы будете принимать участие в консалтинговых услугах, которые мы предоставляем нашим партнерам и клиентам: проектирование, анализ, разработка, тестирование, управление проектами, поддержка/коучинг. Вы будете работать автономно, а также координировать и контролировать небольшие распределенные команды разработчиков в некоторых проектах. По желанию вы будете проводить тренинги по Platform для партнеров и клиентов (8-10 человек/сеанс). Вы будете подчиняться руководителю отдела профессиональных услуг и тесно сотрудничать со всеми разработчиками и консультантами.\n"
 "\n"
 "Работа находится в Гранд-Розьер (1367), Бельгия (между Лувен-Ла-Нев и Намюром)."
 

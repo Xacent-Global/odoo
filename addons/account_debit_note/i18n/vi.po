@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -120,7 +120,7 @@ msgid ""
 "copy them.  We won't copy them for debit notes from credit notes. "
 msgstr ""
 "Trong trường hợp bạn cần chỉnh sửa từng dòng, việc sao chép chúng có thể rất"
-" hữu ích. Odoo sẽ không sao chép chúng từ giấy báo có sang giấy báo nợ."
+" hữu ích. Platform sẽ không sao chép chúng từ giấy báo có sang giấy báo nợ."
 
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_journal

@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
 # Translators:
 # Daye Jeong, 2025
 # Sarah Park, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3237,14 +3237,14 @@ msgstr "발생"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
-msgstr "Odoo 인증서"
+msgid "Platform Certification"
+msgstr "Platform 인증서"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -5247,9 +5247,9 @@ msgstr "웹사이트 대화 이력"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
-msgstr "Odoo 인증에 오신 것을 환영합니다. 총 3개의 질문 중에서 무작위로 선택된 2개의 질문을 받게 됩니다."
+msgstr "Platform 인증에 오신 것을 환영합니다. 총 3개의 질문 중에서 무작위로 선택된 2개의 질문을 받게 됩니다."
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_5
@@ -5289,7 +5289,7 @@ msgstr "\"ODOO\"는 무엇의 약자입니까?"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
+msgid "What does one need to get to pass an Platform Survey?"
 msgstr "Odoo의 설문조사에 통과하려면 무엇이 필요합니까?"
 
 #. module: survey
@@ -5352,7 +5352,7 @@ msgstr "당신의 생일은 언제입니까?"
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
+msgid "Whenever you pick an answer, Platform saves it for you."
 msgstr "답을 고르면 Odoo가 자동으로 저장해줍니다."
 
 #. module: survey

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -337,10 +337,10 @@ msgstr ". Lūdzu, pārliecinieties, ka šī ir vēlamā darbība."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
-". The journal entries need to be computed by Odoo before being posted in "
+". The journal entries need to be computed by Platform before being posted in "
 "your company's currency."
 msgstr ""
-". Odoo ir jāaprēķina žurnāla ieraksti, pirms tie tiek iegrāmatoti Jūsu "
+". Platform ir jāaprēķina žurnāla ieraksti, pirms tie tiek iegrāmatoti Jūsu "
 "uzņēmuma valūtā."
 
 #. module: account
@@ -2547,7 +2547,7 @@ msgstr "Pēc"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
-"After importing three bills for a vendor without making changes, Odoo will "
+"After importing three bills for a vendor without making changes, Platform will "
 "suggest automatically validating future bills. You can toggle this feature "
 "at any time in the vendor's profile."
 msgstr ""
@@ -3622,7 +3622,7 @@ msgstr "Banka un skaidrā nauda"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank of odoo"
-msgstr "Odoo banka"
+msgstr "Platform banka"
 
 #. module: account
 #: model:ir.model,name:account.model_account_setup_bank_manual_config
@@ -3751,10 +3751,10 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Platform. "
 "responsibility."
 msgstr ""
-"Tālāk tekstā sniegtais teksts kalpo kā ieteikums un neuzņemas Odoo S.A. "
+"Tālāk tekstā sniegtais teksts kalpo kā ieteikums un neuzņemas Platform. "
 "atbildību."
 
 #. module: account
@@ -5761,10 +5761,10 @@ msgstr "Datuma piemērs"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in Platform. It is the date of the "
 "opening entry."
 msgstr ""
-"Datums, no kura grāmatvedība tiek pārvaldīta Odoo. Tas ir sākuma ieraksta "
+"Datums, no kura grāmatvedība tiek pārvaldīta Platform. Tas ir sākuma ieraksta "
 "datums."
 
 #. module: account
@@ -10119,12 +10119,12 @@ msgstr "Manuāla ievadīšana"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_line_ids
 msgid ""
-"Manual: Get paid by any method outside of Odoo.\n"
+"Manual: Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Rokasgrāmata: Saņemiet samaksu, izmantojot jebkuru metodi ārpus Odoo.\n"
+"Rokasgrāmata: Saņemiet samaksu, izmantojot jebkuru metodi ārpus Platform.\n"
 "Maksājumu pakalpojumu sniedzēji: Katram maksājumu pakalpojumu sniedzējam ir sava Maksājuma metode. Pieprasiet darījumu uz/uz karti, pateicoties partnera saglabātajam maksājuma žetonam, kad pērkat vai abonējat tiešsaistē.\n"
 "Partijas iemaksa: Ievākt vairākus klientu čekus vienlaicīgi, ģenerējot un iesniedzot sērijveida depozītu bankai. Nepieciešams modulis account_batch_payment.\n"
 "SEPA tiešais debets: Saņemiet maksājumus SEPA zonā, pateicoties pilnvarai, ko jums būs piešķīris jūsu partneris. Nepieciešams modulis account_sepa.\n"
@@ -10132,28 +10132,28 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_line_ids
 msgid ""
-"Manual: Pay by any method outside of Odoo.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Manual: Pay by any method outside of Platform.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
-"Rokasgrāmata: Maksājiet ar jebkuru metodi ārpus Odoo.\n"
-"Pārbaudiet: Maksājiet rēķinus ar čeku un izdrukājiet to no Odoo.\n"
+"Rokasgrāmata: Maksājiet ar jebkuru metodi ārpus Platform.\n"
+"Pārbaudiet: Maksājiet rēķinus ar čeku un izdrukājiet to no Platform.\n"
 "SEPA kredīta pārskaitījums: Maksājiet SEPA zonā, iesniedzot SEPA kredīta pārveduma failu savai bankai. Nepieciešams modulis account_sepa.\n"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_line_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Rokasgrāmata: Maksāt vai saņemt samaksu ar jebkuru metodi ārpus Odoo.\n"
+"Rokasgrāmata: Maksāt vai saņemt samaksu ar jebkuru metodi ārpus Platform.\n"
 "Maksājumu pakalpojumu sniedzēji: Katram maksājumu pakalpojumu sniedzējam ir sava Maksājuma metode. Pieprasiet darījumu uz/uz karti, pateicoties partnera saglabātajam maksājuma žetonam, kad pērkat vai abonējat tiešsaistē.\n"
-"Pārbaudiet: Apmaksājiet rēķinus ar čeku un izdrukājiet to no Odoo.\n"
+"Pārbaudiet: Apmaksājiet rēķinus ar čeku un izdrukājiet to no Platform.\n"
 "Partijas iemaksa: Apkopējiet vairākus klientu čekus vienlaicīgi, ģenerējot un iesniedzot partijas depozītu bankai. Nepieciešams modulis account_batch_payment.\n"
 "SEPA kredīta pārskaitījums: Maksājiet SEPA zonā, iesniedzot bankai SEPA kredīta pārveduma failu. Nepieciešams modulis account_sepa.\n"
 "SEPA tiešais debets: Saņemiet maksājumu SEPA zonā, izmantojot jūsu partnera jums piešķirto mandātu. Nepieciešams modulis account_sepa.\n"
@@ -11083,33 +11083,33 @@ msgstr "Oktobris"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__domain
-msgid "Odoo Domain"
-msgstr "Odoo domēns"
+msgid "Platform Domain"
+msgstr "Platform domēns"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 #: model_terms:ir.actions.act_window,help:account.action_credit_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Platform allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odoo ļauj saskaņot pārskata rindu tieši ar\n"
+"Platform ļauj saskaņot pārskata rindu tieši ar\n"
 "                saistītajiem pārdošanas vai pirkšanas rēķiniem."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo palīdz viegli izsekot visām ar klientu saistītajām darbībām."
+msgid "Platform helps you easily track all activities related to a customer."
+msgstr "Platform palīdz viegli izsekot visām ar klientu saistītajām darbībām."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo palīdz viegli izsekot visām ar piegādātāju saistītajām darbībām."
+msgid "Platform helps you easily track all activities related to a supplier."
+msgstr "Platform palīdz viegli izsekot visām ar piegādātāju saistītajām darbībām."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__off
@@ -13766,13 +13766,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by Platform"
 msgstr ""
 "Katram rēķinam nosūtiet vienu atsevišķu e-pastu.\n"
 "\n"
 "Pieņems jebkuru faila paplašinājumu.\n"
 "\n"
-"Odoo interpretēs tikai PDF un XML failus"
+"Platform interpretēs tikai PDF un XML failus"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -17293,10 +17293,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
 "Use this field to encode the total amount of the invoice.\n"
-"Odoo will automatically create one invoice line with default values to match it."
+"Platform will automatically create one invoice line with default values to match it."
 msgstr ""
 "Izmantojiet šo lauku, lai kodētu kopējo rēķina summu.\n"
-"Odoo automātiski izveidos vienu rēķina rindu ar tai atbilstošām noklusējuma vērtībām."
+"Platform automātiski izveidos vienu rēķina rindu ar tai atbilstošām noklusējuma vērtībām."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__used
@@ -17579,7 +17579,7 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                orders or receipts. This allows you to control bills\n"
 "                you receive from your vendor according to the draft\n"
-"                document in Odoo."
+"                document in Platform."
 msgstr ""
 
 #. module: account
@@ -17841,10 +17841,10 @@ msgstr "Jūs mēģināt saskaņot dažus ierakstus, kas jau ir saskaņoti."
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the Platform reference."
 msgstr ""
 "Katram references veidam varat izvēlēties dažādus modeļus. Noklusējuma "
-"modelis ir Odoo reference."
+"modelis ir Platform reference."
 
 #. module: account
 #. odoo-python

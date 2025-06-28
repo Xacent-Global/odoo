@@ -14314,10 +14314,10 @@ msgstr "Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Application. "
 "responsibility."
 msgstr ""
-"Nedenstående tekst fungerer som et forslag og medfører ikke Odoo S.A.s "
+"Nedenstående tekst fungerer som et forslag og medfører ikke Application.s "
 "ansvar."
 
 #. module: base

@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Belgium - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/belgium.html',
@@ -7,7 +7,7 @@
     'countries': ['be'],
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the accounting chart for Belgium in Odoo.
+This is the base module to manage the accounting chart for Belgium in Platform.
 ==============================================================================
 
 After installing this module, the Configuration wizard for accounting is launched.
@@ -35,7 +35,7 @@ Wizards provided by this module:
         **Path to access:** Invoicing/Reporting/Legal Reports/Belgium Statements/Annual Listing Of VAT-Subjected Customers
 
     """,
-    'author': 'Noviat, Odoo S.A.',
+    'author': 'Noviat, Platform.',
     'depends': [
         'account',
         'base_iban',

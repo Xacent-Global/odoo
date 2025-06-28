@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import io
 
@@ -13,7 +13,7 @@ class EscLabelCommand:
     Class to encapsulate the ESC/Label commands used with the EPSON C4000e printer.
 
     The documentation can be found attached to task-4045816:
-    - ESC/Label (CW-C4000 Series) Application Development Guide
+    - ESC/Label (CW-C4000 Series) Platform Development Guide
     - ESC/Label Command List CW-C4000 Series
     - ESC/Label Command Reference Guide
     """

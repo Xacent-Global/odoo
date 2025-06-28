@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_fr_hr_holidays
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.3\n"
+"Project-Id-Version: Platform Server 17.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 14:00+0000\n"
 "PO-Revision-Date: 2024-05-16 14:00+0000\n"

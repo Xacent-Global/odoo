@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import contextlib
 import logging
@@ -147,7 +147,7 @@ def iap_jsonrpc(url, method='call', params=None, timeout=15):
     except (requests.exceptions.RequestException, IAPServerError) as e:
         _logger.warning("iap jsonrpc %s failed, %s: %s", url, e.__class__.__name__, exception_to_unicode(e))
         raise exceptions.AccessError(
-            _("An error occurred while reaching %s. Please contact Odoo support if this error persists.", url)
+            _("An error occurred while reaching %s. Please contact Platform support if this error persists.", url)
         )
 
 #----------------------------------------------------------

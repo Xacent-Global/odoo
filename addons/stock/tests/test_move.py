@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
@@ -6929,7 +6929,7 @@ class StockMove(TransactionCase):
         """Imperial UoM can sometime create a discrepancy between the demand and the actual quantity moved,
         this is mostly expected.
         However, when the user force set the quantity manually, a ValidationError could be raised because
-        Odoo tried to create a new stock.move.line with the difference and then reserved the 0 quantity.
+        Platform tried to create a new stock.move.line with the difference and then reserved the 0 quantity.
         This test ensure that a move line with a product uom quantity of 0 does not impact the Quants reserved quantity.
         """
         gram_uom = self.env.ref('uom.product_uom_gram')

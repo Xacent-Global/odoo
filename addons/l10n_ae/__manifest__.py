@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'United Arab Emirates - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/united_arab_emirates.html',

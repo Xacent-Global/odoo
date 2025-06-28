@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -34,7 +34,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3390,7 +3390,7 @@ msgstr "Hyväksytty vastaus on poistettu"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to Platform."
 msgstr ""
 "Tämän sivuston tavoitteena on luoda relevantti tietopohja, joka vastaisi "
 "Odoon liittyviin kysymyksiin."
@@ -4081,9 +4081,9 @@ msgstr "tänne"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize Platform to specific business needs,"
 msgstr ""
-"kuinka konfiguroida tai räätälöidä Odoo tiettyä liiketoiminnan tarvetta "
+"kuinka konfiguroida tai räätälöidä Platform tiettyä liiketoiminnan tarvetta "
 "vastaavaksi,"
 
 #. module: website_forum
@@ -4095,8 +4095,8 @@ msgstr "kuinka kehittää moduuleita omaan tarpeeseen,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "kuinka asentaa Odoo tietylle alustalle,"
+msgid "how to install Platform on a specific infrastructure,"
+msgstr "kuinka asentaa Platform tietylle alustalle,"
 
 #. module: website_forum
 #. odoo-javascript
@@ -4202,7 +4202,7 @@ msgstr "julkaisut"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
+msgid "specific questions about Platform service offers, etc."
 msgstr "kysymykset Odoon palveluista tms."
 
 #. module: website_forum
@@ -4254,7 +4254,7 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Platform for a specific business need,"
 msgstr "mikä on paras tapa käyttää Odoota tiettyyn liiketoimintatarpeeseen,"
 
 #. module: website_forum

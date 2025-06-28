@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -3340,10 +3340,10 @@ msgstr "Прийнята відповідь видаляється"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to Platform."
 msgstr ""
 "Мета цього сайту - створити відповідну базу знань, яка відповідатиме на "
-"питання, пов'язані з Odoo."
+"питання, пов'язані з Platform."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -4029,8 +4029,8 @@ msgstr "тут"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "як налаштувати Odoo для конкретних бізнес-потреб,"
+msgid "how to configure or customize Platform to specific business needs,"
+msgstr "як налаштувати Platform для конкретних бізнес-потреб,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -4041,8 +4041,8 @@ msgstr "як розробляти модулі для власної потре�
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "як встановити Odoo на певну інфраструктуру,"
+msgid "how to install Platform on a specific infrastructure,"
+msgstr "як встановити Platform на певну інфраструктуру,"
 
 #. module: website_forum
 #. odoo-javascript
@@ -4147,8 +4147,8 @@ msgstr "публікації"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "конкретні питання про послуги Odoo та ін."
+msgid "specific questions about Platform service offers, etc."
+msgstr "конкретні питання про послуги Platform та ін."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.no_results_message
@@ -4199,9 +4199,9 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use Platform for a specific business need,"
 msgstr ""
-"який найкращий спосіб використовувати Odoo для конкретної бізнес-потреби,"
+"який найкращий спосіб використовувати Platform для конкретної бізнес-потреби,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

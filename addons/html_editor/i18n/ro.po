@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* html_editor
 # 
@@ -7,12 +7,12 @@
 # Foldi Robert <foldirobert@nexterp.ro>, 2024
 # Maria Muntean, 2024
 # Larisa_nexterp, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Corina Calin, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
@@ -1720,11 +1720,11 @@ msgstr "Această imagine este o imagine externă"
 #: code:addons/html_editor/static/src/main/media/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "Acest tip de imagine nu este acceptat pentru decupare. <br/>Dacă doriți să o"
 " decupați, vă rugăm mai întâi să o descărcați din sursa originală și să o "
-"încărcați în Odoo."
+"încărcați în Platform."
 
 #. module: html_editor
 #. odoo-javascript

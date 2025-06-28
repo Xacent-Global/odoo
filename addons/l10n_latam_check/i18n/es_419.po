@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_latam_check
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0+e\n"
+"Project-Id-Version: Platform Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-11 15:22+0000\n"
 "PO-Revision-Date: 2025-02-11 15:22+0000\n"
@@ -390,16 +390,16 @@ msgstr "Actividades tardías"
 #. module: l10n_latam_check
 #: model:ir.model.fields,help:l10n_latam_check.field_l10n_latam_check__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manual: Pague o cobre con cualquier método fuera de Odoo.\n"
+"Manual: Pague o cobre con cualquier método fuera de Platform.\n"
 "Payment Providers: Cada proveedor de pagos tiene su propio método de pago. Solicite una transacción desde/hacia una tarjeta gracias a un token de pago guardado por el socio al comprar o suscribirse en línea..\n"
-"Check: Pague las cuentas con cheques e imprímalo desde Odoo.\n"
+"Check: Pague las cuentas con cheques e imprímalo desde Platform.\n"
 "Batch Deposit: Cobre varios cheques de clientes a la vez generando y enviando un ingreso por lotes a su banco. Módulo account_batch_payment es necesario.\n"
 "SEPA Credit Transfer: Pague en la zona SEPA enviando un fichero de transferencia SEPA a su banco. Módulo account_sepa es necesario.\n"
 "SEPA Direct Debit: Cobre en la zona SEPA gracias a un mandato que su socio le habrá otorgado. Módulo account_sepa es necesario.\n"

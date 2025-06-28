@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -556,11 +556,11 @@ msgstr "Nếu chọn, một số tin nhắn sẽ có lỗi gửi."
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In Platform, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"Trong Odoo, các dự án và đơn bán hàng được thực hiện bằng cách sử dụng\n"
+"Trong Platform, các dự án và đơn bán hàng được thực hiện bằng cách sử dụng\n"
 "                tài khoản phân tích. Bạn có thể theo dõi chi phí và doanh thu để phân tích\n"
 "                lợi nhuận một cách dễ dàng. "
 

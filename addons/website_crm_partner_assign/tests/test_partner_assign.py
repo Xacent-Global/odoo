@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, timedelta
 from unittest.mock import patch
@@ -273,7 +273,7 @@ class TestPartnerLeadPortal(TestCrmCommon):
             of the property decorator https://docs.python.org/3/library/functions.html#property
             Patching is allowing to modify normally read_only value.
         """
-        # Patch GeoIp so it acts, as if Odoo client is located in Mexico
+        # Patch GeoIp so it acts, as if Platform client is located in Mexico
         GeoIpMock.return_value.country_code = 'MX'
 
         # Create a partner outside of Mexico

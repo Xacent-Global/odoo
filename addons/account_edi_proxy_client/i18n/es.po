@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Larissa Manderfeld, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -123,7 +123,7 @@ msgid ""
 "\n"
 "If you are not sure how to fix this, please contact our support."
 msgstr ""
-"La firma de la solicitud no es válida. Esto puede ocurrir si hay otra conexión al servidor del punto de acceso de Odoo, por ejemplo, si ha duplicado su base de datos.\n"
+"La firma de la solicitud no es válida. Esto puede ocurrir si hay otra conexión al servidor del punto de acceso de Platform, por ejemplo, si ha duplicado su base de datos.\n"
 "\n"
 "Si no está seguro de cómo solucionarlo, póngase en contacto con nuestro servicio de asistencia."
 

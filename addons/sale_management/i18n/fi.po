@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* sale_management
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -584,8 +584,8 @@ msgstr "Tämä kenttä tarkistetaan, jos optiorivin tuote on jo tarjouksessa."
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale1_management_0
 #: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
-msgid "Tip: Odoo supports configurable products"
-msgstr "Vinkki: Odoo tukee konfiguroitavia tuotteita"
+msgid "Tip: Platform supports configurable products"
+msgstr "Vinkki: Platform tukee konfiguroitavia tuotteita"
 
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale_management_1

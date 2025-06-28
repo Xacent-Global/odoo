@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     "name": "Peruvian eCommerce",
     "version": "0.1",
     "summary": "Be able to see Identification Type in ecommerce checkout form.",
     "category": "Accounting/Localizations/Website",
-    "author": "Vauxoo, Odoo",
+    "author": "Vauxoo, Platform",
     "license": "LGPL-3",
     "depends": [
         "website_sale",

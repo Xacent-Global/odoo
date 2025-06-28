@@ -688,11 +688,11 @@ describe("link preview", () => {
         onRpc("/html_editor/link_preview_external", () => {
             return {
                 og_description:
-                    "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.",
+                    "From ERP to CRM, eCommerce and CMS. Download Platform or use it in the cloud. Grow Your Business.",
                 og_image: "https://www.odoo.com/web/image/41207129-1abe7a15/homepage-seo.png",
-                og_title: "Open Source ERP and CRM | Odoo",
+                og_title: "Open Source ERP and CRM | Platform",
                 og_type: "website",
-                og_site_name: "Odoo",
+                og_site_name: "Platform",
                 source_url: "http://odoo.com/",
             };
         });
@@ -704,9 +704,9 @@ describe("link preview", () => {
         await animationFrame();
         expect(".o_we_replace_title_btn").toHaveCount(1);
         expect(".o_extra_info_card").toHaveCount(1);
-        expect(".o_we_url_link").toHaveText("Open Source ERP and CRM | Odoo");
+        expect(".o_we_url_link").toHaveText("Open Source ERP and CRM | Platform");
         expect(".o_we_description_link_preview").toHaveText(
-            "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business."
+            "From ERP to CRM, eCommerce and CMS. Download Platform or use it in the cloud. Grow Your Business."
         );
     });
     test("test internal metadata cached correctly", async () => {
@@ -801,11 +801,11 @@ describe("link preview", () => {
             expect.step("/html_editor/link_preview_external");
             return {
                 og_description:
-                    "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.",
+                    "From ERP to CRM, eCommerce and CMS. Download Platform or use it in the cloud. Grow Your Business.",
                 og_image: "https://www.odoo.com/web/image/41207129-1abe7a15/homepage-seo.png",
-                og_title: "Open Source ERP and CRM | Odoo",
+                og_title: "Open Source ERP and CRM | Platform",
                 og_type: "website",
-                og_site_name: "Odoo",
+                og_site_name: "Platform",
                 source_url: "http://odoo.com/",
             };
         });
@@ -816,7 +816,7 @@ describe("link preview", () => {
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://odoo.com/");
         await animationFrame();
         expect.verifySteps(["/html_editor/link_preview_external"]);
-        expect(".o_we_url_link").toHaveText("Open Source ERP and CRM | Odoo");
+        expect(".o_we_url_link").toHaveText("Open Source ERP and CRM | Platform");
 
         const pNode = queryOne("p");
         setSelection({

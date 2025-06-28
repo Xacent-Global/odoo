@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* survey
 # 
@@ -7,15 +7,15 @@
 # 何彬 <vnsoft.he@gmail.com>, 2024
 # Raymond Yu <cl_yu@hotmail.com>, 2024
 # Chloe Wang, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3232,13 +3232,13 @@ msgstr "发生"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
+msgid "Platform Certification"
 msgstr "odoo 认证"
 
 #. module: survey
@@ -5236,7 +5236,7 @@ msgstr "网站沟通记录"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
-"Welcome to this Odoo certification. You will receive 2 random questions out "
+"Welcome to this Platform certification. You will receive 2 random questions out "
 "of a pool of 3."
 msgstr "欢迎来到这个Odoo认证。您将从 3 个问题中随机收到 2 个问题。"
 
@@ -5278,7 +5278,7 @@ msgstr "“ODOO”代表什么？"
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
+msgid "What does one need to get to pass an Platform Survey?"
 msgstr "通过Odoo调查需要什么？"
 
 #. module: survey
@@ -5341,7 +5341,7 @@ msgstr "您的出生日期是什么时候？"
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
+msgid "Whenever you pick an answer, Platform saves it for you."
 msgstr "每当您选择答案时，Odoo都会为您保存答案。"
 
 #. module: survey

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import base64
 import json
@@ -2082,14 +2082,14 @@ class TestComposerResultsComment(TestMailComposer, CronMixinCase):
                             email_values={
                                 'headers': {
                                     'Return-Path': f'{exp_alias_domain.bounce_email}',
-                                    'X-Odoo-Objects': f'{record._name}-{record.id}',
+                                    'X-Platform-Objects': f'{record._name}-{record.id}',
                                 },
                                 'subject': f'TemplateSubject {record.name}',
                             },
                             fields_values={
                                 'headers': {
                                     'Return-Path': f'{exp_alias_domain.bounce_email}',
-                                    'X-Odoo-Objects': f'{record._name}-{record.id}',
+                                    'X-Platform-Objects': f'{record._name}-{record.id}',
                                 },
                                 'mail_server_id': self.env['ir.mail_server'],
                                 'record_alias_domain_id': exp_alias_domain,
@@ -2984,14 +2984,14 @@ class TestComposerResultsMass(TestMailComposer):
                         email_values={
                             'headers': {
                                 'Return-Path': f'{exp_alias_domain.bounce_email}',
-                                'X-Odoo-Objects': f'{record._name}-{record.id}',
+                                'X-Platform-Objects': f'{record._name}-{record.id}',
                             },
                             'subject': f'TemplateSubject {record.name}',
                         },
                         fields_values={
                             'headers': {
                                 'Return-Path': f'{exp_alias_domain.bounce_email}',
-                                'X-Odoo-Objects': f'{record._name}-{record.id}',
+                                'X-Platform-Objects': f'{record._name}-{record.id}',
                             },
                             'mail_server_id': self.env['ir.mail_server'],
                             'record_alias_domain_id': exp_alias_domain,

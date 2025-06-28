@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.product.tests.common import ProductVariantsCommon
 from odoo.tests import tagged

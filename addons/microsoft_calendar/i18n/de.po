@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Larissa Manderfeld, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -141,8 +141,8 @@ msgstr "Erstellt am"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_odoo
-msgid "Delete from Odoo"
-msgstr "Aus Odoo löschen"
+msgid "Delete from Platform"
+msgstr "Aus Platform löschen"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_both
@@ -180,10 +180,10 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 "Due to an Outlook Calendar limitation, recurrence updates must be done directly in Outlook Calendar.\n"
-"If this recurrence is not shown in Outlook Calendar, you must delete it in Odoo Calendar and recreate it in Outlook Calendar."
+"If this recurrence is not shown in Outlook Calendar, you must delete it in Platform Calendar and recreate it in Outlook Calendar."
 msgstr ""
 "Aufgrund einer Einschränkung im Outlook-Kalender müssen Aktualisierungen von Wiederholungen direkt im Outlook-Kalender vorgenommen werden.\n"
-"Wenn dieser Termin nicht im Outlook-Kalender angezeigt wird, müssen Sie ihn in Odoo Kalender löschen und im Outlook-Kalender neu anlegen."
+"Wenn dieser Termin nicht im Outlook-Kalender angezeigt wird, müssen Sie ihn in Platform Kalender löschen und im Outlook-Kalender neu anlegen."
 
 #. module: microsoft_calendar
 #. odoo-python
@@ -204,11 +204,11 @@ msgstr "Ereignis-Wiederholungsregel"
 #. odoo-python
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
-"For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
+"For a correct synchronization between Platform and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %(details)s:\n"
 "%(invalid_events)s"
 msgstr ""
-"Für eine korrekte Synchronisierung zwischen Odoo und dem Outlook-Kalender müssen alle Teilnehmer eine E-Mail-Adresse haben. Einige Termine erfüllen diese Bedingung jedoch nicht. Solange die Termine nicht korrekt sind, werden die Kalender nicht synchronisiert.\n"
+"Für eine korrekte Synchronisierung zwischen Platform und dem Outlook-Kalender müssen alle Teilnehmer eine E-Mail-Adresse haben. Einige Termine erfüllen diese Bedingung jedoch nicht. Solange die Termine nicht korrekt sind, werden die Kalender nicht synchronisiert.\n"
 "Aktualisieren Sie entweder die Termine/Teilnehmer oder archivieren Sie diese Termine %(details)s:\n"
 "%(invalid_events)s"
 
@@ -217,10 +217,10 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 msgid ""
 "For having a different organizer in your event, it is necessary that the "
-"organizer have its Odoo Calendar synced with Outlook Calendar."
+"organizer have its Platform Calendar synced with Outlook Calendar."
 msgstr ""
 "Damit ein anderer Organisator an Ihrem Termin teilnehmen kann, muss der "
-"Odoo-Kalender des Organisators mit dem Outlook-Kalender synchronisiert "
+"Platform-Kalender des Organisators mit dem Outlook-Kalender synchronisiert "
 "werden."
 
 #. module: microsoft_calendar

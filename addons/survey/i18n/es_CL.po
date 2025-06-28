@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # * survey
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: Platform 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2016-02-27 14:36+0000\n"
@@ -2921,7 +2921,7 @@ msgstr ""
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Odoo Certification"
+msgid "Platform Certification"
 msgstr ""
 
 #. module: survey
@@ -4675,7 +4675,7 @@ msgstr ""
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "Welcome to this Odoo certification. You will receive 2 random questions out of a pool of 3."
+msgid "Welcome to this Platform certification. You will receive 2 random questions out of a pool of 3."
 msgstr ""
 
 #. module: survey
@@ -4712,7 +4712,7 @@ msgstr ""
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
-msgid "What does one need to get to pass an Odoo Survey?"
+msgid "What does one need to get to pass an Platform Survey?"
 msgstr ""
 
 #. module: survey
@@ -4775,7 +4775,7 @@ msgstr ""
 #. module: survey
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
-msgid "Whenever you pick an answer, Odoo saves it for you."
+msgid "Whenever you pick an answer, Platform saves it for you."
 msgstr ""
 
 #. module: survey

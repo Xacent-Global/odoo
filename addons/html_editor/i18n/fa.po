@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* html_editor
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
@@ -362,7 +362,7 @@ msgstr "توضیح رسانه و راهنمای ابزار را تغییر ده�
 msgid "ChatGPT"
 msgstr ""
 "<h1>وب ویرایشگر</h1>\n"
-"<p>این ماژول Odoo به شما اجازه می‌دهد تا تنها با کشیدن و رها کردن (drag and drop) اجزای HTML را ویرایش کنید.</p>\n"
+"<p>این ماژول Platform به شما اجازه می‌دهد تا تنها با کشیدن و رها کردن (drag and drop) اجزای HTML را ویرایش کنید.</p>\n"
 "<p>ویژگی‌ها شامل:</p>\n"
 "<ul>\n"
 "    <li>ویرایش مستقیم در صفحه</li>\n"
@@ -1730,7 +1730,7 @@ msgstr "این تصویر یک تصویر خارجی است"
 #: code:addons/html_editor/static/src/main/media/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "این نوع تصویر برای برش پشتیبانی نمی‌شود.<br/>اگر می‌خواهید آن را برش دهید، "
 "لطفاً ابتدا آن را از منبع اصلی دانلود کرده و در اودوو آپلود کنید."

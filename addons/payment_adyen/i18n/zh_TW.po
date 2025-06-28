@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment_adyen
 # 
 # Translators:
 # Tony Ng, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -207,10 +207,10 @@ msgstr "交易（參考：%s）捕捉失敗。"
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_capture_wizard_view_form
 msgid ""
 "The capture or void of the transaction might take a few minutes to be\n"
-"                    processed by Adyen and reflected in Odoo."
+"                    processed by Adyen and reflected in Platform."
 msgstr ""
 "交易捕捉或作廢可能需要幾分鐘時間，\n"
-"                    以由 Adyen 處理並反映在 Odoo 中。"
+"                    以由 Adyen 處理並反映在 Platform 中。"
 
 #. module: payment_adyen
 #. odoo-python

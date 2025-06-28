@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Larissa Manderfeld, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -51,11 +51,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/iap/tools/iap_tools.py:0
 msgid ""
-"An error occurred while reaching %s. Please contact Odoo support if this "
+"An error occurred while reaching %s. Please contact Platform support if this "
 "error persists."
 msgstr ""
 "Ein Fehler ist beim Aufrufen von %s aufgetreten. Bitte kontaktieren Sie den "
-"Odoo-Support, wenn der Fehler weiterhin besteht."
+"Platform-Support, wenn der Fehler weiterhin besteht."
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance
@@ -205,8 +205,8 @@ msgstr "Name"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
-msgstr "Odoo IAP"
+msgid "Platform IAP"
+msgstr "Platform IAP"
 
 #. module: iap
 #. odoo-python
@@ -250,8 +250,8 @@ msgstr "Service gesperrt"
 #. module: iap
 #. odoo-javascript
 #: code:addons/iap/static/src/js/insufficient_credit_error_handler.js:0
-msgid "Start a Trial at Odoo"
-msgstr "Starten Sie eine Testversion bei Odoo"
+msgid "Start a Trial at Platform"
+msgstr "Starten Sie eine Testversion bei Platform"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__state

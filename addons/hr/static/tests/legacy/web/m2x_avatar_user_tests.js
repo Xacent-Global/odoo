@@ -67,7 +67,7 @@ QUnit.module("M2XAvatarUser", ({ beforeEach }) => {
             work_phone: "+585555555",
             job_title: "sub manager",
             department_id: departmentId,
-            work_location_name: "Odoo",
+            work_location_name: "Platform",
             work_location_type: "office",
         });
         const mockRPC = (route, args) => {
@@ -128,7 +128,7 @@ QUnit.module("M2XAvatarUser", ({ beforeEach }) => {
             "Managemment",
             "Mario@odoo.pro",
             "+585555555",
-            "Odoo",
+            "Platform",
         ]);
         // Close card
         await click(document, ".o_action_manager");

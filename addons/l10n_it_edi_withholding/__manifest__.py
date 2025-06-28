@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - E-invoicing (Withholding)',
@@ -8,7 +8,7 @@
     'depends': [
         'l10n_it_edi'
     ],
-    'author': 'Odoo',
+    'author': 'Platform',
     'description': """
 Withholding and Pension Fund handling for the E-invoice implementation for Italy.
 

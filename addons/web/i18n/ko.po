@@ -4799,8 +4799,8 @@ msgstr "Odoo 푸시 알림이 차단되었습니다. 브라우저 설정으로 �
 #. odoo-javascript
 #: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Application."
+msgstr "Application."
 
 #. module: web
 #. odoo-javascript

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -6,15 +6,15 @@
 # Wichanon Jamwutthipreecha, 2024
 # Tiffany Chang, 2024
 # Rasareeyar Lappiam, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4049,10 +4049,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/customer_display/customer_display_data_service.js:0
 msgid ""
-"Make sure there is an IoT Box subscription associated with your Odoo "
+"Make sure there is an IoT Box subscription associated with your Platform "
 "database, then restart the IoT Box."
 msgstr ""
-"ตรวจสอบให้แน่ใจว่ามีการสมัครใช้งาน IoT Box ที่เกี่ยวข้องกับฐานข้อมูล Odoo "
+"ตรวจสอบให้แน่ใจว่ามีการสมัครใช้งาน IoT Box ที่เกี่ยวข้องกับฐานข้อมูล Platform "
 "ของคุณ จากนั้นจึงรีสตาร์ท IoT Box"
 
 #. module: point_of_sale
@@ -4539,13 +4539,13 @@ msgstr "จำนวนธุรกรรม:"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
-msgid "Odoo Server Error"
-msgstr "ข้อผิดพลาดของเซิร์ฟเวอร์ Odoo"
+msgid "Platform Server Error"
+msgstr "ข้อผิดพลาดของเซิร์ฟเวอร์ Platform"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
-msgid "Odoo Sneakers"
-msgstr "รองเท้าผ้าใบ Odoo"
+msgid "Platform Sneakers"
+msgstr "รองเท้าผ้าใบ Platform"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5258,10 +5258,10 @@ msgstr "โปรดตรวจสอบว่ากล่องไอโอท
 #: code:addons/point_of_sale/static/src/app/printer/base_printer.js:0
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Platform's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "โปรดตรวจสอบว่าเครื่องพิมพ์ยังคงเชื่อมต่ออยู่หรือไม่\n"
-"เบราว์เซอร์บางตัวไม่อนุญาตให้มีการโทร HTTP จากเว็บไซต์ไปยังอุปกรณ์ในเครือข่าย (ด้วยเหตุผลด้านความปลอดภัย) หากเป็นกรณีนี้ คุณจะต้องปฏิบัติตามเอกสารของ Odoo สำหรับ 'ใบรับรองที่ลงนามด้วยตนเองสำหรับเครื่องพิมพ์ ePOS' และ 'การเชื่อมต่อที่ปลอดภัย (HTTPS)' เพื่อแก้ไขปัญหานี้"
+"เบราว์เซอร์บางตัวไม่อนุญาตให้มีการโทร HTTP จากเว็บไซต์ไปยังอุปกรณ์ในเครือข่าย (ด้วยเหตุผลด้านความปลอดภัย) หากเป็นกรณีนี้ คุณจะต้องปฏิบัติตามเอกสารของ Platform สำหรับ 'ใบรับรองที่ลงนามด้วยตนเองสำหรับเครื่องพิมพ์ ePOS' และ 'การเชื่อมต่อที่ปลอดภัย (HTTPS)' เพื่อแก้ไขปัญหานี้"
 
 #. module: point_of_sale
 #. odoo-python
@@ -5717,7 +5717,7 @@ msgstr "สนับสนุนโดย"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
-msgid "Powered by Odoo"
+msgid "Powered by Platform"
 msgstr ""
 
 #. module: point_of_sale
@@ -5885,7 +5885,7 @@ msgstr "พิมพ์ตั๋วธรรมดาไม่มีราคา
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
 "Print information on the receipt to allow the customer to easily access the "
-"invoice anytime, from Odoo's portal."
+"invoice anytime, from Platform's portal."
 msgstr ""
 
 #. module: point_of_sale
@@ -8130,20 +8130,20 @@ msgstr "สินค้านี้ใช้เป็นข้อมูลอ้
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"ลำดับนี้ถูกสร้างขึ้นโดยอัตโนมัติโดย Odoo "
+"ลำดับนี้ถูกสร้างขึ้นโดยอัตโนมัติโดย Platform "
 "แต่คุณสามารถเปลี่ยนเพื่อกำหนดหมายเลขอ้างอิงของรายการคำสั่งซื้อของคุณได้"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Platform but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"ลำดับนี้ถูกสร้างขึ้นโดยอัตโนมัติจาก Odoo "
+"ลำดับนี้ถูกสร้างขึ้นโดยอัตโนมัติจาก Platform "
 "แต่คุณสามารถเปลี่ยนเพื่อปรับแต่งหมายเลขอ้างอิงของคำสั่งซื้อของคุณได้"
 
 #. module: point_of_sale
@@ -8545,10 +8545,10 @@ msgstr "คำสั่งที่ยังไม่ได้ซิงค์"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/errors/error_handlers.js:0
 msgid ""
-"Until the connection is reestablished, Odoo Point of Sale will operate with "
+"Until the connection is reestablished, Platform Point of Sale will operate with "
 "limited functionality."
 msgstr ""
-"จนกว่าการเชื่อมต่อจะถูกสร้างขึ้นใหม่ Odoo "
+"จนกว่าการเชื่อมต่อจะถูกสร้างขึ้นใหม่ Platform "
 "ระบบขายหน้าร้านจะทำงานโดยมีฟังก์ชันการทำงานที่จำกัด"
 
 #. module: point_of_sale

@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* sale_management
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -553,7 +553,7 @@ msgstr "선택 사항 명세의 상품이 이미 견적에 있는 경우 이 필
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale1_management_0
 #: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
-msgid "Tip: Odoo supports configurable products"
+msgid "Tip: Platform supports configurable products"
 msgstr "참고: Odoo에서는 품목을 구성 가능하도록 지원하고 있습니다."
 
 #. module: sale_management

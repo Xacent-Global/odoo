@@ -1,5 +1,5 @@
 [Unit]
-Description=Odoo Open Source ERP and CRM
+Description=Platform Open Source ERP and CRM
 After=cups.socket network-online.target NetworkManager.service
 Wants=network-online.target
 

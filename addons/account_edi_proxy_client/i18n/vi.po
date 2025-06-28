@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_edi_proxy_client
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -123,7 +123,7 @@ msgid ""
 "\n"
 "If you are not sure how to fix this, please contact our support."
 msgstr ""
-"Chữ ký không hợp lệ cho yêu cầu. Điều này có thể do kết nối khác đến máy chủ Điểm truy cập Odoo. Nó cũng có thể xảy ra nếu bạn đã sao chép cơ sở dữ liệu của mình.\n"
+"Chữ ký không hợp lệ cho yêu cầu. Điều này có thể do kết nối khác đến máy chủ Điểm truy cập Platform. Nó cũng có thể xảy ra nếu bạn đã sao chép cơ sở dữ liệu của mình.\n"
 "\n"
 "Nếu bạn không chắc chắn cách khắc phục sự cố này, vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi."
 
