@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -32,14 +32,14 @@
 # Melih Melik Sonmez, 2025
 # Murat Durmuş <muratd@projetgrup.com>, 2025
 # Umur Akın <umura@projetgrup.com>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2025
 # Cengiz Cokay Global Nonwoven, 2025
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1622,7 +1622,7 @@ msgstr ""
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Platform will load as soon as "
 "you're back online."
 msgstr ""
 
@@ -3143,9 +3143,9 @@ msgstr "Görünüm Al"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with Platform Enterprise!"
 msgstr ""
-"Odoo Enterprise ile bu özellik ve hatta daha fazlasına sahip olabilirsiniz!"
+"Platform Enterprise ile bu özellik ve hatta daha fazlasına sahip olabilirsiniz!"
 
 #. module: web
 #. odoo-javascript
@@ -4399,8 +4399,8 @@ msgstr "Müslüman"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
-msgid "My Odoo.com account"
-msgstr "Odoo.com hesabım"
+msgid "My Platform.com account"
+msgstr "Platform.com hesabım"
 
 #. module: web
 #. odoo-javascript
@@ -4776,41 +4776,41 @@ msgstr "Nesneler"
 #: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Client Error"
-msgstr "Odoo Müşteri Hatası"
+msgid "Platform Client Error"
+msgstr "Platform Müşteri Hatası"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "Platform Enterprise"
+msgstr "Platform Enterprise"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Error"
-msgstr "Odoo Hatası"
+msgid "Platform Error"
+msgstr "Platform Hatası"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Network Error"
-msgstr "Odoo Ağ Hatası"
+msgid "Platform Network Error"
+msgstr "Platform Ağ Hatası"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/widgets/notification_alert/notification_alert.xml:0
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Platform Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
-"Odoo Push bildirimleri engellendi. İzin vermek için tarayıcı ayarlarınıza "
+"Platform Push bildirimleri engellendi. İzin vermek için tarayıcı ayarlarınıza "
 "gidin."
 
 #. module: web
@@ -4823,32 +4823,32 @@ msgstr "Application."
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Server Error"
-msgstr "Odoo Sunucu Hatası"
+msgid "Platform Server Error"
+msgstr "Platform Sunucu Hatası"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
-msgid "Odoo Session Expired"
-msgstr "Odoo Oturumu Sonlandı"
+msgid "Platform Session Expired"
+msgstr "Platform Oturumu Sonlandı"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Warning"
-msgstr "Odoo Uyarısı"
+msgid "Platform Warning"
+msgstr "Platform Uyarısı"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
-msgid "Odoo logo"
+msgid "Platform logo"
 msgstr ""
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/barcode/barcode_video_scanner.js:0
-msgid "Odoo needs your authorization first."
-msgstr "Odoo'nun önce sizin yetkilendirmenize ihtiyacı var."
+msgid "Platform needs your authorization first."
+msgstr "Platform'nun önce sizin yetkilendirmenize ihtiyacı var."
 
 #. module: web
 #. odoo-javascript
@@ -5195,8 +5195,8 @@ msgstr "Tarafından desteklenmektedir %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Hazırlayan <span>Odoo</span>"
+msgid "Powered by <span>Platform</span>"
+msgstr "Hazırlayan <span>Platform</span>"
 
 #. module: web
 #. odoo-javascript
@@ -7556,10 +7556,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Platform with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Raporların pdf sürümünü yazdırmak için Odoo'yu en az iki worker ile "
+"Raporların pdf sürümünü yazdırmak için Platform'yu en az iki worker ile "
 "başlatmanız gerekir."
 
 #. module: web
@@ -7575,8 +7575,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
-msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "Odoo oturumunuzun süresi doldu. Geçerli sayfa yenilenmek üzere."
+msgid "Your Platform session expired. The current page is about to be refreshed."
+msgstr "Platform oturumunuzun süresi doldu. Geçerli sayfa yenilenmek üzere."
 
 #. module: web
 #. odoo-javascript

@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment_stripe
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -73,10 +73,10 @@ msgstr "Krijg je geheime en Openbare sleutel"
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__stripe_webhook_secret
 msgid ""
 "If a webhook is enabled on your Stripe account, this signing secret must be "
-"set to authenticate the messages sent from Stripe to Odoo."
+"set to authenticate the messages sent from Stripe to Platform."
 msgstr ""
 "Als een webhook is ingeschakeld op je Stripe-account, moet dit signing "
-"secret  worden ingesteld om de berichten die van Stripe naar Odoo worden "
+"secret  worden ingesteld om de berichten die van Stripe naar Platform worden "
 "verzonden, te verifiëren."
 
 #. module: payment_stripe

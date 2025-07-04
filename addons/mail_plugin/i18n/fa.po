@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -69,10 +69,10 @@ msgstr "درآمد سالانه"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"پیوست‌ها نمی‌توانند در Odoo ثبت شوند زیرا مجموع اندازه آن‌ها از حداکثر مجاز "
+"پیوست‌ها نمی‌توانند در Platform ثبت شوند زیرا مجموع اندازه آن‌ها از حداکثر مجاز "
 "تجاوز کرده است."
 
 #. module: mail_plugin
@@ -455,7 +455,7 @@ msgstr "هیچ شرکتی که به این مخاطب مرتبط باشد قاب
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr "برای این مخاطب هیچ شرکتی در اودوو غنی‌سازی یا پیدا نشد."
 
 #. module: mail_plugin
@@ -503,14 +503,14 @@ msgstr "اعلان"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
+msgid "Platform Access Token"
 msgstr "توکن دسترسی اودوو"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "آدرس سرور Odoo"
+msgid "Platform Server URL"
+msgstr "آدرس سرور Platform"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -588,7 +588,7 @@ msgstr "درآمد ها"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
+msgid "Save in Platform"
 msgstr "ذخیره در اودوو"
 
 #. module: mail_plugin
@@ -619,8 +619,8 @@ msgstr "جستجو در پایگاه داده"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "جستجو در Odoo"
+msgid "Search In Platform"
+msgstr "جستجو در Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -631,7 +631,7 @@ msgstr "جستجوی مخاطب"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
+msgid "Search contact in Platform..."
 msgstr "جستجوی مخاطب در اودو..."
 
 #. module: mail_plugin
@@ -662,8 +662,8 @@ msgstr "این شرکت آدرس ایمیل ندارد و نمی‌توان آن
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "این مخاطب در پایگاه داده Odoo وجود ندارد."
+msgid "This contact does not exist in the Platform database."
+msgstr "این مخاطب در پایگاه داده Platform وجود ندارد."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -691,7 +691,7 @@ msgstr "این شریک وجود ندارد"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
 "هشدار: پیوست‌ها به دلیل اینکه اندازه کل آنها از حداکثر مجاز فراتر رفته است، "
@@ -734,7 +734,7 @@ msgstr "شما باید حداقل partner_id یا نام و ایمیل را م�
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
+msgid "access your Platform database?"
 msgstr "به پایگاه داده اودو خود دسترسی پیدا کنید؟"
 
 #. module: mail_plugin

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1298,7 +1298,7 @@ msgstr "تعداد پیامهای با خطای تحویل"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Odoo"
+msgid "Platform"
 msgstr "اودو"
 
 #. module: im_livechat
@@ -1352,10 +1352,10 @@ msgstr "عملگرها"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In Platform for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"اپراتورهایی که بیش از ۳۰ دقیقه در Odoo فعالیتی نشان ندهند به عنوان قطع "
+"اپراتورهایی که بیش از ۳۰ دقیقه در Platform فعالیتی نشان ندهند به عنوان قطع "
 "ارتباط در نظر گرفته خواهند شد."
 
 #. module: im_livechat

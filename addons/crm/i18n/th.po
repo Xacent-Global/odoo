@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Wichanon Jamwutthipreecha, 2024
 # Rasareeyar Lappiam, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -295,7 +295,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
 "                            Welcome to <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> has to offer. My name is <t t-out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the most out of Odoo. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> has to offer. My name is <t t-out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the most out of Platform. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            <t t-if=\"object.user_id\">\n"
@@ -333,7 +333,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Platform</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -366,7 +366,7 @@ msgstr ""
 "                        <div>\n"
 "                            สวัสดี <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t> <br/><br/>\n"
 "                            ยินดีต้อนรับสู่ <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>.\n"
-"                            ยินดีที่ได้รู้จัก! เมื่อคุณพร้อมแล้ว คุณจะค้นพบว่า <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> มีข้อเสนอให้และฉันชื่อ <t t-out=\"object.user_id.name or ''\">Marc Demo</t> และฉันจะช่วยให้คุณได้รับประโยชน์สูงสุดจาก Odoo เราสามารถวางแผนการสาธิตอย่างรวดเร็วในเร็วๆ นี้ได้หรือไม่?<br/>\n"
+"                            ยินดีที่ได้รู้จัก! เมื่อคุณพร้อมแล้ว คุณจะค้นพบว่า <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> มีข้อเสนอให้และฉันชื่อ <t t-out=\"object.user_id.name or ''\">Marc Demo</t> และฉันจะช่วยให้คุณได้รับประโยชน์สูงสุดจาก Platform เราสามารถวางแผนการสาธิตอย่างรวดเร็วในเร็วๆ นี้ได้หรือไม่?<br/>\n"
 "                            อย่าลังเลที่จะติดต่อได้ตลอดเวลา!<br/><br/>\n"
 "                            ขอแสดงความนับถือ<br/>\n"
 "                            <t t-if=\"object.user_id\">\n"
@@ -404,7 +404,7 @@ msgstr ""
 "</td></tr>\n"
 "<!-- สนับสนุนโดย -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    สนับสนุนโดย <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"    สนับสนุนโดย <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Platform</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -908,10 +908,10 @@ msgstr "จำแนกและวิเคราะห์ประเภทล
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
-"Click on the breadcrumb to go back to your Pipeline. Odoo will save all "
+"Click on the breadcrumb to go back to your Pipeline. Platform will save all "
 "modifications as you navigate."
 msgstr ""
-"คลิกที่ breadcrumb เพื่อกลับไปที่ไปป์ไลน์ของคุณ Odoo "
+"คลิกที่ breadcrumb เพื่อกลับไปที่ไปป์ไลน์ของคุณ Platform "
 "จะบันทึกการแก้ไขทั้งหมดในขณะที่คุณนำทาง"
 
 #. module: crm
@@ -1321,22 +1321,22 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Odoo autocompletes everything for you: logo, address, "
+"fill in all its data? Platform autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "คุณรู้หรือไม่ว่าคุณสามารถค้นหาบริษัทด้วยชื่อหรือหมายเลขภาษีเพิ่มเพื่อกรอกข้อมูลทั้งหมดของบริษัทได้ทันที?"
-" Odoo เติมข้อมูลทุกอย่างให้คุณโดยอัตโนมัติ: โลโก้ ที่อยู่ ขนาดบริษัท "
+" Platform เติมข้อมูลทุกอย่างให้คุณโดยอัตโนมัติ: โลโก้ ที่อยู่ ขนาดบริษัท "
 "ข้อมูลธุรกิจ บัญชีโซเชียลมีเดีย และอื่น ๆ "
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Odoo can be turned into a map: "
+" top-right map icon? A lot of screens in Platform can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "คุณรู้หรือไม่ว่าคุณสามารถเปลี่ยนรายการโอกาสเป็นมุมมองแผนที่ได้โดยใช้ไอคอนแผนที่ด้านบนขวา"
-" หน้าจอส่วนมากใน Odoo สามารถเปลี่ยนเป็นมุมมองแผนที่ได้ เช่น งาน "
+" หน้าจอส่วนมากใน Platform สามารถเปลี่ยนเป็นมุมมองแผนที่ได้ เช่น งาน "
 "รายชื่อติดต่อ ใบสั่งจัดส่ง และอื่น ๆ "
 
 #. module: crm
@@ -2305,10 +2305,10 @@ msgstr "ทำใบเสนอราคา"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
-"Make and receive calls from Odoo with Ringover's dialer. Track calls, SMS "
+"Make and receive calls from Platform with Ringover's dialer. Track calls, SMS "
 "messages, and get AI-powered transcripts of your conversations."
 msgstr ""
-"โทรออกและรับสายจาก Odoo ด้วยโปรแกรมโทรออกของ Ringover ติดตามการโทร ข้อความ "
+"โทรออกและรับสายจาก Platform ด้วยโปรแกรมโทรออกของ Ringover ติดตามการโทร ข้อความ "
 "SMS และรับบทสนทนาที่ขับเคลื่อนด้วย AI"
 
 #. module: crm
@@ -2725,23 +2725,23 @@ msgstr "จํานวนข้อความที่มีข้อผิด
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Platform helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo ช่วยให้คุณติดตามขั้นตอนการขายของคุณเพื่อติดตาม\n"
+"Platform ช่วยให้คุณติดตามขั้นตอนการขายของคุณเพื่อติดตาม\n"
 "                    คาดการณ์ยอดขายและรายได้ในอนาคตของคุณได้ดียิ่งขึ้น"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Odoo's artificial intelligence engine predicts the success rate of each "
+"Platform's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Odoo do the job the score is updated while the "
+"manually, but if you let Platform do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"เครื่องมือปัญญาประดิษฐ์ของ Odoo "
+"เครื่องมือปัญญาประดิษฐ์ของ Platform "
 "สามารถคาดการณ์อัตราความสำเร็จของแต่ละโอกาสตามประวัติของคุณ "
-"คุณสามารถอัปเดตอัตราความสำเร็จด้วยตนเองได้ตลอดเวลา แต่ถ้าคุณปล่อยให้ Odoo "
+"คุณสามารถอัปเดตอัตราความสำเร็จด้วยตนเองได้ตลอดเวลา แต่ถ้าคุณปล่อยให้ Platform "
 "ทำงาน "
 "คะแนนจะได้รับการอัปเดตในขณะที่โอกาสทางการขายเคลื่อนไปข้างหน้าในวงจรการขายของคุณ"
 
@@ -3597,11 +3597,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Platform Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"โมเดล (ชนิดเอกสาร Odoo) ซึ่งสอดคล้องกับนามแฝงนี้ "
+"โมเดล (ชนิดเอกสาร Platform) ซึ่งสอดคล้องกับนามแฝงนี้ "
 "อีเมลขาเข้าที่ไม่ตอบกลับบันทึกที่มีอยู่จะทำให้เกิดการสร้างบันทึกใหม่ของโมเดลนี้"
 " (เช่น โปรเจ็กต์งาน)"
 
@@ -3740,8 +3740,8 @@ msgstr "เคล็ดลับ: แปลงอีเมลขาเข้า�
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr "เคล็ดลับ: คุณรู้หรือไม่ว่า Odoo มีการขุดลูกค้าเป้าหมายในตัว?"
+msgid "Tip: Did you know Platform has built-in lead mining?"
+msgstr "เคล็ดลับ: คุณรู้หรือไม่ว่า Platform มีการขุดลูกค้าเป้าหมายในตัว?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4

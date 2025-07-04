@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -70,10 +70,10 @@ msgstr "Jaaromzet"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Bijlagen konden niet worden ingelogd in Odoo omdat hun totale grootte het "
+"Bijlagen konden niet worden ingelogd in Platform omdat hun totale grootte het "
 "toegestane maximum overschreed."
 
 #. module: mail_plugin
@@ -457,10 +457,10 @@ msgstr "Geen enkel bedrijf gekoppeld aan dit contact kon worden verrijkt"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
 "Geen enkel bedrijf gekoppeld aan dit contact kon worden verrijkt of gevonden"
-" in Odoo"
+" in Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -507,14 +507,14 @@ msgstr "Melding"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Odoo toegangstoken"
+msgid "Platform Access Token"
+msgstr "Platform toegangstoken"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "Odoo-server-URL"
+msgid "Platform Server URL"
+msgstr "Platform-server-URL"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -592,8 +592,8 @@ msgstr "Omzet"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "Opslaan in Odoo"
+msgid "Save in Platform"
+msgstr "Opslaan in Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -623,8 +623,8 @@ msgstr "Zoeken in database"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "Zoeken in Odoo"
+msgid "Search In Platform"
+msgstr "Zoeken in Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -635,8 +635,8 @@ msgstr "Zoek contact"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "Zoek contact in Odoo..."
+msgid "Search contact in Platform..."
+msgstr "Zoek contact in Platform..."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -667,8 +667,8 @@ msgstr "Dit bedrijf heeft geen e-mailadres en kon niet worden verrijkt."
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Deze contactpersoon bestaat niet in de Odoo-database."
+msgid "This contact does not exist in the Platform database."
+msgstr "Deze contactpersoon bestaat niet in de Platform-database."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -698,10 +698,10 @@ msgstr "Deze partner bestaat niet"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Waarschuwing: Bijlagen konden niet worden ingelogd in Odoo omdat hun totale "
+"Waarschuwing: Bijlagen konden niet worden ingelogd in Platform omdat hun totale "
 "grootte het toegestane maximum overschreed."
 
 #. module: mail_plugin
@@ -742,8 +742,8 @@ msgstr ""
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "toegang tot je Odoo-database?"
+msgid "access your Platform database?"
+msgstr "toegang tot je Platform-database?"
 
 #. module: mail_plugin
 #. odoo-javascript

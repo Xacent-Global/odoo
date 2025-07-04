@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -6,13 +6,13 @@
 # Martin Trigaux, 2024
 # JH CHOI <hwangtog@gmail.com>, 2024
 # Tiffany Chang, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Daye Jeong, 2024
 # Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -55,7 +55,7 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
 "                                match the behavior of providers and that of their integration with\n"
-"                                Odoo regarding this payment method. Any change may result in errors\n"
+"                                Platform regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/> 해당 속성은 결제 방법과 관련하여\n"
@@ -732,7 +732,7 @@ msgstr "거래 포착"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Platform, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
@@ -1712,8 +1712,8 @@ msgstr "Octopus"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Odoo 유료버전 모듈"
+msgid "Platform Enterprise Module"
+msgstr "Platform 유료버전 모듈"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -2282,7 +2282,7 @@ msgstr "환불"
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
-"in Odoo."
+"in Platform."
 msgstr "환불 기능으로 결제 금액을 Odoo에서 고객에게 직접 환불합니다."
 
 #. module: payment

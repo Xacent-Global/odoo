@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* calendar
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Daye Jeong, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -151,7 +151,7 @@ msgid ""
 "                <t t-if=\"object.event_id.videocall_location\">\n"
 "                    <li>\n"
 "                        How to Join:\n"
-"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
+"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Platform Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                    </li>\n"
@@ -266,7 +266,7 @@ msgstr ""
 "                <t t-if=\"object.event_id.videocall_location\">\n"
 "                    <li>\n"
 "                        참여 방법:\n"
-"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Odoo 메일 및 채팅 앱을 통해 참석</t>\n"
+"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Platform 메일 및 채팅 앱을 통해 참석</t>\n"
 "                        <t t-else=\"\"> 다음 링크를 통해 참석</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                    </li>\n"
@@ -374,7 +374,7 @@ msgid ""
 "                <t t-if=\"object.event_id.videocall_location\">\n"
 "                    <li>\n"
 "                        How to Join:\n"
-"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
+"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Platform Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                    </li>\n"
@@ -479,7 +479,7 @@ msgstr ""
 "                <t t-if=\"object.event_id.videocall_location\">\n"
 "                    <li>\n"
 "                        참여 방법:\n"
-"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Odoo 메일 및 채팅 앱을 통한 참여</t>\n"
+"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Platform 메일 및 채팅 앱을 통한 참여</t>\n"
 "                        <t t-else=\"\"> 웹사이트 방문을 통한 참여</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                    </li>\n"
@@ -549,7 +549,7 @@ msgid ""
 "                        <t t-if=\"object.videocall_location\">\n"
 "                            <li>\n"
 "                                How to Join:\n"
-"                                <t t-if=\"object.get_base_url() in object.videocall_location\"> Join with Odoo Discuss</t>\n"
+"                                <t t-if=\"object.get_base_url() in object.videocall_location\"> Join with Platform Discuss</t>\n"
 "                                <t t-else=\"\"> Join at</t><br/>\n"
 "                                <a t-att-href=\"object.videocall_location\" target=\"_blank\" t-out=\"object.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                            </li>\n"
@@ -630,7 +630,7 @@ msgstr ""
 "                        <t t-if=\"object.videocall_location\">\n"
 "                            <li>\n"
 "                                참가 방법:\n"
-"                                <t t-if=\"object.get_base_url() in object.videocall_location\"> Odoo 메일 및 채팅 앱을 통한 참가</t>\n"
+"                                <t t-if=\"object.get_base_url() in object.videocall_location\"> Platform 메일 및 채팅 앱을 통한 참가</t>\n"
 "                                <t t-else=\"\"> 다음 링크를 통해 참가</t><br/>\n"
 "                                <a t-att-href=\"object.videocall_location\" target=\"_blank\" t-out=\"object.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                            </li>\n"
@@ -738,7 +738,7 @@ msgid ""
 "                <t t-if=\"object.event_id.videocall_location\">\n"
 "                    <li>\n"
 "                        How to Join:\n"
-"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
+"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Platform Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                    </li>\n"
@@ -829,7 +829,7 @@ msgstr ""
 "                <t t-if=\"object.event_id.videocall_location\">\n"
 "                    <li>\n"
 "                        참여 방법:\n"
-"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\">Odoo 메일 및 채팅을 통한 참여</t>\n"
+"                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\">Platform 메일 및 채팅을 통한 참여</t>\n"
 "                        <t t-else=\"\">웹사이트에서 참여</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 "                    </li>\n"
@@ -859,13 +859,13 @@ msgstr "<i class=\"fa fa-calendar me-1\" aria-label=\"미팅\" role=\"img\" titl
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
-msgid "<span class=\"fa fa-plus\"/> <span>Odoo meeting</span>"
-msgstr "<span class=\"fa fa-plus\"/> <span>Odoo 미팅</span>"
+msgid "<span class=\"fa fa-plus\"/> <span>Platform meeting</span>"
+msgstr "<span class=\"fa fa-plus\"/> <span>Platform 미팅</span>"
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
-msgid "<span class=\"fa fa-plus\"/><span> Odoo meeting</span>"
-msgstr "<span class=\"fa fa-plus\"/><span> Odoo 미팅</span>"
+msgid "<span class=\"fa fa-plus\"/><span> Platform meeting</span>"
+msgstr "<span class=\"fa fa-plus\"/><span> Platform 미팅</span>"
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form

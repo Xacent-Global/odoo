@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -54,12 +54,12 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
 "                                match the behavior of providers and that of their integration with\n"
-"                                Odoo regarding this payment method. Any change may result in errors\n"
+"                                Platform regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/> این ویژگی‌ها به گونه‌ای تنظیم شده‌اند\n"
 "                                که رفتار ارائه‌دهندگان و نحوه یکپارچه‌سازی‌ آن‌ها با\n"
-"                                Odoo را در مورد این روش پرداخت همسو کنند. هر تغییری ممکن است باعث بروز خطا شود\n"
+"                                Platform را در مورد این روش پرداخت همسو کنند. هر تغییری ممکن است باعث بروز خطا شود\n"
 "                                و باید ابتدا روی یک پایگاه داده آزمایشی تست شود."
 
 #. module: payment
@@ -737,11 +737,11 @@ msgstr "ضبط تراکنش"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Platform, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"هنگامی که تحویل تکمیل شد، مبلغ را از Odoo دریافت کنید.\n"
+"هنگامی که تحویل تکمیل شد، مبلغ را از Platform دریافت کنید.\n"
 "از این استفاده کنید اگر می‌خواهید فقط زمانی که مطمئن هستید می‌توانید کالاها را به مشتریان خود ارسال کنید، کارت‌های آنها را شارژ کنید."
 
 #. module: payment
@@ -1719,7 +1719,7 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
-msgid "Odoo Enterprise Module"
+msgid "Platform Enterprise Module"
 msgstr "ماژول سازمانی اودو"
 
 #. module: payment
@@ -2291,10 +2291,10 @@ msgstr "بازپرداخت"
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
-"in Odoo."
+"in Platform."
 msgstr ""
 "بازپرداخت یک ویژگی است که به شما امکان می‌دهد به‌طور مستقیم از بخش پرداخت در"
-" Odoo، مبلغ را به مشتریان بازگردانید."
+" Platform، مبلغ را به مشتریان بازگردانید."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form

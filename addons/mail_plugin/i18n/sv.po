@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
@@ -16,7 +16,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -77,10 +77,10 @@ msgstr "Årlig intäkt"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Bilagor kunde inte loggas i Odoo eftersom deras totala storlek översteg det "
+"Bilagor kunde inte loggas i Platform eftersom deras totala storlek översteg det "
 "tillåtna maximumet."
 
 #. module: mail_plugin
@@ -462,9 +462,9 @@ msgstr "Inget företag som är kopplat till denna kontakt kan kompletteras"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
-"Inget företag kopplat till denna kontakt kunde berikas eller hittas i Odoo"
+"Inget företag kopplat till denna kontakt kunde berikas eller hittas i Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -511,14 +511,14 @@ msgstr "Avisering"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Odoo Access Token"
+msgid "Platform Access Token"
+msgstr "Platform Access Token"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "URL till Odoo-server"
+msgid "Platform Server URL"
+msgstr "URL till Platform-server"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -596,8 +596,8 @@ msgstr "Intäkter"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "Spara i Odoo"
+msgid "Save in Platform"
+msgstr "Spara i Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -627,8 +627,8 @@ msgstr "Sök i databas"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "Sök i Odoo"
+msgid "Search In Platform"
+msgstr "Sök i Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -639,8 +639,8 @@ msgstr "Sök kontakt"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "Sök kontakt i Odoo..."
+msgid "Search contact in Platform..."
+msgstr "Sök kontakt i Platform..."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -672,8 +672,8 @@ msgstr "Detta företag har ingen e-postadress och kunde inte berikas."
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Den här kontakten finns inte i Odoo-databasen."
+msgid "This contact does not exist in the Platform database."
+msgstr "Den här kontakten finns inte i Platform-databasen."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -701,10 +701,10 @@ msgstr "Denna partner finns inte"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Varning för fel: Bilagor kunde inte loggas i Odoo eftersom deras totala "
+"Varning för fel: Bilagor kunde inte loggas i Platform eftersom deras totala "
 "storlek översteg det tillåtna maximumet."
 
 #. module: mail_plugin
@@ -744,8 +744,8 @@ msgstr "Du måste ange åtminstone partner_id eller namn och e-post"
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "komma åt din Odoo-databas?"
+msgid "access your Platform database?"
+msgstr "komma åt din Platform-databas?"
 
 #. module: mail_plugin
 #. odoo-javascript

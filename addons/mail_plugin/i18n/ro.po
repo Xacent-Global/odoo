@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Lyall Kindmurr, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -69,10 +69,10 @@ msgstr "Venit anual"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Atașamentele nu au putut fi înregistrate în Odoo deoarece dimensiunea lor "
+"Atașamentele nu au putut fi înregistrate în Platform deoarece dimensiunea lor "
 "depășește limita de memorie."
 
 #. module: mail_plugin
@@ -457,10 +457,10 @@ msgstr "Companiile acestui contact nu au putut fi completate automat"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
 "Companiile acestui contact nu au putut fi completate automat sau nu există "
-"în Odoo"
+"în Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -507,14 +507,14 @@ msgstr "Notificare"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Token de acces Odoo"
+msgid "Platform Access Token"
+msgstr "Token de acces Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "URL server Odoo"
+msgid "Platform Server URL"
+msgstr "URL server Platform"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -592,8 +592,8 @@ msgstr "Venituri"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "Salvare în Odoo"
+msgid "Save in Platform"
+msgstr "Salvare în Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -623,8 +623,8 @@ msgstr "Caută în baza de date"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "Caută în Odoo"
+msgid "Search In Platform"
+msgstr "Caută în Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -635,8 +635,8 @@ msgstr "Caută contact"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "Caută contact în Odoo"
+msgid "Search contact in Platform..."
+msgstr "Caută contact în Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -669,8 +669,8 @@ msgstr ""
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Acest contact nu există în baza de date Odoo."
+msgid "This contact does not exist in the Platform database."
+msgstr "Acest contact nu există în baza de date Platform."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -700,10 +700,10 @@ msgstr "Acest partener nu există."
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Alertă: Atașamentele nu au putut fi înregistrate în Odoo deoarece "
+"Alertă: Atașamentele nu au putut fi înregistrate în Platform deoarece "
 "dimensiunea lor depășește limita de memorie alocată."
 
 #. module: mail_plugin
@@ -743,8 +743,8 @@ msgstr "Trebuie să specificați cel puțin partner_id sau nume și email"
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "accesa baza de date Odoo?"
+msgid "access your Platform database?"
+msgstr "accesa baza de date Platform?"
 
 #. module: mail_plugin
 #. odoo-javascript

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
 # Translators:
 # Štefan Janoťák, 2024
 # Dávid Kováč, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Tomáš Píšek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1776,12 +1776,12 @@ msgstr "Vytvárajte prispôsobiteľné pracovné hárky pre kontroly kvality"
 msgid ""
 "Create operation level dependencies that will influence both planning and "
 "the status of work orders upon MO confirmation. If this feature is ticked, "
-"and nothing is specified, Odoo will assume that all operations can be "
+"and nothing is specified, Platform will assume that all operations can be "
 "started simultaneously."
 msgstr ""
 "Vytvorenie závislostí na úrovni operácií, ktoré ovplyvnia plánovanie aj stav"
 " pracovných príkazov po potvrdení MO. Ak je táto funkcia začiarknutá a nie "
-"je nič zadané, Odoo bude predpokladať, že všetky operácie môžu byť spustené "
+"je nič zadané, Platform bude predpokladať, že všetky operácie môžu byť spustené "
 "súčasne."
 
 #. module: mrp
@@ -2680,47 +2680,47 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the allocation "
+"If this checkbox is ticked, Platform will automatically print the allocation "
 "report labels of a MO when it is done."
 msgstr ""
-"Ak je toto zaškrtávacie políčko zaškrtnuté, Odoo automaticky vytlačí štítky "
+"Ak je toto zaškrtávacie políčko zaškrtnuté, Platform automaticky vytlačí štítky "
 "pridelení výrobného príkazu po jeho dokončení."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the allocation "
+"If this checkbox is ticked, Platform will automatically print the allocation "
 "report of a MO when it is done and has assigned moves."
 msgstr ""
-"Ak je toto zaškrtávacie políčko zaškrtnuté, Odoo automaticky vytlačí "
+"Ak je toto zaškrtávacie políčko zaškrtnuté, Platform automaticky vytlačí "
 "pridelení výrobného príkazu, keď je dokončený a má priradené skladové "
 "pohyby."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN label "
+"If this checkbox is ticked, Platform will automatically print the lot/SN label "
 "of a MO when it is done."
 msgstr ""
-"Ak je toto políčko zaškrtnuté, Odoo automaticky vytlačí štítok šarže/SN "
+"Ak je toto políčko zaškrtnuté, Platform automaticky vytlačí štítok šarže/SN "
 "výrobného príkazu po jeho dokončení."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a MO when it is done."
 msgstr ""
-"Ak je toto zaškrtávacie políčko zaškrtnuté, Odoo automaticky vytlačí štítky "
+"Ak je toto zaškrtávacie políčko zaškrtnuté, Platform automaticky vytlačí štítky "
 "produktov výrobného príkazu po jeho dokončení."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the production "
+"If this checkbox is ticked, Platform will automatically print the production "
 "order of a MO when it is done."
 msgstr ""
-"Ak je toto políčko zaškrtnuté, Odoo automaticky vytlačí výrobný príkaz po "
+"Ak je toto políčko zaškrtnuté, Platform automaticky vytlačí výrobný príkaz po "
 "jeho dokončení."
 
 #. module: mrp
@@ -3811,11 +3811,11 @@ msgstr "Ciel OEE"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid ""
-"Odoo opens a PDF preview by default. If you want to print instantly,\n"
+"Platform opens a PDF preview by default. If you want to print instantly,\n"
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
-"Odoo štandardne otvára náhľad PDF. Ak chcete tlačiť okamžite,\n"
+"Platform štandardne otvára náhľad PDF. Ak chcete tlačiť okamžite,\n"
 "                     nainštalujte aplikáciu IoT do počítača, ktorý je v rovnakej miestnej sieti ako\n"
 "                     operátor čiarových kódov a nakonfigurujte smerovanie zostáv."
 
@@ -6360,10 +6360,10 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_stock_move__manual_consumption
 msgid ""
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
-"If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
+"If not activated, and any of the components consumption is edited manually on the manufacturing order, Platform assumes manual consumption also."
 msgstr ""
 "Ak je aktivované, potom sa evidencia spotreby pre tento komponent zaznamenáva výlučne manuálne.\n"
-"Ak nie je aktivované a ak je niektorá spotreba komponentov editovaná na výrobnej objednávke ručne, potom Odoo predpokladá tiež manuálnu spotrebu."
+"Ak nie je aktivované a ak je niektorá spotreba komponentov editovaná na výrobnej objednávke ručne, potom Platform predpokladá tiež manuálnu spotrebu."
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
@@ -6389,12 +6389,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Odoo work center control panel, your worker can start work orders "
+"With the Platform work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Pomocou ovládacieho panela pracoviska Odoo, môže váš pracovník spúšťať "
+"Pomocou ovládacieho panela pracoviska Platform, môže váš pracovník spúšťať "
 "pracovné príkazy a postupovať podľa pokynov pracovného listu. Do tohto "
 "procesu sú tiež integrované testy kvality. Pracovníci môžu priamo poskytnúť "
 "spätnú väzbu, spúšťať upozornenia pre údržbu, nahlásiť nepodarené výrobky "

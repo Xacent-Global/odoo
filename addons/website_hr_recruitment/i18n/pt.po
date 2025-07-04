@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website_hr_recruitment
 # 
@@ -7,7 +7,7 @@
 # João Alves, 2025
 # Maitê Dietze, 2025
 # Vasco Rodrigues, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Martin Trigaux, 2025
 # J Ponte, 2025
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"

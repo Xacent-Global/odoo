@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* pos_hr
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -193,8 +193,8 @@ msgstr "אם נשאר ריק, כל העובדים יכולים להתחבר לק
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
-msgid "If left empty, only Odoo users have extended rights in PoS"
-msgstr "אם נשאר ריק, רק משתמשי Odoo יהיו בעלי זכויות מורחבות בקופה"
+msgid "If left empty, only Platform users have extended rights in PoS"
+msgstr "אם נשאר ריק, רק משתמשי Platform יהיו בעלי זכויות מורחבות בקופה"
 
 #. module: pos_hr
 #. odoo-javascript

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -222,16 +222,16 @@ msgstr "Гараар дугаарлах"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Гараар: Odoo-оос гадуур аливаа аргаар төлбөр хийх эсвэл хүлээн авна уу.\n"
+"Гараар: Platform-оос гадуур аливаа аргаар төлбөр хийх эсвэл хүлээн авна уу.\n"
 "Төлбөрийн үйлчилгээ үзүүлэгчид: Тус бүр өөрийн төлбөрийн аргачлалтай. Түнш онлайн худалдаа эсвэл захиалгын үеэр төлбөрийн токен хадгалсан бол карт руу эсвэл картаас гүйлгээ хийх боломжтой.\n"
-"Чек: Нэхэмжлэлийг чекаар төлж, Odoo-оос хэвлэнэ.\n"
+"Чек: Нэхэмжлэлийг чекаар төлж, Platform-оос хэвлэнэ.\n"
 "Багц хадгаламж: Олон харилцагчийн чекүүдийг нэг дор хүлээн авч, банк руу багц хадгаламж илгээнэ. Үүний тулд `account_batch_payment` модуль шаардлагатай.\n"
 "SEPA Кредит шилжүүлэг: SEPA бүсэд банк руу SEPA Кредит шилжүүлгийн файл илгээн төлбөр хийнэ. Үүний тулд `account_sepa` модуль шаардлагатай.\n"
 "SEPA Шууд дебит: SEPA бүсэд түншийн танд олгосон зөвшөөрлийн үндсэн дээр төлбөр хүлээн авна. Үүний тулд `account_sepa` модуль шаардлагатай.\n"

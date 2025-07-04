@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -6,12 +6,12 @@
 # Paweł Wodyński <pw@myodoo.pl>, 2024
 # Maksym <ms@myodoo.pl>, 2024
 # Interactive AV-IT, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Marta Wacławek, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -2002,8 +2002,8 @@ msgstr "Lista numerowana"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "Testy Odoo Editor"
+msgid "Platform Editor Tests"
+msgstr "Testy Platform Editor"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2878,10 +2878,10 @@ msgstr "Ten obraz jest obrazem zewnętrznym"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "Ten typ obrazu nie nadaje się do przycinania. <br/>Jeśli chcesz go przyciąć,"
-" najpierw pobierz go z oryginalnego źródła i prześlij do Odoo."
+" najpierw pobierz go z oryginalnego źródła i prześlij do Platform."
 
 #. module: web_editor
 #. odoo-javascript

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
@@ -13,15 +13,15 @@
 # Lasse L, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -196,9 +196,9 @@ msgstr "Tillgängliga Peppol-sändningsmetoder"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Platform may process my e-invoices."
 msgstr ""
-"Genom att klicka på knappen nedan godkänner jag att Odoo får behandla mina "
+"Genom att klicka på knappen nedan godkänner jag att Platform får behandla mina "
 "e-fakturor."
 
 #. module: account_peppol
@@ -448,7 +448,7 @@ msgstr "Hämta från Peppol"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
+msgid "Free on Platform"
 msgstr ""
 
 #. module: account_peppol
@@ -465,9 +465,9 @@ msgstr ""
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
+msgid "I want to migrate my existing Peppol connection to Platform (optional):"
 msgstr ""
-"Jag vill migrera min befintliga Peppol-anslutning till Odoo (valfritt):"
+"Jag vill migrera min befintliga Peppol-anslutning till Platform (valfritt):"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -573,13 +573,13 @@ msgstr "Inte verifierat ännu"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
+msgid "Platform keeps you up to date with the new regulation."
 msgstr ""
 
 #. module: account_peppol
@@ -886,7 +886,7 @@ msgstr "Testa"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Platform may process my e-invoices."
 msgstr ""
 
 #. module: account_peppol
@@ -1134,10 +1134,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Platform anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
-"Du kommer inte att kunna skicka eller ta emot Peppol-dokument i Odoo längre."
+"Du kommer inte att kunna skicka eller ta emot Peppol-dokument i Platform längre."
 " Är du säker på att du vill fortsätta?"
 
 #. module: account_peppol

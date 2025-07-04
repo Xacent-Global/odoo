@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -221,7 +221,7 @@ msgstr "100"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
 msgid "12345678901"
 msgstr ""
-"متن ارائه‌شده به نظر نمی‌رسد حاوی اطلاعات قابل ترجمه برای ماژول‌های Odoo "
+"متن ارائه‌شده به نظر نمی‌رسد حاوی اطلاعات قابل ترجمه برای ماژول‌های Platform "
 "باشد. لطفاً جزئیات بیشتری ارائه دهید تا بتوانم به طور خاص به شما کمک کنم."
 
 #. module: mrp
@@ -1776,11 +1776,11 @@ msgstr "کاربرگ های قابل تنظیم برای کنترل کیفیت �
 msgid ""
 "Create operation level dependencies that will influence both planning and "
 "the status of work orders upon MO confirmation. If this feature is ticked, "
-"and nothing is specified, Odoo will assume that all operations can be "
+"and nothing is specified, Platform will assume that all operations can be "
 "started simultaneously."
 msgstr ""
 "ایجاد وابستگی‌های سطح عملیات که بر برنامه‌ریزی و وضعیت دستورات کار با تأیید "
-"MO تأثیر می‌گذارد. اگر این ویژگی انتخاب شود و چیزی مشخص نشده باشد، Odoo فرض "
+"MO تأثیر می‌گذارد. اگر این ویژگی انتخاب شود و چیزی مشخص نشده باشد، Platform فرض "
 "خواهد کرد که تمام عملیات می‌توانند به صورت همزمان شروع شوند."
 
 #. module: mrp
@@ -2675,7 +2675,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the allocation "
+"If this checkbox is ticked, Platform will automatically print the allocation "
 "report labels of a MO when it is done."
 msgstr ""
 "اگر این چک‌باکس تیک خورده باشد، اودوو به‌طور خودکار برچسب‌های گزارش تخصیص یک"
@@ -2684,7 +2684,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the allocation "
+"If this checkbox is ticked, Platform will automatically print the allocation "
 "report of a MO when it is done and has assigned moves."
 msgstr ""
 "اگر این چک باکس تیک خورده باشد، اودو به صورت خودکار گزارش تخصیص یک MO را "
@@ -2693,7 +2693,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN label "
+"If this checkbox is ticked, Platform will automatically print the lot/SN label "
 "of a MO when it is done."
 msgstr ""
 "اگر این چک‌باکس تیک‌خورده باشد، اودو به طور خودکار برچسب سریال/مقدار تولید "
@@ -2702,7 +2702,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a MO when it is done."
 msgstr ""
 "اگر این چک‌باکس تیک خورده باشد، اودو به‌طور خودکار برچسب‌های محصول یک دستور "
@@ -2711,7 +2711,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the production "
+"If this checkbox is ticked, Platform will automatically print the production "
 "order of a MO when it is done."
 msgstr ""
 "اگر این کادر انتخاب تیک خورده باشد، اودو به‌طور خودکار دستور تولید MO را "
@@ -3805,7 +3805,7 @@ msgstr "هدف OEE"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid ""
-"Odoo opens a PDF preview by default. If you want to print instantly,\n"
+"Platform opens a PDF preview by default. If you want to print instantly,\n"
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
@@ -6338,7 +6338,7 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_stock_move__manual_consumption
 msgid ""
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
-"If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
+"If not activated, and any of the components consumption is edited manually on the manufacturing order, Platform assumes manual consumption also."
 msgstr ""
 "هنگامی که فعال شود، سپس ثبت مصرف برای آن مؤلفه به‌طور انحصاری به‌صورت دستی ثبت می‌شود.\n"
 "اگر غیرفعال شود، و هر کدام از مؤلفه‌ها به‌طور دستی در سفارش تولید ویرایش شود، اودوو نیز مصرف دستی را در نظر می‌گیرد."
@@ -6368,12 +6368,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Odoo work center control panel, your worker can start work orders "
+"With the Platform work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"با کنترل پنل مرکز کار Odoo، کارگر شما می تواند سفارشات کاری را در مغازه شروع"
+"با کنترل پنل مرکز کار Platform، کارگر شما می تواند سفارشات کاری را در مغازه شروع"
 " کند و دستورالعمل های کاربرگ را دنبال کند. تست های کیفیت کاملاً در فرآیند "
 "ادغام شده اند. کارگران می توانند حلقه های بازخورد، هشدارهای تعمیر و نگهداری،"
 " محصولات ضایعاتی و غیره را راه اندازی کنند."

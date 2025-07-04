@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
@@ -13,12 +13,12 @@
 # Josep Anton Belchi, 2024
 # RGB Consulting <odoo@rgbconsulting.com>, 2024
 # ericrolo, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Noemi Pla, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -226,16 +226,16 @@ msgstr "Numeració manual"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manual: Paga o rep un pagament per qualsevol mètode fora d'Odoo.\n"
+"Manual: Paga o rep un pagament per qualsevol mètode fora d'Platform.\n"
 "Proveïdors de pagament: Cada proveïdor de pagament té el seu propi mètode de pagament. Sol·licita una transacció en/a una targeta gràcies a un testimoni de pagament desat pel company quan es compra o es subscriu en línia.\n"
-"Comprovació: Paga factures per xec i imprimeix des d'Odoo.\n"
+"Comprovació: Paga factures per xec i imprimeix des d'Platform.\n"
 "Dipòsit per lots: Recolliu diverses comprovacions de client alhora generant i enviant un dipòsit per lots al vostre banc. El mòdul de pagament de comptes és necessari.\n"
 "Transferència de crèdit SEPA: Paga a la zona SEPA enviant un fitxer de transferència de crèdit SEPA al banc. El mòdul account_sepa és necessari.\n"
 "Dèbit directe SEPA: Es paga a la zona SEPA gràcies a un mandat que el vostre soci us haurà concedit. El mòdul account_sepa és necessari.\n"

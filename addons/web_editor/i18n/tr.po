@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -29,7 +29,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -2017,8 +2017,8 @@ msgstr "Numaralı liste"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "Odoo Editör Testleri"
+msgid "Platform Editor Tests"
+msgstr "Platform Editör Testleri"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2889,10 +2889,10 @@ msgstr "Bu resim harici bir resim"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "Bu görüntü türü kırpma için desteklenmez.<br/>Kırpmak istiyorsanız, lütfen "
-"önce orijinal kaynaktan indirin ve Odoo'ya yükleyin."
+"önce orijinal kaynaktan indirin ve Platform'ya yükleyin."
 
 #. module: web_editor
 #. odoo-javascript

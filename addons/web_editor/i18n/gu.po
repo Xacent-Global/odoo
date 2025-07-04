@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # * web_editor
 #
@@ -10,7 +10,7 @@
 # Dharmraj Jhala <dja@openerp.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~11.5\n"
+"Project-Id-Version: Platform Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:50+0000\n"
 "PO-Revision-Date: 2018-10-02 10:06+0000\n"
@@ -1776,7 +1776,7 @@ msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
+msgid "Platform Editor Tests"
 msgstr ""
 
 #. module: web_editor
@@ -2604,7 +2604,7 @@ msgstr ""
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop_widget.js:0
-msgid "This type of image is not supported for cropping.<br/>If you want to crop it, please first download it from the original source and upload it in Odoo."
+msgid "This type of image is not supported for cropping.<br/>If you want to crop it, please first download it from the original source and upload it in Platform."
 msgstr ""
 
 #. module: web_editor

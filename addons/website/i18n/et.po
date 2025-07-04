@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -625,24 +625,24 @@ msgstr "50%"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_card
 msgid ""
-"50,000+ companies run Odoo <br class=\"d-none d-lg-inline\"/>to grow their "
+"50,000+ companies run Platform <br class=\"d-none d-lg-inline\"/>to grow their "
 "businesses."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
+msgid "50,000+ companies run Platform to grow their businesses."
 msgstr "50 000+ ettevõtet kasutavad Odood enda äri kasvatamiseks."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_box
-msgid "50,000+ companies run Odoo<br/>to grow their businesses."
+msgid "50,000+ companies run Platform<br/>to grow their businesses."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_mockups
-msgid "50,000+ companies trust Odoo."
+msgid "50,000+ companies trust Platform."
 msgstr "50 000+ ettevõtet usaldavad Odood."
 
 #. module: website
@@ -5208,7 +5208,7 @@ msgstr "Disain"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Design Odoo templates easily with clean HTML and Bootstrap CSS. These "
+"Design Platform templates easily with clean HTML and Bootstrap CSS. These "
 "templates offer a responsive, mobile-first design, making them simple to "
 "customize and perfect for any web project, from corporate sites to personal "
 "blogs."
@@ -7101,8 +7101,8 @@ msgstr "Mine vahekaardile Teema"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout
-msgid "Go to your Odoo Apps"
-msgstr "Mine vahekaardile Odoo rakendused"
+msgid "Go to your Platform Apps"
+msgstr "Mine vahekaardile Platform rakendused"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -7318,8 +7318,8 @@ msgstr "Happy Hour"
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/snippets/s_countdown/options.xml:0
-msgid "Happy Odoo Anniversary!"
-msgstr "Head Odoo aastapäeva!"
+msgid "Happy Platform Anniversary!"
+msgstr "Head Platform aastapäeva!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -8529,12 +8529,12 @@ msgstr "On määratud"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
+"            Platform 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
 "Tundub, et teie veebileht kasutab endiselt mõnes kohas\n"
-"Odoo 13.0 vanat värvisüsteemi. Me oleme võimaldanud sellel endiselt töötada,\n"
+"Platform 13.0 vanat värvisüsteemi. Me oleme võimaldanud sellel endiselt töötada,\n"
 "aga me soovitame teil proovida uut värvisüsteemi, mis on \n"
 "endiselt kohandatav."
 
@@ -9758,12 +9758,12 @@ msgstr "Jälgi Google otsingumootori tulemuste andmeid"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
+"Monitor your visitors while they are browsing your website with the Platform "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
 msgstr ""
-"Monitoori oma külastajaid, kui nad käivad teie veebilehel Odoo Social äpiga."
+"Monitoori oma külastajaid, kui nad käivad teie veebilehel Platform Social äpiga."
 " Suhtle nendega kõigest kliki abil, kasutades live-vestluse taotlust või "
 "kiirteadet. Kui nad on ühe teie vormi täitnud, saate te saata neile SMSi või"
 " helistada neile kohe, kui nad külastavad teie veebilehte."
@@ -10268,18 +10268,18 @@ msgstr "või"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "Odoo Information"
-msgstr "Odoo teave"
+msgid "Platform Information"
+msgstr "Platform teave"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "Odoo Menu"
-msgstr "Odoo menüü"
+msgid "Platform Menu"
+msgstr "Platform menüü"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo versioon"
+msgid "Platform Version"
+msgstr "Platform versioon"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -12317,12 +12317,12 @@ msgstr "Otsi külastajat"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. Platform's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
 "Otsige meediadialoogist, kui teil on tarvis veebilehe illustreerimiseks "
-"fotosid. Odoo integratsioon Unsplashiga, mis sisaldab miljoneid autoritasuta"
+"fotosid. Platform integratsioon Unsplashiga, mis sisaldab miljoneid autoritasuta"
 " kõrge kvaliteediga fotosid, teeb võimalikuks ideaalse pildi leidmise "
 "kõigeks paari klikiga."
 
@@ -14208,13 +14208,13 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, Platform "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
 "Selleks, et saada rohkem külastajaid, peaksite te kasutama võtmesõnu, mida "
 "kasutatakse sagedasti Google otsingus. Sisseehitatud SEO tööriistaga "
-"soovitab Odoo teile parimaid võtmesõnu kasutamiseks, kui te olete need kord "
+"soovitab Platform teile parimaid võtmesõnu kasutamiseks, kui te olete need kord "
 "ära määranud. Seejärel kohandage oma pealkiri ja kirjeldus vastavalt, et "
 "liiklust suurendada."
 
@@ -16093,8 +16093,8 @@ msgstr ""
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/components/resource_editor/resource_editor_warning.xml:0
-msgid "Your changes might be lost during future Odoo upgrade."
-msgstr "Sinu muudatused võivad Odoo uuenduse käigus kaduma minna."
+msgid "Your changes might be lost during future Platform upgrade."
+msgstr "Sinu muudatused võivad Platform uuenduse käigus kaduma minna."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_list
@@ -16127,10 +16127,10 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_instagram_page_options
 msgid ""
-"Your instagram page must be public to be integrated into an Odoo website."
+"Your instagram page must be public to be integrated into an Platform website."
 msgstr ""
 "Sinu Instagrami konto peab olema avalikustatud, et seda saaks integreerida "
-"Odoo veebilehega."
+"Platform veebilehega."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cover
@@ -16557,8 +16557,8 @@ msgstr "alates logost"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgid "frontend_lang (Platform)"
+msgstr "frontend_lang (Platform)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -16739,10 +16739,10 @@ msgstr "iPhone"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator (Platform)<br/>\n"
+"                                            utm_campaign (Platform)<br/>\n"
+"                                            utm_source (Platform)<br/>\n"
+"                                            utm_medium (Platform)"
 msgstr ""
 
 #. module: website
@@ -16773,8 +16773,8 @@ msgstr "teavitage kliente"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instance of Odoo, the"
+msgid "instance of Platform, the"
+msgstr "instance of Platform, the"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -17019,8 +17019,8 @@ msgstr "müü rohkem"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "session_id (Odoo)<br/>"
-msgstr "session_id (Odoo)<br/>"
+msgid "session_id (Platform)<br/>"
+msgstr "session_id (Platform)<br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

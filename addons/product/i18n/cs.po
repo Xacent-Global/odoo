@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* product
 # 
 # Translators:
 # Tiffany Chang, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Aleš Fiala <f.ales1@seznam.cz>, 2025
 # Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Vojtěch Olšan, 2025
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -4256,8 +4256,8 @@ msgstr "např. lampy"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Odoo Enterprise Subscription"
-msgstr "např. Odoo Enterprise Subscription"
+msgid "e.g. Platform Enterprise Subscription"
+msgstr "např. Platform Enterprise Subscription"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view

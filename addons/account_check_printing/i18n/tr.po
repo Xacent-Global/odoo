@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
@@ -13,13 +13,13 @@
 # Umur Akın <umura@projetgrup.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Hakan Türkün, 2025
 # Melih Melik Sonmez, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -228,16 +228,16 @@ msgstr "Elle Numaralandırma"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manuel: Odoo dışında herhangi bir yöntemle ödeme yapın veya ödeme alın.\n"
+"Manuel: Platform dışında herhangi bir yöntemle ödeme yapın veya ödeme alın.\n"
 "Ödeme Sağlayıcıları: Her ödeme sağlayıcısının kendi Ödeme Yöntemi vardır. Çevrimiçi satın alırken veya abone olurken iş ortağı tarafından kaydedilen bir ödeme belirteci sayesinde bir kart üzerinde / karta işlem talep edin.\n"
-"Çek: Faturaları çek ile ödeyin ve Odoo'dan yazdırın.\n"
+"Çek: Faturaları çek ile ödeyin ve Platform'dan yazdırın.\n"
 "Toplu Para Yatırma: Aynı anda birkaç müşteri çeki toplayın ve bankanıza bir toplu para yatırma işlemi oluşturun ve gönderin. account_batch_payment modülü gereklidir.\n"
 "SEPA Kredi Transferi: Bankanıza bir SEPA Kredi Transferi dosyası göndererek SEPA bölgesinde ödeme yapın. Modül account_sepa gereklidir.\n"
 "SEPA Doğrudan Borçlandırma: İş Ortağınızın size vereceği bir yetki sayesinde SEPA bölgesinde ödeme alın. Modül account_sepa gereklidir.\n"

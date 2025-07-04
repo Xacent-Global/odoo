@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet
 # 
@@ -28,7 +28,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -5305,26 +5305,26 @@ msgstr "אוקטובר"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
-msgid "Odoo Bar Chart"
-msgstr "תרשים עמודות של Odoo"
+msgid "Platform Bar Chart"
+msgstr "תרשים עמודות של Platform"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
-msgid "Odoo Line Chart"
-msgstr "תרשים קו של Odoo"
+msgid "Platform Line Chart"
+msgstr "תרשים קו של Platform"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
-msgid "Odoo Pie Chart"
-msgstr "תרשים פאי של Odoo"
+msgid "Platform Pie Chart"
+msgstr "תרשים פאי של Platform"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/hooks.js:0
-msgid "Odoo Spreadsheet"
-msgstr "גיליון אלקטרוני של Odoo"
+msgid "Platform Spreadsheet"
+msgstr "גיליון אלקטרוני של Platform"
 
 #. module: spreadsheet
 #. odoo-javascript

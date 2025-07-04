@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,13 +47,13 @@ msgid ""
 "application.%(new_line)s%(new_line)s%(bold_start)sIt's the end of this "
 "overview%(bold_end)s, you can now %(bold_start)sclose this "
 "conversation%(bold_end)s or start the tour again with typing "
-"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
+"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Platform!"
 msgstr ""
 "Bagus, Anda dapat menyesuaikan tanggapan otomatis di aplikasi Discuss. "
 "%(new_line)s%(new_line)s%(bold_start)s Ini adalah akhir dari gambaran umum "
 "%(bold_end)s, Anda sekarang dapat %(bold_start)s menutup percakapan ini "
 "%(bold_end)s atau memulai tur lagi dengan mengetik %(command_start)s mulai "
-"tur %(command_end)s. Enjoy discovering Odoo!"
+"tur %(command_end)s. Enjoy discovering Platform!"
 
 #. module: mail_bot
 #. odoo-python
@@ -148,10 +148,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
-"Odoo's chat helps employees collaborate efficiently. I'm here to help you "
+"Platform's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
-"Chat Odoo membantu karyawan berkolaborasi dengan efisien. Saya di sini untuk"
+"Chat Platform membantu karyawan berkolaborasi dengan efisien. Saya di sini untuk"
 " membantu Anda menemukan fitur-fiturnya."
 
 #. module: mail_bot

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
 # Translators:
 # kunqing shi, 2025
 # 何彬 <vnsoft.he@gmail.com>, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Chloe Wang, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -191,9 +191,9 @@ msgstr "可用的 Peppol 发送方法"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Platform may process my e-invoices."
 msgstr ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Platform may process my e-invoices."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
@@ -442,8 +442,8 @@ msgstr "从 Peppol 获取"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
-msgstr "Free on Odoo"
+msgid "Free on Platform"
+msgstr "Free on Platform"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -459,8 +459,8 @@ msgstr "Got it !"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
-msgstr "我想将现有的 Peppol 连接迁移到 Odoo（可选）："
+msgid "I want to migrate my existing Peppol connection to Platform (optional):"
+msgstr "我想将现有的 Peppol 连接迁移到 Platform（可选）："
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -568,14 +568,14 @@ msgstr "尚未验证"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo keeps you up to date with the new regulation."
+msgid "Platform keeps you up to date with the new regulation."
+msgstr "Platform keeps you up to date with the new regulation."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
@@ -884,10 +884,10 @@ msgstr "测试"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Platform may process my e-invoices."
 msgstr ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Platform may process my e-invoices."
 
 #. module: account_peppol
 #. odoo-python
@@ -1141,10 +1141,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Platform anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Platform anymore. "
 "Are you sure you want to proceed?"
 
 #. module: account_peppol

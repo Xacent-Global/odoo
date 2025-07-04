@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -6,12 +6,12 @@
 # Martin Trigaux, 2024
 # PAS IRVANUS <ipankbiz@gmail.com>, 2024
 # Tiffany Chang, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Abe Manyo, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -54,12 +54,12 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
 "                                match the behavior of providers and that of their integration with\n"
-"                                Odoo regarding this payment method. Any change may result in errors\n"
+"                                Platform regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>Properti-properti ditetapkan agar\n"
 "                                cocok dengan perilaku penyedia dan integrasi mereka dengan\n"
-"                                Odoo mengenai metode pembayaran ini. Perubahan apapun dapat menghasilkan error\n"
+"                                Platform mengenai metode pembayaran ini. Perubahan apapun dapat menghasilkan error\n"
 "                                dan harus diperiksa pada database testing terlebih dahulu."
 
 #. module: payment
@@ -741,11 +741,11 @@ msgstr "Cetak Transaksi"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Platform, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"Capture jumlah dari Odoo, saat pengiriman selesai.\n"
+"Capture jumlah dari Platform, saat pengiriman selesai.\n"
 "Gunakan ini bila Anda hanya ingin menagih kartu pelanggan Anda saat\n"
 "Anda yakin Anda dapat mengirim barang ke mereka."
 
@@ -1728,8 +1728,8 @@ msgstr "Octopus"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Modul Odoo Enterprise"
+msgid "Platform Enterprise Module"
+msgstr "Modul Platform Enterprise"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -2298,10 +2298,10 @@ msgstr "Pengembalian Dana"
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
-"in Odoo."
+"in Platform."
 msgstr ""
 "Refund adalah fitur yang memungkinkan untuk mengembalikkan uang pelanggan "
-"langsung dari pembayaran di Odoo."
+"langsung dari pembayaran di Platform."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form

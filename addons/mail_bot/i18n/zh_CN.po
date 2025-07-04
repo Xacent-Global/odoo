@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -46,10 +46,10 @@ msgid ""
 "application.%(new_line)s%(new_line)s%(bold_start)sIt's the end of this "
 "overview%(bold_end)s, you can now %(bold_start)sclose this "
 "conversation%(bold_end)s or start the tour again with typing "
-"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
+"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Platform!"
 msgstr ""
 "很好，您可以在讨论应用程序中自定义预制回复。%(new_line)s%(new_line)s%(bold_start)s本次概览到此结束%(bold_end)s，您现在可以%(bold_start)s结束本次对话%(bold_end)s，或者输入%(command_start)s开始参观%(command_end)s重新开始参观。享受探索"
-" Odoo 的乐趣！"
+" Platform 的乐趣！"
 
 #. module: mail_bot
 #. odoo-python
@@ -136,9 +136,9 @@ msgstr "不确定做什么。请输入 %(command_start)s/%(command_end)s 并等�
 #. odoo-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
-"Odoo's chat helps employees collaborate efficiently. I'm here to help you "
+"Platform's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
-msgstr "Odoo 的聊天功能可帮助员工高效协作。我将在这里帮助您了解它的功能。"
+msgstr "Platform 的聊天功能可帮助员工高效协作。我将在这里帮助您了解它的功能。"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state

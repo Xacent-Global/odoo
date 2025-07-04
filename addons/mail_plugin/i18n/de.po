@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,10 +68,10 @@ msgstr "Jahresumsatz"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Anhänge konnten in Odoo nicht protokolliert werden, da ihre Gesamtgröße das "
+"Anhänge konnten in Platform nicht protokolliert werden, da ihre Gesamtgröße das "
 "zulässige Maximum überschritten hat."
 
 #. module: mail_plugin
@@ -460,9 +460,9 @@ msgstr ""
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
-"Kein mit diesem Kontakt verknüpftes Unternehmen konnte in Odoo angereichert "
+"Kein mit diesem Kontakt verknüpftes Unternehmen konnte in Platform angereichert "
 "oder gefunden werden"
 
 #. module: mail_plugin
@@ -510,14 +510,14 @@ msgstr "Benachrichtigung"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Odoo-Zugriffstoken"
+msgid "Platform Access Token"
+msgstr "Platform-Zugriffstoken"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "Odoo-Server-URL"
+msgid "Platform Server URL"
+msgstr "Platform-Server-URL"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -595,8 +595,8 @@ msgstr "Umsätze"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "In Odoo speichern"
+msgid "Save in Platform"
+msgstr "In Platform speichern"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -626,8 +626,8 @@ msgstr "In Datenbank suchen"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "In Odoo suchen"
+msgid "Search In Platform"
+msgstr "In Platform suchen"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -638,8 +638,8 @@ msgstr "Kontakt suchen"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "Kontakt in Odoo suchen ..."
+msgid "Search contact in Platform..."
+msgstr "Kontakt in Platform suchen ..."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -673,8 +673,8 @@ msgstr ""
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Dieser Kontakt existiert nicht in der Odoo-Datenbank."
+msgid "This contact does not exist in the Platform database."
+msgstr "Dieser Kontakt existiert nicht in der Platform-Datenbank."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -704,10 +704,10 @@ msgstr "Dieser Partner existiert nicht"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Warnung: Die Anhänge konnten nicht in Odoo erfasst werden, da ihre "
+"Warnung: Die Anhänge konnten nicht in Platform erfasst werden, da ihre "
 "Gesamtgröße die zulässige Höchstgrenze überschritten hat."
 
 #. module: mail_plugin
@@ -749,8 +749,8 @@ msgstr ""
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "auf ihre Odoo-Datenbank zugreifen?"
+msgid "access your Platform database?"
+msgstr "auf ihre Platform-Datenbank zugreifen?"
 
 #. module: mail_plugin
 #. odoo-javascript

@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
 # Translators:
 # Wichanon Jamwutthipreecha, 2024
 # Rasareeyar Lappiam, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1999,8 +1999,8 @@ msgstr "รายการที่มีเลข"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "การทดสอบตัวแก้ไข Odoo"
+msgid "Platform Editor Tests"
+msgstr "การทดสอบตัวแก้ไข Platform"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2876,10 +2876,10 @@ msgstr "ภาพนี้เป็นภาพภายนอก"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "รูปภาพประเภทนี้ไม่รองรับการตัด<br/>หากคุณต้องการตัด "
-"โปรดดาวน์โหลดจากแหล่งที่มาดั้งเดิมและอัปโหลดใน Odoo ก่อน"
+"โปรดดาวน์โหลดจากแหล่งที่มาดั้งเดิมและอัปโหลดใน Platform ก่อน"
 
 #. module: web_editor
 #. odoo-javascript

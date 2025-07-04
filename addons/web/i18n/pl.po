@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -6,15 +6,15 @@
 # Maksym <ms@myodoo.pl>, 2024
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2024
 # Marta Wacławek, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1604,10 +1604,10 @@ msgstr "Sprawdź uprawnienia swojej przeglądarki"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Platform will load as soon as "
 "you're back online."
 msgstr ""
-"Sprawdź połączenie sieciowe i wróć tutaj. Odoo załaduje się, gdy tylko "
+"Sprawdź połączenie sieciowe i wróć tutaj. Platform załaduje się, gdy tylko "
 "wrócisz do trybu online."
 
 #. module: web
@@ -3153,8 +3153,8 @@ msgstr "Uzyskaj widok"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Uzyskaj tę funkcję i wiele więcej dzięki Odoo Enterprise!"
+msgid "Get this feature and much more with Platform Enterprise!"
+msgstr "Uzyskaj tę funkcję i wiele więcej dzięki Platform Enterprise!"
 
 #. module: web
 #. odoo-javascript
@@ -4435,8 +4435,8 @@ msgstr "Muzułmanin"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
-msgid "My Odoo.com account"
-msgstr "Moje konto Odoo.com"
+msgid "My Platform.com account"
+msgstr "Moje konto Platform.com"
 
 #. module: web
 #. odoo-javascript
@@ -4812,41 +4812,41 @@ msgstr "Obiekty"
 #: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Client Error"
+msgid "Platform Client Error"
 msgstr "Błąd klienta"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
-msgid "Odoo Enterprise"
-msgstr "Odoo wersja Enterpise"
+msgid "Platform Enterprise"
+msgstr "Platform wersja Enterpise"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Error"
+msgid "Platform Error"
 msgstr "Błąd serwera"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Network Error"
-msgstr "Błąd sieci Odoo"
+msgid "Platform Network Error"
+msgstr "Błąd sieci Platform"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/widgets/notification_alert/notification_alert.xml:0
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Platform Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
-"Powiadomienia Push Odoo zostały zablokowane. Zmień ustawienia przeglądarki "
+"Powiadomienia Push Platform zostały zablokowane. Zmień ustawienia przeglądarki "
 "aby je odblokować."
 
 #. module: web
@@ -4859,32 +4859,32 @@ msgstr "Application."
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Server Error"
-msgstr "Błąd serwera Odoo"
+msgid "Platform Server Error"
+msgstr "Błąd serwera Platform"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
-msgid "Odoo Session Expired"
+msgid "Platform Session Expired"
 msgstr "Sesja wygasła"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
-msgid "Odoo Warning"
-msgstr "Ostrzeżenie Odoo"
+msgid "Platform Warning"
+msgstr "Ostrzeżenie Platform"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
-msgid "Odoo logo"
-msgstr "Logo Odoo"
+msgid "Platform logo"
+msgstr "Logo Platform"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/barcode/barcode_video_scanner.js:0
-msgid "Odoo needs your authorization first."
-msgstr "Odoo potrzebuje najpierw autoryzacji użytkownika."
+msgid "Platform needs your authorization first."
+msgstr "Platform potrzebuje najpierw autoryzacji użytkownika."
 
 #. module: web
 #. odoo-javascript
@@ -5233,8 +5233,8 @@ msgstr "Napędzany przez %s %s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Platform</span>"
+msgstr "Powered by <span>Platform</span>"
 
 #. module: web
 #. odoo-javascript
@@ -7625,10 +7625,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Platform with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Musisz uruchomić Odoo z co najmniej dwoma workerami, aby wydrukować wersję "
+"Musisz uruchomić Platform z co najmniej dwoma workerami, aby wydrukować wersję "
 "PDF raportów."
 
 #. module: web
@@ -7647,8 +7647,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
-msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "Twoja sesja Odoo wygasła. Bieżąca strona zostanie wkrótce odświeżona."
+msgid "Your Platform session expired. The current page is about to be refreshed."
+msgstr "Twoja sesja Platform wygasła. Bieżąca strona zostanie wkrótce odświeżona."
 
 #. module: web
 #. odoo-javascript

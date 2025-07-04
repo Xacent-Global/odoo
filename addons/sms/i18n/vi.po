@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* sms
 # 
 # Translators:
 # Thi Huong Nguyen, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -222,10 +222,10 @@ msgstr "Có lỗi khi gửi SMS trên “%(record_name)s”"
 #. odoo-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
-"An unknown error occurred. Please contact Odoo support if this error "
+"An unknown error occurred. Please contact Platform support if this error "
 "persists."
 msgstr ""
-"Đã xảy ra lỗi không xác định. Vui lòng liên hệ với bộ phận hỗ trợ của Odoo "
+"Đã xảy ra lỗi không xác định. Vui lòng liên hệ với bộ phận hỗ trợ của Platform "
 "nếu lỗi này vẫn tiếp diễn."
 
 #. module: sms

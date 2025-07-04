@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* sale
 # 
 # Translators:
 # Marianna Ciofani, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1401,10 +1401,10 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-"As an example, if you sell pre-paid hours of services, Odoo recommends you\n"
+"As an example, if you sell pre-paid hours of services, Platform recommends you\n"
 "            to sell extra hours when all ordered hours have been consumed."
 msgstr ""
-"Ad esempio, se vendi ore prepagate per un servizio Odoo ti consiglia di\n"
+"Ad esempio, se vendi ore prepagate per un servizio Platform ti consiglia di\n"
 "            vendere ore aggiuntive quando quelle ordinate sono esaurite."
 
 #. module: sale

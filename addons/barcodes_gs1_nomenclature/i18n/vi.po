@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* barcodes_gs1_nomenclature
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -177,13 +177,13 @@ msgstr ""
 #: model:ir.model.fields,help:barcodes_gs1_nomenclature.field_barcode_rule__gs1_content_type
 msgid ""
 "The GS1 content type defines what kind of data the rule will process the "
-"barcode as:        * Date: the barcode will be converted into a Odoo "
+"barcode as:        * Date: the barcode will be converted into a Platform "
 "datetime;        * Measure: the barcode's value is related to a specific "
 "UoM;        * Numeric Identifier: fixed length barcode following a specific "
 "encoding;        * Alpha-Numeric Name: variable length barcode."
 msgstr ""
 "Loại nội dung GS1 xác định loại dữ liệu mà quy tắc sẽ xử lý mã vạch thành:"
-"       * Ngày: mã vạch sẽ được chuyển đổi thành ngày giờ của Odoo;         *"
+"       * Ngày: mã vạch sẽ được chuyển đổi thành ngày giờ của Platform;         *"
 " Đơn vị tính: giá trị của mã vạch liên quan đến một đơn vị tính cụ thể;"
 "         * Mã dạng số: mã vạch có độ dài cố định theo một cách mã hóa cụ "
 "thể;       * Tên chứa chữ và số: mã vạch có độ dài không cố định."

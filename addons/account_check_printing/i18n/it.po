@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
 # Translators:
 # Marianna Ciofani, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -216,16 +216,16 @@ msgstr "Numerazione manuale"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manuale: paga oppure ricevi pagamenti al di fuori di Odoo, con qualsiasi metodo.\n"
+"Manuale: paga oppure ricevi pagamenti al di fuori di Platform, con qualsiasi metodo.\n"
 "Fornitori di pagamento: ogni fornitore ha il proprio metodo. Richiedi una transazione su o verso una carta grazie ad un token di pagamento salvato dal partner quando compri o effettui un abbonamento online.\n"
-"Assegno: paga le fatture con gli assegni e stampali da Odoo.\n"
+"Assegno: paga le fatture con gli assegni e stampali da Platform.\n"
 "Versamento in lotto: colleziona vari assegni dei clienti generando e inviando un versamento complessivo alla tua banca. È necessario il modulo account_batch_payment.\n"
 "Bonifico SEPA: paga nella zona SEPA inviando un bonifico SEPA alla tua banca. È necessario il modulo account_sepa.\n"
 "Addebito diretto SEPA: ricevi pagamenti nella zona SEPA grazie ad un mandato che il partner deve garantirti. È necessario il modulo account_sepa.\n"

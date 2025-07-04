@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,10 +68,10 @@ msgstr "Doanh thu hàng năm"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Tệp đính kèm không thể đăng nhập vào Odoo vì tổng kích cỡ vượt quá mức tối "
+"Tệp đính kèm không thể đăng nhập vào Platform vì tổng kích cỡ vượt quá mức tối "
 "đa cho phép."
 
 #. module: mail_plugin
@@ -452,9 +452,9 @@ msgstr "Không thể tìm thêm thông tin cho công ty liên kết với liên 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
-"Không thể tìm thấy trong Odoo hoặc tìm thêm thông tin cho công ty liên kết "
+"Không thể tìm thấy trong Platform hoặc tìm thêm thông tin cho công ty liên kết "
 "với liên hệ này"
 
 #. module: mail_plugin
@@ -502,14 +502,14 @@ msgstr "Thông báo"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Mã token truy cập Odoo"
+msgid "Platform Access Token"
+msgstr "Mã token truy cập Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "URL miền Odoo"
+msgid "Platform Server URL"
+msgstr "URL miền Platform"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -587,8 +587,8 @@ msgstr "Doanh thu"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "Lưu trong Odoo"
+msgid "Save in Platform"
+msgstr "Lưu trong Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -618,8 +618,8 @@ msgstr "Tìm kiếm trong cơ sở dữ liệu"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "Tìm kiếm trong Odoo"
+msgid "Search In Platform"
+msgstr "Tìm kiếm trong Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -630,8 +630,8 @@ msgstr "Tìm kiếm liên hệ"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "Tìm liên hệ trong Odoo..."
+msgid "Search contact in Platform..."
+msgstr "Tìm liên hệ trong Platform..."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -663,8 +663,8 @@ msgstr "Công ty không có địa chỉ email và không thể thêm thông tin
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Liên hệ này không tồn tại trong cơ sở dữ liệu Odoo."
+msgid "This contact does not exist in the Platform database."
+msgstr "Liên hệ này không tồn tại trong cơ sở dữ liệu Platform."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -693,10 +693,10 @@ msgstr "Đối tác này không tồn tại"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Cảnh báo: Tệp đính kèm không thể đăng nhập vào Odoo vì tổng kích cỡ vượt quá"
+"Cảnh báo: Tệp đính kèm không thể đăng nhập vào Platform vì tổng kích cỡ vượt quá"
 " mức tối đa cho phép."
 
 #. module: mail_plugin
@@ -736,8 +736,8 @@ msgstr "Bạn cần phải chỉ định ít nhất một partner_id  hoặc t�
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "truy cập cơ sở dữ liệu Odoo?"
+msgid "access your Platform database?"
+msgstr "truy cập cơ sở dữ liệu Platform?"
 
 #. module: mail_plugin
 #. odoo-javascript

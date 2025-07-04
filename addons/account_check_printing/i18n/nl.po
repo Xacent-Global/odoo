@@ -1,15 +1,15 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
 # Translators:
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -217,16 +217,16 @@ msgstr "Handmatige nummering"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Handmatig: Betaal of ontvang betalingen via een andere methode buiten Odoo.\n"
+"Handmatig: Betaal of ontvang betalingen via een andere methode buiten Platform.\n"
 "Betalingsproviders: Elke betalingsprovider heeft zijn eigen betalingsmethode. Vraag een transactie aan voor een kaart met behulp van een betalingstoken die de partner heeft opgeslagen bij online aankopen of abonnementen.\n"
-"Cheque: Betaal facturen per cheque en print deze vanuit Odoo.\n"
+"Cheque: Betaal facturen per cheque en print deze vanuit Platform.\n"
 "Batchstorting: Verzamel meerdere klantcheques tegelijk door een batchstorting te genereren en in te dienen bij je bank. De module account_batch_payment is vereist.\n"
 "SEPA Credit Transfer: Betaal in de SEPA-zone door een SEPA-overschrijvingsbestand naar je bank te sturen. De module account_sepa is vereist.\n"
 "SEPA Direct Debit: Ontvang betalingen binnen de SEPA-zone via een mandaat dat je partner aan jou heeft verleend. De module account_sepa is vereist.\n"

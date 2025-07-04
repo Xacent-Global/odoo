@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -6,12 +6,12 @@
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2024
 # Karol Rybak <karolrybak85@gmail.com>, 2024
 # Rafał Kozak <rafal.kozak@openglobe.pl>, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Marta Wacławek, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -54,12 +54,12 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-exclamation-triangle\"/> These properties are set to\n"
 "                                match the behavior of providers and that of their integration with\n"
-"                                Odoo regarding this payment method. Any change may result in errors\n"
+"                                Platform regarding this payment method. Any change may result in errors\n"
 "                                and should be tested on a test database first."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/> Te właściwości są ustawione, aby\n"
 "                                pasowały do zachowania dsotawców i ich integracji z \n"
-"                                Odoo odnośnie tej metody płatności. Jakiekolwiek zmiany mogą skutkować błędem\n"
+"                                Platform odnośnie tej metody płatności. Jakiekolwiek zmiany mogą skutkować błędem\n"
 "                                i powinny być najpierw przetestowane w testowej bazie danych."
 
 #. module: payment
@@ -722,11 +722,11 @@ msgstr "Przechwytywanie transakcji"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__capture_manually
 msgid ""
-"Capture the amount from Odoo, when the delivery is completed.\n"
+"Capture the amount from Platform, when the delivery is completed.\n"
 "Use this if you want to charge your customers cards only when\n"
 "you are sure you can ship the goods to them."
 msgstr ""
-"Przechwytuje kwotę z Odoo po zakończeniu dostawy.\n"
+"Przechwytuje kwotę z Platform po zakończeniu dostawy.\n"
 "Użyj tej opcji, jeśli chcesz obciążać karty klientów tylko wtedy, gdy\n"
 "jesteś pewien, że możesz wysłać do nich towary."
 
@@ -1694,8 +1694,8 @@ msgstr "Octopus"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Moduł Odoo Enterprise"
+msgid "Platform Enterprise Module"
+msgstr "Moduł Platform Enterprise"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -2255,10 +2255,10 @@ msgstr "Korekta"
 #: model:ir.model.fields,help:payment.field_payment_provider__support_refund
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
-"in Odoo."
+"in Platform."
 msgstr ""
 "Zwrot to funkcja umożliwiająca zwrot pieniędzy klientom bezpośrednio z "
-"płatności w Odoo."
+"płatności w Platform."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form

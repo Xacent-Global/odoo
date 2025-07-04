@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -76,7 +76,7 @@ msgstr "Liikevaihto"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
 "Liitetiedostoja ei voitu kirjata Odoossa, koska niiden kokonaiskoko ylitti "
@@ -461,7 +461,7 @@ msgstr "Mitään tähän yhteystietoon liittyvää yritystä ei voitu rikastutta
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
 "Tähän yhteystietoon liittyvää yritystä ei voitu rikastaa tai löytää Odoosta"
 
@@ -510,14 +510,14 @@ msgstr "Ilmoitus"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Odoo pääsytunniste"
+msgid "Platform Access Token"
+msgstr "Platform pääsytunniste"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "Odoo-palvelimen URL-osoite"
+msgid "Platform Server URL"
+msgstr "Platform-palvelimen URL-osoite"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -595,7 +595,7 @@ msgstr "Tulot"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
+msgid "Save in Platform"
 msgstr "Tallenna Odoohon"
 
 #. module: mail_plugin
@@ -626,7 +626,7 @@ msgstr "Etsi tietokannasta"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
+msgid "Search In Platform"
 msgstr "Haku Odoosta"
 
 #. module: mail_plugin
@@ -638,7 +638,7 @@ msgstr "Etsi yhteystieto"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
+msgid "Search contact in Platform..."
 msgstr "Etsi yhteystietoja Odoosta..."
 
 #. module: mail_plugin
@@ -672,8 +672,8 @@ msgstr ""
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Tätä yhteystietoa ei ole olemassa Odoo-tietokannassa."
+msgid "This contact does not exist in the Platform database."
+msgstr "Tätä yhteystietoa ei ole olemassa Platform-tietokannassa."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -703,10 +703,10 @@ msgstr "Tätä kumppania ei ole olemassa"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Varoitus: Odoo ei pystynyt kirjaamaan liitteitä, koska niiden kokonaiskoko "
+"Varoitus: Platform ei pystynyt kirjaamaan liitteitä, koska niiden kokonaiskoko "
 "ylitti sallitun enimmäiskoon."
 
 #. module: mail_plugin
@@ -746,8 +746,8 @@ msgstr "Sinun on määritettävä ainakin partner_id tai nimi ja sähköpostioso
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "käyttää Odoo-tietokantaa?"
+msgid "access your Platform database?"
+msgstr "käyttää Platform-tietokantaa?"
 
 #. module: mail_plugin
 #. odoo-javascript

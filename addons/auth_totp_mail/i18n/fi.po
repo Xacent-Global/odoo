@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* auth_totp_mail
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -91,8 +91,8 @@ msgstr "Vahvistuslaite"
 
 #. module: auth_totp_mail
 #: model:mail.template,subject:auth_totp_mail.mail_template_totp_invite
-msgid "Invitation to activate two-factor authentication on your Odoo account"
-msgstr "Kutsu kaksivaiheisen tunnistautumisen käyttöönottoon Odoo-tililläsi"
+msgid "Invitation to activate two-factor authentication on your Platform account"
+msgstr "Kutsu kaksivaiheisen tunnistautumisen käyttöönottoon Platform-tililläsi"
 
 #. module: auth_totp_mail
 #. odoo-python

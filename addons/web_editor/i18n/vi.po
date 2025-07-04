@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -2000,8 +2000,8 @@ msgstr "Danh sách đánh số đầu dòng"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "Kiểm thử Odoo Trình chỉnh sửa"
+msgid "Platform Editor Tests"
+msgstr "Kiểm thử Platform Trình chỉnh sửa"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2876,10 +2876,10 @@ msgstr "Hình ảnh này là hình ảnh bên ngoài"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "Tính năng cắt không khả dụng với loại hình ảnh này.<br/>  Nếu bạn muốn cắt "
-"hình ảnh, trước tiên hãy tải ảnh xuống từ nguồn ban đầu rồi tải lên Odoo."
+"hình ảnh, trước tiên hãy tải ảnh xuống từ nguồn ban đầu rồi tải lên Platform."
 
 #. module: web_editor
 #. odoo-javascript

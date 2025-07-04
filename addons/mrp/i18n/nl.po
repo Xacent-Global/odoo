@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
 # Translators:
 # Jolien De Paepe, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -1791,12 +1791,12 @@ msgstr "Maak werkbonnen op maat voor je kwaliteitscontroles"
 msgid ""
 "Create operation level dependencies that will influence both planning and "
 "the status of work orders upon MO confirmation. If this feature is ticked, "
-"and nothing is specified, Odoo will assume that all operations can be "
+"and nothing is specified, Platform will assume that all operations can be "
 "started simultaneously."
 msgstr ""
 "Maak afhankelijkheden op bewerkingsniveau die van invloed zijn op zowel de "
 "planning als de status van werkorders na bevestiging van de PO. Als deze "
-"functie is aangevinkt en er is niets gespecificeerd, gaat Odoo ervan uit dat"
+"functie is aangevinkt en er is niets gespecificeerd, gaat Platform ervan uit dat"
 " alle bewerkingen tegelijkertijd kunnen worden gestart."
 
 #. module: mrp
@@ -2700,25 +2700,25 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the allocation "
+"If this checkbox is ticked, Platform will automatically print the allocation "
 "report labels of a MO when it is done."
 msgstr ""
-"Als dit vakje is aangevinkt, zal Odoo de labels van het toewijzingsrapport "
+"Als dit vakje is aangevinkt, zal Platform de labels van het toewijzingsrapport "
 "van een PO automatisch afdrukken als het gereed is."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the allocation "
+"If this checkbox is ticked, Platform will automatically print the allocation "
 "report of a MO when it is done and has assigned moves."
 msgstr ""
-"Als dit vakje is aangevinkt, zal Odoo het toewijzingsrapport van een PO "
+"Als dit vakje is aangevinkt, zal Platform het toewijzingsrapport van een PO "
 "automatisch afdrukken als het gereed is en toegewezen verplaatsingen heeft."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the lot/SN label "
+"If this checkbox is ticked, Platform will automatically print the lot/SN label "
 "of a MO when it is done."
 msgstr ""
 "Als dit vakje is aangevinkt, zal ODoo het partij/serienummer label van een "
@@ -2727,19 +2727,19 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the product labels"
+"If this checkbox is ticked, Platform will automatically print the product labels"
 " of a MO when it is done."
 msgstr ""
-"Als dit vakje is aangevinkt, zal Odoo de productlabels van een PO "
+"Als dit vakje is aangevinkt, zal Platform de productlabels van een PO "
 "automatisch afdrukken als het gereed is."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid ""
-"If this checkbox is ticked, Odoo will automatically print the production "
+"If this checkbox is ticked, Platform will automatically print the production "
 "order of a MO when it is done."
 msgstr ""
-"Als dit vakje is aangevinkt, zal Odoo de productieorder van een PO "
+"Als dit vakje is aangevinkt, zal Platform de productieorder van een PO "
 "automatisch afdrukken als het gereed is."
 
 #. module: mrp
@@ -3837,11 +3837,11 @@ msgstr "OEE doelstelling"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid ""
-"Odoo opens a PDF preview by default. If you want to print instantly,\n"
+"Platform opens a PDF preview by default. If you want to print instantly,\n"
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
-"Odoo opent standaard een voorbeeld in PDF. Als je dit onmiddellijk wilt afdrukken, \n"
+"Platform opent standaard een voorbeeld in PDF. Als je dit onmiddellijk wilt afdrukken, \n"
 "installeer dan de IoT-app op een computer die zich in hetzelfde lokale netwerk bevindt als de\n"
 "barcode operator en configureer de route van de rapporten."
 
@@ -6400,10 +6400,10 @@ msgstr ""
 #: model:ir.model.fields,help:mrp.field_stock_move__manual_consumption
 msgid ""
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
-"If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
+"If not activated, and any of the components consumption is edited manually on the manufacturing order, Platform assumes manual consumption also."
 msgstr ""
 "Indien geactiveerd, wordt de registratie van het verbruik voor dat onderdeel uitsluitend handmatig geregistreerd.\n"
-"Indien niet geactiveerd en een van de onderdelenverbruik wordt handmatig op de fabricageorder bewerkt, neemt Odoo ook handmatig verbruik aan."
+"Indien niet geactiveerd en een van de onderdelenverbruik wordt handmatig op de fabricageorder bewerkt, neemt Platform ook handmatig verbruik aan."
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
@@ -6431,12 +6431,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Odoo work center control panel, your worker can start work orders "
+"With the Platform work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Met het Odoo werkplekcontrolepaneel kun je werknemer werkorders in de "
+"Met het Platform werkplekcontrolepaneel kun je werknemer werkorders in de "
 "werkplaats starten en de instructies van het werkorder volgen. "
 "Kwaliteitstesten zijn perfect geïntegreerd in het proces. Werknemers kunnen "
 "feedbackloops, onderhoudswaarschuwingen, producten afkeuren af enz. "

@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
 # Translators:
 # Abe Manyo, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -216,16 +216,16 @@ msgstr "Penomoran Manual"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manual: Dapatkan bayaran melalui metode apapun diluar Odoo.\n"
+"Manual: Dapatkan bayaran melalui metode apapun diluar Platform.\n"
 "Penyedia Pembayaran: Setiap penyedia pembayaran memiliki Metode Pembayaran sendiri. Minta transaksi ke/atau kartu berkat token pembayaran yang disimpan oleh mitra saat membeli atau subscribe online.\n"
-"Cek: Bayar tagihan dengan cek dan cetak dari Odoo.\n"
+"Cek: Bayar tagihan dengan cek dan cetak dari Platform.\n"
 "Batch Deposit: Pilih beberapa cek pelanggan secara sekaligus untuk membuat dan mengirimkan batch deposit ke bank Anda. Anda membutuhkan modul account_batch_payment.\n"
 "SEPA Credit Transfer: Bayar di SEPA zone dengan mengirimkan file SEPA Credit Transfer ke bank Anda. Anda membutuhkan modul account_sepa.\n"
 "SEPA Direct Debit: Dapatkan bayaran di SEPA zone berkat mandat yang mitra Anda akan berikan ke Anda. Anda membutuhkan modul account_sepa.\n"

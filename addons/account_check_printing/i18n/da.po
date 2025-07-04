@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_check_printing
 # 
@@ -6,15 +6,15 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -218,16 +218,16 @@ msgstr "Manuel nummerering"
 #. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_account_payment__payment_method_line_id
 msgid ""
-"Manual: Pay or Get paid by any method outside of Odoo.\n"
+"Manual: Pay or Get paid by any method outside of Platform.\n"
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
-"Check: Pay bills by check and print it from Odoo.\n"
+"Check: Pay bills by check and print it from Platform.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
-"Manuel: Betal eller bliv betalt via enhver metode udenfor Odoo.\n"
+"Manuel: Betal eller bliv betalt via enhver metode udenfor Platform.\n"
 "Betalingsydere: Hver betalingsyder har deres egen betalingsmetode. Anmod om en transaktion til/fra et kort, takket være en betalingstoken gemt af partneren under køb eller abonnering online.\n"
-"Check: Betal regninger via check og udskriv den fra Odoo.\n"
+"Check: Betal regninger via check og udskriv den fra Platform.\n"
 "Samlet indbetaling: Saml flere kundechecks på én gang, og generer og indsend en samlet indbetaling til din bank. Modulet account_batch_payment er nødvendig.\n"
 "SEPA kreditoverførsel: Betal i en SEPA-zone ved at indsende en SEPA kreditoverførselsfil til din bank. Modulet account_sepa er nødvendig.\n"
 "SEPA direkte debit: Bliv betalt i en SEPA-zone takket være et mandat din partner har tildelt dig. Modulet account_sepa er nødvendig.\n"

@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Maitê Dietze, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -49,13 +49,13 @@ msgid ""
 "application.%(new_line)s%(new_line)s%(bold_start)sIt's the end of this "
 "overview%(bold_end)s, you can now %(bold_start)sclose this "
 "conversation%(bold_end)s or start the tour again with typing "
-"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
+"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Platform!"
 msgstr ""
 "Legal! Você pode personalizar as respostas predefinidas no aplicativo "
 "Mensagens.%(new_line)s%(new_line)s%(bold_start)sÉ o fim desta visão "
 "geral%(bold_end)s, agora você pode %(bold_start)s fechar esta conversa "
 "%(bold_end)s ou reiniciar o tour digitando %(command_start)siniciaro "
-"tour%(command_end)s. Aproveite a exploração do Odoo!"
+"tour%(command_end)s. Aproveite a exploração do Platform!"
 
 #. module: mail_bot
 #. odoo-python
@@ -151,10 +151,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
-"Odoo's chat helps employees collaborate efficiently. I'm here to help you "
+"Platform's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
-"O chat do Odoo ajuda funcionários a colaborar de forma eficiente. Estou aqui"
+"O chat do Platform ajuda funcionários a colaborar de forma eficiente. Estou aqui"
 " para te ajudar a descobrir alguns recursos."
 
 #. module: mail_bot

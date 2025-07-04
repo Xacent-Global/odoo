@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
 # Translators:
 # Martin Trigaux, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Daye Jeong, 2024
 # Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -1999,8 +1999,8 @@ msgstr "번호가 지정된 목록"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "Odoo 편집기 테스트"
+msgid "Platform Editor Tests"
+msgstr "Platform 편집기 테스트"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2873,7 +2873,7 @@ msgstr "이 이미지는 외부 이미지입니다"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "이 유형의 이미지는 자르기를 할 수 없습니다.<br/>이미지 자르기를 하려면 먼저 원본 소스를 다운로드한 후 Odoo에 업로드하십시오."
 

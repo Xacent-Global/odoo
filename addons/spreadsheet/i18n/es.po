@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet
 # 
@@ -7,12 +7,12 @@
 # Martin Trigaux, 2024
 # marcescu, 2024
 # Fernanda Alvarez, 2024
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # Larissa Manderfeld, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -5554,26 +5554,26 @@ msgstr "Octubre"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
-msgid "Odoo Bar Chart"
-msgstr "Gráfica de barras de Odoo"
+msgid "Platform Bar Chart"
+msgstr "Gráfica de barras de Platform"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
-msgid "Odoo Line Chart"
-msgstr "Gráfica de línea de Odoo"
+msgid "Platform Line Chart"
+msgstr "Gráfica de línea de Platform"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/chart/plugins/odoo_chart_core_plugin.js:0
-msgid "Odoo Pie Chart"
-msgstr "Gráfica circular de Odoo"
+msgid "Platform Pie Chart"
+msgstr "Gráfica circular de Platform"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/hooks.js:0
-msgid "Odoo Spreadsheet"
-msgstr "Odoo Hoja de cálculo"
+msgid "Platform Spreadsheet"
+msgstr "Platform Hoja de cálculo"
 
 #. module: spreadsheet
 #. odoo-javascript

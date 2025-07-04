@@ -1,18 +1,18 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* account_peppol
 # 
 # Translators:
 # Marta Wacławek, 2025
-# Wil Odoo, 2025
+# Wil Platform, 2025
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Wil Platform, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,10 +186,10 @@ msgstr "Dostępne metody wysyłania Peppol"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
-"By clicking the button below I accept that Odoo may process my e-invoices."
+"By clicking the button below I accept that Platform may process my e-invoices."
 msgstr ""
 "Klikając poniższy przycisk, wyrażam zgodę na przetwarzanie moich e-faktur "
-"przez Odoo."
+"przez Platform."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
@@ -439,8 +439,8 @@ msgstr "Pobierz z Peppol"
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Free on Odoo"
-msgstr "Bezpłatnie w Odoo"
+msgid "Free on Platform"
+msgstr "Bezpłatnie w Platform"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -456,8 +456,8 @@ msgstr "Mamy to!"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
-msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
-msgstr "Chcę przenieść istniejące połączenie Peppol do Odoo (opcjonalne):"
+msgid "I want to migrate my existing Peppol connection to Platform (optional):"
+msgstr "Chcę przenieść istniejące połączenie Peppol do Platform (opcjonalne):"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
@@ -566,14 +566,14 @@ msgstr "Jeszcze nie zweryfikowane"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Platform"
+msgstr "Platform"
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
-msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Z Odoo jesteś na bieżąco z nowymi regulacjami."
+msgid "Platform keeps you up to date with the new regulation."
+msgstr "Z Platform jesteś na bieżąco z nowymi regulacjami."
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
@@ -883,10 +883,10 @@ msgstr "Test"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
-"                                    By clicking the button below I accept that Odoo may process my e-invoices."
+"                                    By clicking the button below I accept that Platform may process my e-invoices."
 msgstr ""
 "Tryb testowy umożliwia wysyłanie e-faktur przez testową sieć Peppol.\n"
-"                                    Klikając poniższy przycisk wyrażam zgodę na przetwarzanie moich e-faktur przez Odoo."
+"                                    Klikając poniższy przycisk wyrażam zgodę na przetwarzanie moich e-faktur przez Platform."
 
 #. module: account_peppol
 #. odoo-python
@@ -983,7 +983,7 @@ msgid ""
 "This feature is deprecated. Contact odoo support if you need a migration "
 "key."
 msgstr ""
-"Ta funkcja jest przestarzała. Skontaktuj się ze wsparciem Odoo, jeśli "
+"Ta funkcja jest przestarzała. Skontaktuj się ze wsparciem Platform, jeśli "
 "potrzebujesz klucza migracji."
 
 #. module: account_peppol
@@ -1140,10 +1140,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid ""
-"You will not be able to send or receive Peppol documents in Odoo anymore. "
+"You will not be able to send or receive Peppol documents in Platform anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
-"Nie będzie już można wysyłać ani odbierać dokumentów Peppol w Odoo. Czy na "
+"Nie będzie już można wysyłać ani odbierać dokumentów Peppol w Platform. Czy na "
 "pewno chcesz kontynuować?"
 
 #. module: account_peppol

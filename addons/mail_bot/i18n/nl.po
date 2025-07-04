@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,14 +47,14 @@ msgid ""
 "application.%(new_line)s%(new_line)s%(bold_start)sIt's the end of this "
 "overview%(bold_end)s, you can now %(bold_start)sclose this "
 "conversation%(bold_end)s or start the tour again with typing "
-"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
+"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Platform!"
 msgstr ""
 "Goed, je kunt voorgedefinieerde antwoorden aanpassen in de Chat-app. "
 "%(new_line)s%(new_line)s%(bold_start)sDit is het einde van dit overzicht. "
 "%(bold_end)sJe kunt nu %(bold_start)sdit gesprek sluiten%(bold_end)s of de "
 "rondleiding opnieuw starten door %(command_start)sstart de "
 "rondleiding%(command_end)s te typen. Veel plezier met het ontdekken van "
-"Odoo!"
+"Platform!"
 
 #. module: mail_bot
 #. odoo-python
@@ -149,10 +149,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
-"Odoo's chat helps employees collaborate efficiently. I'm here to help you "
+"Platform's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
-"Odoo's chat helpt om werknemers efficiënt samen te werken. Ik ben hier om je"
+"Platform's chat helpt om werknemers efficiënt samen te werken. Ik ben hier om je"
 " te helpen de functies ervan te ontdekken."
 
 #. module: mail_bot

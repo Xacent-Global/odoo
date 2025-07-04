@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* pos_hr
 # 
 # Translators:
 # Martin Trigaux, 2024
 # Nancy Momoland <thanh.np2502@gmail.com>, 2024
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # Thi Huong Nguyen, 2024
 # Tiffany Chang, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -193,8 +193,8 @@ msgstr "Nếu để trống, tất cả nhân viên đều có thể đăng nh�
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
-msgid "If left empty, only Odoo users have extended rights in PoS"
-msgstr "Nếu để trống, chỉ người dùng Odoo có quyền mở rộng trong POS"
+msgid "If left empty, only Platform users have extended rights in PoS"
+msgstr "Nếu để trống, chỉ người dùng Platform có quyền mở rộng trong POS"
 
 #. module: pos_hr
 #. odoo-javascript

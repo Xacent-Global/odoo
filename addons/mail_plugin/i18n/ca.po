@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -79,10 +79,10 @@ msgstr "Ingressos anuals"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"Els adjunts no s'han pogut registrar a Odoo perquè la seva mida total supera"
+"Els adjunts no s'han pogut registrar a Platform perquè la seva mida total supera"
 " el màxim permès."
 
 #. module: mail_plugin
@@ -466,10 +466,10 @@ msgstr "No s'ha pogut enriquir cap empresa vinculada a aquest contacte"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
 "No s'ha pogut enriquir ni trobar cap empresa vinculada a aquest contacte a "
-"Odoo"
+"Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -516,14 +516,14 @@ msgstr "Notificació "
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "Token d'accés a Odoo"
+msgid "Platform Access Token"
+msgstr "Token d'accés a Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "URL del servidor Odoo"
+msgid "Platform Server URL"
+msgstr "URL del servidor Platform"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -601,8 +601,8 @@ msgstr "Ingressos"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "Desar a Odoo"
+msgid "Save in Platform"
+msgstr "Desar a Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -632,8 +632,8 @@ msgstr "Cerca a la base de dades"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "Cerca a Odoo"
+msgid "Search In Platform"
+msgstr "Cerca a Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -644,8 +644,8 @@ msgstr "Cerca contacte"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "Cerca contacte a Odoo..."
+msgid "Search contact in Platform..."
+msgstr "Cerca contacte a Platform..."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -678,8 +678,8 @@ msgstr ""
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "Aquest contacte no existeix a la base de dades Odoo."
+msgid "This contact does not exist in the Platform database."
+msgstr "Aquest contacte no existeix a la base de dades Platform."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -707,10 +707,10 @@ msgstr "Aquest soci no existeix"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"Avís: Els adjunts no s'han pogut registrar a Odoo perquè la seva mida total "
+"Avís: Els adjunts no s'han pogut registrar a Platform perquè la seva mida total "
 "supera el màxim permès."
 
 #. module: mail_plugin
@@ -753,8 +753,8 @@ msgstr ""
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "accedir a la base de dades Odoo?"
+msgid "access your Platform database?"
+msgstr "accedir a la base de dades Platform?"
 
 #. module: mail_plugin
 #. odoo-javascript

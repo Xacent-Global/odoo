@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_plugin
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,10 +68,10 @@ msgstr "รายได้ประจำปี"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
 msgid ""
-"Attachments could not be logged in Odoo because their total size exceeded "
+"Attachments could not be logged in Platform because their total size exceeded "
 "the allowed maximum."
 msgstr ""
-"ไม่สามารถบันทึกสิ่งที่แนบมาใน Odoo "
+"ไม่สามารถบันทึกสิ่งที่แนบมาใน Platform "
 "ได้เนื่องจากขนาดรวมเกินขนาดสูงสุดที่อนุญาต"
 
 #. module: mail_plugin
@@ -453,9 +453,9 @@ msgstr "ไม่มีบริษัทใดที่เชื่อมโย
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "No company linked to this contact could be enriched or found in Odoo"
+msgid "No company linked to this contact could be enriched or found in Platform"
 msgstr ""
-"ไม่มีบริษัทใดที่เชื่อมโยงกับผู้ติดต่อรายนี้สามารถเติมเต็มหรือพบได้ใน Odoo"
+"ไม่มีบริษัทใดที่เชื่อมโยงกับผู้ติดต่อรายนี้สามารถเติมเต็มหรือพบได้ใน Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -502,14 +502,14 @@ msgstr "การแจ้งเตือน"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Access Token"
-msgstr "โทเค็นการเข้าถึง Odoo"
+msgid "Platform Access Token"
+msgstr "โทเค็นการเข้าถึง Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Odoo Server URL"
-msgstr "URL เซิร์ฟเวอร์ Odoo"
+msgid "Platform Server URL"
+msgstr "URL เซิร์ฟเวอร์ Platform"
 
 #. module: mail_plugin
 #: model:ir.model.constraint,message:mail_plugin.constraint_res_partner_iap_unique_partner_id
@@ -587,8 +587,8 @@ msgstr "รายได้"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "Save in Odoo"
-msgstr "บันทึกใน Odoo"
+msgid "Save in Platform"
+msgstr "บันทึกใน Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -618,8 +618,8 @@ msgstr "ค้นหาในฐานข้อมูล"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search In Odoo"
-msgstr "ค้นหาใน Odoo"
+msgid "Search In Platform"
+msgstr "ค้นหาใน Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -630,8 +630,8 @@ msgstr "ค้นหาผู้ติดต่อ"
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
-msgid "Search contact in Odoo..."
-msgstr "ค้นหาผู้ติดต่อใน Odoo..."
+msgid "Search contact in Platform..."
+msgstr "ค้นหาผู้ติดต่อใน Platform..."
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -661,8 +661,8 @@ msgstr "บริษัทนี้ไม่มีที่อยู่อีเ
 #. module: mail_plugin
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
-msgid "This contact does not exist in the Odoo database."
-msgstr "ไม่มีผู้ติดต่อนี้อยู่ในฐานข้อมูล Odoo"
+msgid "This contact does not exist in the Platform database."
+msgstr "ไม่มีผู้ติดต่อนี้อยู่ในฐานข้อมูล Platform"
 
 #. module: mail_plugin
 #. odoo-javascript
@@ -690,10 +690,10 @@ msgstr "ไม่มีพาร์ทเนอร์รายนี้"
 #. odoo-javascript
 #: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
 msgid ""
-"Warning: Attachments could not be logged in Odoo because their total size "
+"Warning: Attachments could not be logged in Platform because their total size "
 "exceeded the allowed maximum."
 msgstr ""
-"คำเตือน: ไม่สามารถบันทึกไฟล์แนบใน Odoo ได้ "
+"คำเตือน: ไม่สามารถบันทึกไฟล์แนบใน Platform ได้ "
 "เนื่องจากขนาดรวมเกินขนาดสูงสุดที่อนุญาต"
 
 #. module: mail_plugin
@@ -733,8 +733,8 @@ msgstr "คุณต้องระบุอย่างน้อย Partner_id 
 
 #. module: mail_plugin
 #: model_terms:ir.ui.view,arch_db:mail_plugin.app_auth
-msgid "access your Odoo database?"
-msgstr "เข้าถึงฐานข้อมูล Odoo ของคุณหรือไม่?"
+msgid "access your Platform database?"
+msgstr "เข้าถึงฐานข้อมูล Platform ของคุณหรือไม่?"
 
 #. module: mail_plugin
 #. odoo-javascript

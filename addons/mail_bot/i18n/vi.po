@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 # Translators:
-# Wil Odoo, 2024
+# Wil Platform, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Platform, 2024\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,13 +47,13 @@ msgid ""
 "application.%(new_line)s%(new_line)s%(bold_start)sIt's the end of this "
 "overview%(bold_end)s, you can now %(bold_start)sclose this "
 "conversation%(bold_end)s or start the tour again with typing "
-"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Odoo!"
+"%(command_start)sstart the tour%(command_end)s. Enjoy discovering Platform!"
 msgstr ""
 "Tuyệt, bạn có thể tùy chỉnh các câu trả lời soạn sẵn trong ứng dụng Thảo "
 "luận.%(new_line)s%(new_line)s%(bold_start)sPhần tổng quan này đã kết "
 "thúc%(bold_end)s, bây giờ bạn có thể %(bold_start)sđóng cuộc trò chuyện "
 "này%(bold_end)s hoặc bắt đầu lại tour bằng cách nhập %(command_start)sbắt "
-"đầu tour%(command_end)s. Hãy tận hưởng quá trình khám phá Odoo!"
+"đầu tour%(command_end)s. Hãy tận hưởng quá trình khám phá Platform!"
 
 #. module: mail_bot
 #. odoo-python
@@ -150,10 +150,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
-"Odoo's chat helps employees collaborate efficiently. I'm here to help you "
+"Platform's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
-"Ứng dụng trò chuyện của Odoo giúp nhân viên cộng tác hiệu quả. Tôi ở đây để "
+"Ứng dụng trò chuyện của Platform giúp nhân viên cộng tác hiệu quả. Tôi ở đây để "
 "giúp bạn khám phá các tính năng của ứng dụng này."
 
 #. module: mail_bot

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -31,7 +31,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -633,24 +633,24 @@ msgstr "50%"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_card
 msgid ""
-"50,000+ companies run Odoo <br class=\"d-none d-lg-inline\"/>to grow their "
+"50,000+ companies run Platform <br class=\"d-none d-lg-inline\"/>to grow their "
 "businesses."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
+msgid "50,000+ companies run Platform to grow their businesses."
 msgstr "50,000 חברות משתמשות בOdoo כדי להצמיח את העסקים שלהן."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_box
-msgid "50,000+ companies run Odoo<br/>to grow their businesses."
+msgid "50,000+ companies run Platform<br/>to grow their businesses."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_mockups
-msgid "50,000+ companies trust Odoo."
+msgid "50,000+ companies trust Platform."
 msgstr ""
 
 #. module: website
@@ -5114,7 +5114,7 @@ msgstr "עיצוב"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Design Odoo templates easily with clean HTML and Bootstrap CSS. These "
+"Design Platform templates easily with clean HTML and Bootstrap CSS. These "
 "templates offer a responsive, mobile-first design, making them simple to "
 "customize and perfect for any web project, from corporate sites to personal "
 "blogs."
@@ -6974,7 +6974,7 @@ msgstr "עבור לכרטיסייה ערכת נושא"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout
-msgid "Go to your Odoo Apps"
+msgid "Go to your Platform Apps"
 msgstr ""
 
 #. module: website
@@ -7187,8 +7187,8 @@ msgstr ""
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/snippets/s_countdown/options.xml:0
-msgid "Happy Odoo Anniversary!"
-msgstr "יום הולדת Odoo שמח!"
+msgid "Happy Platform Anniversary!"
+msgstr "יום הולדת Platform שמח!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -8387,12 +8387,12 @@ msgstr "האם הוגדר"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
+"            Platform 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
 "נראה שהאתר שלך עדיין משתמש במערכת הצבעים הישנה של\n"
-"Odoo 13.0 במקומות מסוימים. וידאנו שזה עדיין עובד אבל\n"
+"Platform 13.0 במקומות מסוימים. וידאנו שזה עדיין עובד אבל\n"
 "אנו ממליצים לך לנסות להשתמש במערכת הצבעים החדשה, כלומר\n"
 "עדיין ניתן להתאמה אישית."
 
@@ -9598,12 +9598,12 @@ msgstr "עקוב אחר נתוני תוצאות החיפוש של Google"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
+"Monitor your visitors while they are browsing your website with the Platform "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
 msgstr ""
-"עקוב אחר המבקרים שלך בזמן שהם גולשים באתר שלך עם האפליקציה Odoo Social. צור "
+"עקוב אחר המבקרים שלך בזמן שהם גולשים באתר שלך עם האפליקציה Platform Social. צור "
 "קשר איתם בלחיצה אחת באמצעות בקשת צ'אט חי או התראת פוש(push). אם הם מילאו אחד"
 " מהטפסים שלך, תוכל לשלוח להם הודעת סמס, או להתקשר אליהם מיד בזמן שהם גולשים "
 "באתר שלך."
@@ -10101,18 +10101,18 @@ msgstr "או"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "Odoo Information"
+msgid "Platform Information"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "Odoo Menu"
-msgstr "תפריט Odoo"
+msgid "Platform Menu"
+msgstr "תפריט Platform"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "גרסת Odoo"
+msgid "Platform Version"
+msgstr "גרסת Platform"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -12128,11 +12128,11 @@ msgstr "חפש מבקר"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. Platform's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
-"חפש בדיאלוג המדיה כאשר אתה צריך תמונות להמחשת האתר שלך. השילוב של Odoo עם "
+"חפש בדיאלוג המדיה כאשר אתה צריך תמונות להמחשת האתר שלך. השילוב של Platform עם "
 "Unsplash, הכולל מיליוני תמונות ללא תמלוגים ואיכות גבוהה, מאפשר לך לקבל את "
 "התמונה המושלמת, בכמה קליקים בלבד."
 
@@ -13998,12 +13998,12 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, Platform "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
 "כדי להשיג יותר מבקרים, כדאי למקד למילות מפתח שמחפשות לעתים קרובות בגוגל. עם "
-"כלי ה-SEO המובנה, ברגע שתגדיר כמה מילות מפתח, Odoo תמליץ לך על מילות המפתח "
+"כלי ה-SEO המובנה, ברגע שתגדיר כמה מילות מפתח, Platform תמליץ לך על מילות המפתח "
 "הטובות ביותר למיקוד. לאחר מכן התאם את הכותרת והתיאור שלך בהתאם כדי להגביר את"
 " התנועה שלך."
 
@@ -15839,7 +15839,7 @@ msgstr ""
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/components/resource_editor/resource_editor_warning.xml:0
-msgid "Your changes might be lost during future Odoo upgrade."
+msgid "Your changes might be lost during future Platform upgrade."
 msgstr ""
 
 #. module: website
@@ -15871,7 +15871,7 @@ msgstr "החוויה שלך עלולה להידרדר אם תמחק את הקו�
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_instagram_page_options
 msgid ""
-"Your instagram page must be public to be integrated into an Odoo website."
+"Your instagram page must be public to be integrated into an Platform website."
 msgstr ""
 
 #. module: website
@@ -16299,8 +16299,8 @@ msgstr "מתוך לוגו"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgid "frontend_lang (Platform)"
+msgstr "frontend_lang (Platform)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -16481,10 +16481,10 @@ msgstr "אייפון"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator (Platform)<br/>\n"
+"                                            utm_campaign (Platform)<br/>\n"
+"                                            utm_source (Platform)<br/>\n"
+"                                            utm_medium (Platform)"
 msgstr ""
 
 #. module: website
@@ -16515,8 +16515,8 @@ msgstr "להודיע ​​ללקוחות"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instance של Odoo, ה"
+msgid "instance of Platform, the"
+msgstr "instance של Platform, ה"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -16761,8 +16761,8 @@ msgstr "למכור יותר"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "session_id (Odoo)<br/>"
-msgstr "session_id (Odoo)<br/>"
+msgid "session_id (Platform)<br/>"
+msgstr "session_id (Platform)<br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

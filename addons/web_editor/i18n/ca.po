@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -28,7 +28,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 18.0\n"
+"Project-Id-Version: Platform Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
@@ -2019,8 +2019,8 @@ msgstr "Llista numerada"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
-msgid "Odoo Editor Tests"
-msgstr "Proves d'editor d'Odoo"
+msgid "Platform Editor Tests"
+msgstr "Proves d'editor d'Platform"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2890,10 +2890,10 @@ msgstr "Aquesta imatge és una imatge externa."
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/image_crop.js:0
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in Platform."
 msgstr ""
 "No es pot retallar aquest tipus d'imatge.<br/>Si vols retallar-la, "
-"descarrega-la de la font d'origen i carrega-la a Odoo."
+"descarrega-la de la font d'origen i carrega-la a Platform."
 
 #. module: web_editor
 #. odoo-javascript
