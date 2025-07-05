@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import itertools
 import random
@@ -103,7 +103,7 @@ class MailBot(models.AbstractModel):
                       "%(new_line)s%(new_line)s%(bold_start)sIt's the end of this overview%(bold_end)s,"
                       " you can now %(bold_start)sclose this conversation%(bold_end)s or start the tour again with"
                       " typing %(command_start)sstart the tour%(command_end)s."
-                      " Enjoy discovering Odoo!")) % self._get_style_dict()
+                      " Enjoy discovering Platform!")) % self._get_style_dict()
             # repeat question if needed
             elif odoobot_state == 'onboarding_canned' and not self._is_help_requested(body):
                 self.env.user.odoobot_failed = True

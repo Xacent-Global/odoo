@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'South Africa - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -6,7 +6,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest basic South African localisation necessary to run Odoo in ZA:
+This is the latest basic South African localisation necessary to run Platform in ZA:
 ================================================================================
     - a generic chart of accounts
     - SARS VAT Ready Structure""",

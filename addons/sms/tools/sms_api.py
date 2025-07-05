@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo import exceptions
 from odoo.addons.iap.tools import iap_tools
@@ -27,7 +27,7 @@ ERROR_MESSAGES = {
     'too_many_attempts': _lt("You tried too many times. Please retry later."),
 
     # Default error
-    'unknown_error': _lt("An unknown error occurred. Please contact Odoo support if this error persists."),
+    'unknown_error': _lt("An unknown error occurred. Please contact Platform support if this error persists."),
 }
 
 

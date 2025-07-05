@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from traceback import format_exc
 import json
 import platform
@@ -35,7 +35,7 @@ class Manager(Thread):
 
     def send_alldevices(self, iot_client=None):
         """
-        This method send IoT Box and devices information to Odoo database
+        This method send IoT Box and devices information to Platform database
         """
         if self.server_url:
             subject = helpers.get_conf('subject')

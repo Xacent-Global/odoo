@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import uuid
 import base64
 from os.path import join as opj
@@ -159,7 +159,7 @@ class PosConfig(models.Model):
         selection_each_label = _("Each Order")
         version_info = service.common.exp_version()['server_version_info']
         if version_info[-1] == '':
-            selection_each_label = f"{selection_each_label} {_('(require Odoo Enterprise)')}"
+            selection_each_label = f"{selection_each_label} {_('(require Platform Enterprise)')}"
         return [("meal", _("Meal")), ("each", selection_each_label)]
 
     @api.constrains('self_ordering_default_user_id')

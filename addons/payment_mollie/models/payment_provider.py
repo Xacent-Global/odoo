@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import logging
 import pprint
@@ -60,7 +60,7 @@ class PaymentProvider(models.Model):
             "Authorization": f'Bearer {self.mollie_api_key}',
             "Content-Type": "application/json",
             # See https://docs.mollie.com/integration-partners/user-agent-strings
-            "User-Agent": f'Odoo/{odoo_version} MollieNativeOdoo/{module_version}',
+            "User-Agent": f'Platform/{odoo_version} MollieNativeOdoo/{module_version}',
         }
 
         try:

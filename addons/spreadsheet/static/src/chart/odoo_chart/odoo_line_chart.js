@@ -79,7 +79,7 @@ function createOdooChartRuntime(chart, getters) {
         let backgroundColor = color;
         if (chart.fillArea) {
             const backgroundRGBA = colorToRGBA(color);
-            // use the transparency of Odoo to keep consistency
+            // use the transparency of Platform to keep consistency
             backgroundRGBA.a = LINE_FILL_TRANSPARENCY;
             backgroundColor = rgbaToHex(backgroundRGBA);
         }

@@ -1913,7 +1913,7 @@ class SnippetsMenu extends Component {
 
         this.snippetsMenuRef = useRef("snippets-menu");
 
-        // Odoo Editor uses the HTML Element to bind commands.
+        // Platform Editor uses the HTML Element to bind commands.
         this.toolbarWrapperRef = useRef("toolbar-wrapper");
         // SnippetOptions are still rendered using legacy widgets.
         // TODO: remove this ref when Options are rendered using OWL.
@@ -1971,7 +1971,7 @@ class SnippetsMenu extends Component {
             const titleButtons = this.customizePanel.querySelector("#o_we_editor_toolbar_container > we-title");
             this.options.wysiwyg.odooEditor.bindExecCommand(titleButtons);
 
-            // Get table container and bind commands to Odoo Editor.
+            // Get table container and bind commands to Platform Editor.
             const customizeTableBlock = this.customizePanel.querySelector('#o-we-editor-table-container');
             this.options.wysiwyg.odooEditor.bindExecCommand(customizeTableBlock);
             // TODO: Remove this and instead, use a callback once the editor is

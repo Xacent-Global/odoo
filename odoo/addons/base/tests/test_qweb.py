@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import collections
 import json
@@ -676,13 +676,13 @@ class TestQWebNS(TransactionCase):
         """
         tempate = """
             <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
-                <g:brand>Odoo</g:brand>
+                <g:brand>Platform</g:brand>
                 <g:link>My Link</g:link>
             </rss>
         """
         expected_result = """
             <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
-                <g:brand>Odoo</g:brand>
+                <g:brand>Platform</g:brand>
                 <g:link>My Link</g:link>
             </rss>
 
@@ -3138,7 +3138,7 @@ class TestQwebCache(TransactionCase):
         expected = dedent("""
             <html>
                 <head>
-                    <title>Odoo</title>
+                    <title>Platform</title>
                 </head>
                 <body>
                     <section class="toto">
@@ -3152,7 +3152,7 @@ class TestQwebCache(TransactionCase):
             'html': html.document_fromstring("""
                 <html t-name="html">
                     <head>
-                        <title>Odoo</title>
+                        <title>Platform</title>
                     </head>
                     <body>
                         <section class="toto">

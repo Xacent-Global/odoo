@@ -19,14 +19,14 @@ test("PWA service fetches the manifest found in the page", async () => {
     mountManifestLink("/web/manifest.webmanifest");
     mockFetch((route) => {
         expect.step(route);
-        return { name: "Odoo PWA" };
+        return { name: "Platform PWA" };
     });
     const pwaService = await getService("pwa");
     let appManifest = await pwaService.getManifest();
-    expect(appManifest).toEqual({ name: "Odoo PWA" });
+    expect(appManifest).toEqual({ name: "Platform PWA" });
     expect.verifySteps(["/web/manifest.webmanifest"]);
     appManifest = await pwaService.getManifest();
-    expect(appManifest).toEqual({ name: "Odoo PWA" });
+    expect(appManifest).toEqual({ name: "Platform PWA" });
     // manifest is only fetched once to get the app name
     expect.verifySteps([]);
 });

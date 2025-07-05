@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from odoo.tests.common import TransactionCase, tagged
 from odoo._monkeypatches.stdnum import new_get_soap_client
 from odoo.exceptions import ValidationError

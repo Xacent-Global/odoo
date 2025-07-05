@@ -601,7 +601,7 @@ async function waitForCarouselToFinishSliding(carouselEl) {
 }
 
 /**
- * This class is used to fix carousel auto-slide behavior in Odoo 17.4 and up.
+ * This class is used to fix carousel auto-slide behavior in Platform 17.4 and up.
  * It handles upgrade cases from lower versions.
  * TODO find a way to get rid of this with an upgrade script?
  */
@@ -881,13 +881,13 @@ registry.mediaVideo = publicWidget.Widget.extend(
      */
     start: function () {
         // TODO: this code should be refactored to make more sense and be better
-        // integrated with Odoo (this refactoring should be done in master).
+        // integrated with Platform (this refactoring should be done in master).
 
         const proms = [this._super.apply(this, arguments)];
         let iframeEl = this.el.querySelector(':scope > iframe');
 
         // The following code is only there to ensure compatibility with
-        // videos added before bug fixes or new Odoo versions where the
+        // videos added before bug fixes or new Platform versions where the
         // <iframe/> element is properly saved.
         if (!iframeEl) {
             iframeEl = this._generateIframe();
@@ -1829,7 +1829,7 @@ registry.ImagesLazyLoading = publicWidget.Widget.extend({
  * Note: a gap also appears between some shapes without zoom. This is likely
  * due to error in the shapes themselves. Many things were done to try and fix
  * this, but the remaining errors will likely be fixed with a review of the
- * shapes in future Odoo versions.
+ * shapes in future Platform versions.
  *
  * /!\
  * If a better solution for stable comes up, this widget behavior may be

@@ -9165,7 +9165,7 @@ test(`form view is not broken if save operation fails`, async () => {
     await contains(`.o_form_button_save`).click();
     await animationFrame();
     expect(`.o_dialog`).toHaveCount(1);
-    expect.verifyErrors(["RPC_ERROR: Odoo Server Error"]);
+    expect.verifyErrors(["RPC_ERROR: Platform Server Error"]);
     expect.verifySteps(["web_save"]); // write on save (it fails, does not trigger a read)
 
     await contains(`.o_dialog .modal-footer .btn-primary`).click();
@@ -9254,7 +9254,7 @@ test(`form view is not broken if save failed in readonly mode on field changed`,
     failFlag = true;
     await contains(`button[data-value="1"]`).click();
     expect(`button[data-value="4"]`).toHaveClass("o_arrow_button_current");
-    expect.verifyErrors(["RPC_ERROR: Odoo Server Error"]);
+    expect.verifyErrors(["RPC_ERROR: Platform Server Error"]);
     expect.verifySteps(["web_save", "web_read"]); // must reload when saving fails
 
     failFlag = false;
@@ -10012,7 +10012,7 @@ test(`keep editing after call_button fail`, async () => {
     };
     await contains(`button.child_ids`).click();
     expect.verifySteps(["web_save"]);
-    expect.verifyErrors(["RPC_ERROR: Odoo Server Error"]);
+    expect.verifyErrors(["RPC_ERROR: Platform Server Error"]);
 
     await contains(`.o_form_view .o_field_one2many .o_data_row .o_data_cell:eq(1)`).click();
     await contains(`.o_field_many2one[name="product_id"] input`).click();
@@ -10534,7 +10534,7 @@ test("resequence list lines when previous resequencing crashed", async () => {
                     expect.step("resequence onChange crash");
                     throw makeErrorFromResponse({
                         code: 200,
-                        message: "Odoo Server Error",
+                        message: "Platform Server Error",
                         data: {
                             name: `odoo.exceptions.${"UserError"}`,
                             debug: "traceback",

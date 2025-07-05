@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Israel - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -6,7 +6,7 @@
     'version': '1.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest basic Israelian localisation necessary to run Odoo in Israel:
+This is the latest basic Israelian localisation necessary to run Platform in Israel:
 ================================================================================
 
 This module consists of:

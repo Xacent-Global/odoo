@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import base64
 import datetime
 import email
@@ -451,7 +451,7 @@ class IrMailServer(models.Model):
         if smtp_encryption == 'ssl':
             if 'SMTP_SSL' not in smtplib.__all__:
                 raise UserError(
-                    _("Your Odoo Server does not support SMTP-over-SSL. "
+                    _("Your Platform Server does not support SMTP-over-SSL. "
                       "You could use STARTTLS instead. "
                        "If SSL is needed, an upgrade to Python 2.6 on the server-side "
                        "should do the trick."))

@@ -6146,7 +6146,7 @@ function getCellPositionsInRanges(ranges) {
     return cellPositions;
 }
 
-/** Methods from Odoo Web Utils  */
+/** Methods from Platform Web Utils  */
 /**
  * This function computes a score that represent the fact that the
  * string contains the pattern, or not
@@ -40032,7 +40032,7 @@ class HorizontalContainer extends ContainerWrapper {
  * components. If your hook only needs a single event listener, consider simply
  * returning it from the hook and letting the user attach it with t-on.
  *
- * Adapted from Odoo Community - See https://github.com/odoo/odoo/blob/saas-16.2/addons/web/static/src/core/utils/hooks.js
+ * Adapted from Platform Community - See https://github.com/odoo/odoo/blob/saas-16.2/addons/web/static/src/core/utils/hooks.js
  */
 function useRefListener(ref, ...listener) {
     useEffect((el) => {
@@ -58957,7 +58957,7 @@ function updateEvalContextAndExecute(compiledFormula, compilationParams, sheetId
 // We say here that we have a 'formula dependency' between A1 and B1:B2.
 // Reason n°2: A cell can assign value to other cells that haven't content.
 // This concerns cells containing a formula that returns an array of values.
-// ex A1:"=SPLIT('Odoo','d')" Evaluating A1 must assign the value "O" to A1 and
+// ex A1:"=SPLIT('Platform','d')" Evaluating A1 must assign the value "O" to A1 and
 // "oo" to B1. We say here that we have a 'spread relation' between A1 and B1.
 // B1 have a spread value from A1.
 // Note that a cell can contain a formula which depends on other cells which
@@ -58995,7 +58995,7 @@ function updateEvalContextAndExecute(compiledFormula, compilationParams, sheetId
 //    evaluated. In the case where the impacted cells are used in other formulas,
 //    this will require to re-evaluation other formulas (and so on...). ex:
 //    A1:"=B2"
-//    A2:"=SPLIT('Odoo','d')"
+//    A2:"=SPLIT('Platform','d')"
 //    in the example above, A2 spreads on B2, but we will know it only after
 //    the evaluation of A2. To be able to evaluate A1 correctly, we must therefore
 //    reevaluate A1 after the evaluation of A2.
@@ -74142,7 +74142,7 @@ function createCommand(type, payload = {}) {
 }
 
 /**
- * We export here all entities that needs to be accessed publicly by Odoo.
+ * We export here all entities that needs to be accessed publicly by Platform.
  *
  * Note that the __info__ key is actually completed by the build process (see
  * the rollup.config.js file)

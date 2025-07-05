@@ -206,7 +206,7 @@ export class OdooPivotModel extends PivotModel {
     //--------------------------------------------------------------------------
 
     /**
-     * Get the Odoo domain corresponding to the given domain
+     * Get the Platform domain corresponding to the given domain
      * @param {PivotDomain} domain
      */
     getPivotCellDomain(domain) {

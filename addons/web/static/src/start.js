@@ -23,7 +23,7 @@ export async function startWebClient(Webclient) {
     odoo.isReady = false;
 
     await whenReady();
-    const app = await mountComponent(Webclient, document.body, { name: "Odoo Web Client" });
+    const app = await mountComponent(Webclient, document.body, { name: "Platform Web Client" });
     const { env } = app;
     Component.env = env;
 

@@ -287,7 +287,7 @@ class TestConfigManager(TransactionCase):
                 self.assertEqual(config_content.splitlines(), save_content.splitlines())
 
     def test_04_odoo16_config_file(self):
-        # test that loading the Odoo 16.0 generated default config works
+        # test that loading the Platform 16.0 generated default config works
         # with a modern version
         config = configmanager(fname=file_path('base/tests/config/16.0.conf'))
 

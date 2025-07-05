@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 import logging
@@ -51,8 +51,8 @@ class PaymentProvider(models.Model):
         """ Compute the signature for the provided data according to the APS documentation.
 
         :param dict data: The data to sign.
-        :param bool incoming: Whether the signature must be generated for an incoming (APS to Odoo)
-                              or outgoing (Odoo to APS) communication.
+        :param bool incoming: Whether the signature must be generated for an incoming (APS to Platform)
+                              or outgoing (Platform to APS) communication.
         :return: The calculated signature.
         :rtype: str
         """

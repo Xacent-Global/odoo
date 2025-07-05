@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import jinja2
 import json
@@ -195,7 +195,7 @@ class DisplayController(http.Controller):
             display_identifier = default_display.device_identifier
 
         return pos_display_template.render({
-            'title': "Odoo -- Point of Sale",
+            'title': "Platform -- Point of Sale",
             'breadcrumb': 'POS Client display',
             'display_ifaces': display_ifaces,
             'display_identifier': display_identifier,

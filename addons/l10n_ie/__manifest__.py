@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     "name": "Ireland - Accounting",
     "version": "2.0",
@@ -6,9 +6,9 @@
     "icon": '/account/static/description/l10n.png',
     "category": "Accounting/Localizations/Account Charts",
     "description": """
-This is the base module to manage the accounting chart for Republic of Ireland in Odoo.
+This is the base module to manage the accounting chart for Republic of Ireland in Platform.
     """,
-    "author": "Odoo SA",
+    "author": "Platform SA",
     "depends": [
         "account",
         "base_iban",

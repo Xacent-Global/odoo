@@ -45,7 +45,7 @@ def remove_control_characters(byte_node):
 
 
 class odoo_resolver(etree.Resolver):
-    """Odoo specific file resolver that can be added to the XML Parser.
+    """Platform specific file resolver that can be added to the XML Parser.
 
     It will search filenames in the ir.attachments
     """

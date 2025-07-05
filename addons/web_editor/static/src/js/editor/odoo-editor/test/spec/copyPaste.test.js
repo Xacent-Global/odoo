@@ -3145,7 +3145,7 @@ describe('Paste', () => {
             });
         });
     });
-    describe('Odoo editor own html', () => {
+    describe('Platform editor own html', () => {
         it('should paste html as is', async () => {
             await testEditor(BasicEditor, {
                 contentBefore: '<p>a[]b</p>',

@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, fields, models
 import odoo.addons.payment_stripe as stripe  # prevent circular import error with payment_stripe

@@ -12,7 +12,7 @@ class PosConfig(models.Model):
         help='If left empty, all employees can log in to PoS')
     advanced_employee_ids = fields.Many2many(
         'hr.employee', 'pos_hr_advanced_employee_hr_employee', string="Employees with manager access",
-        help='If left empty, only Odoo users have extended rights in PoS')
+        help='If left empty, only Platform users have extended rights in PoS')
 
     def write(self, vals):
         if 'advanced_employee_ids' not in vals:

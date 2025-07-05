@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import email.message
 import email.policy
@@ -209,7 +209,7 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
     @mute_logger('odoo.models.unlink')
     def test_mail_server_priorities(self):
         """ Test if we choose the right mail server to send an email. Simulates
-        simple Odoo DB so we have to spoof the FROM otherwise we cannot send
+        simple Platform DB so we have to spoof the FROM otherwise we cannot send
         any email. """
         for email_from, (expected_mail_server, expected_email_from) in zip(
             [

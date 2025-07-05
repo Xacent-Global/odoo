@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
@@ -205,7 +205,7 @@ class WebsiteVisitor(models.Model):
             'access_token': access_token,
             'lang_id': request.lang.id,
             # Note that it's possible for the GEOIP database to return a country
-            # code which is unknown in Odoo
+            # code which is unknown in Platform
             'country_code': request.geoip.get('country_code'),
             'website_id': request.website.id,
             'timezone': self._get_visitor_timezone() or None,

@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import re
 import werkzeug
@@ -102,7 +102,7 @@ class WebsiteRewrite(models.Model):
 
                 if any(
                     rule for rule in self.env['ir.http'].routing_map().iter_rules()
-                    # Odoo routes are normally always defined without trailing
+                    # Platform routes are normally always defined without trailing
                     # slashes + strict_slashes=False, but there are exceptions.
                     if rule.rule.rstrip('/') == rewrite.url_to.rstrip('/')
                 ):

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 from dateutil.relativedelta import relativedelta
@@ -235,7 +235,7 @@ class StockMove(models.Model):
     manual_consumption = fields.Boolean(
         'Manual Consumption', compute='_compute_manual_consumption', store=True, readonly=False,
         help="When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
-             "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also.")
+             "If not activated, and any of the components consumption is edited manually on the manufacturing order, Platform assumes manual consumption also.")
 
     @api.depends('product_id')
     def _compute_manual_consumption(self):

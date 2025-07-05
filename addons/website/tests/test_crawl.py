@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import logging
 import re
@@ -16,7 +16,7 @@ _logger = logging.getLogger(__name__)
 
 @odoo.tests.common.tagged('post_install', '-at_install', 'crawl')
 class Crawler(HttpCaseWithUserDemo):
-    """ Test suite crawling an Odoo CMS instance and checking that all
+    """ Test suite crawling an Platform CMS instance and checking that all
     internal links lead to a 200 response.
 
     If a username and a password are provided, authenticates the user before
@@ -26,8 +26,8 @@ class Crawler(HttpCaseWithUserDemo):
     def setUp(self):
         super(Crawler, self).setUp()
         self.env.ref('website.default_website').write({
-            'social_facebook': "https://www.facebook.com/Odoo",
-            'social_twitter': 'https://twitter.com/Odoo',
+            'social_facebook': "https://www.facebook.com/Platform",
+            'social_twitter': 'https://twitter.com/Platform',
             'social_linkedin': 'https://www.linkedin.com/company/odoo',
             'social_youtube': 'https://www.youtube.com/user/OpenERPonline',
             'social_github': 'https://github.com/odoo',

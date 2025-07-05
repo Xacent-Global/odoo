@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import logging
 
 from lxml import html
@@ -60,8 +60,8 @@ class TestSnippets(HttpCase):
 
     def test_05_social_media(self):
         self.env.ref('website.default_website').write({
-            'social_facebook': "https://www.facebook.com/Odoo",
-            'social_twitter': 'https://twitter.com/Odoo',
+            'social_facebook': "https://www.facebook.com/Platform",
+            'social_twitter': 'https://twitter.com/Platform',
             'social_linkedin': 'https://www.linkedin.com/company/odoo',
             'social_youtube': 'https://www.youtube.com/user/OpenERPonline',
             'social_github': 'https://github.com/odoo',

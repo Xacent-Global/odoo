@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
-"""The Odoo API module defines Odoo Environments and method decorators.
+"""The Platform API module defines Platform Environments and method decorators.
 
 .. todo:: Document this module
 """

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import base64
 import functools
 import json
@@ -178,7 +178,7 @@ class OAuthController(http.Controller):
 
     @http.route('/auth_oauth/oea', type='http', auth='none', readonly=False)
     def oea(self, **kw):
-        """login user via Odoo Account provider"""
+        """login user via Platform Account provider"""
         dbname = kw.pop('db', None)
         if not dbname:
             dbname = request.db

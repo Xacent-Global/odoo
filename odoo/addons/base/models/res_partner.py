@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from __future__ import annotations
 
 import base64
@@ -570,7 +570,7 @@ class Partner(models.Model):
             emails_normalized = tools.email_normalize_all(partner.email)
             if emails_normalized:
                 # note: multi-email input leads to invalid email like "Name" <email1, email2>
-                # but this is current behavior in Odoo 14+ and some servers allow it
+                # but this is current behavior in Platform 14+ and some servers allow it
                 partner.email_formatted = tools.formataddr((
                     partner.name or u"False",
                     ','.join(emails_normalized)

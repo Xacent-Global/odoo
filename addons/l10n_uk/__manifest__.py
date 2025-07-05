@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'United Kingdom - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -6,7 +6,7 @@
     'version': '1.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest UK Odoo localisation necessary to run Odoo accounting for UK SME's with:
+This is the latest UK Platform localisation necessary to run Platform accounting for UK SME's with:
 =================================================================================================
     - a CT600-ready chart of accounts
     - VAT100-ready tax structure

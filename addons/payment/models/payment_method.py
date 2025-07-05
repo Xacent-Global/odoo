@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo import Command, _, api, fields, models
 from odoo.exceptions import UserError
@@ -70,7 +70,7 @@ class PaymentMethod(models.Model):
     )
     support_refund = fields.Selection(
         string="Refund",
-        help="Refund is a feature allowing to refund customers directly from the payment in Odoo.",
+        help="Refund is a feature allowing to refund customers directly from the payment in Platform.",
         selection=[
             ('none', "Unsupported"),
             ('full_only', "Full Only"),

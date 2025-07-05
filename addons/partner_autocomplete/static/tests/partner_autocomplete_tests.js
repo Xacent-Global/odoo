@@ -214,7 +214,7 @@ QUnit.module('partner_autocomplete', {
             autocompleteContainer,
             ".o-autocomplete--dropdown-item.partner_autocomplete_dropdown_many2one",
             3,
-            "Odoo autocomplete options should be shown"
+            "Platform autocomplete options should be shown"
         );
 
         // Click on the first option - "First company"
@@ -266,7 +266,7 @@ QUnit.module('partner_autocomplete', {
             autocompleteContainer,
             ".o-autocomplete--dropdown-item",
             4,  // 3 options + 1 for the worldwide option
-            "Odoo autocomplete options should be shown"
+            "Platform autocomplete options should be shown"
         );
 
         // Click on the first option - "First Company"
@@ -318,7 +318,7 @@ QUnit.module('partner_autocomplete', {
             autocompleteContainer,
             ".o-autocomplete--dropdown-item",
             4,  // 3 options + 1 for the worldwide option
-            "Odoo read_by_vat options should be shown"
+            "Platform read_by_vat options should be shown"
         );
 
         // Click on the first option - "First company"
@@ -415,7 +415,7 @@ QUnit.module('partner_autocomplete', {
             autocompleteContainer,
             ".o-autocomplete--dropdown-item",
             6,  //3 suggestions + create + create & edit + search worldwide
-            "Odoo autocomplete options should be shown"
+            "Platform autocomplete options should be shown"
         );
     });
 
@@ -434,7 +434,7 @@ QUnit.module('partner_autocomplete', {
             autocompleteContainer,
             ".o-autocomplete--dropdown-item",
             4,  // 3 options + 1 for the worldwide option
-            "Odoo autocomplete options should be shown"
+            "Platform autocomplete options should be shown"
         );
         // Click on the second option (include realistic events) - "Second company"
         await triggerEvent(

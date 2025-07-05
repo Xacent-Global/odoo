@@ -52,7 +52,7 @@ test("basic rendering", async () => {
     await contains("[title='Raise Hand']");
     await contains("[title='Enter Full Screen']");
     // screen sharing not available in mobile OS
-    mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Odoo TestSuite)");
+    mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Platform TestSuite)");
     expect(isMobileOS()).toBe(true);
     await contains("[title='Share Screen']", { count: 0 });
 });

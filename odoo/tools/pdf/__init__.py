@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import importlib
 import io
 import re
@@ -121,8 +121,8 @@ if hasattr(PdfWriter, 'write_stream'):
     class BrandedFileWriter(PdfWriter):
         def write_stream(self, *args, **kwargs):
             self.add_metadata({
-                '/Creator': "Odoo",
-                '/Producer': "Odoo",
+                '/Creator': "Platform",
+                '/Producer': "Platform",
             })
             super().write_stream(*args, **kwargs)
 else:
@@ -130,8 +130,8 @@ else:
     class BrandedFileWriter(PdfWriter):
         def write(self, *args, **kwargs):
             self.addMetadata({
-                '/Creator': "Odoo",
-                '/Producer': "Odoo",
+                '/Creator': "Platform",
+                '/Producer': "Platform",
             })
             super().write(*args, **kwargs)
 
@@ -228,11 +228,11 @@ def to_pdf_stream(attachment) -> io.BytesIO:
 
 
 def add_banner(pdf_stream, text=None, logo=False, thickness=2 * cm):
-    """ Add a banner on a PDF in the upper right corner, with Odoo's logo (optionally).
+    """ Add a banner on a PDF in the upper right corner, with Platform's logo (optionally).
 
     :param pdf_stream (BytesIO):    The PDF stream where the banner will be applied.
     :param text (str):              The text to be displayed.
-    :param logo (bool):             Whether to display Odoo's logo in the banner.
+    :param logo (bool):             Whether to display Platform's logo in the banner.
     :param thickness (float):       The thickness of the banner in pixels.
     :return (BytesIO):              The modified PDF stream.
     """
@@ -542,8 +542,8 @@ class OdooPdfFileWriter(PdfFileWriter):
 
         # Set odoo as producer
         self.addMetadata({
-            '/Creator': "Odoo",
-            '/Producer': "Odoo",
+            '/Creator': "Platform",
+            '/Producer': "Platform",
         })
         self.is_pdfa = True
 

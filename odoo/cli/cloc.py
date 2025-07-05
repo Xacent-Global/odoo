@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import argparse
 import os
 import sys
@@ -14,7 +14,7 @@ class Cloc(Command):
         parser = argparse.ArgumentParser(
             prog=f'{Path(sys.argv[0]).name} {self.name}',
             description="""\
-Odoo cloc is a tool to count the number of relevant lines written in
+Platform cloc is a tool to count the number of relevant lines written in
 Python, Javascript or XML. This can be used as rough metric for pricing
 maintenance of customizations.
 

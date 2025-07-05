@@ -133,7 +133,7 @@ test("respond to notification prompt (denied)", async () => {
     await click(".o_menu_systray i[aria-label='Messages']");
     await click(".o-mail-NotificationItem");
     await contains(".o_notification:has(.o_notification_bar.bg-warning)", {
-        text: "Odoo will not send notifications on this device.",
+        text: "Platform will not send notifications on this device.",
     });
     await contains(".o-mail-MessagingMenu-counter", { count: 0 });
     await click(".o_menu_systray i[aria-label='Messages']");
@@ -146,14 +146,14 @@ test("respond to notification prompt (granted)", async () => {
     await click(".o_menu_systray i[aria-label='Messages']");
     await click(".o-mail-NotificationItem");
     await contains(".o_notification:has(.o_notification_bar.bg-success)", {
-        text: "Odoo will send notifications on this device!",
+        text: "Platform will send notifications on this device!",
     });
 });
 
 test("no suggestion to enable chat push notifications in mobile app", async () => {
     patchBrowserNotification("default");
-    // simulate Android Odoo App
-    mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Odoo TestSuite)");
+    // simulate Android Platform App
+    mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Platform TestSuite)");
     await start();
     await click(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-MessagingMenu-counter", { count: 0 });
@@ -195,7 +195,7 @@ test("rendering with PWA installation request", async () => {
             serverState.odoobotId
         }/avatar_128?unique=${deserializeDateTime(odoobot.write_date).ts}']`
     );
-    await contains(".o-mail-NotificationItem-name", { text: "Install Odoo" });
+    await contains(".o-mail-NotificationItem-name", { text: "Install Platform" });
     await contains(".o-mail-NotificationItem-text", {
         text: "Come here often? Install the app for quick and easy access!",
     });

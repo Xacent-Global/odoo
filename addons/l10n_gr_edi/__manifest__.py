@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
-    'author': 'Odoo',
+    'author': 'Platform',
     'name': 'Greece - MyDATA',
     'version': '1.0',
     'category': 'Accounting/Localizations',

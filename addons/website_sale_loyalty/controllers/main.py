@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from werkzeug.urls import url_encode, url_parse
 
@@ -59,7 +59,7 @@ class WebsiteSale(main.WebsiteSale):
     def activate_coupon(self, code, r='/shop', **kw):
         url_parts = url_parse(r)
         url_query = url_parts.decode_query()
-        url_query.pop('coupon_error', False)  # trust only Odoo error message
+        url_query.pop('coupon_error', False)  # trust only Platform error message
         url_query.pop('coupon_error_type', False)
         code = code.strip()
 

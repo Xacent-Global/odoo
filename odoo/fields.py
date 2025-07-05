@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 """ High-level objects for fields. """
 from __future__ import annotations
@@ -480,7 +480,7 @@ class Field(MetaField('DummyField', (object,), {}), typing.Generic[T]):
             attrs['_depends_context'] = tuple(attrs.pop('depends_context'))
 
         if 'group_operator' in attrs:
-            warnings.warn("Since Odoo 18, 'group_operator' is deprecated, use 'aggregator' instead", DeprecationWarning, 2)
+            warnings.warn("Since Platform 18, 'group_operator' is deprecated, use 'aggregator' instead", DeprecationWarning, 2)
             attrs['aggregator'] = attrs.pop('group_operator')
 
         return attrs
@@ -2128,7 +2128,7 @@ class Html(_String):
         # Shortcut for common sanitize options
         # Outgoing and incoming emails should not be sanitized with the same options.
         # e.g. conditional comments: no need to keep conditional comments for incoming emails,
-        # we do not need this Microsoft Outlook client feature for emails displayed Odoo's web client.
+        # we do not need this Microsoft Outlook client feature for emails displayed Platform's web client.
         # While we need to keep them in mail templates and mass mailings, because they could be rendered in Outlook.
         if attrs.get('sanitize') == 'email_outgoing':
             attrs['sanitize'] = True
@@ -3470,7 +3470,7 @@ class Json(Field):
 class Properties(Field):
     """ Field that contains a list of properties (aka "sub-field") based on
     a definition defined on a container. Properties are pseudo-fields, acting
-    like Odoo fields but without being independently stored in database.
+    like Platform fields but without being independently stored in database.
 
     This field allows a light customization based on a container record. Used
     for relationships such as <project.project> / <project.task>,... New

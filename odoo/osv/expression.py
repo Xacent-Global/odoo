@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 """ Domain expression processing
 
@@ -58,7 +58,7 @@ take a recursive form: a domain is not a valid second-level operand.
 
 Unaccent - Accent-insensitive search
 
-Odoo will use the SQL function 'unaccent' when available for the
+Platform will use the SQL function 'unaccent' when available for the
 'ilike', 'not ilike' and '=ilike' operators, and enabled in the configuration.
 
 .. todo: The following explanation should be moved in some external

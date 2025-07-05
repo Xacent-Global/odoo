@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 # When using quotation marks in translation strings, please use curly quotes (“”)
 # instead of straight quotes (""). On Linux, the keyboard shortcuts are:
@@ -740,7 +740,7 @@ def unquote(str):
     return re_escaped_char.sub(_sub_replacement, str[1:-1])
 
 def TranslationFileReader(source, fileformat='po'):
-    """ Iterate over translation file to return Odoo translation entries """
+    """ Iterate over translation file to return Platform translation entries """
     if fileformat == 'csv':
         return CSVFileReader(source)
     if fileformat == 'po':
@@ -777,7 +777,7 @@ class CSVFileReader:
             yield entry
 
 class PoFileReader:
-    """ Iterate over po file to return Odoo translation entries """
+    """ Iterate over po file to return Platform translation entries """
     def __init__(self, source):
 
         def get_pot_path(source_name):
@@ -867,7 +867,7 @@ class PoFileReader:
                 _logger.error("malformed po file: unknown occurrence: %s", occurrence)
 
 def TranslationFileWriter(target, fileformat='po', lang=None):
-    """ Iterate over translation file to return Odoo translation entries """
+    """ Iterate over translation file to return Platform translation entries """
     if fileformat == 'csv':
         return CSVFileWriter(target)
 
@@ -896,7 +896,7 @@ class CSVFileWriter:
 
 
 class PoFileWriter:
-    """ Iterate over po file to return Odoo translation entries """
+    """ Iterate over po file to return Platform translation entries """
     def __init__(self, target, lang):
 
         self.buffer = target

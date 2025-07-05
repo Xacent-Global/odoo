@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import logging
 import pprint
@@ -74,7 +74,7 @@ class SaleOrder(models.Model):
         payload = {
             'orderType': 'order',
             'orderReferenceId': self.id,
-            'customerReferenceId': f'Odoo Partner #{self.partner_id.id}',
+            'customerReferenceId': f'Platform Partner #{self.partner_id.id}',
             'currency': self.currency_id.name,
             'items': self._gelato_prepare_items_payload(),
             'shipmentMethodUid': delivery_line.product_id.default_code or 'cheapest',

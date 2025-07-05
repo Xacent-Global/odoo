@@ -125,7 +125,7 @@ export function useSpreadsheetNotificationStore() {
      */
     function askConfirmation(body, confirm) {
         dialog.add(ConfirmationDialog, {
-            title: _t("Odoo Spreadsheet"),
+            title: _t("Platform Spreadsheet"),
             body,
             confirm,
             cancel: () => {}, // Must be defined to display the Cancel button
@@ -154,7 +154,7 @@ export function useSpreadsheetNotificationStore() {
         dialog.add(
             ConfirmationDialog,
             {
-                title: _t("Odoo Spreadsheet"),
+                title: _t("Platform Spreadsheet"),
                 body,
             },
             {

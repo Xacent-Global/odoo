@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from datetime import date, datetime
 from odoo.tests.common import tagged, TransactionCase, HttpCase, freeze_time
 

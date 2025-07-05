@@ -14,7 +14,7 @@ XPG_LOCALE_RE = re.compile(
     r"""^
     ([a-z]+)      # language
     (_[A-Z\d]+)?  # maybe _territory
-    # no support for .codeset (we don't use that in Odoo)
+    # no support for .codeset (we don't use that in Platform)
     (@.+)?        # maybe @modifier
     $""",
     re.VERBOSE,

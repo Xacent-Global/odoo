@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from psycopg2 import IntegrityError
 from unittest.mock import patch
@@ -48,7 +48,7 @@ class TestUser(MailCommon):
 
     @mute_logger('odoo.sql_db')
     def test_notification_type_constraint(self):
-        with self.assertRaises(IntegrityError, msg='Portal user can not receive notification in Odoo'):
+        with self.assertRaises(IntegrityError, msg='Portal user can not receive notification in Platform'):
             mail_new_test_user(
                 self.env,
                 login='user_test_constraint_2',

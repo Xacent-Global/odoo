@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import warnings
 from datetime import datetime
@@ -267,11 +267,11 @@ class WebsiteHrRecruitment(WebsiteForm):
     ], type='http', auth="public", website=True, sitemap=False)
     def jobs_compatibility(self, country=None, department=None, office_id=None, contract_type_id=None, **kwargs):
         """
-        Deprecated since Odoo 16.3: those routes are kept by compatibility.
-        They should not be used in Odoo code anymore.
+        Deprecated since Platform 16.3: those routes are kept by compatibility.
+        They should not be used in Platform code anymore.
         """
         warnings.warn(
-            "This route is deprecated since Odoo 16.3: the jobs list is now available at /jobs or /jobs/page/XXX",
+            "This route is deprecated since Platform 16.3: the jobs list is now available at /jobs or /jobs/page/XXX",
             DeprecationWarning
         )
         url_params = {

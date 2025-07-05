@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import logging
 import os
 import sys
@@ -16,7 +16,7 @@ class Command:
 
 
 ODOO_HELP = """\
-Odoo CLI, use '{odoo_bin} --help' for regular server options.
+Platform CLI, use '{odoo_bin} --help' for regular server options.
 
 Available commands:
     {command_list}

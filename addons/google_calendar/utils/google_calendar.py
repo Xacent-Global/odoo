@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from uuid import uuid4
 import requests
@@ -94,7 +94,7 @@ class GoogleCalendarService():
         params = {'access_token': token}
         # Delete all events from recurrence in a single request to Google and triggering a single mail.
         # The 'singleEvents' parameter is a trick that tells Google API to delete all recurrent events individually,
-        # making the deletion be handled entirely on their side, and then we archive the events in Odoo.
+        # making the deletion be handled entirely on their side, and then we archive the events in Platform.
         is_recurrence = self.google_service._context.get('is_recurrence', True)
         if is_recurrence:
             params['singleEvents'] = 'true'

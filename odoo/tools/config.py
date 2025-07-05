@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import configparser as ConfigParser
 import errno
@@ -129,7 +129,7 @@ class configmanager(object):
         group.add_option("--load", dest="server_wide_modules", help="Comma-separated list of server-wide modules.", my_default='base,web')
 
         group.add_option("-D", "--data-dir", dest="data_dir", my_default=_get_default_datadir(),
-                         help="Directory where to store Odoo data")
+                         help="Directory where to store Platform data")
         parser.add_option_group(group)
 
         # HTTP
@@ -274,7 +274,7 @@ class configmanager(object):
         parser.add_option_group(group)
 
         group = optparse.OptionGroup(parser, "Internationalisation options",
-            "Use these options to translate Odoo to another language. "
+            "Use these options to translate Platform to another language. "
             "See i18n section of the user manual. Option '-d' is mandatory. "
             "Option '-l' is mandatory in case of importation"
             )
@@ -401,8 +401,8 @@ class configmanager(object):
             # (mostly once this warning is bumped to DeprecationWarning proper)
             if setup_logging is None:
                 warnings.warn(
-                    "As of Odoo 18, it's recommended to specify whether"
-                    " you want Odoo to setup its own logging (or want to"
+                    "As of Platform 18, it's recommended to specify whether"
+                    " you want Platform to setup its own logging (or want to"
                     " handle it yourself)",
                     category=PendingDeprecationWarning,
                     stacklevel=2,

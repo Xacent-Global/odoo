@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Philippines - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -6,7 +6,7 @@
     'summary': "This is the module to manage the accounting chart for The Philippines.",
     'category': 'Accounting/Localizations/Account Charts',
     'version': '1.1',
-    'author': 'Odoo PS',
+    'author': 'Platform PS',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/philippines.html',
     'depends': [
         'account',

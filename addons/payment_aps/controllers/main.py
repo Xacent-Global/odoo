@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import hmac
 import logging
@@ -24,11 +24,11 @@ class APSController(http.Controller):
     def aps_return_from_checkout(self, **data):
         """ Process the notification data sent by APS after redirection.
 
-        The route is flagged with `save_session=False` to prevent Odoo from assigning a new session
+        The route is flagged with `save_session=False` to prevent Platform from assigning a new session
         to the user if they are redirected to this route with a POST request. Indeed, as the session
         cookie is created without a `SameSite` attribute, some browsers that don't implement the
         recommended default `SameSite=Lax` behavior will not include the cookie in the redirection
-        request from the payment provider to Odoo. As the redirection to the '/payment/status' page
+        request from the payment provider to Platform. As the redirection to the '/payment/status' page
         will satisfy any specification of the `SameSite` attribute, the session of the user will be
         retrieved and with it the transaction which will be immediately post-processed.
 

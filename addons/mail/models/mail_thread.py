@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import ast
 import base64
@@ -62,7 +62,7 @@ class MailThread(models.AbstractModel):
         communication history. ``mail.thread`` also manages followers of
         inheriting classes. All features and expected behavior are managed
         by mail.thread. Widgets has been designed for the 7.0 and following
-        versions of Odoo.
+        versions of Platform.
 
         Inheriting classes are not required to implement any method, as the
         default implementation will work for any model. However it is common
@@ -954,7 +954,7 @@ class MailThread(models.AbstractModel):
         """This method returns True if the incoming email should be ignored.
 
         The goal of this method is to prevent loops which can occur if an auto-replier
-        send emails to Odoo.
+        send emails to Platform.
         """
         email_from = message_dict.get('email_from')
         if not email_from:
@@ -3657,7 +3657,7 @@ class MailThread(models.AbstractModel):
 
         # compute references: set references to parents likely to be sent and add current message just to
         # have a fallback in case replies mess with Messsage-Id in the In-Reply-To (e.g. amazon
-        # SES SMTP may replace Message-Id and In-Reply-To refers an internal ID not stored in Odoo)
+        # SES SMTP may replace Message-Id and In-Reply-To refers an internal ID not stored in Platform)
         message_sudo = message.sudo()
         ancestors = self.env['mail.message'].sudo().search(
             [
@@ -4177,7 +4177,7 @@ class MailThread(models.AbstractModel):
         msg_sudo = message.sudo()
         msg_type = msg_vals.get('message_type') or msg_sudo.message_type
         author_id = [msg_vals.get('author_id')] if 'author_id' in msg_vals else msg_sudo.author_id.ids
-        # never send to author and to people outside Odoo (email), except comments
+        # never send to author and to people outside Platform (email), except comments
         pids = set()
         if msg_type in {'comment', 'whatsapp_message'}:
             pids = set(notif_pids) - set(author_id)

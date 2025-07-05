@@ -8,7 +8,7 @@ defineSpreadsheetActions();
 
 describe.current.tags("headless");
 
-test("Odoo formulas are migrated", () => {
+test("Platform formulas are migrated", () => {
     const data = {
         version: 16,
         sheets: [
@@ -509,7 +509,7 @@ test("Pivot formulas using pivot positions are migrated (11 to 12)", () => {
     expect(migratedData.sheets[0].cells.A4.content).toBe(`=ODOO.PIVOT.POSITION("1",14)`);
 });
 
-test("Odoo version is exported", () => {
+test("Platform version is exported", () => {
     const model = new Model();
     expect(model.exportData().odooVersion).toBe(ODOO_VERSION);
 });

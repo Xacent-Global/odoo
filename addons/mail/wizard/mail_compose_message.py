@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import ast
 import base64
@@ -166,7 +166,7 @@ class MailComposer(models.TransientModel):
     auto_delete = fields.Boolean(
         'Delete Emails',
         compute="_compute_auto_delete", readonly=False, store=True, compute_sudo=False,
-        help='This option permanently removes any track of email after it\'s been sent, including from the Technical menu in the Settings, in order to preserve storage space of your Odoo database.')
+        help='This option permanently removes any track of email after it\'s been sent, including from the Technical menu in the Settings, in order to preserve storage space of your Platform database.')
     auto_delete_keep_log = fields.Boolean(
         'Keep Message Copy',
         compute="_compute_auto_delete_keep_log", readonly=False, store=True,
@@ -1396,7 +1396,7 @@ class MailComposer(models.TransientModel):
         tuple (generally in code), a list or tuple as a string (coming from
         actions). Void strings are considered as a falsy domain.
 
-        :return: an Odoo domain (list of leaves) """
+        :return: an Platform domain (list of leaves) """
         self.ensure_one()
         if isinstance(self.res_domain, (str, bool)) and not self.res_domain:
             return expression.FALSE_DOMAIN

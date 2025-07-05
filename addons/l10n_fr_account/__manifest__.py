@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'France - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/france.html',
@@ -7,7 +7,7 @@
     'countries': ['fr'],
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart for France in Odoo.
+This is the module to manage the accounting chart for France in Platform.
 ========================================================================
 
 This module applies to companies based in France mainland. It doesn't apply to

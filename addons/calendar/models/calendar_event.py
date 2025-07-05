@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import logging
 import math
@@ -1452,7 +1452,7 @@ class Meeting(models.Model):
                     elif interval == 'minutes':
                         delta = timedelta(minutes=duration)
                     trigger.value = delta
-                    valarm.add('DESCRIPTION').value = alarm.name or u'Odoo'
+                    valarm.add('DESCRIPTION').value = alarm.name or u'Platform'
             for attendee in meeting.attendee_ids:
                 attendee_add = event.add('attendee')
                 attendee_add.value = u'MAILTO:' + (attendee.email or u'')

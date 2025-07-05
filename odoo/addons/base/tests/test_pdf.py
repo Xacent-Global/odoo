@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo.tests.common import TransactionCase
 from odoo.tools import pdf
@@ -90,8 +90,8 @@ class TestPdf(TransactionCase):
         reader_buffer = io.BytesIO(branded_content)
         pdf_reader = pdf.PdfFileReader(reader_buffer)
         pdf_info = pdf_reader.getDocumentInfo()
-        self.assertEqual(pdf_info['/Producer'], 'Odoo')
-        self.assertEqual(pdf_info['/Creator'], 'Odoo')
+        self.assertEqual(pdf_info['/Producer'], 'Platform')
+        self.assertEqual(pdf_info['/Creator'], 'Platform')
         reader_buffer.close()
 
     def tearDown(self):

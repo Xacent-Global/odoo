@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from markupsafe import Markup
 
@@ -35,7 +35,7 @@ class Users(models.Model):
         channel = self.env['discuss.channel'].channel_get([odoobot_id, self.partner_id.id])
         message = Markup("%s<br/>%s<br/><b>%s</b> <span class=\"o_odoobot_command\">:)</span>") % (
             _("Hello,"),
-            _("Odoo's chat helps employees collaborate efficiently. I'm here to help you discover its features."),
+            _("Platform's chat helps employees collaborate efficiently. I'm here to help you discover its features."),
             _("Try to send me an emoji")
         )
         channel.sudo().message_post(

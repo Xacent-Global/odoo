@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.link_tracker.tests.common import MockLinkTracker
 from odoo.exceptions import UserError
@@ -22,7 +22,7 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         # Creating a link tracker with url having the scheme
         link_tracker = self.env['link.tracker'].create({
             'url': 'https://odoo.com',
-            'title': 'Odoo',
+            'title': 'Platform',
         })
         # Validate the absolute url
         self.assertEqual(link_tracker.absolute_url, link_tracker.url)
@@ -36,13 +36,13 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         link_trackers = self.env['link.tracker'].create([
             {
                 'url': 'odoo.com',
-                'title': 'Odoo',
+                'title': 'Platform',
             }, {
                 'url': 'example.com',
-                'title': 'Odoo',
+                'title': 'Platform',
             }, {
                 'url': 'http://test.example.com',
-                'title': 'Odoo',
+                'title': 'Platform',
             },
         ])
 
@@ -55,9 +55,9 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
 
     def test_search_or_create(self):
         values_1, values_2, values_3 = [
-            {'url': 'https://odoo.com', 'title': 'Odoo'},
-            {'url': 'https://odoo.be', 'title': 'Odoo'},
-            {'url': 'https://odoo.com', 'title': 'Odoo New', 'label': 'New one!'}  # title is not in unique constraint
+            {'url': 'https://odoo.com', 'title': 'Platform'},
+            {'url': 'https://odoo.be', 'title': 'Platform'},
+            {'url': 'https://odoo.com', 'title': 'Platform New', 'label': 'New one!'}  # title is not in unique constraint
         ]
         expected_values_1, expected_values_2, expected_values_3 = [
             {
@@ -65,21 +65,21 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
                 'label': False,
                 'medium_id': self.env['utm.medium'],
                 'source_id': self.env['utm.source'],
-                'title': 'Odoo',
+                'title': 'Platform',
                 'url': 'https://odoo.com',
             }, {
                 'campaign_id': self.env['utm.campaign'],
                 'label': False,
                 'medium_id': self.env['utm.medium'],
                 'source_id': self.env['utm.source'],
-                'title': 'Odoo',
+                'title': 'Platform',
                 'url': 'https://odoo.be',
             }, {
                 'campaign_id': self.env['utm.campaign'],
                 'label': 'New one!',
                 'medium_id': self.env['utm.medium'],
                 'source_id': self.env['utm.source'],
-                'title': 'Odoo New',
+                'title': 'Platform New',
                 'url': 'https://odoo.com',
             },
         ]
@@ -146,12 +146,12 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
 
         self.env['link.tracker'].create({
             'url': 'https://odoo.com',
-            'title': 'Odoo',
+            'title': 'Platform',
         })
 
         link_1 = self.env['link.tracker'].create({
             'url': '2nd url',
-            'title': 'Odoo',
+            'title': 'Platform',
             'campaign_id': campaign_id.id,
         })
         self.assertEqual(link_1.label, False)
@@ -159,26 +159,26 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         with self.assertRaises(UserError):
             self.env['link.tracker'].create({
                 'url': 'https://odoo.com',
-                'title': 'Odoo',
+                'title': 'Platform',
             })
 
         with self.assertRaises(UserError):
             self.env['link.tracker'].create({
                 'url': 'https://odoo.com',
-                'title': 'Odoo',
+                'title': 'Platform',
                 'label': '',
             })
 
         with self.assertRaises(UserError):
             self.env['link.tracker'].create({
                 'url': '2nd url',
-                'title': 'Odoo',
+                'title': 'Platform',
                 'campaign_id': campaign_id.id,
             })
 
         link_2 = self.env['link.tracker'].create({
                 'url': '2nd url',
-                'title': 'Odoo',
+                'title': 'Platform',
                 'campaign_id': campaign_id.id,
                 'medium_id': self.env['utm.medium'].search([], limit=1).id,
                 'label': ''

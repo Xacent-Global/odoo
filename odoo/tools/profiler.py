@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 import gc
@@ -248,7 +248,7 @@ class PeriodicCollector(Collector):
 class SyncCollector(Collector):
     """
     Record complete execution synchronously.
-    Note that --limit-memory-hard may need to be increased when launching Odoo.
+    Note that --limit-memory-hard may need to be increased when launching Platform.
     """
     name = 'traces_sync'
 

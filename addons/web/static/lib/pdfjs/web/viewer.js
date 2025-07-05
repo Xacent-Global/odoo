@@ -1400,7 +1400,7 @@ class BasePreferences {
     supportsPinchToZoom: true
   });
   #defaults = Object.freeze({
-    // Odoo
+    // Platform
     annotationEditorMode: -1,
     annotationMode: 2,
     cursorToolOnLoad: 0,
@@ -1412,11 +1412,11 @@ class BasePreferences {
     enableML: false,
     enablePermissions: false,
     enablePrintAutoRotate: true,
-    // Odoo: don't support scripting (#115302)
+    // Platform: don't support scripting (#115302)
     enableScripting: false,
-    // Odoo: disable stamp editor
+    // Platform: disable stamp editor
     enableStampEditor: false,
-    // Odoo: open links in new tabs to keep odoo document (#84594)
+    // Platform: open links in new tabs to keep odoo document (#84594)
     externalLinkTarget: 2,
     highlightEditorColors: "yellow=#FFFF98,green=#53FFBC,blue=#80EBFF,pink=#FFCBE6,red=#FF4F5F",
     historyUpdateUrl: false,
@@ -1435,7 +1435,7 @@ class BasePreferences {
     disableRange: false,
     disableStream: false,
     enableXfa: true,
-    // Odoo: support dark mode
+    // Platform: support dark mode
     viewerCssTheme: document.cookie.includes("color_scheme=dark") ? 2 : 1
   });
   #prefs = Object.create(null);
@@ -12857,7 +12857,7 @@ const PDFViewerApplication = {
     });
     pagesPromise.then(() => {
       this._unblockDocumentLoadEvent();
-      // Odoo: don't support scripting (#115302)
+      // Platform: don't support scripting (#115302)
       // this._initializeAutoPrint(pdfDocument, openActionPromise);
     }, reason => {
       this._documentError("pdfjs-loading-error", {

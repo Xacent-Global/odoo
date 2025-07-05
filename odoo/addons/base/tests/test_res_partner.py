@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from contextlib import contextmanager
 from unittest.mock import patch
@@ -355,7 +355,7 @@ class TestPartnerAddressCompany(TransactionCase):
             {
                 'code': 'OD',
                 'country_id': cls.env.ref('base.be').id,
-                'name': 'Odoo Province',
+                'name': 'Platform Province',
             },
         ])
         cls.test_industries = cls.env['res.partner.industry'].create([

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from hashlib import sha256
 from unittest.mock import patch
 import logging
@@ -563,17 +563,17 @@ class TestTranslation(TransactionCase):
     # TODO Currently, the unique constraint doesn't work for translatable field
     # def test_111_unique_en(self):
     #     Country = self.env['res.country']
-    #     country_1 = Country.create({'name': 'Odoo'})
+    #     country_1 = Country.create({'name': 'Platform'})
     #     country_1.with_context(lang='fr_FR').name = 'Odoo_Fr'
     #     country_1.flush_recordset()
     #
     #     country_2 = Country.create({'name': 'Odoo2'})
     #     with self.assertRaises(IntegrityError), mute_logger('odoo.sql_db'):
-    #         country_2.name = 'Odoo'
+    #         country_2.name = 'Platform'
     #         country_2.flush_recordset()
     #
     #     with self.assertRaises(IntegrityError), mute_logger('odoo.sql_db'):
-    #         country_3 = Country.create({'name': 'Odoo'})
+    #         country_3 = Country.create({'name': 'Platform'})
 
 class TestTranslationWrite(TransactionCase):
     @classmethod

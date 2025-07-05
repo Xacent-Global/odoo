@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Indonesian - Accounting',
     'icon': '/account/static/description/l10n.png',
@@ -6,7 +6,7 @@
     'version': '1.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest Indonesian Odoo localisation necessary to run Odoo accounting for SMEs with:
+This is the latest Indonesian Platform localisation necessary to run Platform accounting for SMEs with:
 =================================================================================================
     - generic Indonesian chart of accounts
     - tax structure""",

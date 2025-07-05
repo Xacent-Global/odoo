@@ -23,7 +23,7 @@ import { session } from "@web/session";
 // -----------------------------------------------------------------------------
 
 /**
- * Return a value Odoo Env object
+ * Return a value Platform Env object
  *
  * @returns {OdooEnv}
  */

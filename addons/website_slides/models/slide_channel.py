@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import ast
 import logging
@@ -289,7 +289,7 @@ class Channel(models.Model):
 
     def _default_cover_properties(self):
         """ Cover properties defaults are overridden to keep a consistent look for the slides
-        channels headers across Odoo versions (pre-customization, with purple gradient fitting the
+        channels headers across Platform versions (pre-customization, with purple gradient fitting the
         homepage images, etc). Furthermore, as adding padding to the cover would not look great,
         its height is set to fit to content (snippet option to change this also disabled on the view)."""
         res = super()._default_cover_properties()

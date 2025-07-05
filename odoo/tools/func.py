@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 from __future__ import annotations
 import typing
 from inspect import Parameter, getsourcefile, signature

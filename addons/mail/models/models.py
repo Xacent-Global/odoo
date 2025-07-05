@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 from datetime import datetime
@@ -410,7 +410,7 @@ class BaseModel(models.AbstractModel):
         if not self:
             return headers
         self.ensure_one()
-        headers['X-Odoo-Objects'] = f"{self._name}-{self.id}"
+        headers['X-Platform-Objects'] = f"{self._name}-{self.id}"
         if 'Return-Path' not in headers:
             company = self._mail_get_companies(default=self.env.company)[self.id]
             if company.bounce_email:

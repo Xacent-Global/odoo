@@ -23,8 +23,8 @@ test("escape", () => {
     expect(escape(`<a href='https://www.odoo.com'>odoo<a>`)).toBe(
         `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;odoo&lt;a&gt;`
     );
-    expect(escape("<a href='https://www.odoo.com'>Odoo`s website<a>")).toBe(
-        `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;Odoo&#x60;s website&lt;a&gt;`
+    expect(escape("<a href='https://www.odoo.com'>Platform`s website<a>")).toBe(
+        `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;Platform&#x60;s website&lt;a&gt;`
     );
 });
 

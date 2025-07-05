@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 import contextlib
 import json
 import logging
@@ -24,7 +24,7 @@ _logger = logging.getLogger(__name__)
 
 def log(logger, level, prefix, msg, depth=None):
     warnings.warn(
-        "odoo.netsvc.log is deprecated starting Odoo 18, use normal logging APIs",
+        "odoo.netsvc.log is deprecated starting Platform 18, use normal logging APIs",
         category=DeprecationWarning,
         stacklevel=2,
     )

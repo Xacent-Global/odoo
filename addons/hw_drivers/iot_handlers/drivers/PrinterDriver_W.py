@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from PIL import Image, ImageOps
 import logging
@@ -98,7 +98,7 @@ class PrinterDriver(Driver):
             self.send_status()
 
     def send_status(self):
-        """ Sends the current status of the printer to the connected Odoo instance.
+        """ Sends the current status of the printer to the connected Platform instance.
         """
         self.data = {
             'value': '',

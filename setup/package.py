@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 import argparse
 import logging
@@ -253,7 +253,7 @@ class Docker():
         run_cmd(["docker", "stop", self.container_name]).check_returncode()
 
     def test_odoo(self):
-        logging.info('Starting to test Odoo install test')
+        logging.info('Starting to test Platform install test')
         start_time = time.time()
         while self.is_running() and (time.time() - start_time) < INSTALL_TIMEOUT:
             time.sleep(5)
@@ -265,8 +265,8 @@ class Docker():
                 return
         if self.is_running():
             self.stop()
-            raise OdooTestTimeoutError('Odoo pid file never appeared after %s sec' % INSTALL_TIMEOUT)
-        raise OdooTestError('Error while installing/starting Odoo after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
+            raise OdooTestTimeoutError('Platform pid file never appeared after %s sec' % INSTALL_TIMEOUT)
+        raise OdooTestError('Error while installing/starting Platform after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
 
     def build(self):
         """To be overriden by specific builder"""

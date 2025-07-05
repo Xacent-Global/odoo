@@ -60,7 +60,7 @@ class Certificate(models.Model):
             x509.DirectoryName(x509.Name([
                 # EGS Serial Number. Manufacturer or Solution Provider Name, Model or Version and Serial Number.
                 # To be written in the following format: "1-... |2-... |3-..."
-                x509.NameAttribute(ObjectIdentifier('2.5.4.4'), '1-Odoo|2-%s|3-%s' % (
+                x509.NameAttribute(ObjectIdentifier('2.5.4.4'), '1-Platform|2-%s|3-%s' % (
                     version_info['server_version_info'][0], journal.l10n_sa_serial_number)),
                 # Organisation Identifier (UID)
                 x509.NameAttribute(NameOID.USER_ID, company_id.vat),

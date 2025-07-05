@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Platform. See LICENSE file for full copyright and licensing details.
 
 from odoo.addons.payment.tests.common import PaymentCommon
 
@@ -27,7 +27,7 @@ class XenditCommon(PaymentCommon):
             'description': cls.reference,
             'external_id': cls.reference,
             'paid_amount': 1740,
-            'merchant_name': 'Odoo',
+            'merchant_name': 'Platform',
             'initial_amount': 1740,
             'payment_method': 'BANK_TRANSFER',
             'payment_channel': 'BNI',
