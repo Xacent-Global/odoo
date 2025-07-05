@@ -16606,8 +16606,8 @@ msgstr "歴史、物語、イベント、マイルストン、年表、順序、
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.xacent.com"
+msgstr "https://www.xacent.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu

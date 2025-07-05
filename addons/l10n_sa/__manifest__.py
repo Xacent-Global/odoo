@@ -6,7 +6,7 @@
     'version': '2.0',
     'author': 'Application., DVIT.ME (http://www.dvit.me)',
     'category': 'Accounting/Localizations/Account Charts',
-    'website': 'https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations/saudi_arabia.html',
+    'website': 'https://www.xacent.com/documentation/17.0/applications/finance/fiscal_localizations/saudi_arabia.html',
     'description': """
 Saudi Arabia Accounting Module
 ===========================================================

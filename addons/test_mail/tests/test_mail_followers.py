@@ -993,7 +993,7 @@ class UnfollowFromEmailTest(MailCommon, HttpCase):
             {'name': 'unfollow'})
         cls.partner_without_user = cls.env['res.partner'].create({
             'name': 'Dave',
-            'email': 'dave@odoo.com',
+            'email': 'dave@xacent.com',
         })
         cls.user_employee.write({'notification_type': 'email'})
 

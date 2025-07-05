@@ -6,7 +6,7 @@
 # Martin Trigaux, 2024
 # Wil Platform, 2025
 # Fabien Pinckaers <fp@openerp.com>, 2025
-# Camille Dantinne <cmd@odoo.com>, 2025
+# Camille Dantinne <cmd@xacent.com>, 2025
 # Manon Rondou, 2025
 # 
 msgid ""

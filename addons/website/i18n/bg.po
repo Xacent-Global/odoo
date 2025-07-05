@@ -5,7 +5,7 @@
 # Translators:
 # Ivan Goychev <igoychev.projects@gmail.com>, 2024
 # Boyan Rabchev <boyan.rabchev@plana.solutions>, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Igor Sheludko <igor.sheludko@gmail.com>, 2024
 # Александра Николова <alexandra1nikolova@gmail.com>, 2024
 # Radina <radis.choice@gmail.com>, 2024
@@ -16320,7 +16320,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "https://www.odoo.com"
+msgid "https://www.xacent.com"
 msgstr ""
 
 #. module: website

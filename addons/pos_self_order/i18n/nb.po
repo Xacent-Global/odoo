@@ -5,7 +5,7 @@
 # Translators:
 # Henning Fyllingsnes, 2024
 # Natalia Myronets, 2024
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
 # Ørjan Wean <orjan@wean.no>, 2024
 # Marius Stedjan <marius@stedjan.com>, 2024
@@ -1316,7 +1316,7 @@ msgstr ""
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "https://odoo.com"
+msgid "https://xacent.com"
 msgstr ""
 
 #. module: pos_self_order

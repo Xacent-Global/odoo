@@ -2478,7 +2478,7 @@
             <input
               class="o-input"
               type="text"
-              placeholder="e.g. 'http://www.odoo.com'"
+              placeholder="e.g. 'http://www.xacent.com'"
               title="Link URL"
               t-ref="urlInput"
               t-model="link.url"

@@ -3432,10 +3432,10 @@ msgstr "Tutkinnon nimen pitää olla yksilöllinen!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "Sähköpostin aliaksen nimi, esim. 'jobs', jos haluat saada sähköposteja "
-"osoitteeseen <jobs@example.odoo.com>"
+"osoitteeseen <jobs@example.xacent.com>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_platform__regex

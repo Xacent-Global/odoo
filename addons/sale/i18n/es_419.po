@@ -3,7 +3,7 @@
 # 	* sale
 # 
 # Translators:
-# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Patricia Gutiérrez Capetillo <pagc@xacent.com>, 2025
 # Wil Platform, 2025
 # Fernanda Alvarez, 2025
 # 

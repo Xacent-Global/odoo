@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Rita Bastos, 2025
-# Camille Dantinne <cmd@odoo.com>, 2025
+# Camille Dantinne <cmd@xacent.com>, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # Wil Platform, 2025
 # Daniel Reis, 2025

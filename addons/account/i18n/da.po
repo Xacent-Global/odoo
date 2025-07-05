@@ -15714,10 +15714,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "Navnet på e-mail aliaset, f.eks. 'jobs', hvis du vil fange e-mails til "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 
 #. module: account
 #. odoo-python
@@ -18863,8 +18863,8 @@ msgstr "f.eks. Min Virksomhed"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
-msgid "e.g. https://www.odoo.com"
-msgstr "f.eks. https://www.odoo.com"
+msgid "e.g. https://www.xacent.com"
+msgstr "f.eks. https://www.xacent.com"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form

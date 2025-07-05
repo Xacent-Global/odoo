@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2024
-# Lukas Van Cauter <cvl@odoo.com>, 2024
+# Lukas Van Cauter <cvl@xacent.com>, 2024
 # Tiffany Chang, 2024
 # Wil Platform, 2025
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025

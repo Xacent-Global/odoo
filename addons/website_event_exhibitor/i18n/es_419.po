@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wil Platform, 2024
-# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2024
+# Patricia Gutiérrez Capetillo <pagc@xacent.com>, 2024
 # Fernanda Alvarez, 2025
 # 
 msgid ""
@@ -1110,8 +1110,8 @@ msgstr "Por ejemplo: decoración de OpenWood"
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
-msgid "e.g. : https://www.odoo.com"
-msgstr "Por ejemplo: https://www.odoo.com"
+msgid "e.g. : https://www.xacent.com"
+msgstr "Por ejemplo: https://www.xacent.com"
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form

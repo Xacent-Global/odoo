@@ -3,7 +3,7 @@
 # 	* mrp_account
 # 
 # Translators:
-# Malaz Abuidris <msea@odoo.com>, 2025
+# Malaz Abuidris <msea@xacent.com>, 2025
 # Wil Platform, 2025
 # 
 msgid ""

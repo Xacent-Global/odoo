@@ -11,7 +11,7 @@
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Donatas <donatasvaliulis16@gmail.com>, 2024
 # Arminas Grigonis <arminas@versada.lt>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Martin Trigaux, 2024
@@ -686,7 +686,7 @@ msgstr ""
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.odoo.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.xacent.com</a> to claim your free credits."
 msgstr ""
 
 #. module: snailmail

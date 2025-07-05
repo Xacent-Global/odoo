@@ -8,7 +8,7 @@
     'sequence': 1007,
     'version': '1.0',
     'summary': 'Quizzes on tracks',
-    'website': 'https://www.odoo.com/app/events',
+    'website': 'https://www.xacent.com/app/events',
     'depends': [
         'website_profile',
         'website_event_track',

@@ -3,7 +3,7 @@
 # 	* purchase_requisition_stock
 # 
 # Translators:
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Martin Trigaux, 2024
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024

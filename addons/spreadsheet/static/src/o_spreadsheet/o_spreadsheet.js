@@ -568,7 +568,7 @@ function isMarkdownLink(str) {
 }
 /**
  * Check if the string is a web link.
- * e.g. http://odoo.com
+ * e.g. http://xacent.com
  */
 function isWebLink(str) {
     return WEB_LINK_REGEX.test(str);
@@ -26587,7 +26587,7 @@ function replaceFunctionNamePlaceholder(functionResult, functionName) {
         functionResult.message = functionResult.message.replace("[[FUNCTION_NAME]]", functionName);
     }
 }
-const implementationErrorMessage = _t("An unexpected error occurred. Submit a support ticket at odoo.com/help.");
+const implementationErrorMessage = _t("An unexpected error occurred. Submit a support ticket at xacent.com/help.");
 function hasStringMessage(obj) {
     return (obj?.message !== undefined &&
         typeof obj.message === "string");

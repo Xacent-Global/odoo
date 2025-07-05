@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wil Platform, 2025
-# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Patricia Gutiérrez Capetillo <pagc@xacent.com>, 2025
 # Fernanda Alvarez, 2025
 # 
 msgid ""
@@ -17370,8 +17370,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.xacent.com"
+msgstr "https://www.xacent.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu

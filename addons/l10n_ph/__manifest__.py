@@ -7,7 +7,7 @@
     'category': 'Accounting/Localizations/Account Charts',
     'version': '1.1',
     'author': 'Platform PS',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/philippines.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/philippines.html',
     'depends': [
         'account',
         'base_vat',

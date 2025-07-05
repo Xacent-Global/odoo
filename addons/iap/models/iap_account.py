@@ -13,7 +13,7 @@ from odoo.tools import get_lang
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap.xacent.com'
 
 
 class IapAccount(models.Model):

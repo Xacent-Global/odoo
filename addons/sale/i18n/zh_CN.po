@@ -5,7 +5,7 @@
 # Translators:
 # ChunYi Fu, 2024
 # Raymond Yu <cl_yu@hotmail.com>, 2024
-# Emily Jia <eji@odoo.com>, 2024
+# Emily Jia <eji@xacent.com>, 2024
 # Chloe Wang, 2025
 # 何彬 <vnsoft.he@gmail.com>, 2025
 # Wil Platform, 2025

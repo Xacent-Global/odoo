@@ -3,7 +3,7 @@
 # 	* payment_xendit
 # 
 # Translators:
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Tiffany Chang, 2024
 # Wil Platform, 2024
 # Manon Rondou, 2024

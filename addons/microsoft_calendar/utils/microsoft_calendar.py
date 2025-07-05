@@ -206,7 +206,7 @@ class MicrosoftCalendarService():
     def _get_calendar_scope(self):
         return 'offline_access openid Calendars.ReadWrite'
 
-    def _microsoft_authentication_url(self, from_url='http://www.odoo.com'):
+    def _microsoft_authentication_url(self, from_url='http://www.xacent.com'):
         redirect_uri = self.microsoft_service.get_base_url() + '/microsoft_account/authentication'
         return self.microsoft_service._get_authorize_uri(
             from_url,

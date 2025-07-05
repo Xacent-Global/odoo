@@ -5,7 +5,7 @@
 # Translators:
 # Yaroslav Husyar, 2024
 # Kseina Tyshchenko, 2024
-# SAKodoo <sak@odoo.com>, 2025
+# SAKodoo <sak@xacent.com>, 2025
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
 # Wil Platform, 2025
 # 

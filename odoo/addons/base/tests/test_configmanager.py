@@ -27,7 +27,7 @@ class TestConfigManager(TransactionCase):
             # options not exposed on the command line
             'admin_passwd': 'admin',
             'csv_internal_sep': ',',
-            'publisher_warranty_url': 'http://services.odoo.com/publisher-warranty/',
+            'publisher_warranty_url': 'http://services.xacent.com/publisher-warranty/',
             'reportgz': False,
             'root_path': f'{ROOT_PATH}/odoo',
             'websocket_rate_limit_burst': 10,
@@ -352,7 +352,7 @@ class TestConfigManager(TransactionCase):
             'dev_mode': [],
             'init': {},
             'language': None,
-            'publisher_warranty_url': 'http://services.odoo.com/publisher-warranty/',
+            'publisher_warranty_url': 'http://services.xacent.com/publisher-warranty/',
             'save': None,
             'shell_interface': None,
             'stop_after_init': False,
@@ -413,7 +413,7 @@ class TestConfigManager(TransactionCase):
             # options not exposed on the command line
             'admin_passwd': 'admin',
             'csv_internal_sep': ',',
-            'publisher_warranty_url': 'http://services.odoo.com/publisher-warranty/',
+            'publisher_warranty_url': 'http://services.xacent.com/publisher-warranty/',
             'reportgz': False,
             'root_path': f'{ROOT_PATH}/odoo',
             'websocket_rate_limit_burst': 10,

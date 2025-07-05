@@ -3,7 +3,7 @@
 # 	* hr_holidays
 # 
 # Translators:
-# Davide Speranza <dsp@odoo.com>, 2024
+# Davide Speranza <dsp@xacent.com>, 2024
 # Wil Platform, 2024
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # Marianna Ciofani, 2025

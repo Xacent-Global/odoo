@@ -21,7 +21,7 @@
 # Albena Mincheva <albena_vicheva@abv.bg>, 2024
 # Petko Karamotchev, 2024
 # Milena Georgieva, 2024
-# Jonathan Quique <jqu@odoo.com>, 2025
+# Jonathan Quique <jqu@xacent.com>, 2025
 # Anton Vassilev, 2025
 # Veselina Slavkova, 2025
 # 

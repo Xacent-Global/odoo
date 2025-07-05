@@ -8,7 +8,7 @@
 # Donatas <donatasvaliulis16@gmail.com>, 2024
 # Edgaras Kriukonis <edgaras@focusate.eu>, 2024
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Arunas V. <arunas@devoro.com>, 2024
 # Arminas Grigonis <arminas@versada.lt>, 2024
 # Rolandas <info@paninfo.lt>, 2024

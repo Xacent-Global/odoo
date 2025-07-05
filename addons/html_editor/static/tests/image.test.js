@@ -471,10 +471,10 @@ test("can add link on an image", async () => {
     await click("button[name='link']");
     await animationFrame();
 
-    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://odoo.com/");
+    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://xacent.com/");
     await animationFrame();
     expect(img.parentElement.tagName).toBe("A");
-    expect(img.parentElement).toHaveAttribute("href", "http://odoo.com/");
+    expect(img.parentElement).toHaveAttribute("href", "http://xacent.com/");
 });
 
 test("can undo adding link to image", async () => {
@@ -486,7 +486,7 @@ test("can undo adding link to image", async () => {
     await waitFor(".o-we-toolbar");
     await click("button[name='link']");
     await animationFrame();
-    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://odoo.com/");
+    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://xacent.com/");
     await animationFrame();
     expect(img.parentElement.tagName).toBe("A");
 

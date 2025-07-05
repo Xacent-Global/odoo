@@ -3,7 +3,7 @@
 # 	* payment_xendit
 # 
 # Translators:
-# Emily Jia <eji@odoo.com>, 2024
+# Emily Jia <eji@xacent.com>, 2024
 # Tiffany Chang, 2024
 # Wil Platform, 2024
 # Chloe Wang, 2024

@@ -9,7 +9,7 @@ import { browser } from "../../core/browser/browser";
 import { registry } from "../../core/registry";
 
 function documentationItem(env) {
-    const documentationURL = "https://www.odoo.com/documentation/18.0";
+    const documentationURL = "https://www.xacent.com/documentation/18.0";
     return {
         type: "item",
         id: "documentation",
@@ -99,7 +99,7 @@ export function odooAccountItem(env) {
                     browser.open(url, "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://accounts.odoo.com/account", "_blank");
+                    browser.open("https://accounts.xacent.com/account", "_blank");
                 });
         },
         sequence: 60,

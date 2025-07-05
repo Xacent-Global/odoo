@@ -6,7 +6,7 @@
 # Nerijus, 2024
 # Arunas V. <arunas@devoro.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2024
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Monika Raciunaite <monika.raciunaite@gmail.com>, 2024

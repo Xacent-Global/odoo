@@ -1,7 +1,7 @@
 # Please note that this Dockerfile is used for testing nightly builds and should
 # not be used to deploy Odoo
 FROM ubuntu:noble
-MAINTAINER Application. <info@odoo.com>
+MAINTAINER Application. <info@xacent.com>
 
 RUN userdel -r ubuntu
 

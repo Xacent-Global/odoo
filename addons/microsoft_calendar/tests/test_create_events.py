@@ -100,7 +100,7 @@ class TestCreateEvents(TestCommon):
         # arrange
         outlook_event = self.simple_event_from_outlook_attendee
         outlook_event = dict(self.simple_event_from_outlook_attendee, organizer={
-            'emailAddress': {'address': "john.doe@odoo.com", 'name': "John Doe"},
+            'emailAddress': {'address': "john.doe@xacent.com", 'name': "John Doe"},
         })
         expected_event = dict(self.expected_odoo_event_from_outlook, user_id=False)
 
@@ -790,7 +790,7 @@ class TestSyncOdoo2MicrosoftMail(TestCommon, MailCommon):
             user = cls.env['res.users'].create({
                 'name': f'user{n}',
                 'login': f'user{n}',
-                'email': f'user{n}@odoo.com',
+                'email': f'user{n}@xacent.com',
                 'microsoft_calendar_rtoken': f'abc{n}',
                 'microsoft_calendar_token': f'abc{n}',
                 'microsoft_calendar_token_validity': datetime(9999, 12, 31),

@@ -1,7 +1,7 @@
 # Translation of Platform Server.
 # This file contains the translation of the following modules:
 # 	* l10n_ua
-# sovi-odoo <sovi@odoo.com>, 2024.
+# sovi-odoo <sovi@xacent.com>, 2024.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-09 13:12+0000\n"
 "PO-Revision-Date: 2024-04-09 15:26+0200\n"
-"Last-Translator: sovi-odoo <sovi@odoo.com>\n"
+"Last-Translator: sovi-odoo <sovi@xacent.com>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"

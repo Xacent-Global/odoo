@@ -88,7 +88,7 @@ export class UpdateDialog extends Component {
             <t t-set-slot="header">
                 <div>
                     Update
-                    <a href="https://www.odoo.com/documentation/18.0/applications/general/iot/config/updating_iot.html" class="fa fa-question-circle text-decoration-none text-dark" target="_blank"></a>
+                    <a href="https://www.xacent.com/documentation/18.0/applications/general/iot/config/updating_iot.html" class="fa fa-question-circle text-decoration-none text-dark" target="_blank"></a>
                 </div>
             </t>
             <t t-set-slot="body">
@@ -106,12 +106,12 @@ export class UpdateDialog extends Component {
                     </div>
                     <div t-else="" class="alert alert-warning small mb-0">
                         A new version of the operating system is available, see:
-                        <a href="https://www.odoo.com/documentation/18.0/applications/general/iot/config/updating_iot.html#flashing-the-sd-card-on-iot-box" target="_blank" class="alert-link">
+                        <a href="https://www.xacent.com/documentation/18.0/applications/general/iot/config/updating_iot.html#flashing-the-sd-card-on-iot-box" target="_blank" class="alert-link">
                             Flashing the SD Card on IoT Box
                         </a>
                     </div>
                     <div t-if="this.store.dev" class="alert alert-light small">
-                        <a href="https://nightly.odoo.com/master/iotbox/" target="_blank" class="alert-link">
+                        <a href="https://nightly.xacent.com/master/iotbox/" target="_blank" class="alert-link">
                             Current: <t t-esc="this.store.base.version"/>
                         </a>
                     </div>

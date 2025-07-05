@@ -9,7 +9,7 @@
 # Ивайло Малинов <iv.malinov@gmail.com>, 2024
 # Maria Boyadjieva <marabo2000@gmail.com>, 2024
 # Rosen Vladimirov <vladimirov.rosen@gmail.com>, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Petko Karamotchev, 2024
 # Martin Dinovski, 2025
 # 

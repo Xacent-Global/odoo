@@ -3,7 +3,7 @@
 # 	* l10n_eg_edi_eta
 #
 # Translators:
-# Eloïse Stilmant <est@odoo.com>, 2022
+# Eloïse Stilmant <est@xacent.com>, 2022
 # Martin Trigaux, 2022
 # Chaplet34 <charleskolie2@gmail.com>, 2022
 # jb78180 <jblum66@gmail.com>, 2022

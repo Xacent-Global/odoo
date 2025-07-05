@@ -5198,8 +5198,8 @@ msgstr "np. bilet VIP"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@odoo.com"
-msgstr "events@odoo.com"
+msgid "events@xacent.com"
+msgstr "events@xacent.com"
 
 #. module: event
 #: model_terms:event.event,description:event.event_7

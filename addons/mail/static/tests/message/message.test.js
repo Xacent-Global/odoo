@@ -348,11 +348,11 @@ test("Update the link previews when a message is edited", async () => {
     await openDiscuss(channelId);
     await click(".o-mail-Message [title='Expand']");
     await click(".o-mail-Message-moreMenu [title='Edit']");
-    await insertText(".o-mail-Message .o-mail-Composer-input", "http://odoo.com", {
+    await insertText(".o-mail-Message .o-mail-Composer-input", "http://xacent.com", {
         replace: true,
     });
     await click(".o-mail-Message a", { text: "save" });
-    await contains(".o-mail-Message-body", { text: "http://odoo.com" });
+    await contains(".o-mail-Message-body", { text: "http://xacent.com" });
     await assertSteps(["link_preview"]);
 });
 
@@ -410,7 +410,7 @@ test("mentions are kept when editing message", async () => {
 test("can add new mentions when editing message", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@odoo.com",
+        email: "testpartner@xacent.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -1152,7 +1152,7 @@ test("not highlighting the message if not mentioning the current user inside the
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
         display_name: "testPartner",
-        email: "testPartner@odoo.com",
+        email: "testPartner@xacent.com",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });
     const channelId = pyEnv["discuss.channel"].create({
@@ -1455,7 +1455,7 @@ test("Chat with partner should be opened after clicking on their mention", async
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
         name: "Test Partner",
-        email: "testpartner@odoo.com",
+        email: "testpartner@xacent.com",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });
     await start();

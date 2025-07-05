@@ -13,11 +13,11 @@ Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
-Vendor: Platform. <info@odoo.com>
+Vendor: Platform. <info@xacent.com>
 Requires: sassc
 BuildRequires: python3-devel
 BuildRequires: pyproject-rpm-macros
-Url: https://www.odoo.com
+Url: https://www.xacent.com
 
 %description
 Platform is a complete ERP and CRM. The main features are accounting (analytic

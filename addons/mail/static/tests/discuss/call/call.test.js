@@ -523,7 +523,7 @@ test("should also invite to the call when inviting to the channel", async () => 
     mockGetMedia();
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@odoo.com",
+        email: "testpartner@xacent.com",
         name: "TestPartner",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });

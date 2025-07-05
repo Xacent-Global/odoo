@@ -17,14 +17,14 @@ describe.current.tags("headless");
 
 test("escape", () => {
     expect(escape("<a>this is a link</a>")).toBe("&lt;a&gt;this is a link&lt;/a&gt;");
-    expect(escape(`<a href="https://www.odoo.com">odoo<a>`)).toBe(
-        `&lt;a href=&quot;https://www.odoo.com&quot;&gt;odoo&lt;a&gt;`
+    expect(escape(`<a href="https://www.xacent.com">odoo<a>`)).toBe(
+        `&lt;a href=&quot;https://www.xacent.com&quot;&gt;odoo&lt;a&gt;`
     );
-    expect(escape(`<a href='https://www.odoo.com'>odoo<a>`)).toBe(
-        `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;odoo&lt;a&gt;`
+    expect(escape(`<a href='https://www.xacent.com'>odoo<a>`)).toBe(
+        `&lt;a href=&#x27;https://www.xacent.com&#x27;&gt;odoo&lt;a&gt;`
     );
-    expect(escape("<a href='https://www.odoo.com'>Platform`s website<a>")).toBe(
-        `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;Platform&#x60;s website&lt;a&gt;`
+    expect(escape("<a href='https://www.xacent.com'>Platform`s website<a>")).toBe(
+        `&lt;a href=&#x27;https://www.xacent.com&#x27;&gt;Platform&#x60;s website&lt;a&gt;`
     );
 });
 
@@ -120,10 +120,10 @@ test("isEmail", () => {
     expect(isEmail("")).toBe(false);
     expect(isEmail("test")).toBe(false);
     expect(isEmail("test@odoo")).toBe(false);
-    expect(isEmail("test@odoo@odoo.com")).toBe(false);
-    expect(isEmail("te st@odoo.com")).toBe(false);
+    expect(isEmail("test@odoo@xacent.com")).toBe(false);
+    expect(isEmail("te st@xacent.com")).toBe(false);
 
-    expect(isEmail("test@odoo.com")).toBe(true);
+    expect(isEmail("test@xacent.com")).toBe(true);
 });
 
 test("isNumeric", () => {

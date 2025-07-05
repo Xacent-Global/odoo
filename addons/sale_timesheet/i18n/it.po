@@ -3,7 +3,7 @@
 # 	* sale_timesheet
 # 
 # Translators:
-# Léonie Bouchat <lbo@odoo.com>, 2024
+# Léonie Bouchat <lbo@xacent.com>, 2024
 # Wil Platform, 2024
 # Marianna Ciofani, 2025
 # 

@@ -9,7 +9,7 @@
 # Antti Oksman <antti.oksman@web-veistamo.fi>, 2024
 # Kari Lindgren <karisatu@gmail.com>, 2024
 # Teemu Ahonen <teemu.ahonen@web-veistamo.fi>, 2024
-# Richard Mouthier (RMO) <rmo@odoo.com>, 2024
+# Richard Mouthier (RMO) <rmo@xacent.com>, 2024
 # Mikko Salmela <salmemik@gmail.com>, 2024
 # Simo Suurla <simo@suurla.fi>, 2024
 # Jenni Heikkilä <jenni.heikkila@sv-oy.fi>, 2024

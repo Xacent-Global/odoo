@@ -1,7 +1,7 @@
 # Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Kenya - Accounting',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/kenya.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/kenya.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ke'],
     'version': '1.0',

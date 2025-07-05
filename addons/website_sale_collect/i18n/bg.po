@@ -10,7 +10,7 @@
 # Albena Mincheva <albena_vicheva@abv.bg>, 2024
 # Ivan Ivanov, 2024
 # Ивайло Малинов <iv.malinov@gmail.com>, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Martin Trigaux, 2024
 # Igor Sheludko <igor.sheludko@gmail.com>, 2024
 # Veselina Slavkova, 2024

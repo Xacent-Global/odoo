@@ -1040,9 +1040,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
-"An unexpected error occurred. Submit a support ticket at odoo.com/help."
+"An unexpected error occurred. Submit a support ticket at xacent.com/help."
 msgstr ""
-"Đã xảy ra lỗi không mong muốn. Hãy gửi phiếu hỗ trợ tại odoo.com/help."
+"Đã xảy ra lỗi không mong muốn. Hãy gửi phiếu hỗ trợ tại xacent.com/help."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11626,8 +11626,8 @@ msgstr "VD: 'Nhãn liên kết'"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
-msgid "e.g. 'http://www.odoo.com'"
-msgstr "VD: 'http://www.odoo.com'"
+msgid "e.g. 'http://www.xacent.com'"
+msgstr "VD: 'http://www.xacent.com'"
 
 #. module: spreadsheet
 #. odoo-javascript

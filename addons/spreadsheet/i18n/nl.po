@@ -1072,10 +1072,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
-"An unexpected error occurred. Submit a support ticket at odoo.com/help."
+"An unexpected error occurred. Submit a support ticket at xacent.com/help."
 msgstr ""
 "Er is een onverwachte fout opgetreden. Dien een ondersteuningsticket in bij "
-"odoo.com/help."
+"xacent.com/help."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11928,8 +11928,8 @@ msgstr "bijvoorbeeld \"Link label\""
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
-msgid "e.g. 'http://www.odoo.com'"
-msgstr "bijv. \"http://www.odoo.com"
+msgid "e.g. 'http://www.xacent.com'"
+msgstr "bijv. \"http://www.xacent.com"
 
 #. module: spreadsheet
 #. odoo-javascript

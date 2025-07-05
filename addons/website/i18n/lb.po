@@ -3,7 +3,7 @@
 # 	* website
 #
 # Translators:
-# Xavier ALT <xal@odoo.com>, 2019
+# Xavier ALT <xal@xacent.com>, 2019
 #
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Last-Translator: Xavier ALT <xal@odoo.com>, 2019\n"
+"Last-Translator: Xavier ALT <xal@xacent.com>, 2019\n"
 "Language-Team: Luxembourgish (https://www.transifex.com/odoo/teams/41243/lb/)\n"
 "Language: lb\n"
 "MIME-Version: 1.0\n"
@@ -10539,7 +10539,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "https://www.odoo.com"
+msgid "https://www.xacent.com"
 msgstr ""
 
 #. module: website

@@ -5,7 +5,7 @@
 # Translators:
 # Tiffany Chang, 2024
 # Wil Platform, 2024
-# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2024
+# Patricia Gutiérrez Capetillo <pagc@xacent.com>, 2024
 # Fernanda Alvarez, 2025
 # 
 msgid ""

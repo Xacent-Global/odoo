@@ -64,7 +64,7 @@ registry.category("web_tour.tours").add('shop_checkout_address_create_partner', 
             run: function () {
                 $('input[name="name"]').val('abc');
                 $('input[name="phone"]').val('99999999');
-                $('input[name="email"]').val('abc@odoo.com');
+                $('input[name="email"]').val('abc@xacent.com');
                 $('input[name="vat"]').val('IT12345670017');
                 $('input[name="street"]').val('SO1 Billing Street, 33');
                 $('input[name="city"]').val('SO1BillingCity');

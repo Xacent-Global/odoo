@@ -15747,10 +15747,10 @@ msgstr "Không thể vào sổ bút toán vì lý do sau: %(error_message)s"
 #: model:ir.model.fields,help:account.field_account_journal__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "Tên của bí danh email, ví dụ: 'jobs' nếu bạn muốn nhận email gửi đến địa chỉ"
-" <jobs@example.odoo.com>"
+" <jobs@example.xacent.com>"
 
 #. module: account
 #. odoo-python
@@ -19050,8 +19050,8 @@ msgstr "ví dụ. Công ty của tôi"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
-msgid "e.g. https://www.odoo.com"
-msgstr "vd: https://www.odoo.com"
+msgid "e.g. https://www.xacent.com"
+msgstr "vd: https://www.xacent.com"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form

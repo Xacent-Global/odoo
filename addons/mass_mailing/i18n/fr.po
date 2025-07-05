@@ -5,7 +5,7 @@
 # Translators:
 # Wil Platform, 2024
 # Jolien De Paepe, 2024
-# Jonathan Quique <jqu@odoo.com>, 2024
+# Jonathan Quique <jqu@xacent.com>, 2024
 # Manon Rondou, 2025
 # 
 msgid ""

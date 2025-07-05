@@ -6,7 +6,7 @@
 # Mustafa Rawi <mustafa@mrawi.com>, 2024
 # Tiffany Chang, 2024
 # Martin Trigaux, 2024
-# Malaz Abuidris <msea@odoo.com>, 2025
+# Malaz Abuidris <msea@xacent.com>, 2025
 # Wil Platform, 2025
 # 
 msgid ""
@@ -1024,8 +1024,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
-"An unexpected error occurred. Submit a support ticket at odoo.com/help."
-msgstr "حدث خطأ غير متوقع. قم بتقديم تذكرة دعم على odoo.com/help. "
+"An unexpected error occurred. Submit a support ticket at xacent.com/help."
+msgstr "حدث خطأ غير متوقع. قم بتقديم تذكرة دعم على xacent.com/help. "
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11588,8 +11588,8 @@ msgstr "مثال: 'عنوان الرابط' "
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
-msgid "e.g. 'http://www.odoo.com'"
-msgstr "مثال: 'http://www.odoo.com' "
+msgid "e.g. 'http://www.xacent.com'"
+msgstr "مثال: 'http://www.xacent.com' "
 
 #. module: spreadsheet
 #. odoo-javascript

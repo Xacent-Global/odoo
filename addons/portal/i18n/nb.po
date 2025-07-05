@@ -6,7 +6,7 @@
 # Natalia Myronets, 2024
 # Mads Søndergaard, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Henning Fyllingsnes, 2024
 # Aleksander, 2024
 # Jorunn D. Newth, 2024
@@ -225,7 +225,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Platform</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.xacent.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Platform</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"

@@ -14,7 +14,7 @@
 # Edgaras Kriukonis <edgaras@focusate.eu>, 2024
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
 # Arunas V. <arunas@devoro.com>, 2024
 # Antanas Muliuolis <an.muliuolis@gmail.com>, 2024
@@ -1512,10 +1512,10 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "El. pašto pseudonimo pavadinimas, pvz. \"darbai\", jei norite gauti "
-"<darbai@pavyzdys.odoo.com>"
+"<darbai@pavyzdys.xacent.com>"
 
 #. module: maintenance
 #: model:res.groups,comment:maintenance.group_equipment_manager

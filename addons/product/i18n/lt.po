@@ -21,7 +21,7 @@
 # Silvija Butko <silvija.butko@gmail.com>, 2024
 # Arunas V. <arunas@devoro.com>, 2024
 # Martin Trigaux, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Gailius Kazlauskas <gailius@vialaurea.lt>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
@@ -2385,7 +2385,7 @@ msgstr ""
 #: code:addons/product/models/product_document.py:0
 msgid ""
 "Please enter a valid URL.\n"
-"Example: https://www.odoo.com\n"
+"Example: https://www.xacent.com\n"
 "\n"
 "Invalid URL: %s"
 msgstr ""

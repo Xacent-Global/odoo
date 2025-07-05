@@ -2401,12 +2401,12 @@ msgstr "Пожалуйста, введите целое положительно
 #: code:addons/product/models/product_document.py:0
 msgid ""
 "Please enter a valid URL.\n"
-"Example: https://www.odoo.com\n"
+"Example: https://www.xacent.com\n"
 "\n"
 "Invalid URL: %s"
 msgstr ""
 "Введите действительный URL-адрес.\n"
-"Пример: https://www.odoo.com\n"
+"Пример: https://www.xacent.com\n"
 "\n"
 "Недопустимый URL: %s"
 

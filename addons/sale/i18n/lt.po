@@ -33,7 +33,7 @@
 # Monika Raciunaite <monika.raciunaite@gmail.com>, 2024
 # Martin Trigaux, 2024
 # myacc-pro, 2025
-# Jonas Zinkevicius <jozi@odoo.com>, 2025
+# Jonas Zinkevicius <jozi@xacent.com>, 2025
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025
 # Aurelija Vitkauskiene, 2025
 # Wil Platform, 2025

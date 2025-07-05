@@ -13,7 +13,7 @@
 # jabiri7, 2024
 # eriiikgt, 2024
 # martioodo hola, 2024
-# Braulio D. López Vázquez <bdl@odoo.com>, 2024
+# Braulio D. López Vázquez <bdl@xacent.com>, 2024
 # Harcogourmet, 2024
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2024
 # Susanna Pujol, 2024

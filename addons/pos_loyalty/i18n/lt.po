@@ -9,7 +9,7 @@
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
 # Silvija Butko <silvija.butko@gmail.com>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2024
 # Renatas RM Tools, 2024
 # 

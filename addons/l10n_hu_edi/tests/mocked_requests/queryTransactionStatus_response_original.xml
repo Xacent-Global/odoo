@@ -18,7 +18,7 @@
         <ns2:softwareOperation>ONLINE_SERVICE</ns2:softwareOperation>
         <ns2:softwareMainVersion>17.0+e</ns2:softwareMainVersion>
         <ns2:softwareDevName>Platform SA</ns2:softwareDevName>
-        <ns2:softwareDevContact>andu@odoo.com</ns2:softwareDevContact>
+        <ns2:softwareDevContact>andu@xacent.com</ns2:softwareDevContact>
         <ns2:softwareDevCountryCode>BE</ns2:softwareDevCountryCode>
         <ns2:softwareDevTaxNumber>477472701</ns2:softwareDevTaxNumber>
     </ns2:software>

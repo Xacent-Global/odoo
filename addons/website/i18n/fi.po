@@ -10,7 +10,7 @@
 # Jenni Heikkilä <jenni.heikkila@sv-oy.fi>, 2024
 # Jussi Lehto <jussi@gulfeo.com>, 2024
 # Retropikzel, 2024
-# Richard Mouthier (RMO) <rmo@odoo.com>, 2024
+# Richard Mouthier (RMO) <rmo@xacent.com>, 2024
 # Karoliina Nisula <karoliina.nisula@tawasta.fi>, 2024
 # Kimmo Lehtonen <leban@netzionale.com>, 2024
 # Anni Saarelainen, 2024
@@ -17354,8 +17354,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.xacent.com"
+msgstr "https://www.xacent.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu

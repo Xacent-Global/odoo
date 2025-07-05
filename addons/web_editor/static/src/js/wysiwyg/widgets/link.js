@@ -300,7 +300,7 @@ export class Link extends Component {
             // its Platform instance domain. We just suppose it should be a relative
             // URL (if unexpected behavior, the user can just not enter its Platform
             // instance domain but its real domain, or opt-out from the domain
-            // stripping). Mentioning an .odoo.com domain, especially its own
+            // stripping). Mentioning an .xacent.com domain, especially its own
             // one, is always a bad practice anyway.
             || new RegExp(`^https?://${session.db}\\.odoo\\.com(/.*)?$`).test(urlObj.origin);
     }

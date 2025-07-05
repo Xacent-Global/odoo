@@ -103,10 +103,10 @@ patch(LinkTools.prototype, {
             return false;
         }
 
-        // Make sure that while being on abc.odoo.com, if you edit a link and
+        // Make sure that while being on abc.xacent.com, if you edit a link and
         // enter an absolute URL using your real domain, it is still considered
         // to be added as relative, preferably.
-        // In the past, you could not edit your website from abc.odoo.com if you
+        // In the past, you could not edit your website from abc.xacent.com if you
         // properly configured your real domain already.
         let origin;
         try { // Needed: "http:" would crash

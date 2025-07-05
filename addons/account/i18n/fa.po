@@ -15539,10 +15539,10 @@ msgstr "سند حسابداری به دلایل زیر قابل ثبت نیست:
 #: model:ir.model.fields,help:account.field_account_journal__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "نام مستعار ایمیل، به عنوان مثال 'jobs'. اگر می خواهید ایمیل های "
-"<jobs@example.odoo.com> را دریافت کنید"
+"<jobs@example.xacent.com> را دریافت کنید"
 
 #. module: account
 #. odoo-python
@@ -18760,8 +18760,8 @@ msgstr "به عنوان مثال شرکت من"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
-msgid "e.g. https://www.odoo.com"
-msgstr "مثلا https://www.odoo.com"
+msgid "e.g. https://www.xacent.com"
+msgstr "مثلا https://www.xacent.com"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form

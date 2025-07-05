@@ -1350,9 +1350,9 @@ msgstr ""
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
-"Eposta rumuzunun adı, ör. <kariyer@example.odoo.com> adresine gelen "
+"Eposta rumuzunun adı, ör. <kariyer@example.xacent.com> adresine gelen "
 "epostaları yakalamak için 'kariyer'"
 
 #. module: mail_group

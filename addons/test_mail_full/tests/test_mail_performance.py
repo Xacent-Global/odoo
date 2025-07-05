@@ -157,7 +157,7 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
                 'email_from': record.customer_id.email_formatted,
                 'link_preview_ids': [
                     (0, 0, {
-                        'source_url': 'https://www.odoo.com',
+                        'source_url': 'https://www.xacent.com',
                     }), (0, 0, {
                         'source_url': 'https://www.example.com',
                     }),
@@ -183,7 +183,7 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
                 ],
                 'reaction_ids': [
                     (0, 0, {
-                        'content': 'https://www.odoo.com',
+                        'content': 'https://www.xacent.com',
                         'partner_id': cls.customers[(msg_idx * 2) + 1].id
                     }), (0, 0, {
                         'content': 'https://www.example.com',

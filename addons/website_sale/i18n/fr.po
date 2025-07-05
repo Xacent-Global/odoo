@@ -3,7 +3,7 @@
 # 	* website_sale
 # 
 # Translators:
-# Fred Gilson <fgi@odoo.com>, 2024
+# Fred Gilson <fgi@xacent.com>, 2024
 # Jolien De Paepe, 2024
 # Wil Platform, 2025
 # Manon Rondou, 2025

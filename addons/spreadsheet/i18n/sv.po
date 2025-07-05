@@ -1064,9 +1064,9 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
-"An unexpected error occurred. Submit a support ticket at odoo.com/help."
+"An unexpected error occurred. Submit a support ticket at xacent.com/help."
 msgstr ""
-"Ett oväntat fel har inträffat. Skicka in ett supportärende på odoo.com/help."
+"Ett oväntat fel har inträffat. Skicka in ett supportärende på xacent.com/help."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11794,8 +11794,8 @@ msgstr "t.ex. \"Etikett för länk"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
-msgid "e.g. 'http://www.odoo.com'"
-msgstr "t.ex. \"http://www.odoo.com"
+msgid "e.g. 'http://www.xacent.com'"
+msgstr "t.ex. \"http://www.xacent.com"
 
 #. module: spreadsheet
 #. odoo-javascript

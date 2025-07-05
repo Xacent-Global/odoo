@@ -15349,8 +15349,8 @@ msgstr "다음과 같은 이유로 작업을 발행할 수 없습니다: %(error
 #: model:ir.model.fields,help:account.field_account_journal__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "<jobs@example.odoo.com>로 오는 이메일을 받으려면 이메일 별칭명을 적어주세요 (예: 'jobs')."
+"<jobs@example.xacent.com>"
+msgstr "<jobs@example.xacent.com>로 오는 이메일을 받으려면 이메일 별칭명을 적어주세요 (예: 'jobs')."
 
 #. module: account
 #. odoo-python
@@ -18418,8 +18418,8 @@ msgstr "예: 회사명"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
-msgid "e.g. https://www.odoo.com"
-msgstr "예: https://www.odoo.com"
+msgid "e.g. https://www.xacent.com"
+msgstr "예: https://www.xacent.com"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form

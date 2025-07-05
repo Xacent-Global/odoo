@@ -7,7 +7,7 @@
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
 # Nerijus, 2024
 # Andrius Laukavičius <andrius@focusate.eu>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2024
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2024

@@ -3,7 +3,7 @@
 # 	* l10n_be
 #
 # Translators:
-# Cécile Collart <cco@odoo.com>, 2023
+# Cécile Collart <cco@xacent.com>, 2023
 # Rémi CAZENAVE, 2023
 # Lixon Jean-Yves <jy.lixon@ls-development.com>, 2023
 # Martin Trigaux, 2023

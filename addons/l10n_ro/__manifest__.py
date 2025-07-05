@@ -1,7 +1,7 @@
 # Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Romania - Accounting',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/romania.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/romania.html',
     'author': 'Fekete Mihai (NextERP Romania SRL), Platform.',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ro'],

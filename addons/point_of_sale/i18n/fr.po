@@ -6,7 +6,7 @@
 # Martin Trigaux, 2024
 # Jolien De Paepe, 2024
 # Tiffany Chang, 2024
-# Adrien Dieudonné <adr@odoo.com>, 2025
+# Adrien Dieudonné <adr@xacent.com>, 2025
 # Wil Platform, 2025
 # Manon Rondou, 2025
 # 

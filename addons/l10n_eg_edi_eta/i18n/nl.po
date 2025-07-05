@@ -3,7 +3,7 @@
 # 	* l10n_eg_edi_eta
 #
 # Translators:
-# Lukas Van Cauter <cvl@odoo.com>, 2022
+# Lukas Van Cauter <cvl@xacent.com>, 2022
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Jolien De Paepe, 2022

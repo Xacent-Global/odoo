@@ -5,7 +5,7 @@
 # Translators:
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # Eimantas <eimantas@focusate.eu>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Mantas, 2024
 # Gailius Kazlauskas <gailius@vialaurea.lt>, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024

@@ -14,7 +14,7 @@
 # Arxi, 2025
 # Manuela Silva <mmsrs@sky.com>, 2025
 # Rita Bastos, 2025
-# Camille Dantinne <cmd@odoo.com>, 2025
+# Camille Dantinne <cmd@xacent.com>, 2025
 # J Ponte, 2025
 # Wil Platform, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025

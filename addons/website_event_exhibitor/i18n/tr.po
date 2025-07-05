@@ -1123,8 +1123,8 @@ msgstr "örn. : OpenWood Dekorasyon"
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form
-msgid "e.g. : https://www.odoo.com"
-msgstr "örn. : https://www.odoo.com"
+msgid "e.g. : https://www.xacent.com"
+msgstr "örn. : https://www.xacent.com"
 
 #. module: website_event_exhibitor
 #: model_terms:ir.ui.view,arch_db:website_event_exhibitor.event_sponsor_view_form

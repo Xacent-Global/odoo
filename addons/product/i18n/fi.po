@@ -30,7 +30,7 @@
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2024
 # Svante <svante@svante.fi>, 2024
 # Antti Oksman <antti.oksman@web-veistamo.fi>, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Jessica Jakara, 2024
 # Martin Trigaux, 2024
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
@@ -2453,12 +2453,12 @@ msgstr "Kirjoita positiivinen kokonaisluku."
 #: code:addons/product/models/product_document.py:0
 msgid ""
 "Please enter a valid URL.\n"
-"Example: https://www.odoo.com\n"
+"Example: https://www.xacent.com\n"
 "\n"
 "Invalid URL: %s"
 msgstr ""
 "Kirjoita kelvollinen URL-osoite.\n"
-"Esimerkki: https://www.odoo.com\n"
+"Esimerkki: https://www.xacent.com\n"
 "\n"
 "Virheellinen URL-osoite: %s"
 

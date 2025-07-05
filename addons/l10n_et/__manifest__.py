@@ -16,7 +16,7 @@ This is the latest Ethiopian Platform localization and consists of:
     - Regional State listings
     """,
     'author': 'Michael Telahun Makonnen <mmakonnen@gmail.com>',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],

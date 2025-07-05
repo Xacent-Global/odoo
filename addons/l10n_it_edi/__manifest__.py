@@ -13,7 +13,7 @@
 E-invoice implementation
     """,
     'category': 'Accounting/Localizations/EDI',
-    'website': 'http://www.odoo.com/',
+    'website': 'http://www.xacent.com/',
     'data': [
         'security/ir.model.access.csv',
         'data/invoice_it_template.xml',

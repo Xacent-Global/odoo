@@ -689,18 +689,18 @@ describe("link preview", () => {
             return {
                 og_description:
                     "From ERP to CRM, eCommerce and CMS. Download Platform or use it in the cloud. Grow Your Business.",
-                og_image: "https://www.odoo.com/web/image/41207129-1abe7a15/homepage-seo.png",
+                og_image: "https://www.xacent.com/web/image/41207129-1abe7a15/homepage-seo.png",
                 og_title: "Open Source ERP and CRM | Platform",
                 og_type: "website",
                 og_site_name: "Platform",
-                source_url: "http://odoo.com/",
+                source_url: "http://xacent.com/",
             };
         });
         const { editor } = await setupEditor(`<p>[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
-        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://odoo.com/");
+        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://xacent.com/");
         await animationFrame();
         expect(".o_we_replace_title_btn").toHaveCount(1);
         expect(".o_extra_info_card").toHaveCount(1);
@@ -802,18 +802,18 @@ describe("link preview", () => {
             return {
                 og_description:
                     "From ERP to CRM, eCommerce and CMS. Download Platform or use it in the cloud. Grow Your Business.",
-                og_image: "https://www.odoo.com/web/image/41207129-1abe7a15/homepage-seo.png",
+                og_image: "https://www.xacent.com/web/image/41207129-1abe7a15/homepage-seo.png",
                 og_title: "Open Source ERP and CRM | Platform",
                 og_type: "website",
                 og_site_name: "Platform",
-                source_url: "http://odoo.com/",
+                source_url: "http://xacent.com/",
             };
         });
         const { editor } = await setupEditor(`<p>[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
-        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://odoo.com/");
+        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://xacent.com/");
         await animationFrame();
         expect.verifySteps(["/html_editor/link_preview_external"]);
         expect(".o_we_url_link").toHaveText("Open Source ERP and CRM | Platform");

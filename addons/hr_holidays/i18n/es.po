@@ -3,7 +3,7 @@
 # 	* hr_holidays
 # 
 # Translators:
-# Jon Perez <jop@odoo.com>, 2024
+# Jon Perez <jop@xacent.com>, 2024
 # Wil Platform, 2024
 # Larissa Manderfeld, 2025
 # 

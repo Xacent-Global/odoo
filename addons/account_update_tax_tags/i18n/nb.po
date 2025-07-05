@@ -3,7 +3,7 @@
 # 	* account_update_tax_tags
 # 
 # Translators:
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Marius Stedjan <marius@stedjan.com>, 2024

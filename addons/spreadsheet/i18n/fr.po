@@ -4,11 +4,11 @@
 # 
 # Translators:
 # Olivier ANDRE <frsw194@gmail.com>, 2024
-# Nathan Grognet <ngr@odoo.com>, 2024
+# Nathan Grognet <ngr@xacent.com>, 2024
 # Tiffany Chang, 2024
 # Jolien De Paepe, 2024
 # Martin Trigaux, 2024
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Manon Rondou, 2025
 # Wil Platform, 2025
 # 
@@ -1094,10 +1094,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
-"An unexpected error occurred. Submit a support ticket at odoo.com/help."
+"An unexpected error occurred. Submit a support ticket at xacent.com/help."
 msgstr ""
 "Une erreur inattendue s'est produite. Soumettez un ticket d'assistance via "
-"odoo.com/help."
+"xacent.com/help."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11941,8 +11941,8 @@ msgstr "par ex. 'Étiquette du lien'"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
-msgid "e.g. 'http://www.odoo.com'"
-msgstr "par ex. 'http://www.odoo.com'"
+msgid "e.g. 'http://www.xacent.com'"
+msgstr "par ex. 'http://www.xacent.com'"
 
 #. module: spreadsheet
 #. odoo-javascript

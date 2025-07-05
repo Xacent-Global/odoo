@@ -3,7 +3,7 @@
 # 	* hr_holidays_attendance
 # 
 # Translators:
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Martin Trigaux, 2024
 # Rune Restad, 2024
 # 

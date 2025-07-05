@@ -3,7 +3,7 @@
 # 	* pos_self_order
 # 
 # Translators:
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Boris Stefanov <borkata@gmail.com>, 2024
 # Igor Sheludko <igor.sheludko@gmail.com>, 2024
 # Elena Varbanova, 2024
@@ -1327,7 +1327,7 @@ msgstr ""
 
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
-msgid "https://odoo.com"
+msgid "https://xacent.com"
 msgstr ""
 
 #. module: pos_self_order

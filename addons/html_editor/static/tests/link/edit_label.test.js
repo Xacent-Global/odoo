@@ -119,9 +119,9 @@ describe("range collapsed", () => {
             stepFunction: async (editor) => {
                 await animationFrame();
                 await insertLineBreak(editor);
-                await insertText(editor, "odoo.com");
+                await insertText(editor, "xacent.com");
             },
-            contentAfter: '<p>a<a href="https://google.com">google.com</a><br>odoo.com[]b</p>',
+            contentAfter: '<p>a<a href="https://google.com">google.com</a><br>xacent.com[]b</p>',
         });
     });
 });

@@ -8,7 +8,7 @@
 # Igor Sheludko <igor.sheludko@gmail.com>, 2024
 # aleksandar ivanov, 2024
 # Maria Boyadjieva <marabo2000@gmail.com>, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Veselina Slavkova, 2024
 # 
 msgid ""

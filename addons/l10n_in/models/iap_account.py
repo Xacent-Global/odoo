@@ -3,8 +3,8 @@
 from odoo import api, models
 from odoo.addons.iap import jsonrpc
 
-DEFAULT_IAP_ENDPOINT = "https://l10n-in-edi.api.odoo.com"
-DEFAULT_IAP_TEST_ENDPOINT = "https://l10n-in-edi-demo.api.odoo.com"
+DEFAULT_IAP_ENDPOINT = "https://l10n-in-edi.api.xacent.com"
+DEFAULT_IAP_TEST_ENDPOINT = "https://l10n-in-edi-demo.api.xacent.com"
 IAP_SERVICE_NAME = 'l10n_in_edi'
 
 

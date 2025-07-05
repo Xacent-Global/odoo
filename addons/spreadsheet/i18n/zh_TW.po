@@ -987,7 +987,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
-"An unexpected error occurred. Submit a support ticket at odoo.com/help."
+"An unexpected error occurred. Submit a support ticket at xacent.com/help."
 msgstr "發生意外錯誤。請在odoo.com/help提交技術支援請求。"
 
 #. module: spreadsheet
@@ -11312,8 +11312,8 @@ msgstr "例：連結標籤"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
-msgid "e.g. 'http://www.odoo.com'"
-msgstr "例：http://www.odoo.com"
+msgid "e.g. 'http://www.xacent.com'"
+msgstr "例：http://www.xacent.com"
 
 #. module: spreadsheet
 #. odoo-javascript

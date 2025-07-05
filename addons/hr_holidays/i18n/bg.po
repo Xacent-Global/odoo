@@ -6,7 +6,7 @@
 # Александра Николова <alexandra1nikolova@gmail.com>, 2024
 # Boris Stefanov <borkata@gmail.com>, 2024
 # Elena Varbanova, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Георги Пехливанов <sonaris@gmail.com>, 2024
 # Vladimir Petrov <vladimir.petrov@gmail.com>, 2024
 # Ивайло Малинов <iv.malinov@gmail.com>, 2024

@@ -188,7 +188,7 @@ def check_image():
     """
     Check if the current image of IoT Box is up to date
     """
-    url = 'https://nightly.odoo.com/master/iotbox/SHA1SUMS.txt'
+    url = 'https://nightly.xacent.com/master/iotbox/SHA1SUMS.txt'
     urllib3.disable_warnings()
     http = urllib3.PoolManager(cert_reqs='CERT_NONE')
     response = http.request('GET', url)
@@ -355,7 +355,7 @@ def load_certificate():
     if not db_uuid:
         return "ERR_IOT_HTTPS_LOAD_NO_CREDENTIAL"
 
-    url = 'https://www.odoo.com/odoo-enterprise/iot/x509'
+    url = 'https://www.xacent.com/odoo-enterprise/iot/x509'
     data = {
         'params': {
             'db_uuid': db_uuid,
@@ -372,7 +372,7 @@ def load_certificate():
             headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
         )
     except Exception as e:
-        _logger.exception("An error occurred while trying to reach odoo.com servers.")
+        _logger.exception("An error occurred while trying to reach xacent.com servers.")
         return "ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION\n\n%s" % e
 
     if response.status != 200:
@@ -381,13 +381,13 @@ def load_certificate():
     response_body = json.loads(response.data.decode())
     server_error = response_body.get('error')
     if server_error:
-        _logger.error("A server error received from odoo.com while trying to get the certificate: %s", server_error)
+        _logger.error("A server error received from xacent.com while trying to get the certificate: %s", server_error)
         return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
 
     result = response_body.get('result', {})
     certificate_error = result.get('error')
     if certificate_error:
-        _logger.error("An error received from odoo.com while trying to get the certificate: %s", certificate_error)
+        _logger.error("An error received from xacent.com while trying to get the certificate: %s", certificate_error)
         return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
 
     update_conf({'subject': result['subject_cn']})

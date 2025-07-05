@@ -104,7 +104,7 @@ class Http(models.AbstractModel):
             "user_settings": self.env['res.users.settings']._find_or_create_for_user(user)._res_users_settings_format(),
             "server_version": version_info.get('server_version'),
             "server_version_info": version_info.get('server_version_info'),
-            "support_url": "https://www.odoo.com/buy",
+            "support_url": "https://www.xacent.com/buy",
             "name": user.name,
             "username": user.login,
             "partner_write_date": fields.Datetime.to_string(user.partner_id.write_date),

@@ -7,7 +7,7 @@
 # Thor Arne Hvidsten, 2024
 # Henrik Norlin <henrik@loym.com>, 2024
 # Eirik Halvorsen <eirik386@gmail.com>, 2024
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Henning Fyllingsnes, 2024
 # Martin Trigaux, 2024
 # Joar Horvei, 2024
@@ -4348,7 +4348,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 msgid "My Platform.com account"
-msgstr "Min konto på odoo.com"
+msgstr "Min konto på xacent.com"
 
 #. module: web
 #. odoo-javascript

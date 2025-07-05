@@ -1,7 +1,7 @@
 # Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Indian - Accounting',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/india.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/india.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['in'],
     'version': '2.0',

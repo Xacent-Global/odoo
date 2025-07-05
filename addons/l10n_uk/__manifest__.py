@@ -13,7 +13,7 @@ This is the latest UK Platform localisation necessary to run Platform accounting
     - InfoLogic UK counties listing
     - a few other adaptations""",
     'author': 'SmartMode LTD',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/united_kingdom.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/united_kingdom.html',
     'depends': [
         'account',
         'base_iban',

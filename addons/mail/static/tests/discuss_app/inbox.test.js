@@ -50,7 +50,7 @@ test.tags("focus required");
 test("reply: discard on pressing escape", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartnert@odoo.com",
+        email: "testpartnert@xacent.com",
         name: "TestPartner",
     });
     const messageId = pyEnv["mail.message"].create({

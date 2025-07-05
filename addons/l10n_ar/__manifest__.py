@@ -1,7 +1,7 @@
 # Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Argentina - Accounting',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/argentina.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/argentina.html',
     'countries': ['ar'],
     'icon': '/base/static/img/country_flags/ar.png',
     'version': "3.7",

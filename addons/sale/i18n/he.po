@@ -23,7 +23,7 @@
 # Yihya Hugirat <hugirat@gmail.com>, 2024
 # Hed Shefer <hed@laylinetech.com>, 2024
 # Uri Segman, 2024
-# Camille Dantinne <cmd@odoo.com>, 2024
+# Camille Dantinne <cmd@xacent.com>, 2024
 # Yoram Lavi, 2024
 # Jonathan Spier, 2025
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2025

@@ -3,7 +3,7 @@
 # 	* loyalty
 # 
 # Translators:
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Anatolij, 2024
 # Naglis Jonaitis, 2024
 # Arunas V. <arunas@devoro.com>, 2024

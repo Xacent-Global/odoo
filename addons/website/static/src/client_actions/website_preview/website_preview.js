@@ -86,10 +86,10 @@ export class WebsitePreview extends Component {
                     // domain anymore in this case. We still do when using the
                     // website switcher, but not when reaching the "default"
                     // website. The goal is to better support users typing
-                    // mysupercompany.odoo.com explicitly to enter their
+                    // mysupercompany.xacent.com explicitly to enter their
                     // backend instead of mysupercompany.be.
                     // Bugs are to be expected while editing/using the website
-                    // mysupercompany.be from mysupercompany.odoo.com though,
+                    // mysupercompany.be from mysupercompany.xacent.com though,
                     // but it should be the case only in specific/advanced
                     // situations.
                     // TODO remove this code properly in master.

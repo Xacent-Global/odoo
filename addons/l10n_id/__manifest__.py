@@ -11,7 +11,7 @@ This is the latest Indonesian Platform localisation necessary to run Platform ac
     - generic Indonesian chart of accounts
     - tax structure""",
     'author': 'vitraining.com',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/indonesia.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations/indonesia.html',
     'depends': [
         'account',
         'base_iban',

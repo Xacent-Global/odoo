@@ -5,7 +5,7 @@
 # Translators:
 # Henning Fyllingsnes, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Lars Petter Lilleng, 2024
 # cecilieflyt, 2024
 # Joar Horvei, 2024
@@ -4553,10 +4553,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "Navnet på e-postaliaset, f.eks. 'jobber' hvis du vil fange e-poster for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 
 #. module: project
 #. odoo-python

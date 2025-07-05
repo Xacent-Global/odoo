@@ -10,7 +10,7 @@ from odoo.tools import is_html_empty
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap-services.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap-services.xacent.com'
 
 MAX_LEAD = 200
 

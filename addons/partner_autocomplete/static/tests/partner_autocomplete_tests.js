@@ -162,10 +162,10 @@ QUnit.module('partner_autocomplete', {
                     "zip": "1367",
                     "street": "Chaussée de Namur 40",
                     "street2": false,
-                    "email": "hello@odoo.com",
+                    "email": "hello@xacent.com",
                     "phone": "3281813700",
-                    "website": "www.odoo.com",
-                    "domain": "odoo.com",
+                    "website": "www.xacent.com",
+                    "domain": "xacent.com",
                     "country_id": {
                         "id": 1,
                         "name": "Belgium"

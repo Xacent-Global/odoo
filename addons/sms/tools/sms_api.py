@@ -32,7 +32,7 @@ ERROR_MESSAGES = {
 
 
 class SmsApi:
-    DEFAULT_ENDPOINT = 'https://sms.api.odoo.com'
+    DEFAULT_ENDPOINT = 'https://sms.api.xacent.com'
 
     def __init__(self, env, account=None):
         self.env = env

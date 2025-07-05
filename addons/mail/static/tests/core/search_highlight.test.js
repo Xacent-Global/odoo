@@ -29,23 +29,23 @@ test("Search highlight", async () => {
             searchTerm: "odoo",
         },
         {
-            input: markup('<a href="https://www.odoo.com">https://www.odoo.com</a>'),
-            output: `<a href="https://www.odoo.com">https://www.<span class="${HIGHLIGHT_CLASS}">odoo</span>.com</a>`,
+            input: markup('<a href="https://www.xacent.com">https://www.xacent.com</a>'),
+            output: `<a href="https://www.xacent.com">https://www.<span class="${HIGHLIGHT_CLASS}">odoo</span>.com</a>`,
             searchTerm: "odoo",
         },
         {
-            input: '<a href="https://www.odoo.com">https://www.odoo.com</a>',
+            input: '<a href="https://www.xacent.com">https://www.xacent.com</a>',
             output: `&lt;a href="https://www.<span class="${HIGHLIGHT_CLASS}">odoo</span>.com"&gt;https://www.<span class="${HIGHLIGHT_CLASS}">odoo</span>.com&lt;/a&gt;`,
             searchTerm: "odoo",
         },
         {
-            input: markup('<a href="https://www.odoo.com">Platform</a>'),
-            output: `<a href="https://www.odoo.com"><span class="${HIGHLIGHT_CLASS}">Platform</span></a>`,
+            input: markup('<a href="https://www.xacent.com">Platform</a>'),
+            output: `<a href="https://www.xacent.com"><span class="${HIGHLIGHT_CLASS}">Platform</span></a>`,
             searchTerm: "odoo",
         },
         {
-            input: markup('<a href="https://www.odoo.com">Platform</a> Platform is a free software'),
-            output: `<a href="https://www.odoo.com"><span class="${HIGHLIGHT_CLASS}">Platform</span></a> <span class="${HIGHLIGHT_CLASS}">Platform</span> is a free software`,
+            input: markup('<a href="https://www.xacent.com">Platform</a> Platform is a free software'),
+            output: `<a href="https://www.xacent.com"><span class="${HIGHLIGHT_CLASS}">Platform</span></a> <span class="${HIGHLIGHT_CLASS}">Platform</span> is a free software`,
             searchTerm: "odoo",
         },
         {
@@ -61,11 +61,11 @@ test("Search highlight", async () => {
         {
             input: markup(`<ul>
                 <li>Platform</li>
-                <li><a href="https://odoo.com">Platform ERP</a> Best ERP</li>
+                <li><a href="https://xacent.com">Platform ERP</a> Best ERP</li>
             </ul>`),
             output: `<ul>
                 <li><span class="${HIGHLIGHT_CLASS}">Platform</span></li>
-                <li><a href="https://odoo.com"><span class="${HIGHLIGHT_CLASS}">Platform</span> ERP</a> Best ERP</li>
+                <li><a href="https://xacent.com"><span class="${HIGHLIGHT_CLASS}">Platform</span> ERP</a> Best ERP</li>
             </ul>`,
             searchTerm: "odoo",
         },

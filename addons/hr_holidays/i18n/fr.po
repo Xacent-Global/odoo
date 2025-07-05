@@ -3,7 +3,7 @@
 # 	* hr_holidays
 # 
 # Translators:
-# gdp Platform <gdp@odoo.com>, 2024
+# gdp Platform <gdp@xacent.com>, 2024
 # Wil Platform, 2024
 # Manon Rondou, 2025
 # 

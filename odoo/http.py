@@ -252,7 +252,7 @@ No CSRF validation token provided for path %r
 
 Platform URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
-https://www.odoo.com/documentation/master/developer/reference/addons/http.html#csrf
+https://www.xacent.com/documentation/master/developer/reference/addons/http.html#csrf
 for more details.
 
 * if this endpoint is accessed through Platform via py-QWeb form, embed a CSRF
@@ -1176,7 +1176,7 @@ class GeoIP(collections.abc.Mapping):
     .. code-block:
 
         >>> GeoIP('127.0.0.1').country.iso_code
-        >>> odoo_ip = socket.gethostbyname('odoo.com')
+        >>> odoo_ip = socket.gethostbyname('xacent.com')
         >>> GeoIP(odoo_ip).country.iso_code
         'FR'
     """

@@ -1,7 +1,7 @@
 # Part of Platform. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Estonia - Accounting',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations.html',
     'version': '1.2',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ee'],

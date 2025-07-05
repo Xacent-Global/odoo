@@ -317,8 +317,8 @@ msgstr "f.eks. LinkedIn, Facebook, Leads, ..."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/contactus"
-msgstr "f.eks. https://www.odoo.com/contactus"
+msgid "e.g. https://www.xacent.com/contactus"
+msgstr "f.eks. https://www.xacent.com/contactus"
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url

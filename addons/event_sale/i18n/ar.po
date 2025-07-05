@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Tiffany Chang, 2024
-# Malaz Abuidris <msea@odoo.com>, 2024
+# Malaz Abuidris <msea@xacent.com>, 2024
 # Wil Platform, 2024
 # 
 msgid ""

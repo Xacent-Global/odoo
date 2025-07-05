@@ -73,7 +73,7 @@ en Platform):
 11010101 Caja General
     """,
     'author': 'Gustavo Valverde - iterativo | Consultores de Platform (http://iterativo.do)',
-    'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.xacent.com/documentation/master/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
         'base_iban',

@@ -9867,7 +9867,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_optional__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "Namnet på alias för e-post, t.ex. 'kontakt' om du vill samla in e-post för "
 "<kontakt@exampel.se>"
@@ -10920,11 +10920,11 @@ msgstr ""
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.xacent.com)."
 msgstr ""
 "För att kunna skicka/ta emot e-post i Community- och Enterprise-versionerna "
 "krävs en egen e-postserver. Onlineanvändare drar redan nytta av en färdig "
-"e-postserver (@mycompany.odoo.com)."
+"e-postserver (@mycompany.xacent.com)."
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_alias__alias_status__valid
@@ -11807,8 +11807,8 @@ msgstr "t.ex. user_id"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
-msgid "e.g: \"info@mycompany.odoo.com\""
-msgstr "t.ex.: \"info@mycompany.odoo.com\""
+msgid "e.g: \"info@mycompany.xacent.com\""
+msgstr "t.ex.: \"info@mycompany.xacent.com\""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_compose_message_view_form_template_save

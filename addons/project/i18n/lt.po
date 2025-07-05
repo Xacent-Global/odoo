@@ -21,7 +21,7 @@
 # Darius Ribinskas <dahius@gmail.com>, 2024
 # myacc-pro, 2024
 # Arunas V. <arunas@devoro.com>, 2024
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # Donatas <donatasvaliulis16@gmail.com>, 2024
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
@@ -4595,10 +4595,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.xacent.com>"
 msgstr ""
 "El. pašto pseudonimo pavadinimas, pvz. \"darbai\", jei norite gauti "
-"<darbai@pavyzdys.odoo.com>"
+"<darbai@pavyzdys.xacent.com>"
 
 #. module: project
 #. odoo-python

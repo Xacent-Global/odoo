@@ -3,7 +3,7 @@
 # 	* website_sale
 # 
 # Translators:
-# Jon Perez <jop@odoo.com>, 2024
+# Jon Perez <jop@xacent.com>, 2024
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2024
 # Wil Platform, 2025
 # Larissa Manderfeld, 2025

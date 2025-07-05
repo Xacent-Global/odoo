@@ -84,8 +84,8 @@ test("addLink: utility function and special entities", () => {
         ["<3", "&lt;3"],
         // Already encoded url should not be encoded twice
         [
-            markup("https://odoo.com/%5B%5D"),
-            `<a target="_blank" rel="noreferrer noopener" href="https://odoo.com/%5B%5D">https://odoo.com/[]</a>`,
+            markup("https://xacent.com/%5B%5D"),
+            `<a target="_blank" rel="noreferrer noopener" href="https://xacent.com/%5B%5D">https://xacent.com/[]</a>`,
         ],
     ];
 
@@ -138,7 +138,7 @@ test("url", async () => {
     await start();
     await openDiscuss(channelId);
     // see: https://www.ietf.org/rfc/rfc1738.txt
-    const messageBody = "https://odoo.com?test=~^|`{}[]#";
+    const messageBody = "https://xacent.com?test=~^|`{}[]#";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button[aria-label='Send']:enabled");
     await contains(`.o-mail-Message a:contains(${messageBody})`);
@@ -149,10 +149,10 @@ test("url with comma at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com, it's great!";
+    const messageBody = "Go to https://xacent.com, it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button[aria-label='Send']:enabled");
-    await contains(".o-mail-Message a:contains(https://odoo.com)");
+    await contains(".o-mail-Message a:contains(https://xacent.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody}`);
 });
 
@@ -161,10 +161,10 @@ test("url with dot at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com. It's great!";
+    const messageBody = "Go to https://xacent.com. It's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button[aria-label='Send']:enabled");
-    await contains(".o-mail-Message a:contains(https://odoo.com)");
+    await contains(".o-mail-Message a:contains(https://xacent.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody})`);
 });
 
@@ -173,10 +173,10 @@ test("url with semicolon at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com; it's great!";
+    const messageBody = "Go to https://xacent.com; it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button[aria-label='Send']:enabled");
-    await contains(".o-mail-Message a:contains(https://odoo.com)");
+    await contains(".o-mail-Message a:contains(https://xacent.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody})`);
 });
 
@@ -185,10 +185,10 @@ test("url with ellipsis at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://odoo.com... it's great!";
+    const messageBody = "Go to https://xacent.com... it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button[aria-label='Send']:enabled");
-    await contains(".o-mail-Message a:contains(https://odoo.com)");
+    await contains(".o-mail-Message a:contains(https://xacent.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody})`);
 });
 
@@ -197,11 +197,11 @@ test("url with number in subdomain", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "https://www.45017478-master-all.runbot134.odoo.com/odoo";
+    const messageBody = "https://www.45017478-master-all.runbot134.xacent.com/odoo";
     await insertText(".o-mail-Composer-input", messageBody);
     await click("button[aria-label='Send']:enabled");
     await contains(
-        ".o-mail-Message a:contains(https://www.45017478-master-all.runbot134.odoo.com/odoo)"
+        ".o-mail-Message a:contains(https://www.45017478-master-all.runbot134.xacent.com/odoo)"
     );
 });
 

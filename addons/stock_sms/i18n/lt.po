@@ -3,7 +3,7 @@
 # 	* stock_sms
 # 
 # Translators:
-# Jonas Zinkevicius <jozi@odoo.com>, 2024
+# Jonas Zinkevicius <jozi@xacent.com>, 2024
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2024
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2024
 # Martin Trigaux, 2024

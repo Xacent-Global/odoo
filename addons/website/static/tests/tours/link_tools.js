@@ -37,14 +37,14 @@ registerWebsitePreviewTour('link_tools', {
         run: "click",
     },
     {
-        content: "Type the link URL odoo.com",
+        content: "Type the link URL xacent.com",
         trigger: '#toolbar:not(.oe-floating) #o_link_dialog_url_input',
-        run: 'edit odoo.com',
+        run: 'edit xacent.com',
     },
     clickOnImgStep,
     {
         content: "Select the newly created link",
-        trigger: ':iframe #wrap .s_text_image a[href="http://odoo.com"]:contains("odoo.com")',
+        trigger: ':iframe #wrap .s_text_image a[href="http://xacent.com"]:contains("xacent.com")',
         run() {
             setSelection(this.anchor, 0, this.anchor, nodeSize(this.anchor));
         }
@@ -52,12 +52,12 @@ registerWebsitePreviewTour('link_tools', {
     // Remove the link.
     {
         content: "Click on the newly created link",
-        trigger: ':iframe #wrap .s_text_image a[href="http://odoo.com"]:contains("odoo.com")',
+        trigger: ':iframe #wrap .s_text_image a[href="http://xacent.com"]:contains("xacent.com")',
         run: 'click',
     },
     {
         content: "Remove the link.",
-        trigger: ':iframe .popover:contains("http://odoo.com") a .fa-chain-broken',
+        trigger: ':iframe .popover:contains("http://xacent.com") a .fa-chain-broken',
         run: 'click',
     },
     {
@@ -76,31 +76,31 @@ registerWebsitePreviewTour('link_tools', {
         run: 'click',
     },
     {
-        content: "Type the link URL odoo.com",
+        content: "Type the link URL xacent.com",
         trigger: '#o_link_dialog_url_input',
-        run: 'edit odoo.com'
+        run: 'edit xacent.com'
     },
     clickOnImgStep,
     // 2. Edit the link with the link tools.
     {
         content: "Click on the newly created link",
-        trigger: ':iframe .s_text_image a[href="http://odoo.com"]:contains("odoo.com")',
+        trigger: ':iframe .s_text_image a[href="http://xacent.com"]:contains("xacent.com")',
         run: "click",
     },
     {
         content: "Change content (editing the label input) to odoo website_2",
-        trigger: '#o_link_dialog_label_input:value(odoo.com)',
+        trigger: '#o_link_dialog_label_input:value(xacent.com)',
         run: 'edit odoo website_2',
     },
     {
         content: "Change content (editing the DOM) to odoo website",
-        trigger: ':iframe .s_text_image a[href="http://odoo.com"]:contains("odoo website_2")',
+        trigger: ':iframe .s_text_image a[href="http://xacent.com"]:contains("odoo website_2")',
         run: 'editor odoo website',
     },
     clickOnImgStep,
     {
         content: "Click again on the link",
-        trigger: ':iframe .s_text_image a[href="http://odoo.com"]:contains("odoo website")',
+        trigger: ':iframe .s_text_image a[href="http://xacent.com"]:contains("odoo website")',
         run: "click",
     },
     {
@@ -157,7 +157,7 @@ registerWebsitePreviewTour('link_tools', {
         content: "Set URL.",
         trigger: '.o_we_customize_panel we-input:contains("Your URL") input',
         // TODO: remove && click
-        run: "edit odoo.com && click(we-title:contains(Your URL))",
+        run: "edit xacent.com && click(we-title:contains(Your URL))",
     },
     {
         content: "Deselect image.",
@@ -175,7 +175,7 @@ registerWebsitePreviewTour('link_tools', {
     },
     {
         content: "Check that link tools appear.",
-        trigger: ':iframe .popover div a:contains("http://odoo.com")',
+        trigger: ':iframe .popover div a:contains("http://xacent.com")',
     },
     ...clickOnSave(),
     {
@@ -195,11 +195,11 @@ registerWebsitePreviewTour('link_tools', {
     },
     {
         content: "Check that link tools appear.",
-        trigger: ':iframe .popover div a:contains("http://odoo.com")',
+        trigger: ':iframe .popover div a:contains("http://xacent.com")',
     },
     {
         content: "Remove link.",
-        trigger: ':iframe .popover:contains("http://odoo.com") a .fa-chain-broken',
+        trigger: ':iframe .popover:contains("http://xacent.com") a .fa-chain-broken',
         run: "click",
     },
     {
@@ -255,11 +255,11 @@ registerWebsitePreviewTour('link_tools', {
     {
         content: "Enter an URL",
         trigger: "#o_link_dialog_url_input",
-        run: "edit https://www.odoo.com",
+        run: "edit https://www.xacent.com",
     },
     {
         content: "Check nothing is lost",
-        trigger: ":iframe header .s_mega_menu_cards a[href='https://www.odoo.com']:has(img):has(h4):has(span)",
+        trigger: ":iframe header .s_mega_menu_cards a[href='https://www.xacent.com']:has(img):has(h4):has(span)",
     },
     // 7. Create new a link from a URL-like text.
     // TODO: the two following steps should be removed.
@@ -276,11 +276,11 @@ registerWebsitePreviewTour('link_tools', {
     {
         content: "Replace first paragraph, write a URL",
         trigger: ':iframe #wrap .s_text_image p',
-        run: "editor odoo.com",
+        run: "editor xacent.com",
     },
     {
         content: "Select text",
-        trigger: ':iframe #wrap .s_text_image p:contains(odoo.com)',
+        trigger: ':iframe #wrap .s_text_image p:contains(xacent.com)',
         run() {
             setSelection(...boundariesIn(this.anchor), false);
         }
@@ -295,11 +295,11 @@ registerWebsitePreviewTour('link_tools', {
         // URL transformation into link should persist, without the need for
         // input at input[name=url]
         content: "Check that link was created",
-        trigger: ":iframe .s_text_image p a[href='http://odoo.com']:contains('odoo.com')",
+        trigger: ":iframe .s_text_image p a[href='http://xacent.com']:contains('xacent.com')",
     },
     {
         content: "Click on link to open the link tools",
-        trigger: ":iframe .s_text_image p a[href='http://odoo.com']",
+        trigger: ":iframe .s_text_image p a[href='http://xacent.com']",
         run: "click",
     },
     // 8. Check that http links are not coerced to https and vice-versa.
@@ -307,17 +307,17 @@ registerWebsitePreviewTour('link_tools', {
         content: "Change URL to https",
         trigger: "#o_link_dialog_url_input",
         run() {
-            // TODO: update the tour to use helpers.edit("https://odoo.com")
+            // TODO: update the tour to use helpers.edit("https://xacent.com")
             // To see what happens with edit, add `pause:true` to the previous step
-            // and type yourself https://odoo.com in #o_link_dialog_url_input
+            // and type yourself https://xacent.com in #o_link_dialog_url_input
             // The label will be ohttps://
-            this.anchor.value = "https://odoo.com";
+            this.anchor.value = "https://xacent.com";
             this.anchor.dispatchEvent(new InputEvent("input", { bubbles: true }));
         }
     },
     {
         content: "Check that link was updated",
-        trigger: ":iframe .s_text_image p a[href='https://odoo.com']:contains('odoo.com')",
+        trigger: ":iframe .s_text_image p a[href='https://xacent.com']:contains('xacent.com')",
     },
     {
         trigger: "div#oe_snippets:not(div.o_we_ui_loading)",
@@ -326,14 +326,14 @@ registerWebsitePreviewTour('link_tools', {
         content: "Change it back http",
         trigger: "#o_link_dialog_url_input",
         run() {
-            // TODO: update the tour to use helpers.edit("http://odoo.com")
-            this.anchor.value = "http://odoo.com";
+            // TODO: update the tour to use helpers.edit("http://xacent.com")
+            this.anchor.value = "http://xacent.com";
             this.anchor.dispatchEvent(new InputEvent("input", { bubbles: true }));
         }
     },
     {
         content: "Check that link was updated",
-        trigger: ":iframe .s_text_image p a[href='http://odoo.com']:contains('odoo.com')",
+        trigger: ":iframe .s_text_image p a[href='http://xacent.com']:contains('xacent.com')",
     },
     // 9. Test conversion between http and mailto links.
     {

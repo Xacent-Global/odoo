@@ -7,7 +7,7 @@
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2024
 # Susanna Pujol, 2024
 # Albert Parera, 2024
-# Braulio D. López Vázquez <bdl@odoo.com>, 2024
+# Braulio D. López Vázquez <bdl@xacent.com>, 2024
 # Guspy12, 2024
 # Joan Ignasi Florit <jfloritmir@gmail.com>, 2024
 # Sandra Franch <sandra.franch@upc.edu>, 2024

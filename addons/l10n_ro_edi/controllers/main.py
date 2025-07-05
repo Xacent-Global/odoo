@@ -59,7 +59,7 @@ class L10nRoEdiController(http.Controller):
                 },
                 headers={
                     'accept': 'application/json',
-                    'user-agent': 'Platform (http://www.odoo.com/contactus)',
+                    'user-agent': 'Platform (http://www.xacent.com/contactus)',
                 },
                 timeout=10,
             )

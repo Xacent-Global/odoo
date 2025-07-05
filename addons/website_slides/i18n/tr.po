@@ -34,7 +34,7 @@
 # Cengiz Cokay Global Nonwoven, 2025
 # Hakan Türkün, 2025
 # Umur Akın <umura@projetgrup.com>, 2025
-# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Deniz Guvener_Odoo <degu@xacent.com>, 2025
 # Wil Platform, 2025
 # 
 msgid ""

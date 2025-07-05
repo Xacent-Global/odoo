@@ -9,7 +9,7 @@
 # Viktor Basso <viktor@voit.no>, 2024
 # Mads Søndergaard, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
-# Cécile Collart <cco@odoo.com>, 2024
+# Cécile Collart <cco@xacent.com>, 2024
 # Joar Horvei, 2024
 # Jorunn D. Newth, 2024
 # Martin Trigaux, 2024

@@ -58,7 +58,7 @@
     },
     {
         trigger: `input[name="email"]`,
-        run: "edit abc@odoo.com",
+        run: "edit abc@xacent.com",
     },
     {
         trigger: `input[name="street"]`,
@@ -105,7 +105,7 @@
     },
     {
         trigger: `input[name="email"]`,
-        run: "edit abc@odoo.com",
+        run: "edit abc@xacent.com",
     },
     {
         trigger: `input[name="street"]`,
@@ -317,7 +317,7 @@
     },
     {
         trigger: `.oe_login_form input[name="login"]`,
-        run: "edit abc@odoo.com",
+        run: "edit abc@xacent.com",
     },
     {
         trigger: `.oe_login_form input[name="password"]`,
@@ -456,7 +456,7 @@
     },
     {
         trigger: `.oe_login_form input[name="login"]`,
-        run: "edit abc@odoo.com",
+        run: "edit abc@xacent.com",
     },
     {
         trigger: `.oe_login_form input[name="password"]`,
