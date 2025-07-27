@@ -15173,8 +15173,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "إضافة OdooBot في المناقشات"
+msgid "Add PlatformBot in discussions"
+msgstr "إضافة PlatformBot في المناقشات"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -34745,12 +34745,12 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "PlatformBot"
+msgstr "PlatformBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "PlatformBot - HR"
 msgstr "أودو بوت - الموارد البشرية "
 
 #. module: base
@@ -43142,10 +43142,10 @@ msgstr "يضيف هذا التطبيق خصائص الإدارة إلى مبيع
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
-"يضيف هذا التطبيق حالة OdooBot والإشعارات في استمارة المستخدم التي يتم "
+"يضيف هذا التطبيق حالة PlatformBot والإشعارات في استمارة المستخدم التي يتم "
 "تعديلها بواسطة الموارد البشرية. "
 
 #. module: base

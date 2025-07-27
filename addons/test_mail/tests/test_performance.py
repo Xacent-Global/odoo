@@ -1381,7 +1381,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
                                     "create_date": fields.Datetime.to_string(message.create_date),
                                     "date": fields.Datetime.to_string(message.date),
                                     "default_subject": "Test",
-                                    "email_from": '"OdooBot" <odoobot@example.com>',
+                                    "email_from": '"PlatformBot" <odoobot@example.com>',
                                     "id": message.id,
                                     "is_discussion": True,
                                     "is_note": False,
@@ -1454,7 +1454,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
                                     "id": self.env.user.partner_id.id,
                                     "isInternalUser": True,
                                     "is_company": False,
-                                    "name": "OdooBot",
+                                    "name": "PlatformBot",
                                     "userId": self.env.user.id,
                                     "write_date": fields.Datetime.to_string(
                                         self.env.user.write_date
@@ -1487,7 +1487,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
                                     "create_date": fields.Datetime.to_string(message.create_date),
                                     "date": fields.Datetime.to_string(message.date),
                                     "default_subject": "Test",
-                                    "email_from": '"OdooBot" <odoobot@example.com>',
+                                    "email_from": '"PlatformBot" <odoobot@example.com>',
                                     "id": message.id,
                                     "is_discussion": True,
                                     "is_note": False,
@@ -1560,7 +1560,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
                                     "id": self.env.user.partner_id.id,
                                     "isInternalUser": True,
                                     "is_company": False,
-                                    "name": "OdooBot",
+                                    "name": "PlatformBot",
                                     "userId": self.env.user.id,
                                     "write_date": fields.Datetime.to_string(
                                         self.env.user.write_date

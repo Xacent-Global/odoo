@@ -15117,8 +15117,8 @@ msgstr "프로젝트 작업 및 태그 모델에서 상황에 적합한 메뉴�
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "업무 협의에 OdooBot 추가"
+msgid "Add PlatformBot in discussions"
+msgstr "업무 협의에 PlatformBot 추가"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -34450,12 +34450,12 @@ msgstr "Odoo는 필요한 패딩 크기를 얻기 위해 '다음 번호'의 왼�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
+msgid "PlatformBot"
 msgstr "Odoo봇"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "PlatformBot - HR"
 msgstr "Odoo봇 - 인사관리"
 
 #. module: base
@@ -42740,9 +42740,9 @@ msgstr "이 모듈은 판매 렌탈 앱에 관리 기능을 추가합니다."
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
-msgstr "이 모듈은 HR로 수정된 사용자 양식에 OdooBot 상태 및 알림을 추가합니다."
+msgstr "이 모듈은 HR로 수정된 사용자 양식에 PlatformBot 상태 및 알림을 추가합니다."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_codabox

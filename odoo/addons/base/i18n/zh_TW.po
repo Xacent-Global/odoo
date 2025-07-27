@@ -15056,7 +15056,7 @@ msgstr "在專案任務和標籤模型的上下文功能表中增加合併操作
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
+msgid "Add PlatformBot in discussions"
 msgstr "在討論中加入OdooBot"
 
 #. module: base
@@ -34350,13 +34350,13 @@ msgstr "Odoo將自動增加幾個「0」在「下一個數字」的左側以滿�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
+msgid "PlatformBot"
 msgstr "Odoo機器人"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - 人力資源"
+msgid "PlatformBot - HR"
+msgstr "PlatformBot - 人力資源"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -42724,7 +42724,7 @@ msgstr "該模塊為銷售租賃應用程式增加了管理功能。"
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
 msgstr "該模組在hr修改的使用者表單中增加OdooBot狀態和通知."
 

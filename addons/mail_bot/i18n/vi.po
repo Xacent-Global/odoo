@@ -158,8 +158,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Trạng thái OdooBot"
+msgid "PlatformBot Status"
+msgstr "Trạng thái PlatformBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -209,12 +209,12 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@PlatformBot%(command_end)s and select "
 "me."
 msgstr ""
 "Xin lỗi tôi không để ý. Để thu hút sự chú ý của ai đó, hãy "
 "%(bold_start)sping người đó%(bold_end)s. Viết "
-"%(command_start)s@OdooBot%(command_end)s và chọn tôi."
+"%(command_start)s@PlatformBot%(command_end)s và chọn tôi."
 
 #. module: mail_bot
 #. odoo-python
@@ -299,11 +299,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s in a sentence."
+"%(command_start)s@PlatformBot%(command_end)s in a sentence."
 msgstr ""
 "Wow. Bạn thật giỏi! %(new_line)sNhắc đến ai đó bằng @username để thu hút sự "
 "chú ý của họ. %(bold_start)sBạn có thể thử nhắc đến tôi bằng%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s trong một câu."
+"%(command_start)s@PlatformBot%(command_end)s trong một câu."
 
 #. module: mail_bot
 #. odoo-python

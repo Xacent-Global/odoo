@@ -269,7 +269,7 @@ class Users(models.Model):
                 "hasLinkPreviewFeature": self.env["mail.link.preview"]._is_link_preview_enabled(),
                 "internalUserGroupId": self.env.ref("base.group_user").id,
                 "mt_comment_id": xmlid_to_res_id("mail.mt_comment"),
-                # sudo: res.partner - exposing OdooBot data is considered acceptable
+                # sudo: res.partner - exposing PlatformBot data is considered acceptable
                 "odoobot": Store.one(self.env.ref("base.partner_root").sudo()),
             }
         )

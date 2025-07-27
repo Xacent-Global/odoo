@@ -159,13 +159,13 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Status do OdooBot"
+msgid "PlatformBot Status"
+msgstr "Status do PlatformBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
 msgid "Odoobot Failed"
-msgstr "OdooBot falhou"
+msgstr "PlatformBot falhou"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -209,12 +209,12 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@PlatformBot%(command_end)s and select "
 "me."
 msgstr ""
 "Desculpa, não estou ouvindo. Para chamar a atenção de alguém, "
 "%(bold_start)smencione a pessoa%(bold_end)s. Escreva  "
-"%(command_start)s@OdooBot%(command_end)s e me selecione."
+"%(command_start)s@PlatformBot%(command_end)s e me selecione."
 
 #. module: mail_bot
 #. odoo-python
@@ -299,11 +299,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s in a sentence."
+"%(command_start)s@PlatformBot%(command_end)s in a sentence."
 msgstr ""
 "Uau, você tem um talento natural para isso!%(new_line)sMencione alguém com "
 "@usuario para chamar sua atenção.. %(bold_start)sTente chamar minha atenção "
-"utilizando %(bold_end)s%(command_start)s@OdooBot%(command_end)s em uma "
+"utilizando %(bold_end)s%(command_start)s@PlatformBot%(command_end)s em uma "
 "frase."
 
 #. module: mail_bot

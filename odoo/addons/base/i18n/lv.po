@@ -10917,8 +10917,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Pievienot OdooBot sarunās"
+msgid "Add PlatformBot in discussions"
+msgstr "Pievienot PlatformBot sarunās"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -29313,12 +29313,12 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
+msgid "PlatformBot"
 msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
+msgid "PlatformBot - HR"
 msgstr ""
 
 #. module: base
@@ -37387,7 +37387,7 @@ msgstr "Šī lietotne pievieno pārvaldniecības iespējas īres lietotnei."
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
 

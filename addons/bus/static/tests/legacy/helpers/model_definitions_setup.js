@@ -40,7 +40,7 @@ insertRecords("res.groups", [{ id: TEST_GROUP_IDS.groupUserId, name: "Internal U
 insertRecords("res.users", [
     {
         active: false,
-        display_name: "OdooBot",
+        display_name: "PlatformBot",
         login: "__system__",
         id: TEST_USER_IDS.odoobotUserId,
         name: "Public user",
@@ -79,9 +79,9 @@ insertRecords("res.partner", [
     },
     {
         active: false,
-        display_name: "OdooBot",
+        display_name: "PlatformBot",
         id: TEST_USER_IDS.odoobotId,
         im_status: "bot",
-        name: "OdooBot",
+        name: "PlatformBot",
     },
 ]);

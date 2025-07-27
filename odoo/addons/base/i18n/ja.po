@@ -15059,7 +15059,7 @@ msgstr "プロジェクトタスクとタグモデルのコンテクストメニ
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
+msgid "Add PlatformBot in discussions"
 msgstr "ディスカッションにOdooBotを追加する"
 
 #. module: base
@@ -34282,13 +34282,13 @@ msgstr "Odooは「次の番号」(Next Number)に要求されているサイズ�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "PlatformBot"
+msgstr "PlatformBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - HR"
+msgid "PlatformBot - HR"
+msgstr "PlatformBot - HR"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -42503,7 +42503,7 @@ msgstr "このモジュールは、販売レンタルアプリに管理機能を
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
 msgstr "このモジュールは、hrによって変更されたユーザーフォームにOdooBotの状態と通知を追加します。"
 

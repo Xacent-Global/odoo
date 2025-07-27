@@ -25,7 +25,7 @@ export class ResPartner extends ServerModel {
             id: serverState.odoobotId,
             active: false,
             im_status: "bot",
-            name: "OdooBot",
+            name: "PlatformBot",
         },
     ];
 }

@@ -25,7 +25,7 @@ class TestOdoobot(MailCommon, TestRecipients):
             'partner_ids': [],
             'subtype_xmlid': 'mail.mt_comment'
         }
-        cls.odoobot_ping_body = f'<a href="http://xacent.com/odoo/res.partner/{cls.odoobot.id}" class="o_mail_redirect" data-oe-id="{cls.odoobot.id}" data-oe-model="res.partner" target="_blank">@OdooBot</a>'
+        cls.odoobot_ping_body = f'<a href="http://xacent.com/odoo/res.partner/{cls.odoobot.id}" class="o_mail_redirect" data-oe-id="{cls.odoobot.id}" data-oe-model="res.partner" target="_blank">@PlatformBot</a>'
         cls.test_record_employe = cls.test_record.with_user(cls.user_employee)
 
     @mute_logger('odoo.addons.mail.models.mail_mail')
@@ -67,7 +67,7 @@ class TestOdoobot(MailCommon, TestRecipients):
         self.assertNextMessage(
             last_message,  # no message will be post with command help, use last odoobot message instead
             sender=self.odoobot,
-            answer=("@OdooBot",)
+            answer=("@PlatformBot",)
         )
         kwargs['body'] = ''
         kwargs['partner_ids'] = [self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")]

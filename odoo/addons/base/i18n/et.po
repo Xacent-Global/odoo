@@ -12442,8 +12442,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "Lisa OdooBot aruteludesse"
+msgid "Add PlatformBot in discussions"
+msgstr "Lisa PlatformBot aruteludesse"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -30848,13 +30848,13 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "PlatformBot"
+msgstr "PlatformBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - HR"
+msgid "PlatformBot - HR"
+msgstr "PlatformBot - HR"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -38942,7 +38942,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
 msgstr ""
 "See moodul lisab hr poolt modifitseeritud OdooBoti staatuse ja märguanded "

@@ -147,7 +147,7 @@ msgstr "Odooのチャットは従業員同士の効率的なコラボレーシ�
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
+msgid "PlatformBot Status"
 msgstr "OdooBotステータス"
 
 #. module: mail_bot
@@ -195,11 +195,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@PlatformBot%(command_end)s and select "
 "me."
 msgstr ""
 "ごめんなさい、聞いていません。誰かの注意を促すには、%(bold_start)sその人をPingします%(bold_end)s。 "
-"%(command_start)s@OdooBot%(command_end)s と入力して、私を選択して下さい。"
+"%(command_start)s@PlatformBot%(command_end)s と入力して、私を選択して下さい。"
 
 #. module: mail_bot
 #. odoo-python
@@ -281,9 +281,9 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s in a sentence."
+"%(command_start)s@PlatformBot%(command_end)s in a sentence."
 msgstr ""
-"わあ、才能がありますね!%(new_line)s注意を促すにはその人を@usernameでPingしましょう。文中で%(bold_start)s以下を使用して、私をPingしてみて下さい%(bold_end)s:%(command_start)s@OdooBot%(command_end)s"
+"わあ、才能がありますね!%(new_line)s注意を促すにはその人を@usernameでPingしましょう。文中で%(bold_start)s以下を使用して、私をPingしてみて下さい%(bold_end)s:%(command_start)s@PlatformBot%(command_end)s"
 
 #. module: mail_bot
 #. odoo-python

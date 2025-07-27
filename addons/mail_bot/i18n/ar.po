@@ -155,8 +155,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "حالة OdooBot"
+msgid "PlatformBot Status"
+msgstr "حالة PlatformBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -205,11 +205,11 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@PlatformBot%(command_end)s and select "
 "me."
 msgstr ""
 "عذراً، لم أكن مصغياً. للفت انتباه أحدهم، %(bold_start)sقم "
-"بمناداته%(bold_end)s. اكتب %(command_start)s@OdooBot%(command_end)s واخترني."
+"بمناداته%(bold_end)s. اكتب %(command_start)s@PlatformBot%(command_end)s واخترني."
 " "
 
 #. module: mail_bot
@@ -293,11 +293,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s in a sentence."
+"%(command_start)s@PlatformBot%(command_end)s in a sentence."
 msgstr ""
 "واو أنت موهوب بالفطرة!%(new_line)sقم بمناداة أحدهم باستخدام @username للفت "
 "انتباهه. %(bold_start)sجرب مناداتي باستخدام%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s في جملة. "
+"%(command_start)s@PlatformBot%(command_end)s في جملة. "
 
 #. module: mail_bot
 #. odoo-python

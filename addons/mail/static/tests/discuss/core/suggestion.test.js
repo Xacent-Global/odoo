@@ -186,7 +186,7 @@ test("command suggestion are shown after deleting a character", async () => {
     await contains(".o-mail-Composer-suggestion strong", { text: "help" });
 });
 
-test("mention suggestion displays OdooBot before archived partners", async () => {
+test("mention suggestion displays PlatformBot before archived partners", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({ name: "Jane", active: false });
     const channelId = pyEnv["discuss.channel"].create({
@@ -207,7 +207,7 @@ test("mention suggestion displays OdooBot before archived partners", async () =>
         before: [
             ".o-mail-Composer-suggestion",
             {
-                text: "OdooBot",
+                text: "PlatformBot",
                 before: [".o-mail-Composer-suggestion", { text: "Jane" }],
             },
         ],

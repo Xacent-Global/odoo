@@ -101,7 +101,7 @@ test('many2one_avatar_user widget edited by the smart action "Assign to..."', as
     triggerHotkey("control+k");
     await click(".o_command", { text: "Assign to ...ALT + I" });
     await contains(".o_command", { count: 6 });
-    await contains(":nth-child(1 of .o_command)", { text: "OdooBot" });
+    await contains(":nth-child(1 of .o_command)", { text: "PlatformBot" });
     await contains(":nth-child(2 of .o_command)", { text: "Your Company, Mitchell Admin" });
     await contains(":nth-child(3 of .o_command)", { text: "Public user" });
     await contains(":nth-child(4 of .o_command)", { text: "Mario" });
@@ -158,7 +158,7 @@ test('many2many_avatar_user widget edited by the smart action "Assign to..."', a
     await contains(".o_command", { text: "Assign to ...ALT + I" });
     triggerHotkey("alt+i");
     await contains(".o_command", { count: 4 });
-    await contains(":nth-child(1 of .o_command)", { text: "OdooBot" });
+    await contains(":nth-child(1 of .o_command)", { text: "PlatformBot" });
     await contains(":nth-child(2 of .o_command)", { text: "Your Company, Mitchell Admin" });
     await contains(":nth-child(3 of.o_command)", { text: "Public user" });
     await contains(":nth-child(4 of.o_command)", { text: "Luigi" });

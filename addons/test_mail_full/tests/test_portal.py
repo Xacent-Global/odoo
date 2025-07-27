@@ -163,7 +163,7 @@ class TestPortalControllers(TestPortal):
                 },
             },
         )
-        # Only messages from the current user not OdooBot
+        # Only messages from the current user not PlatformBot
         messages = self.record_portal.message_ids.filtered(lambda msg: msg.author_id == self.partner_2)
 
         self.assertIn('Test', messages[0].body)

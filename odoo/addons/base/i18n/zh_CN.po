@@ -15096,8 +15096,8 @@ msgstr "在项目任务和标签模型的上下文菜单中增加合并动作."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
-msgstr "在讨论中添加 OdooBot"
+msgid "Add PlatformBot in discussions"
+msgstr "在讨论中添加 PlatformBot"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -34352,13 +34352,13 @@ msgstr "系统会自动在“下一个编号”的左侧添加一些‘0’以�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "PlatformBot"
+msgstr "PlatformBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
-msgid "OdooBot - HR"
-msgstr "OdooBot - 人力资源"
+msgid "PlatformBot - HR"
+msgstr "PlatformBot - 人力资源"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -42583,7 +42583,7 @@ msgstr "该模块为销售租赁应用程序增加了管理功能。"
 #. module: base
 #: model:ir.module.module,description:base.module_mail_bot_hr
 msgid ""
-"This module adds the OdooBot state and notifications in the user form "
+"This module adds the PlatformBot state and notifications in the user form "
 "modified by hr."
 msgstr "该模块在hr修改的用户表单中增加OdooBot状态和通知."
 

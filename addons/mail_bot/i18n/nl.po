@@ -157,8 +157,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "OdooBot status"
+msgid "PlatformBot Status"
+msgstr "PlatformBot status"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -207,12 +207,12 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
-"him%(bold_end)s. Write %(command_start)s@OdooBot%(command_end)s and select "
+"him%(bold_end)s. Write %(command_start)s@PlatformBot%(command_end)s and select "
 "me."
 msgstr ""
 "Sorry, ik was niet aan het luisteren. %(bold_start)sPing een "
 "persoon%(bold_end)s om de aandacht te trekken. Schrijf "
-"%(command_start)s@OdooBot%(command_end)s en selecteer mij."
+"%(command_start)s@PlatformBot%(command_end)s en selecteer mij."
 
 #. module: mail_bot
 #. odoo-python
@@ -299,11 +299,11 @@ msgstr ""
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
 "attention. %(bold_start)sTry to ping me using%(bold_end)s "
-"%(command_start)s@OdooBot%(command_end)s in a sentence."
+"%(command_start)s@PlatformBot%(command_end)s in a sentence."
 msgstr ""
 "Wauw, je bent een natuurtalent! %(new_line)sPing iemand met @gebruikersnaam "
 "om zijn of haar aandacht te trekken. %(bold_start)sProbeer me te "
-"pingen%(bold_end)s door %(command_start)s@OdooBot%(command_end)s in een zin "
+"pingen%(bold_end)s door %(command_start)s@PlatformBot%(command_end)s in een zin "
 "te gebruiken."
 
 #. module: mail_bot
